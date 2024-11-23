@@ -1,0 +1,2020 @@
+age,symptoms,duration,early_late,hormonal_imbalance,pain,pcod_pcos,affecting_medicine
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,2,,True
+25,"['cramps', 'back pain', 'headache', 'acne']",26,early,False,4,,False
+32,"['heavy bleeding', 'cramps', 'fatigue']",32,on time,True,3,,False
+27,"['cramps', 'bloating', 'nausea']",27,on time,False,2,,False
+38,"['irregular bleeding', 'mood swings', 'hot flashes']",35,late,True,1,,True
+29,"['cramps', 'headache', 'breast tenderness']",29,early,False,3,,False
+31,"['cramps', 'bloating', 'acne', 'fatigue']",28,on time,False,2,,False
+23,"['heavy bleeding', 'cramps', 'fatigue', 'diarrhea']",33,late,True,4,PCOD,True
+36,"['cramps', 'bloating', 'mood swings', 'headache']",27,on time,False,3,,False
+26,"['cramps', 'back pain']",25,early,False,2,,False
+39,"['irregular bleeding', 'hot flashes', 'night sweats']",40,late,True,1,PCOD,True
+30,"['cramps', 'bloating', 'headache', 'nausea']",31,late,True,3,,True
+24,"['cramps', 'acne', 'breast tenderness']",29,on time,False,2,,False
+37,"['cramps', 'bloating', 'mood swings']",26,early,False,1,,False
+28,"['heavy bleeding', 'cramps', 'fatigue', 'back pain']",34,late,True,4,endometriosis,True
+33,"['cramps', 'bloating']",28,on time,False,2,,False
+29,"['cramps', 'headache', 'fatigue']",30,late,True,3,,True
+25,"['cramps', 'back pain', 'nausea']",27,on time,False,3,,False
+34,"['irregular bleeding', 'mood swings']",36,late,True,2,,True
+27,"['cramps', 'acne']",29,early,False,1,,False
+31,"['heavy bleeding', 'cramps', 'fatigue', 'diarrhea']",32,on time,True,4,PCOD,True
+38,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+26,"['cramps', 'breast tenderness']",26,early,False,2,,False
+40,"['irregular bleeding', 'hot flashes']",38,late,True,1,,True
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'back pain', 'mood swings']",30,late,False,4,PCOS,False
+25,"['cramps', 'bloating', 'acne']",26,early,False,2,,False
+32,"['heavy bleeding', 'fatigue', 'headache']",32,late,False,3,PCOD,False
+29,"['cramps', 'bloating', 'nausea', 'fatigue']",29,on time,False,4,,False
+37,"['cramps', 'headache', 'breast tenderness']",27,early,False,2,,False
+23,"['cramps', 'heavy bleeding', 'fatigue', 'mood swings']",33,late,False,5,endometriosis,False
+31,"['cramps', 'bloating']",28,on time,False,1,,False
+26,"['cramps', 'acne', 'mood swings']",25,early,False,3,,False
+39,"['irregular bleeding', 'hot flashes', 'mood swings']",35,late,False,2,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,4,,False
+34,"['cramps', 'back pain', 'fatigue']",29,on time,False,3,,False
+24,"['cramps', 'heavy bleeding']",27,early,False,2,,False
+38,"['irregular bleeding', 'hot flashes']",33,late,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings']",28,on time,False,3,,False
+29,"['cramps', 'acne', 'fatigue']",26,early,False,2,,False
+36,"['cramps', 'back pain', 'headache', 'nausea']",31,late,False,4,PCOS,False
+25,"['heavy bleeding', 'fatigue', 'mood swings']",34,late,False,5,endometriosis,False
+33,"['cramps', 'bloating']",29,on time,False,1,,False
+27,"['cramps', 'acne']",27,early,False,2,,False
+40,"['irregular bleeding', 'hot flashes', 'mood swings']",36,late,False,3,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",30,late,False,4,,False
+35,"['cramps', 'back pain']",28,on time,False,2,,False
+26,"['cramps', 'heavy bleeding']",26,early,False,3,,False
+39,"['irregular bleeding', 'hot flashes']",34,late,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+27,"['cramps', 'bloating', 'mood swings', 'acne']",35,late,False,3,PCOD,False
+38,"['cramps', 'headache']",27,on time,False,2,,False
+23,"['cramps', 'bloating', 'mood swings', 'headache', 'fatigue']",32,late,False,4,PCOS,False
+31,"['bloating', 'fatigue']",28,early,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,3,,False
+37,"['cramps', 'mood swings', 'body pain']",26,early,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'acne']",33,late,False,4,PCOD,False
+34,['cramps'],27,on time,False,1,,False
+26,"['cramps', 'bloating', 'mood swings', 'headache', 'nausea', 'fatigue']",30,on time,False,5,,False
+39,"['bloating', 'headache']",28,early,False,2,,False
+30,"['cramps', 'bloating', 'mood swings']",36,late,False,3,PCOS,False
+25,"['cramps', 'fatigue']",29,on time,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'body pain']",27,early,False,3,,False
+27,"['bloating', 'mood swings', 'acne']",31,late,False,2,PCOD,False
+36,"['cramps', 'headache', 'nausea', 'fatigue']",28,on time,False,4,,False
+29,"['cramps', 'bloating']",26,early,False,1,,False
+38,"['cramps', 'bloating', 'mood swings', 'headache']",34,late,False,3,PCOS,False
+24,"['bloating', 'fatigue']",29,on time,False,2,,False
+32,"['cramps', 'headache']",27,early,False,3,,False
+26,"['cramps', 'bloating', 'mood swings', 'headache', 'nausea', 'body pain']",40,late,False,5,endometriosis,False
+35,['bloating'],28,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'back pain', 'mood swings']",30,late,False,2,,False
+25,"['cramps', 'bloating', 'acne']",26,early,False,1,,False
+32,"['headache', 'fatigue', 'nausea']",29,on time,False,4,PCOS,False
+38,"['cramps', 'bloating', 'breast tenderness']",27,on time,False,2,,False
+27,"['cramps', 'diarrhea', 'fatigue']",35,late,False,3,PCOD,False
+31,"['headache', 'back pain', 'acne']",28,on time,False,1,,False
+29,"['cramps', 'bloating', 'mood swings', 'nausea']",32,late,False,4,endometriosis,False
+36,"['fatigue', 'breast tenderness']",26,early,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'acne']",29,on time,False,2,,False
+33,"['cramps', 'back pain', 'mood swings', 'fatigue']",27,early,False,3,,False
+40,"['headache', 'nausea', 'body pain']",28,on time,False,2,,False
+26,"['cramps', 'bloating']",33,late,False,4,PCOS,False
+37,"['cramps', 'acne', 'breast tenderness']",29,on time,False,1,,False
+30,"['cramps', 'diarrhea', 'headache', 'fatigue']",25,early,False,3,,False
+23,"['bloating', 'mood swings', 'nausea']",30,late,False,5,endometriosis,False
+39,"['cramps', 'headache']",27,on time,False,2,,False
+34,"['cramps', 'bloating', 'back pain', 'fatigue']",31,late,False,3,PCOD,False
+29,"['headache', 'acne', 'mood swings']",26,early,False,1,,False
+36,"['cramps', 'bloating', 'nausea', 'body pain']",28,on time,False,4,,False
+27,"['fatigue', 'breast tenderness', 'mood swings']",36,late,False,2,PCOS,False
+32,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+38,"['cramps', 'back pain', 'acne', 'fatigue']",25,early,False,2,,False
+24,"['headache', 'nausea', 'mood swings']",31,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'acne']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,PCOS,False
+37,"['cramps', 'bloating', 'mood swings']",27,on time,False,2,,False
+29,"['cramps', 'headache', 'fatigue']",29,late,False,3,,False
+24,"['cramps', 'bloating', 'acne', 'mood swings']",25,early,False,2,,False
+39,"['cramps', 'bloating', 'hot flashes', 'irritability']",29,on time,False,3,,False
+26,"['cramps', 'fatigue']",27,on time,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,4,PCOD,False
+38,"['cramps', 'bloating', 'mood swings', 'insomnia']",26,early,False,2,,False
+27,"['cramps', 'acne', 'tender breasts']",28,on time,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'body pain']",31,late,False,5,endometriosis,False
+40,"['cramps', 'hot flashes', 'night sweats']",25,early,False,2,,False
+23,"['cramps', 'bloating']",29,late,False,1,,False
+36,"['cramps', 'mood swings', 'fatigue', 'headache']",27,on time,False,3,,False
+29,"['cramps', 'bloating', 'acne', 'irritability']",30,late,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",36,late,False,5,PCOS,False
+30,['cramps'],26,early,False,1,,False
+25,"['cramps', 'bloating', 'mood swings']",28,on time,False,2,,False
+37,"['cramps', 'bloating', 'hot flashes', 'irritability', 'insomnia']",24,early,False,3,,False
+28,"['cramps', 'fatigue', 'headache']",30,late,False,2,,False
+34,"['cramps', 'bloating', 'acne']",27,on time,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,PCOD,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'heavy bleeding']",35,late,False,4,PCOS,False
+32,"['cramps', 'headache', 'nausea']",27,on time,False,2,,False
+39,"['heavy bleeding', 'fatigue', 'body pain']",32,early,False,3,,False
+29,"['cramps', 'bloating', 'mood swings']",29,late,False,2,,False
+37,"['cramps', 'bloating', 'acne']",26,on time,False,1,,False
+23,"['cramps', 'heavy bleeding', 'fatigue', 'body pain']",33,early,False,4,endometriosis,False
+26,"['cramps', 'bloating', 'headache', 'mood swings']",28,on time,False,3,,False
+33,"['cramps', 'nausea']",25,early,False,1,,False
+40,"['hot flashes', 'irregular bleeding']",23,early,False,2,,False
+27,"['cramps', 'bloating', 'acne', 'mood swings']",30,late,False,3,,False
+31,"['heavy bleeding', 'cramps', 'fatigue']",35,late,False,4,PCOD,False
+38,"['cramps', 'bloating', 'headache']",28,on time,False,2,,False
+24,"['cramps', 'heavy bleeding', 'mood swings', 'fatigue']",31,early,False,3,,False
+36,"['cramps', 'bloating']",27,on time,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,endometriosis,False
+29,"['cramps', 'heavy bleeding', 'fatigue']",29,on time,False,3,,False
+34,"['cramps', 'bloating', 'mood swings']",26,early,False,2,,False
+25,"['cramps', 'acne']",28,on time,False,1,,False
+37,"['heavy bleeding', 'cramps', 'fatigue', 'body pain']",34,late,False,4,fibroids,False
+28,"['cramps', 'headache', 'mood swings']",29,late,False,2,,False
+32,"['cramps', 'bloating']",27,on time,False,1,,False
+39,"['hot flashes', 'irregular bleeding', 'mood swings']",24,early,False,3,,False
+26,"['cramps', 'bloating', 'acne']",31,late,False,2,,False
+31,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+27,"['cramps', 'body pain', 'nausea']",30,late,True,4,PCOS,True
+35,"['bloating', 'headache']",26,early,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,,False
+38,"['headache', 'nausea']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOD,True
+33,"['cramps', 'bloating']",28,on time,False,2,,False
+26,"['cramps', 'headache', 'body pain']",31,late,True,3,endometriosis,False
+37,['bloating'],25,early,False,1,,False
+25,"['cramps', 'bloating', 'nausea', 'body pain']",29,on time,False,4,,False
+39,"['cramps', 'headache']",27,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache', 'nausea']",33,late,True,4,PCOS,True
+34,['body pain'],26,early,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,on time,False,5,,False
+36,['cramps'],28,late,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'body pain']",38,late,True,3,endometriosis,True
+27,['nausea'],25,early,False,1,,False
+32,"['cramps', 'bloating', 'nausea']",29,on time,False,3,,False
+35,"['headache', 'body pain']",27,late,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",40,late,True,5,PCOD,True
+38,"['bloating', 'headache', 'nausea']",26,on time,False,3,,False
+24,"['cramps', 'body pain']",31,late,True,4,endometriosis,True
+33,['headache'],25,early,False,1,,False
+26,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",26,early,False,2,,False
+25,"['bloating', 'headache', 'mood swings']",30,late,True,4,,True
+37,"['cramps', 'bloating', 'back pain']",27,on time,False,2,,False
+29,"['headache', 'fatigue', 'dizziness']",32,late,True,3,,True
+33,"['cramps', 'bloating', 'mood swings', 'breast tenderness']",29,on time,False,4,,False
+24,"['cramps', 'nausea', 'vomiting']",25,early,False,5,,False
+39,"['cramps', 'bloating', 'hot flashes']",26,early,True,2,PCOD,True
+31,"['headache', 'fatigue']",28,on time,False,1,,False
+27,"['cramps', 'bloating', 'mood swings', 'acne']",35,late,True,4,PCOS,True
+36,"['cramps', 'back pain', 'leg pain']",29,late,False,3,,False
+23,"['bloating', 'headache', 'breast tenderness', 'constipation']",27,on time,False,2,,False
+40,"['cramps', 'bloating', 'hot flashes', 'night sweats']",24,early,True,3,,True
+30,"['headache', 'fatigue', 'diarrhea']",28,on time,False,1,,False
+26,"['cramps', 'bloating', 'mood swings', 'food cravings']",33,late,True,5,,True
+38,"['cramps', 'back pain', 'leg cramps']",26,early,False,2,,False
+34,"['bloating', 'headache', 'breast tenderness', 'irritability']",29,on time,False,3,,False
+29,"['cramps', 'nausea', 'vomiting', 'diarrhea']",25,early,False,4,,False
+32,"['cramps', 'bloating', 'hot flashes', 'insomnia']",27,on time,True,3,PCOD,True
+25,"['headache', 'fatigue']",28,on time,False,1,,False
+37,"['cramps', 'bloating', 'mood swings', 'acne']",34,late,True,4,PCOS,True
+28,"['cramps', 'back pain', 'leg pain']",29,late,False,3,,False
+35,"['bloating', 'headache', 'breast tenderness', 'constipation']",27,on time,False,2,,False
+23,"['cramps', 'bloating', 'hot flashes', 'night sweats']",24,early,True,3,,True
+31,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+27,"['cramps', 'body pain', 'mood swings']",26,early,False,2,,False
+35,"['bloating', 'headache', 'nausea']",30,late,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,4,PCOS,False
+29,"['cramps', 'mood swings']",27,on time,False,2,,False
+38,"['headache', 'fatigue']",29,early,False,1,,False
+26,"['cramps', 'bloating', 'acne']",25,on time,False,3,,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",35,late,False,4,PCOD,False
+28,"['body pain', 'fatigue']",29,late,False,2,,False
+36,"['cramps', 'headache', 'mood swings']",27,on time,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'body pain']",38,late,False,5,endometriosis,False
+30,"['bloating', 'mood swings']",26,early,False,2,,False
+39,"['hot flashes', 'fatigue']",28,on time,False,1,,False
+23,"['cramps', 'bloating', 'acne']",29,late,False,3,,False
+37,"['headache', 'nausea', 'fatigue']",27,early,False,2,,False
+29,"['cramps', 'bloating', 'mood swings', 'body pain']",33,late,False,4,PCOS,False
+34,['cramps'],26,on time,False,2,,False
+26,"['bloating', 'headache', 'nausea', 'acne']",31,late,False,3,,False
+32,"['cramps', 'body pain', 'fatigue']",28,early,False,2,,False
+27,"['cramps', 'bloating', 'headache', 'mood swings']",29,on time,False,3,,False
+35,"['headache', 'fatigue']",25,early,False,1,,False
+24,"['cramps', 'bloating']",30,late,False,2,,False
+39,"['hot flashes', 'mood swings', 'fatigue']",26,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'acne']",36,late,False,5,PCOD,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,2,PCOS,True
+25,"['headache', 'nausea', 'body pain']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'acne']",29,on time,False,2,,False
+38,"['heavy bleeding', 'cramps', 'fatigue']",35,late,True,4,PCOS,False
+27,"['cramps', 'mood swings']",25,early,False,1,,False
+31,"['bloating', 'headache', 'breast tenderness']",28,on time,False,2,,False
+39,"['heavy bleeding', 'cramps', 'bloating', 'fatigue']",33,late,True,3,PCOD,True
+29,"['cramps', 'headache']",27,on time,False,2,,False
+23,"['acne', 'mood swings', 'fatigue']",30,late,True,3,PCOS,True
+36,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,4,,False
+26,"['light bleeding', 'cramps']",24,early,False,1,,False
+33,"['bloating', 'mood swings', 'breast tenderness']",28,on time,False,2,,False
+40,"['heavy bleeding', 'cramps', 'fatigue', 'irregular cycle']",38,late,True,4,PCOD,True
+24,"['cramps', 'acne', 'headache']",27,on time,False,3,,False
+37,"['cramps', 'bloating', 'mood swings']",29,late,True,2,PCOS,True
+30,"['headache', 'nausea', 'body pain', 'diarrhea']",26,early,False,4,,False
+25,"['cramps', 'bloating']",28,on time,False,2,,False
+34,"['heavy bleeding', 'cramps', 'bloating', 'fatigue']",32,late,True,5,,True
+28,"['cramps', 'mood swings', 'headache']",27,early,False,3,,False
+39,"['bloating', 'headache', 'breast tenderness', 'irritability']",29,on time,False,2,,False
+26,"['cramps', 'acne', 'fatigue', 'irregular cycle']",35,late,True,3,PCOS,True
+32,"['cramps', 'headache', 'nausea', 'body pain']",28,on time,False,4,,False
+37,"['light bleeding', 'cramps']",25,early,False,1,,False
+29,"['bloating', 'mood swings', 'breast tenderness', 'headache']",30,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+37,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'mood swings', 'acne']",35,late,False,3,pcos,False
+32,"['cramps', 'body pain', 'fatigue', 'diarrhea']",27,early,False,4,,False
+23,"['cramps', 'bloating']",25,on time,False,2,,False
+39,"['headache', 'fatigue', 'insomnia']",28,late,False,1,,False
+31,"['cramps', 'bloating', 'mood swings', 'acne', 'tender breasts']",33,on time,False,4,pcod,False
+26,"['cramps', 'nausea', 'vomiting']",29,early,False,5,,False
+34,"['bloating', 'headache', 'fatigue', 'dizziness']",27,late,False,3,,False
+27,['cramps'],26,on time,False,1,,False
+38,"['cramps', 'bloating', 'hot flashes', 'night sweats']",24,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue', 'acne']",31,late,False,4,pcos,False
+24,"['cramps', 'bloating', 'nausea', 'body pain']",28,on time,False,3,,False
+36,"['headache', 'fatigue', 'irritability']",29,early,False,2,,False
+29,"['cramps', 'heavy bleeding']",35,on time,False,4,,False
+33,"['cramps', 'bloating', 'mood swings', 'breast tenderness']",26,late,False,3,,False
+25,"['back pain', 'fatigue']",28,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue', 'diarrhea']",40,late,False,5,endometriosis,False
+31,"['cramps', 'bloating', 'acne']",29,early,False,3,,False
+26,['headache'],27,on time,False,1,,False
+39,"['fatigue', 'irritability', 'insomnia']",28,late,False,2,,False
+28,"['cramps', 'bloating', 'headache', 'mood swings']",30,on time,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'fatigue']",30,late,False,2,PCOS,False
+25,"['bloating', 'mood swings', 'acne']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,4,,False
+27,"['headache', 'fatigue', 'diarrhea']",27,early,False,2,,False
+38,"['cramps', 'heavy bleeding', 'fatigue']",32,late,False,3,,False
+29,"['bloating', 'mood swings']",25,on time,False,1,,False
+31,"['cramps', 'bloating', 'acne', 'tender breasts']",28,on time,False,2,,False
+37,"['cramps', 'heavy bleeding', 'fatigue', 'body pain']",35,late,False,4,endometriosis,False
+24,"['cramps', 'diarrhea']",21,on time,False,2,,False
+33,"['bloating', 'mood swings', 'headache', 'breast tenderness']",30,on time,False,3,,False
+26,"['cramps', 'bloating']",29,late,False,2,,False
+39,"['hot flashes', 'night sweats', 'irregular bleeding']",38,late,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",27,early,False,3,,False
+23,"['acne', 'mood swings']",24,on time,False,1,,False
+36,"['cramps', 'heavy bleeding', 'fatigue', 'body pain']",33,late,False,4,PCOD,False
+28,"['bloating', 'headache']",26,early,False,2,,False
+34,"['cramps', 'bloating', 'mood swings', 'breast tenderness']",29,on time,False,3,,False
+29,"['cramps', 'fatigue']",25,on time,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,late,False,4,,False
+27,"['headache', 'fatigue']",28,on time,False,2,,False
+38,"['irregular bleeding', 'hot flashes']",36,late,False,3,,False
+31,"['cramps', 'bloating']",27,early,False,2,,False
+24,"['cramps', 'acne', 'mood swings', 'bloating']",22,on time,False,3,,False
+35,"['heavy bleeding', 'fatigue', 'cramps']",33,late,False,4,PCOS,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",32,late,False,4,PCOS,False
+26,"['bloating', 'mood swings']",26,early,False,2,,False
+31,"['cramps', 'bloating', 'back pain']",29,on time,False,3,,False
+39,"['headache', 'fatigue']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'nausea', 'diarrhea']",30,late,False,4,PCOD,False
+24,"['cramps', 'mood swings']",25,on time,False,2,,False
+37,"['heavy bleeding', 'cramps', 'fatigue']",35,late,False,3,,False
+27,"['cramps', 'bloating', 'acne']",28,on time,False,3,,False
+33,"['severe cramps', 'back pain', 'nausea', 'vomiting']",33,on time,False,5,,False
+25,"['cramps', 'bloating']",29,late,False,2,,False
+40,"['hot flashes', 'irregular bleeding']",23,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings']",28,on time,False,3,,False
+36,"['cramps', 'heavy bleeding', 'fatigue']",31,late,False,4,,False
+23,"['cramps', 'acne']",27,early,False,2,,False
+38,"['irregular bleeding', 'hot flashes', 'mood swings']",24,early,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,4,PCOS,False
+34,"['cramps', 'bloating']",28,on time,False,2,,False
+26,"['cramps', 'mood swings', 'headache']",29,late,False,3,,False
+32,"['severe cramps', 'heavy bleeding', 'back pain']",33,late,False,5,endometriosis,False
+37,"['cramps', 'bloating', 'fatigue']",27,early,False,2,,False
+28,"['cramps', 'headache', 'acne']",28,on time,False,3,,False
+35,"['irregular bleeding', 'hot flashes']",25,early,False,1,,False
+27,"['cramps', 'bloating', 'mood swings']",29,late,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,2,,True
+25,"['cramps', 'body pain']",26,early,False,4,,False
+32,"['headache', 'nausea', 'cramps']",29,on time,False,2,,False
+37,"['bloating', 'mood swings', 'fatigue', 'cramps', 'body pain']",35,late,True,4,PCOD,True
+29,"['cramps', 'bloating']",27,on time,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'mood swings']",28,early,False,3,,False
+38,"['fatigue', 'headache']",25,late,True,2,PCOD,True
+31,"['cramps', 'bloating', 'body pain', 'fatigue']",31,on time,False,4,,False
+26,"['headache', 'cramps']",24,early,False,2,,False
+40,"['cramps', 'mood swings', 'headache']",29,late,True,3,,True
+27,['bloating'],28,on time,False,1,,False
+34,"['cramps', 'bloating', 'fatigue', 'body pain']",33,late,True,5,endometriosis,True
+39,"['headache', 'nausea', 'fatigue']",26,on time,False,2,,False
+30,"['cramps', 'bloating', 'mood swings', 'headache']",30,early,False,3,,False
+24,"['cramps', 'body pain', 'nausea']",27,on time,False,4,,False
+36,['fatigue'],29,late,True,1,,True
+29,"['cramps', 'bloating', 'mood swings', 'fatigue', 'body pain']",31,on time,False,3,,False
+33,['headache'],25,early,False,1,,False
+27,"['cramps', 'bloating', 'nausea', 'headache']",28,late,True,2,,True
+38,"['cramps', 'fatigue']",26,on time,False,2,,False
+25,"['bloating', 'mood swings']",32,early,False,2,,False
+31,"['cramps', 'body pain', 'headache']",29,late,True,4,,True
+35,['nausea'],27,on time,False,1,,False
+28,"['cramps', 'bloating', 'mood swings', 'fatigue', 'headache', 'nausea', 'body pain']",30,early,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,False,4,,False
+25,"['bloating', 'headache']",26,on time,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",29,early,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,on time,False,4,,False
+27,"['cramps', 'bloating']",35,late,False,2,PCOS,False
+33,"['headache', 'body pain']",24,early,False,2,,False
+29,"['cramps', 'bloating', 'nausea']",29,on time,False,3,,False
+38,"['cramps', 'headache', 'body pain']",26,late,False,4,,False
+23,['bloating'],27,on time,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,5,PCOD,False
+30,"['cramps', 'body pain']",28,early,False,3,,False
+26,"['cramps', 'bloating', 'headache']",29,on time,False,2,,False
+37,"['bloating', 'headache', 'nausea']",25,late,False,3,,False
+24,['cramps'],27,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'body pain']",33,early,False,4,endometriosis,False
+40,"['headache', 'nausea', 'body pain']",28,on time,False,3,,False
+29,"['cramps', 'bloating']",26,late,False,2,,False
+34,"['cramps', 'headache', 'nausea', 'body pain']",30,on time,False,4,,False
+25,"['bloating', 'body pain']",29,early,False,2,,False
+39,"['cramps', 'bloating', 'headache']",27,late,False,3,,False
+27,['cramps'],28,on time,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea']",39,early,False,4,PCOS,False
+36,['body pain'],25,late,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+26,"['cramps', 'body pain', 'headache', 'nausea']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'acne']",29,on time,False,2,,False
+39,"['cramps', 'fatigue', 'mood swings']",27,early,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,PCOS,False
+24,"['cramps', 'bloating', 'acne', 'mood swings']",25,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+30,"['cramps', 'bloating', 'fatigue', 'mood swings', 'body pain']",32,late,False,4,PCOD,False
+29,"['cramps', 'headache', 'nausea']",27,early,False,3,,False
+34,"['cramps', 'bloating']",29,on time,False,1,,False
+25,"['cramps', 'body pain', 'headache']",40,late,False,5,,False
+38,"['cramps', 'fatigue']",26,early,False,2,,False
+31,"['cramps', 'bloating', 'mood swings', 'acne']",28,on time,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",33,late,False,4,PCOS,False
+36,['cramps'],27,early,False,1,,False
+29,"['cramps', 'bloating', 'mood swings']",30,late,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'body pain']",26,on time,False,3,,False
+24,"['cramps', 'fatigue', 'acne']",29,early,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'mood swings']",28,on time,False,4,,False
+26,"['cramps', 'nausea', 'body pain']",38,late,False,5,endometriosis,False
+37,"['cramps', 'bloating']",27,early,False,1,,False
+32,"['cramps', 'bloating', 'fatigue']",31,late,False,2,,False
+28,"['cramps', 'headache', 'acne', 'mood swings']",29,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,False,4,PCOS,False
+25,"['bloating', 'headache']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,PCOD,False
+23,"['cramps', 'bloating']",29,on time,False,2,,False
+37,"['headache', 'nausea']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'body pain']",32,late,False,3,endometriosis,False
+40,['cramps'],25,on time,False,2,,False
+26,"['bloating', 'headache', 'nausea']",28,on time,False,3,,False
+34,"['cramps', 'body pain']",31,late,False,4,PCOS,False
+27,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,,False
+39,['headache'],26,early,False,1,,False
+31,"['cramps', 'nausea']",33,late,False,2,endometriosis,False
+24,['bloating'],27,on time,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea']",29,late,False,4,PCOD,False
+28,['body pain'],25,early,False,2,,False
+33,"['cramps', 'bloating', 'headache']",30,on time,False,3,,False
+40,"['cramps', 'headache', 'nausea', 'body pain']",36,late,False,5,PCOD,False
+25,"['bloating', 'nausea']",28,on time,False,2,,False
+37,['cramps'],26,early,False,1,,False
+30,"['cramps', 'bloating', 'body pain']",34,late,False,4,endometriosis,False
+23,['headache'],29,on time,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'nausea']",27,early,False,3,,False
+29,['body pain'],31,late,False,2,PCOS,False
+35,"['cramps', 'bloating']",26,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'body pain', 'acne']",29,on time,False,3,PCOS,False
+27,"['cramps', 'bloating', 'mood swings', 'fatigue', 'headache']",35,late,False,4,PCOD,False
+38,"['heavy bleeding', 'cramps', 'fatigue']",27,on time,False,2,,False
+23,"['cramps', 'acne', 'mood swings']",30,late,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'body pain', 'nausea']",28,early,False,4,,False
+29,"['severe cramps', 'heavy bleeding', 'fatigue', 'body pain']",33,on time,False,5,,False
+40,"['irregular bleeding', 'hot flashes', 'mood swings']",25,early,False,2,,False
+26,"['cramps', 'bloating']",28,on time,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'breast tenderness']",30,late,False,3,,False
+31,"['cramps', 'diarrhea', 'fatigue']",27,early,False,2,,False
+24,"['severe cramps', 'heavy bleeding', 'clots', 'back pain']",32,on time,False,5,,False
+39,"['irregular bleeding', 'hot flashes', 'insomnia']",23,early,False,2,,False
+28,"['cramps', 'bloating', 'mood swings']",29,late,False,3,,False
+33,"['cramps', 'headache', 'acne', 'breast tenderness']",26,early,False,2,,False
+25,"['cramps', 'bloating', 'fatigue', 'nausea']",31,on time,False,4,PCOS,False
+36,"['heavy bleeding', 'cramps', 'back pain']",28,on time,False,3,,False
+29,"['cramps', 'mood swings', 'headache']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'fatigue', 'body pain']",30,late,False,3,,False
+27,"['cramps', 'diarrhea', 'acne']",29,on time,False,2,,False
+38,"['irregular bleeding', 'hot flashes', 'night sweats']",24,early,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,late,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+39,"['cramps', 'bloating', 'mood swings', 'headache', 'fatigue']",27,early,False,3,,False
+29,"['cramps', 'nausea', 'body pain']",35,late,False,4,PCOD,False
+24,"['headache', 'fatigue']",21,on time,False,1,,False
+37,"['cramps', 'bloating', 'mood swings', 'body pain']",28,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",33,late,False,5,endometriosis,False
+26,"['bloating', 'mood swings']",25,early,False,1,,False
+34,"['cramps', 'body pain', 'fatigue']",30,late,False,3,PCOS,False
+27,"['headache', 'nausea']",27,on time,False,2,,False
+40,"['cramps', 'bloating', 'mood swings', 'headache', 'body pain', 'fatigue']",29,early,False,4,,False
+33,"['cramps', 'bloating']",26,on time,False,2,,False
+23,['fatigue'],28,late,False,1,,False
+38,"['cramps', 'bloating', 'mood swings', 'headache']",31,late,False,3,PCOD,False
+30,"['nausea', 'body pain']",27,early,False,3,,False
+29,"['cramps', 'headache', 'fatigue']",29,on time,False,2,,False
+36,"['bloating', 'mood swings', 'nausea', 'body pain']",36,late,False,4,endometriosis,False
+25,['cramps'],24,early,False,2,,False
+32,"['mood swings', 'headache', 'fatigue']",28,on time,False,1,,False
+39,"['cramps', 'bloating', 'mood swings']",30,late,False,2,PCOS,False
+27,"['headache', 'body pain']",26,early,False,3,,False
+35,['fatigue'],29,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,True,4,pcos,True
+25,"['bloating', 'headache']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,,False
+39,"['cramps', 'bloating', 'nausea', 'body pain']",35,late,True,4,pcod,True
+27,['headache'],26,early,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,3,,False
+29,"['cramps', 'body pain']",31,late,True,2,PCOD,True
+24,"['bloating', 'headache', 'nausea']",25,early,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'body pain', 'nausea']",29,on time,False,4,,False
+31,['cramps'],27,on time,False,2,,False
+26,"['cramps', 'bloating', 'body pain']",32,late,True,3,,False
+34,"['headache', 'nausea']",28,early,False,1,,False
+23,"['cramps', 'bloating']",26,on time,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'body pain']",33,late,True,4,,True
+29,['nausea'],27,early,False,1,,False
+36,"['cramps', 'headache', 'body pain']",29,on time,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,late,True,5,,True
+38,['bloating'],28,early,False,1,,False
+30,"['cramps', 'headache']",26,on time,False,2,,False
+27,"['cramps', 'bloating', 'nausea', 'body pain']",38,late,True,4,pcod,True
+35,"['headache', 'body pain']",29,early,False,2,,False
+24,"['cramps', 'bloating', 'headache']",27,on time,False,3,,False
+39,"['cramps', 'body pain', 'nausea']",31,late,True,4,endometriosis,True
+32,"['bloating', 'headache', 'nausea']",28,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'mood swings']",27,early,False,3,,False
+27,"['cramps', 'bloating', 'fatigue', 'nausea']",35,late,False,4,PCOD,False
+33,"['headache', 'mood swings', 'body pain']",28,on time,False,1,,False
+29,"['cramps', 'bloating']",25,early,False,2,,False
+37,"['cramps', 'headache', 'nausea', 'mood swings', 'fatigue']",33,late,False,3,endometriosis,False
+24,"['bloating', 'fatigue']",29,on time,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'body pain']",27,early,False,4,,False
+39,"['cramps', 'mood swings', 'fatigue']",28,on time,False,2,,False
+26,"['bloating', 'headache']",30,late,False,3,PCOS,False
+34,"['cramps', 'nausea', 'body pain']",26,early,False,4,,False
+23,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue']",29,on time,False,3,,False
+30,"['cramps', 'bloating', 'fatigue']",36,late,False,5,endometriosis,False
+36,"['headache', 'nausea']",27,early,False,2,,False
+29,"['cramps', 'body pain']",28,on time,False,3,,False
+35,"['bloating', 'mood swings', 'fatigue']",31,late,False,2,PCOS,False
+27,"['cramps', 'headache', 'fatigue']",25,early,False,4,,False
+32,"['cramps', 'bloating', 'nausea', 'mood swings']",29,on time,False,3,,False
+38,"['fatigue', 'body pain']",26,early,False,1,,False
+24,"['cramps', 'bloating', 'headache']",33,late,False,4,PCOD,False
+30,"['mood swings', 'fatigue']",27,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",28,early,False,5,,False
+27,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'mood swings']",30,late,True,4,,True
+25,"['bloating', 'headache', 'nausea']",26,early,False,2,,False
+38,"['cramps', 'bloating', 'body pain', 'mood swings']",29,on time,False,3,,False
+29,"['headache', 'nausea', 'fatigue']",35,late,True,4,PCOD,True
+32,"['cramps', 'bloating', 'mood swings']",27,early,False,2,,False
+23,"['cramps', 'body pain']",30,on time,False,4,,False
+37,"['bloating', 'headache', 'nausea', 'fatigue']",28,late,False,2,,False
+31,"['cramps', 'body pain', 'mood swings', 'acne']",33,early,True,5,endometriosis,True
+26,"['headache', 'fatigue']",29,on time,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'nausea']",27,late,False,3,,False
+28,"['cramps', 'mood swings', 'acne']",31,early,True,4,PCOS,True
+40,"['bloating', 'headache']",26,on time,False,2,,False
+30,"['cramps', 'bloating', 'body pain', 'fatigue']",32,late,True,3,,True
+24,"['nausea', 'mood swings']",28,early,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'body pain', 'acne']",29,on time,False,4,,False
+39,"['headache', 'nausea', 'fatigue', 'mood swings']",27,late,True,3,PCOS,True
+27,"['cramps', 'bloating']",31,early,False,2,,False
+33,"['body pain', 'fatigue', 'acne']",36,on time,True,5,PCOD,True
+29,"['headache', 'mood swings']",28,late,False,1,,False
+35,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",30,early,False,3,,False
+26,"['cramps', 'acne']",27,on time,False,2,,False
+38,"['bloating', 'fatigue', 'mood swings']",34,late,True,4,endometriosis,True
+32,['headache'],29,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,pcos,False
+25,"['cramps', 'headache', 'back pain']",26,early,False,4,,False
+32,"['heavy bleeding', 'cramps', 'fatigue']",33,on time,False,4,pcod,False
+27,"['cramps', 'bloating', 'acne']",29,late,False,2,,False
+38,"['headache', 'breast tenderness', 'mood swings']",27,on time,False,1,,False
+23,"['cramps', 'bloating', 'nausea', 'fatigue']",25,early,False,3,,False
+31,"['heavy bleeding', 'cramps', 'back pain', 'fatigue']",35,late,False,5,endometriosis,False
+29,"['cramps', 'bloating']",28,on time,False,2,,False
+36,"['irregular bleeding', 'mood swings', 'fatigue']",32,early,False,3,pcos,False
+24,"['cramps', 'headache', 'acne']",29,late,False,3,,False
+33,"['heavy bleeding', 'cramps', 'back pain']",31,on time,False,4,,False
+26,"['cramps', 'bloating', 'mood swings']",27,early,False,2,,False
+39,"['irregular bleeding', 'hot flashes', 'mood swings']",25,late,False,1,,False
+29,"['cramps', 'headache', 'nausea']",30,on time,False,3,,False
+34,"['heavy bleeding', 'cramps', 'fatigue']",33,late,False,4,endometriosis,False
+27,"['cramps', 'bloating']",28,early,False,1,,False
+37,"['irregular bleeding', 'mood swings']",26,on time,False,2,,False
+30,"['cramps', 'bloating', 'acne', 'fatigue']",31,late,False,3,,False
+25,"['cramps', 'headache']",25,early,False,2,,False
+38,"['heavy bleeding', 'cramps', 'back pain']",36,on time,False,5,pcod,False
+28,"['cramps', 'bloating', 'mood swings', 'fatigue']",29,late,False,3,,False
+32,"['cramps', 'headache']",27,early,False,1,,False
+35,"['irregular bleeding', 'hot flashes', 'mood swings']",24,late,False,2,,False
+26,"['cramps', 'bloating', 'nausea']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+27,"['cramps', 'body pain', 'nausea']",30,late,False,2,,False
+29,"['bloating', 'mood swings', 'fatigue']",26,early,False,1,,False
+31,"['cramps', 'headache', 'back pain']",29,on time,False,4,,False
+38,"['heavy bleeding', 'cramps', 'fatigue']",35,late,False,3,PCOS,False
+24,"['cramps', 'bloating']",27,on time,False,2,,False
+33,"['headache', 'breast tenderness', 'fatigue']",28,early,False,1,,False
+26,"['cramps', 'bloating', 'nausea', 'headache']",31,late,False,4,PCOD,False
+37,"['heavy bleeding', 'cramps']",25,on time,False,3,,False
+28,"['cramps', 'back pain', 'mood swings']",29,on time,False,2,,False
+34,"['bloating', 'fatigue']",27,early,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,PCOS,False
+39,"['heavy bleeding', 'cramps', 'fatigue', 'mood swings']",30,on time,False,3,,False
+23,"['cramps', 'headache']",26,early,False,2,,False
+32,"['bloating', 'breast tenderness']",28,on time,False,1,,False
+29,"['cramps', 'nausea', 'fatigue']",31,late,False,4,,False
+36,"['heavy bleeding', 'cramps', 'back pain']",26,early,False,3,,False
+27,['cramps'],29,on time,False,1,,False
+30,"['cramps', 'bloating', 'mood swings', 'headache']",35,late,False,4,PCOD,False
+38,"['heavy bleeding', 'fatigue']",27,on time,False,2,,False
+24,"['cramps', 'back pain']",28,early,False,3,,False
+33,"['bloating', 'headache', 'fatigue']",30,late,False,2,,False
+26,"['cramps', 'bloating', 'nausea']",25,on time,False,4,,False
+37,"['heavy bleeding', 'cramps', 'mood swings']",29,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'back pain', 'headache', 'nausea']",26,early,False,4,,False
+32,"['heavy bleeding', 'cramps', 'fatigue']",33,late,True,3,pcos,True
+27,"['cramps', 'bloating', 'acne']",29,on time,False,2,,False
+39,"['irregular bleeding', 'hot flashes', 'mood swings']",24,early,True,1,PCOD,True
+23,"['cramps', 'acne', 'mood swings']",35,late,True,4,,True
+37,"['cramps', 'bloating', 'breast tenderness']",28,on time,False,2,,False
+29,"['severe cramps', 'heavy bleeding', 'fatigue', 'nausea']",32,on time,True,5,PCOD,True
+34,"['cramps', 'headache']",27,early,False,1,,False
+26,"['back pain', 'headache', 'bloating']",31,late,False,3,,False
+38,"['irregular bleeding', 'hot flashes']",23,early,True,1,PCOD,True
+24,"['cramps', 'bloating', 'acne', 'mood swings', 'fatigue']",38,late,True,3,pcos,True
+31,"['cramps', 'bloating']",29,on time,False,2,,False
+40,"['irregular bleeding', 'hot flashes', 'night sweats']",25,early,True,2,,True
+29,"['cramps', 'bloating', 'headache', 'fatigue']",28,on time,False,3,,False
+36,"['heavy bleeding', 'cramps']",31,late,False,4,,False
+27,"['cramps', 'back pain']",26,early,False,2,,False
+33,"['irregular bleeding', 'mood swings', 'fatigue']",35,late,True,3,pcos,True
+28,"['cramps', 'bloating', 'acne']",29,on time,False,1,,False
+25,"['cramps', 'acne', 'mood swings', 'fatigue']",33,late,True,4,pcod,True
+30,"['cramps', 'breast tenderness', 'fatigue']",28,on time,False,2,,False
+37,"['severe cramps', 'heavy bleeding', 'fatigue']",30,on time,False,5,,False
+26,"['cramps', 'headache', 'bloating']",27,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['headache', 'nausea', 'body pain']",26,early,False,4,,False
+37,"['cramps', 'bloating', 'acne']",29,on time,False,2,PCOS,False
+29,"['cramps', 'mood swings', 'fatigue', 'body pain']",31,late,False,3,,False
+33,"['bloating', 'headache', 'nausea']",27,early,False,1,,False
+26,"['cramps', 'acne', 'tender breasts']",28,on time,False,2,,False
+39,"['cramps', 'bloating', 'mood swings', 'headache', 'fatigue']",35,late,False,4,PCOD,False
+31,"['headache', 'nausea', 'diarrhea']",25,early,False,3,,False
+24,"['cramps', 'bloating']",29,on time,False,1,,False
+38,"['cramps', 'mood swings', 'fatigue', 'body pain', 'acne']",33,late,False,5,endometriosis,False
+30,"['bloating', 'headache', 'nausea', 'tender breasts']",26,on time,False,2,,False
+27,"['cramps', 'acne', 'diarrhea']",27,early,False,3,,False
+36,"['cramps', 'bloating', 'mood swings', 'headache']",38,late,False,4,PCOS,False
+29,"['headache', 'nausea', 'fatigue']",24,early,False,2,,False
+34,"['cramps', 'bloating', 'body pain']",28,on time,False,3,,False
+23,"['cramps', 'mood swings', 'fatigue', 'acne', 'tender breasts']",30,late,False,4,,False
+37,"['bloating', 'headache', 'nausea', 'diarrhea']",25,early,False,1,,False
+28,"['cramps', 'body pain']",29,on time,False,2,,False
+40,"['cramps', 'bloating', 'mood swings', 'headache', 'fatigue', 'acne']",39,late,False,5,PCOD,False
+32,"['headache', 'nausea', 'tender breasts', 'diarrhea']",26,early,False,3,,False
+25,"['cramps', 'bloating', 'acne']",27,on time,False,1,,False
+39,"['cramps', 'mood swings', 'fatigue', 'body pain', 'diarrhea']",32,late,False,4,,False
+31,"['bloating', 'headache', 'nausea', 'acne', 'tender breasts']",27,on time,False,2,PCOS,False
+26,"['cramps', 'diarrhea']",28,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'back pain', 'acne']",26,early,False,4,,False
+32,"['heavy bleeding', 'cramps', 'fatigue', 'tender breasts']",32,on time,False,3,,False
+27,"['headache', 'nausea', 'cramps']",29,late,False,2,,False
+38,"['cramps', 'bloating', 'mood swings', 'irritability']",27,early,False,3,,False
+24,"['acne', 'cramps', 'bloating', 'headache']",35,late,False,4,PCOS,False
+31,"['cramps', 'body pain', 'fatigue']",28,on time,False,2,,False
+39,"['heavy bleeding', 'cramps', 'fatigue']",25,early,False,4,,False
+29,"['headache', 'nausea', 'diarrhea']",29,on time,False,1,,False
+33,"['cramps', 'bloating', 'mood swings', 'tender breasts']",30,late,False,3,,False
+26,"['back pain', 'acne', 'headache', 'cramps']",27,early,False,4,,False
+37,"['irregular bleeding', 'fatigue', 'mood swings']",35,late,False,2,PCOD,False
+23,"['cramps', 'bloating', 'nausea']",28,on time,False,3,,False
+30,"['cramps', 'headache', 'fatigue', 'dizziness']",29,early,False,2,,False
+34,"['heavy bleeding', 'cramps', 'back pain', 'passing clots']",33,on time,False,5,,False
+25,"['cramps', 'bloating', 'mood swings']",26,late,False,3,,False
+36,"['headache', 'tender breasts', 'fatigue']",27,early,False,1,,False
+29,"['irregular bleeding', 'acne', 'mood swings', 'weight gain']",38,late,False,3,PCOS,False
+32,"['cramps', 'bloating', 'fatigue']",28,on time,False,2,,False
+27,"['headache', 'nausea', 'vomiting', 'cramps']",29,early,False,3,,False
+38,"['cramps', 'bloating', 'mood swings']",26,late,False,2,,False
+24,"['acne', 'cramps', 'fatigue']",25,on time,False,4,,False
+31,"['cramps', 'body pain', 'headache']",30,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+37,"['bloating', 'body pain', 'mood swings']",29,on time,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings', 'fatigue']",32,late,False,4,pcos,False
+33,"['cramps', 'bloating', 'mood swings']",27,on time,False,3,,False
+24,"['headache', 'nausea', 'fatigue']",25,early,False,2,,False
+39,"['cramps', 'body pain']",29,late,False,1,,False
+26,"['bloating', 'headache', 'mood swings', 'fatigue']",31,on time,False,3,pcod,False
+38,"['cramps', 'nausea']",27,early,False,4,,False
+31,"['cramps', 'bloating', 'headache', 'body pain', 'mood swings']",33,late,False,5,endometriosis,False
+27,"['headache', 'fatigue']",26,on time,False,1,,False
+34,"['cramps', 'bloating', 'nausea', 'mood swings']",28,early,False,3,,False
+36,"['body pain', 'fatigue']",30,late,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",25,on time,False,4,,False
+40,"['cramps', 'mood swings', 'fatigue']",27,early,False,2,,False
+29,"['bloating', 'headache']",31,late,False,1,pcos,False
+32,"['cramps', 'nausea', 'body pain', 'mood swings', 'fatigue']",29,on time,False,3,,False
+37,['headache'],26,early,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'fatigue']",35,late,False,4,endometriosis,False
+30,['mood swings'],28,on time,False,1,,False
+39,"['cramps', 'bloating', 'nausea', 'body pain']",27,early,False,3,,False
+27,['fatigue'],30,late,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings', 'fatigue']",38,late,False,5,pcod,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,False,4,PCOS,False
+25,"['bloating', 'mood swings']",27,early,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'back pain']",29,on time,False,3,,False
+29,"['cramps', 'bloating', 'acne']",35,late,False,4,PCOD,False
+32,"['headache', 'fatigue']",26,early,False,1,,False
+27,"['cramps', 'bloating', 'nausea', 'diarrhea']",28,on time,False,3,,False
+39,"['cramps', 'heavy bleeding', 'fatigue']",33,late,False,4,,False
+24,"['acne', 'mood swings']",29,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'breast tenderness']",27,early,False,3,,False
+37,"['irregular bleeding', 'hot flashes']",23,early,False,2,,False
+26,"['cramps', 'diarrhea']",28,on time,False,2,,False
+33,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,3,,False
+40,"['irregular bleeding', 'hot flashes', 'insomnia']",21,early,False,2,,False
+23,"['cramps', 'acne', 'headache']",32,late,False,4,PCOS,False
+36,"['cramps', 'bloating', 'constipation']",29,on time,False,2,,False
+28,"['heavy bleeding', 'fatigue', 'dizziness']",35,late,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'back pain']",28,on time,False,4,,False
+29,"['cramps', 'mood swings', 'tender breasts']",26,early,False,2,,False
+30,"['cramps', 'bloating']",27,on time,False,1,,False
+38,"['irregular bleeding', 'hot flashes', 'night sweats']",24,early,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'acne']",30,late,False,3,,False
+32,"['cramps', 'heavy bleeding', 'fatigue', 'back pain']",33,late,False,5,endometriosis,False
+39,"['irregular bleeding', 'hot flashes', 'mood swings']",25,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'back pain', 'headache', 'nausea']",26,on time,False,4,,False
+32,"['cramps', 'bloating', 'acne']",29,early,False,2,,False
+39,"['heavy bleeding', 'cramps', 'fatigue']",35,late,False,3,,False
+27,"['cramps', 'bloating', 'mood swings', 'tender breasts']",28,on time,False,3,,False
+37,"['irregular bleeding', 'fatigue', 'hair loss']",33,late,False,2,PCOS,False
+24,"['cramps', 'acne', 'headache']",25,early,False,2,,False
+33,"['heavy bleeding', 'cramps', 'clots', 'fatigue']",32,on time,False,4,,False
+29,"['cramps', 'bloating', 'mood swings', 'food cravings']",27,on time,False,3,,False
+36,"['irregular bleeding', 'acne', 'hair loss', 'weight gain']",38,late,False,2,PCOS,False
+26,"['cramps', 'headache', 'nausea']",29,late,False,4,,False
+31,"['severe cramps', 'heavy bleeding', 'fatigue', 'diarrhea']",25,on time,False,5,,False
+38,"['irregular bleeding', 'hot flashes', 'night sweats']",23,early,False,1,,False
+23,"['cramps', 'bloating', 'mood swings']",30,late,False,3,,False
+34,"['cramps', 'back pain', 'headache']",28,on time,False,2,,False
+30,"['heavy bleeding', 'cramps', 'fatigue', 'dizziness']",31,early,False,4,,False
+29,"['cramps', 'bloating', 'acne', 'tender breasts']",26,on time,False,2,,False
+37,"['irregular bleeding', 'fatigue', 'mood swings', 'sleep disturbances']",35,late,False,3,PCOS,False
+25,"['cramps', 'back pain', 'headache']",27,early,False,3,,False
+32,"['cramps', 'bloating', 'mood swings']",29,late,False,2,,False
+39,"['heavy bleeding', 'cramps', 'fatigue', 'headache']",33,on time,False,4,,False
+28,"['cramps', 'bloating']",26,early,False,1,,False
+36,"['irregular bleeding', 'acne', 'hair thinning']",39,late,False,2,PCOD,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'mood swings']",30,late,False,2,,False
+25,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,PCOS,False
+39,"['cramps', 'headache', 'mood swings']",27,late,False,2,,False
+29,"['bloating', 'nausea', 'body pain']",35,late,False,4,PCOD,False
+27,"['cramps', 'bloating', 'mood swings']",28,on time,False,3,,False
+33,"['headache', 'nausea', 'body pain']",29,early,False,2,,False
+23,"['cramps', 'bloating']",25,early,False,4,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",33,late,False,5,endometriosis,False
+30,"['cramps', 'headache']",27,on time,False,2,,False
+26,"['bloating', 'nausea', 'mood swings']",29,late,False,3,,False
+38,"['cramps', 'body pain']",26,early,False,4,,False
+31,"['cramps', 'bloating', 'headache', 'body pain']",30,on time,False,3,PCOS,False
+24,"['headache', 'nausea', 'mood swings']",27,early,False,2,,False
+36,"['bloating', 'body pain', 'mood swings']",38,late,False,4,PCOD,False
+29,"['cramps', 'headache']",28,on time,False,1,,False
+34,"['nausea', 'body pain']",29,early,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,4,,False
+37,"['bloating', 'mood swings']",31,late,False,2,endometriosis,False
+32,"['cramps', 'headache', 'body pain']",27,early,False,3,,False
+28,"['bloating', 'nausea']",29,on time,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'mood swings']",25,early,False,4,,False
+26,"['headache', 'body pain', 'mood swings']",36,late,False,3,PCOS,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,4,PCOS,True
+25,"['cramps', 'headache']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'back pain', 'acne']",29,on time,False,3,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",27,early,False,4,,False
+29,"['cramps', 'mood swings', 'breast tenderness']",32,late,True,2,,True
+23,"['cramps', 'bloating']",25,on time,False,1,,False
+39,"['cramps', 'back pain', 'fatigue']",28,on time,False,3,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,,True
+26,['cramps'],29,on time,False,2,,False
+34,"['cramps', 'bloating', 'acne', 'mood swings']",27,early,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'fatigue']",31,late,True,4,,True
+36,"['cramps', 'back pain']",26,early,False,2,,False
+30,"['cramps', 'bloating', 'mood swings', 'breast tenderness']",33,late,True,3,PCOD,True
+24,"['cramps', 'headache', 'nausea']",28,on time,False,4,,False
+38,"['cramps', 'bloating', 'fatigue']",29,late,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'body pain']",36,late,True,5,endometriosis,True
+25,['cramps'],27,on time,False,1,,False
+37,"['cramps', 'bloating', 'mood swings']",28,early,False,3,,False
+29,"['cramps', 'headache', 'nausea', 'fatigue']",30,late,True,4,,True
+23,"['cramps', 'bloating', 'back pain']",26,on time,False,2,,False
+35,"['cramps', 'acne']",29,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'fatigue', 'body pain']",34,late,True,5,,True
+32,"['cramps', 'mood swings']",27,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'bloating', 'body pain']",26,early,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,4,PCOS,False
+32,"['cramps', 'body pain']",28,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,PCOD,False
+27,['bloating'],27,on time,False,1,,False
+33,"['cramps', 'headache']",29,early,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea']",21,on time,False,4,,False
+37,"['cramps', 'bloating']",33,late,False,3,endometriosis,False
+29,"['headache', 'nausea']",28,early,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'body pain']",30,on time,False,4,,False
+26,['cramps'],25,early,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,5,PCOS,False
+23,"['cramps', 'bloating', 'body pain']",29,on time,False,3,,False
+34,"['bloating', 'headache']",27,early,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,4,,False
+30,['cramps'],31,late,False,2,,False
+28,"['cramps', 'bloating']",28,early,False,3,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",40,late,False,5,PCOD,False
+29,['headache'],27,on time,False,1,,False
+32,"['cramps', 'bloating', 'headache']",29,early,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",26,on time,False,4,,False
+37,"['bloating', 'body pain']",32,late,False,3,endometriosis,False
+27,"['cramps', 'headache', 'nausea']",28,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,False,2,,False
+25,"['bloating', 'headache', 'mood swings']",27,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",28,on time,False,4,,False
+39,"['cramps', 'mood swings', 'fatigue']",26,early,False,2,,False
+27,"['bloating', 'headache']",29,late,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,on time,False,5,PCOS,False
+24,"['cramps', 'mood swings']",25,early,False,2,,False
+37,"['headache', 'fatigue']",28,on time,False,1,,False
+29,"['cramps', 'bloating', 'nausea', 'body pain', 'mood swings']",35,late,False,4,PCOD,False
+34,"['cramps', 'bloating']",27,early,False,3,,False
+26,"['cramps', 'headache', 'nausea', 'body pain']",33,late,False,5,Endometriosis,False
+38,"['bloating', 'fatigue']",29,on time,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings']",26,early,False,3,,False
+23,"['cramps', 'nausea']",28,late,False,2,,False
+36,"['headache', 'body pain', 'fatigue']",31,on time,False,3,PCOS,False
+27,"['cramps', 'bloating', 'mood swings', 'fatigue']",25,early,False,4,,False
+33,"['cramps', 'headache']",29,late,False,2,,False
+25,"['bloating', 'nausea', 'fatigue']",27,on time,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings', 'fatigue']",38,late,False,5,PCOD,False
+28,['cramps'],26,early,False,2,,False
+31,"['headache', 'nausea']",28,on time,False,1,,False
+34,"['cramps', 'bloating', 'body pain', 'mood swings']",30,late,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",29,early,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'back pain', 'mood swings']",30,late,False,2,,False
+25,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'fatigue']",29,on time,False,3,pcos,False
+39,"['cramps', 'back pain', 'headache', 'breast tenderness']",27,on time,False,2,,False
+27,"['bloating', 'mood swings', 'fatigue']",35,late,False,4,pcod,False
+23,"['cramps', 'headache', 'nausea', 'diarrhea']",28,on time,False,3,,False
+37,"['cramps', 'bloating', 'fatigue', 'insomnia']",29,late,False,2,,False
+31,"['back pain', 'headache', 'mood swings', 'acne']",26,early,False,4,,False
+29,"['cramps', 'bloating']",33,late,False,5,endometriosis,False
+40,"['cramps', 'fatigue', 'hot flashes']",25,early,False,1,,False
+24,"['bloating', 'headache', 'nausea', 'vomiting']",27,on time,False,3,,False
+36,"['cramps', 'back pain', 'mood swings', 'breast tenderness']",31,late,False,2,pcos,False
+26,"['cramps', 'bloating', 'fatigue', 'diarrhea', 'acne']",29,on time,False,4,,False
+38,"['cramps', 'headache', 'insomnia']",26,early,False,1,,False
+33,"['bloating', 'mood swings', 'fatigue', 'breast tenderness']",34,late,False,3,pcod,False
+25,"['cramps', 'back pain', 'headache']",28,on time,False,2,,False
+39,"['cramps', 'bloating', 'nausea']",27,early,False,4,,False
+27,"['cramps', 'fatigue', 'mood swings']",30,late,False,3,,False
+34,"['back pain', 'headache', 'breast tenderness', 'acne']",29,on time,False,2,endometriosis,False
+29,"['cramps', 'bloating', 'fatigue', 'insomnia', 'diarrhea']",26,early,False,4,,False
+40,"['cramps', 'headache']",28,on time,False,1,,False
+26,"['bloating', 'nausea', 'vomiting', 'mood swings']",32,late,False,3,pcos,False
+37,"['cramps', 'back pain', 'fatigue']",27,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,True,4,PCOS,True
+26,"['bloating', 'headache']",26,on time,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOD,True
+24,"['cramps', 'bloating']",27,early,False,2,,False
+39,"['headache', 'body pain']",29,on time,False,3,,False
+29,"['cramps', 'bloating', 'nausea']",31,late,True,4,endometriosis,True
+23,['cramps'],25,early,False,1,,False
+37,"['bloating', 'headache', 'nausea', 'body pain']",28,on time,False,4,,False
+30,"['cramps', 'bloating', 'headache', 'body pain']",33,late,True,5,,True
+25,['cramps'],29,on time,False,2,,False
+34,['bloating'],27,early,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",36,late,True,4,,True
+31,"['headache', 'nausea', 'body pain']",28,on time,False,3,,False
+38,"['cramps', 'bloating', 'headache']",26,early,False,2,,False
+29,"['cramps', 'nausea', 'body pain']",32,late,True,4,PCOD,True
+24,"['bloating', 'headache']",27,on time,False,2,,False
+36,"['cramps', 'bloating', 'nausea', 'body pain']",29,late,False,4,,False
+28,['headache'],25,early,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,True,5,endometriosis,True
+26,"['cramps', 'bloating']",28,on time,False,2,,False
+39,['body pain'],26,early,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'nausea']",34,late,True,3,PCOS,True
+25,"['cramps', 'headache', 'nausea']",27,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,False,2,,False
+24,"['bloating', 'headache', 'mood swings']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,pcos,False
+27,"['cramps', 'nausea']",25,early,False,2,,False
+38,"['headache', 'body pain']",32,late,False,1,,False
+29,"['cramps', 'bloating', 'mood swings']",27,on time,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcod,False
+23,['bloating'],21,early,False,1,,False
+40,"['cramps', 'headache']",29,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,4,endometriosis,False
+26,['body pain'],24,early,False,1,,False
+37,"['cramps', 'bloating']",28,on time,False,2,,False
+30,"['cramps', 'headache', 'mood swings']",31,late,False,3,,False
+25,['nausea'],23,early,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",27,on time,False,4,,False
+28,"['bloating', 'mood swings']",29,late,False,2,,False
+33,"['cramps', 'headache', 'nausea']",26,early,False,3,,False
+27,['body pain'],30,on time,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",38,late,False,5,pcos,False
+29,['headache'],25,early,False,1,,False
+35,"['cramps', 'bloating']",27,on time,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'mood swings']",29,late,False,3,,False
+31,"['nausea', 'body pain']",26,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",33,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+37,"['cramps', 'bloating', 'body pain', 'fatigue']",29,on time,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'mood swings']",30,late,False,2,PCOD,False
+32,"['cramps', 'fatigue']",27,early,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",35,on time,False,4,PCOS,False
+29,"['bloating', 'headache']",28,late,False,2,,False
+26,"['cramps', 'bloating', 'nausea', 'fatigue']",25,early,False,3,,False
+38,"['cramps', 'headache', 'body pain', 'mood swings', 'fatigue']",31,on time,False,4,,False
+30,"['cramps', 'bloating']",29,late,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'mood swings']",27,early,False,5,,False
+36,"['cramps', 'body pain', 'fatigue']",32,on time,False,3,endometriosis,False
+27,"['headache', 'mood swings']",26,late,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings', 'fatigue']",38,late,False,5,PCOS,False
+29,['bloating'],25,early,False,1,,False
+35,"['cramps', 'bloating', 'headache', 'body pain']",30,on time,False,3,,False
+26,"['cramps', 'mood swings', 'fatigue']",27,late,False,2,,False
+37,"['cramps', 'bloating', 'nausea']",29,early,False,4,,False
+31,"['cramps', 'bloating', 'headache', 'body pain', 'mood swings', 'fatigue']",33,on time,False,3,PCOD,False
+28,"['headache', 'fatigue']",26,late,False,1,,False
+34,"['cramps', 'bloating', 'headache']",28,early,False,3,,False
+25,"['cramps', 'bloating', 'nausea', 'body pain', 'mood swings']",36,late,False,4,endometriosis,False
+39,"['cramps', 'fatigue']",29,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+39,"['cramps', 'bloating', 'mood swings', 'headache', 'fatigue']",35,late,False,4,PCOD,False
+27,['cramps'],27,on time,False,1,,False
+37,"['cramps', 'bloating', 'mood swings', 'acne']",28,early,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",31,late,False,5,endometriosis,False
+33,"['bloating', 'fatigue']",29,on time,False,1,,False
+29,"['cramps', 'headache']",25,early,False,2,,False
+38,"['cramps', 'bloating', 'mood swings', 'headache', 'nausea']",33,late,False,3,PCOS,False
+26,"['cramps', 'bloating']",27,on time,False,2,,False
+36,"['cramps', 'mood swings', 'acne']",30,on time,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'fatigue']",29,late,False,4,,False
+31,['bloating'],28,early,False,1,,False
+40,"['cramps', 'bloating', 'mood swings', 'headache', 'body pain']",35,late,False,4,PCOD,False
+28,"['cramps', 'fatigue']",26,on time,False,2,,False
+34,"['cramps', 'bloating', 'mood swings']",29,early,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,5,endometriosis,False
+37,"['bloating', 'headache']",27,on time,False,2,,False
+29,['cramps'],24,early,False,1,,False
+39,"['cramps', 'bloating', 'mood swings', 'fatigue', 'acne']",33,late,False,3,PCOS,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,4,,False
+35,['bloating'],26,early,False,1,,False
+24,"['cramps', 'bloating', 'mood swings', 'headache']",30,late,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,True,4,PCOS,True
+25,"['bloating', 'headache']",27,on time,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",29,early,False,3,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOS,True
+29,['cramps'],26,on time,False,2,,False
+23,"['cramps', 'bloating', 'body pain']",33,late,True,4,,True
+39,"['bloating', 'headache', 'nausea']",28,early,False,2,,False
+26,"['cramps', 'headache']",29,on time,False,3,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,early,False,4,,False
+36,"['cramps', 'bloating']",38,late,True,3,PCOD,True
+27,['headache'],26,on time,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'body pain']",31,late,True,4,endometriosis,True
+24,"['cramps', 'bloating', 'nausea']",25,early,False,3,,False
+30,"['cramps', 'headache', 'body pain']",28,on time,False,2,,False
+38,['bloating'],29,late,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",30,on time,True,4,PCOS,True
+33,['cramps'],27,early,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'body pain']",32,late,True,3,,True
+37,"['headache', 'nausea']",28,on time,False,2,,False
+26,"['cramps', 'bloating']",29,early,False,3,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,True,5,endometriosis,True
+39,['cramps'],27,on time,False,1,,False
+28,"['bloating', 'headache']",26,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,False,4,PCOS,False
+25,"['bloating', 'headache']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",29,on time,False,3,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,PCOD,False
+29,['cramps'],26,early,False,2,,False
+24,"['cramps', 'bloating', 'mood swings']",28,on time,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",29,late,False,4,,False
+26,['bloating'],25,early,False,1,,False
+31,"['cramps', 'nausea', 'body pain']",31,on time,False,4,endometriosis,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",28,late,False,3,,False
+27,"['cramps', 'body pain']",26,on time,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,PCOS,False
+23,['cramps'],27,early,False,2,,False
+30,"['cramps', 'bloating']",29,on time,False,3,,False
+36,"['cramps', 'bloating', 'headache']",28,on time,False,2,,False
+29,"['cramps', 'body pain', 'mood swings']",30,late,False,4,endometriosis,False
+34,"['bloating', 'headache']",26,early,False,2,,False
+25,"['cramps', 'bloating', 'nausea', 'body pain']",32,late,False,5,PCOD,False
+37,"['cramps', 'headache', 'mood swings']",27,on time,False,3,,False
+28,"['cramps', 'bloating']",29,late,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",30,on time,False,4,,False
+39,['headache'],25,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,5,PCOS,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings']",29,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+32,"['bloating', 'body pain', 'mood swings']",30,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",26,early,False,3,,False
+27,"['cramps', 'mood swings', 'body pain']",35,late,False,4,pcos,False
+33,"['bloating', 'headache', 'nausea', 'body pain']",28,on time,False,2,,False
+29,"['cramps', 'bloating']",25,early,False,1,,False
+38,"['headache', 'nausea', 'mood swings']",33,late,False,3,pcod,False
+24,"['cramps', 'bloating', 'headache', 'mood swings']",29,on time,False,4,,False
+36,"['cramps', 'nausea', 'body pain']",27,early,False,3,,False
+31,"['bloating', 'headache']",31,late,False,2,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'mood swings', 'body pain']",30,on time,False,5,,False
+37,"['cramps', 'mood swings']",26,early,False,1,,False
+23,"['bloating', 'headache', 'body pain']",28,on time,False,3,,False
+34,"['cramps', 'bloating', 'nausea']",39,late,False,4,endometriosis,False
+30,"['headache', 'mood swings', 'body pain']",29,late,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,early,False,4,,False
+39,"['cramps', 'mood swings']",25,on time,False,1,,False
+27,"['bloating', 'nausea']",32,late,False,3,pcos,False
+33,"['cramps', 'headache', 'body pain']",28,early,False,2,,False
+29,"['bloating', 'mood swings']",26,on time,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'mood swings', 'body pain']",38,late,False,5,endometriosis,False
+24,"['nausea', 'body pain']",29,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'mood swings']",30,late,False,2,,False
+25,"['bloating', 'headache', 'nausea']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'mood swings']",29,on time,False,4,PCOS,False
+38,"['cramps', 'back pain']",27,late,False,2,,False
+29,"['headache', 'fatigue']",25,early,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",32,on time,False,5,PCOS,False
+34,"['cramps', 'bloating']",29,late,False,3,,False
+23,"['headache', 'nausea', 'diarrhea']",24,early,False,2,,False
+40,"['cramps', 'bloating', 'hot flashes']",28,on time,False,3,,False
+31,"['body pain', 'fatigue']",35,late,False,4,endometriosis,False
+26,['cramps'],27,on time,False,1,,False
+37,"['bloating', 'headache', 'mood swings']",29,early,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,on time,False,4,,False
+24,"['cramps', 'fatigue', 'mood swings']",26,late,False,3,,False
+39,"['hot flashes', 'night sweats']",35,early,False,2,,False
+28,"['cramps', 'bloating', 'acne']",31,on time,False,3,PCOD,False
+36,"['headache', 'body pain']",28,late,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue']",33,on time,False,4,endometriosis,False
+25,"['cramps', 'bloating', 'diarrhea']",27,early,False,3,,False
+38,"['headache', 'fatigue', 'irritability']",29,late,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,3,,False
+32,"['body pain', 'mood swings']",30,early,False,2,,False
+27,"['cramps', 'fatigue']",28,late,False,1,,False
+35,"['bloating', 'headache', 'nausea', 'breast tenderness']",29,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'fatigue']",30,late,False,2,,False
+25,"['bloating', 'mood swings', 'headache']",26,early,False,1,,False
+37,"['cramps', 'heavy bleeding', 'back pain']",32,on time,False,4,,False
+29,"['nausea', 'vomiting', 'diarrhea']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'acne']",29,late,False,3,PCOS,False
+23,"['headache', 'fatigue', 'breast tenderness']",25,on time,False,1,,False
+39,"['cramps', 'heavy bleeding', 'clots']",33,early,False,5,,False
+26,"['bloating', 'mood swings', 'food cravings']",27,late,False,2,,False
+31,"['cramps', 'back pain', 'leg pain']",30,on time,False,4,,False
+24,"['headache', 'dizziness', 'fatigue']",24,early,False,1,,False
+38,"['cramps', 'heavy bleeding', 'irregular cycles']",35,late,False,3,PCOD,False
+27,"['bloating', 'constipation', 'acne']",28,on time,False,2,,False
+33,"['cramps', 'back pain', 'fatigue']",29,early,False,3,,False
+29,"['headache', 'nausea', 'vomiting']",26,late,False,2,,False
+36,"['cramps', 'heavy bleeding', 'abdominal pain']",31,on time,False,4,,False
+25,"['bloating', 'mood swings', 'tender breasts']",27,early,False,1,,False
+30,"['cramps', 'back pain', 'leg cramps']",29,late,False,3,,False
+23,"['headache', 'fatigue', 'dizziness']",24,on time,False,1,,False
+37,"['cramps', 'heavy bleeding', 'irregular cycles']",34,early,False,4,PCOS,False
+26,"['bloating', 'constipation', 'food cravings']",28,late,False,2,,False
+32,"['cramps', 'abdominal pain', 'fatigue']",30,on time,False,3,,False
+28,"['headache', 'nausea', 'diarrhea']",25,early,False,2,,False
+34,"['cramps', 'heavy bleeding', 'back pain']",31,late,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,False,4,PCOS,False
+25,"['bloating', 'mood swings']",26,early,False,2,,False
+37,"['cramps', 'bloating', 'back pain']",29,on time,False,3,,False
+29,"['cramps', 'headache', 'fatigue']",35,late,False,4,PCOD,False
+23,"['cramps', 'bloating']",27,on time,False,2,,False
+39,"['heavy bleeding', 'cramps', 'fatigue']",32,early,False,3,,False
+31,"['cramps', 'bloating', 'mood swings', 'acne']",28,on time,False,2,,False
+26,"['severe cramps', 'back pain', 'nausea', 'diarrhea']",33,late,False,5,endometriosis,False
+34,"['cramps', 'bloating', 'headache']",29,early,False,3,,False
+27,"['light bleeding', 'cramps']",25,on time,False,1,,False
+38,"['cramps', 'bloating', 'mood swings', 'insomnia']",27,early,False,2,,False
+30,"['cramps', 'bloating', 'back pain', 'acne']",30,late,False,4,PCOS,False
+24,"['cramps', 'headache']",26,on time,False,2,,False
+36,"['heavy bleeding', 'cramps', 'fatigue', 'dizziness']",31,on time,False,4,,False
+29,"['cramps', 'bloating', 'mood swings']",28,late,False,3,,False
+33,"['cramps', 'back pain', 'headache', 'nausea']",36,late,False,4,endometriosis,False
+25,"['bloating', 'acne']",27,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'fatigue']",29,on time,False,3,,False
+28,"['cramps', 'headache', 'mood swings']",26,late,False,2,,False
+32,"['severe cramps', 'back pain', 'nausea', 'vomiting']",34,late,False,5,endometriosis,False
+26,"['cramps', 'bloating']",28,on time,False,2,,False
+40,"['irregular bleeding', 'hot flashes', 'mood swings']",25,early,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'fatigue']",29,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,False,2,,False
+25,"['bloating', 'headache', 'mood swings']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,4,PCOS,False
+27,"['cramps', 'bloating']",29,on time,False,2,,False
+38,"['headache', 'fatigue']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",35,late,False,3,PCOD,False
+31,"['cramps', 'body pain']",28,on time,False,2,,False
+24,"['bloating', 'mood swings', 'acne']",25,early,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'fatigue']",29,on time,False,3,,False
+33,"['cramps', 'bloating', 'nausea', 'body pain']",38,late,False,4,endometriosis,False
+26,['cramps'],27,on time,False,1,,False
+39,"['hot flashes', 'mood swings', 'insomnia']",24,early,False,2,,False
+30,"['cramps', 'bloating', 'headache']",31,late,False,3,,False
+23,"['acne', 'mood swings']",26,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",33,late,False,5,PCOS,False
+28,"['cramps', 'headache']",29,on time,False,2,,False
+34,"['bloating', 'fatigue']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,4,endometriosis,False
+32,['cramps'],28,on time,False,1,,False
+25,"['bloating', 'mood swings', 'headache']",26,early,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'fatigue', 'diarrhea']",29,on time,False,3,,False
+31,"['cramps', 'bloating', 'nausea']",39,late,False,4,PCOD,False
+27,"['cramps', 'headache']",28,on time,False,2,,False
+40,"['hot flashes', 'mood swings', 'insomnia', 'irregular bleeding']",23,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'mood swings']",35,late,False,3,PCOS,False
+37,"['cramps', 'nausea', 'fatigue', 'diarrhea']",27,on time,False,2,,False
+29,"['headache', 'mood swings', 'acne']",28,early,False,1,,False
+31,"['cramps', 'bloating', 'back pain']",33,late,False,4,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",29,on time,False,3,,False
+39,"['headache', 'mood swings']",26,early,False,2,,False
+26,"['cramps', 'body pain']",27,on time,False,1,,False
+33,"['bloating', 'fatigue', 'breast tenderness']",31,late,False,3,PCOD,False
+24,"['cramps', 'bloating', 'headache', 'mood swings', 'acne']",28,early,False,4,,False
+38,"['cramps', 'fatigue']",25,on time,False,1,,False
+30,"['bloating', 'headache', 'nausea', 'body pain']",32,late,False,2,,False
+25,"['cramps', 'mood swings', 'diarrhea']",29,on time,False,3,,False
+34,"['headache', 'fatigue', 'acne']",26,early,False,1,,False
+27,"['cramps', 'bloating', 'nausea', 'body pain']",30,late,False,4,,False
+36,"['bloating', 'headache']",27,on time,False,2,,False
+29,"['cramps', 'fatigue', 'breast tenderness']",35,late,False,3,PCOS,False
+32,"['headache', 'mood swings', 'diarrhea']",28,early,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",26,on time,False,4,,False
+37,"['cramps', 'body pain']",40,late,False,5,endometriosis,False
+28,"['bloating', 'fatigue']",29,on time,False,2,,False
+35,"['cramps', 'headache', 'acne']",27,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'mood swings', 'fatigue']",28,early,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,4,,True
+32,"['back pain', 'headache', 'fatigue']",27,on time,False,2,,False
+29,"['cramps', 'bloating']",26,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'mood swings']",35,late,True,4,PCOD,True
+27,"['headache', 'fatigue']",28,on time,False,1,,False
+33,"['cramps', 'bloating', 'acne']",29,on time,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'diarrhea']",25,early,False,4,,False
+39,"['hot flashes', 'night sweats']",26,late,True,2,PCOD,True
+26,"['cramps', 'bloating', 'mood swings', 'fatigue']",31,late,True,3,PCOS,True
+34,['cramps'],28,on time,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,on time,True,5,endometriosis,True
+38,"['cramps', 'bloating']",27,early,False,2,,False
+30,"['cramps', 'mood swings', 'acne']",29,late,False,3,,False
+29,"['headache', 'fatigue', 'breast tenderness']",28,on time,False,2,,False
+36,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue']",30,late,True,4,PCOS,True
+27,"['cramps', 'bloating', 'nausea']",26,early,False,3,,False
+31,"['back pain', 'headache']",28,on time,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue', 'diarrhea']",32,late,True,5,,True
+39,"['hot flashes', 'night sweats', 'insomnia']",25,early,True,3,PCOS,True
+28,"['cramps', 'bloating', 'acne']",29,on time,False,2,,False
+32,"['cramps', 'headache', 'fatigue']",27,early,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'mood swings']",30,late,True,4,,True
+35,['cramps'],28,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",26,early,False,2,,False
+25,"['cramps', 'heavy bleeding', 'back pain']",32,late,False,4,PCOS,False
+31,"['headache', 'nausea', 'breast tenderness']",28,on time,False,1,,False
+39,"['cramps', 'bloating', 'mood swings', 'fatigue', 'insomnia']",27,early,False,3,,False
+29,"['heavy bleeding', 'fatigue', 'diarrhea']",35,late,False,4,PCOD,False
+23,"['cramps', 'acne', 'breast tenderness']",29,on time,False,2,,False
+37,"['headache', 'body pain', 'mood swings']",25,early,False,3,,False
+26,"['cramps', 'bloating', 'heavy bleeding', 'fatigue']",33,late,False,5,endometriosis,False
+33,"['nausea', 'dizziness', 'breast tenderness']",28,on time,False,1,,False
+27,"['cramps', 'bloating', 'acne', 'mood swings']",30,late,False,2,,False
+38,"['heavy bleeding', 'fatigue', 'back pain', 'headache']",26,early,False,4,,False
+24,"['cramps', 'bloating', 'nausea', 'diarrhea']",29,on time,False,3,,False
+36,"['headache', 'breast tenderness', 'mood swings']",27,early,False,2,,False
+30,"['cramps', 'bloating', 'heavy bleeding', 'fatigue', 'back pain']",34,late,False,5,PCOS,False
+29,"['nausea', 'vomiting', 'dizziness', 'fatigue']",28,on time,False,2,,False
+32,"['cramps', 'headache', 'mood swings']",26,early,False,3,,False
+37,"['cramps', 'bloating', 'heavy bleeding', 'back pain']",31,late,False,4,endometriosis,False
+25,"['headache', 'nausea', 'breast tenderness', 'fatigue']",29,on time,False,1,,False
+34,"['cramps', 'bloating', 'mood swings', 'acne']",27,on time,False,2,,False
+28,"['heavy bleeding', 'fatigue', 'abdominal pain']",36,late,False,4,PCOD,False
+39,"['cramps', 'breast tenderness', 'mood swings']",28,early,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'fatigue', 'diarrhea']",29,on time,False,3,,False
+26,"['heavy bleeding', 'back pain', 'fatigue']",33,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,4,PCOS,True
+25,"['headache', 'nausea', 'body pain']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'mood swings', 'acne']",35,late,True,3,PCOD,True
+29,"['cramps', 'bloating']",27,on time,False,2,,False
+38,"['cramps', 'headache', 'fatigue']",29,early,False,4,,False
+23,"['cramps', 'bloating', 'mood swings', 'acne', 'body pain']",33,late,True,5,PCOS,True
+27,"['headache', 'nausea']",25,on time,False,1,,False
+34,"['cramps', 'bloating', 'mood swings', 'fatigue', 'acne']",38,late,True,3,endometriosis,True
+31,"['cramps', 'bloating', 'headache']",29,on time,False,2,,False
+40,"['cramps', 'fatigue']",26,early,False,3,,False
+26,"['cramps', 'bloating', 'mood swings', 'acne', 'body pain']",32,late,True,4,PCOD,True
+39,"['headache', 'nausea']",27,on time,False,1,,False
+33,"['cramps', 'bloating', 'mood swings']",36,late,True,2,PCOS,True
+24,"['cramps', 'bloating', 'headache', 'fatigue']",28,on time,False,3,,False
+37,"['cramps', 'body pain']",25,early,False,4,,False
+30,"['cramps', 'bloating', 'mood swings', 'acne', 'body pain', 'headache']",31,late,True,5,,True
+29,"['headache', 'nausea', 'fatigue']",26,on time,False,2,,False
+36,"['cramps', 'bloating']",39,late,True,3,PCOD,True
+27,"['cramps', 'bloating', 'headache', 'body pain']",27,early,False,4,,False
+32,"['cramps', 'fatigue']",24,on time,False,1,,False
+38,"['cramps', 'bloating', 'mood swings', 'acne', 'nausea']",34,late,True,3,,True
+25,"['headache', 'body pain', 'fatigue']",29,early,False,2,,False
+35,"['cramps', 'bloating', 'mood swings', 'headache']",26,on time,False,3,,False
+31,"['cramps', 'bloating', 'acne']",37,late,True,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",35,late,False,4,PCOS,False
+25,"['bloating', 'headache']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",30,on time,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,late,False,4,,False
+27,['headache'],26,on time,False,1,,False
+33,"['cramps', 'bloating', 'nausea']",32,early,False,3,,False
+29,['cramps'],28,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,5,endometriosis,False
+23,"['bloating', 'headache', 'nausea']",29,early,False,3,,False
+31,"['cramps', 'body pain']",27,on time,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,4,PCOD,False
+26,"['cramps', 'headache']",25,early,False,2,,False
+34,['bloating'],31,on time,False,1,,False
+40,"['cramps', 'bloating', 'headache', 'nausea']",29,late,False,3,,False
+24,"['cramps', 'bloating', 'body pain']",26,early,False,3,,False
+30,"['headache', 'nausea']",30,on time,False,2,,False
+36,"['cramps', 'bloating', 'headache', 'body pain']",35,late,False,4,PCOS,False
+29,"['cramps', 'nausea']",27,on time,False,2,,False
+35,"['bloating', 'headache']",32,early,False,1,,False
+27,"['cramps', 'bloating', 'body pain']",29,on time,False,3,,False
+33,"['cramps', 'headache', 'nausea', 'body pain']",30,late,False,4,,False
+25,['bloating'],26,early,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",36,late,False,3,endometriosis,False
+28,"['cramps', 'bloading', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'body pain']",32,late,True,4,PCOS,True
+25,"['cramps', 'headache', 'nausea']",26,early,False,2,,False
+37,"['bloating', 'headache', 'body pain']",29,on time,False,3,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,4,PCOD,True
+24,"['cramps', 'body pain']",27,early,False,2,,False
+39,"['bloating', 'headache']",28,on time,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,Endometriosis,True
+26,['cramps'],25,on time,False,1,,False
+33,"['cramps', 'bloating']",29,late,False,3,,False
+27,"['headache', 'nausea', 'body pain']",26,early,True,4,PCOS,True
+38,"['cramps', 'bloating', 'headache', 'body pain']",33,on time,True,3,PCOS,True
+30,['nausea'],27,early,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea']",28,late,False,4,,False
+36,['body pain'],30,on time,False,2,,False
+29,"['cramps', 'headache', 'nausea', 'body pain']",38,late,True,5,Endometriosis,True
+34,['bloating'],26,early,False,1,,False
+25,"['cramps', 'bloating', 'headache']",29,on time,True,3,,True
+40,"['headache', 'body pain']",27,late,False,2,,False
+32,"['cramps', 'nausea']",31,early,True,4,PCOD,True
+28,"['bloating', 'headache', 'body pain']",25,on time,False,3,,False
+37,['cramps'],28,late,False,2,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",39,late,True,5,,True
+39,['headache'],27,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,False,2,,False
+25,"['bloating', 'headache']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,PCOS,False
+27,"['cramps', 'bloating']",28,on time,False,2,,False
+38,"['headache', 'nausea']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'body pain']",30,late,False,3,PCOD,False
+34,['cramps'],29,on time,False,2,,False
+23,"['bloating', 'headache', 'nausea']",25,early,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,PCOS,False
+26,['cramps'],27,on time,False,1,,False
+31,"['bloating', 'headache']",29,late,False,2,,False
+37,"['cramps', 'bloating', 'nausea', 'body pain']",38,late,False,5,endometriosis,False
+30,"['cramps', 'body pain']",28,on time,False,3,,False
+24,['headache'],26,early,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,4,PCOS,False
+28,['bloating'],27,on time,False,1,,False
+36,"['cramps', 'headache', 'body pain']",29,early,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",40,late,False,5,endometriosis,False
+35,['nausea'],28,on time,False,1,,False
+27,"['cramps', 'bloating', 'body pain']",26,early,False,3,,False
+32,"['cramps', 'headache']",30,late,False,2,,False
+40,"['bloating', 'headache', 'nausea', 'body pain']",33,late,False,4,PCOD,False
+25,"['cramps', 'bloating']",28,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",32,late,False,2,PCOS,False
+26,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+31,"['bloating', 'body pain', 'fatigue']",28,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue']",26,early,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",30,late,False,4,PCOD,False
+29,"['headache', 'fatigue']",28,on time,False,1,,False
+37,"['cramps', 'bloating', 'mood swings', 'acne']",35,late,False,3,PCOS,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue', 'mood swings']",29,on time,False,5,,False
+33,['bloating'],27,early,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,3,,False
+38,"['cramps', 'fatigue', 'mood swings']",28,on time,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,endometriosis,False
+30,"['nausea', 'fatigue']",26,early,False,2,,False
+36,"['cramps', 'bloating', 'mood swings']",29,on time,False,3,,False
+29,"['cramps', 'headache', 'body pain', 'fatigue']",30,on time,False,4,,False
+34,"['bloating', 'mood swings', 'acne']",38,late,False,2,PCOS,False
+25,['headache'],27,early,False,1,,False
+32,"['cramps', 'bloating', 'nausea', 'fatigue']",28,on time,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'mood swings']",26,early,False,4,,False
+27,"['body pain', 'fatigue']",31,late,False,2,PCOD,False
+35,"['cramps', 'nausea', 'mood swings']",29,on time,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",39,late,False,5,endometriosis,False
+31,"['bloating', 'acne']",28,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",35,late,True,4,PCOS,True
+25,"['bloating', 'headache']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",30,on time,False,3,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,late,True,5,,True
+29,"['cramps', 'headache']",26,early,False,2,,False
+33,['bloating'],28,on time,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",31,late,True,4,PCOD,True
+39,"['cramps', 'nausea', 'body pain']",29,on time,False,3,,False
+23,"['cramps', 'bloating']",25,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,True,5,endometriosis,True
+36,['headache'],27,on time,False,1,,False
+27,"['cramps', 'bloating', 'body pain']",29,late,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,4,,False
+40,['cramps'],26,early,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",30,late,True,4,PCOS,True
+31,['nausea'],27,on time,False,1,,False
+38,"['cramps', 'bloating']",28,late,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,on time,True,5,endometriosis,True
+32,"['headache', 'body pain']",29,early,False,3,,False
+39,"['cramps', 'nausea']",26,on time,False,2,,False
+26,"['cramps', 'bloating', 'headache']",31,late,True,3,PCOD,True
+33,"['bloating', 'body pain']",28,early,False,2,,False
+29,['cramps'],27,on time,False,1,,False
+31,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+27,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+35,"['heavy bleeding', 'cramps', 'back pain', 'fatigue']",33,on time,False,4,,False
+24,"['cramps', 'acne', 'headache']",26,early,False,2,,False
+38,"['irregular bleeding', 'mood swings', 'hot flashes']",24,early,False,1,,False
+29,"['cramps', 'bloating', 'nausea']",29,on time,False,3,,False
+33,"['heavy bleeding', 'cramps', 'back pain', 'fatigue', 'headache']",35,late,False,5,pcos,False
+25,"['cramps', 'acne', 'mood swings']",27,on time,False,2,,False
+40,"['irregular bleeding', 'hot flashes', 'night sweats']",21,early,False,1,,False
+26,"['cramps', 'bloating']",28,late,False,1,,False
+37,"['heavy bleeding', 'cramps', 'fatigue']",32,on time,False,4,,False
+28,"['cramps', 'bloating', 'mood swings', 'headache']",30,on time,False,3,,False
+34,"['spotting', 'cramps', 'back pain']",26,early,False,2,endometriosis,False
+23,"['cramps', 'acne', 'fatigue']",29,late,False,2,,False
+39,"['irregular bleeding', 'hot flashes', 'insomnia']",23,early,False,1,,False
+30,"['cramps', 'bloating', 'nausea', 'headache']",31,late,False,3,,False
+36,"['heavy bleeding', 'cramps', 'back pain', 'fatigue', 'mood swings']",34,on time,False,4,pcod,False
+24,"['cramps', 'acne', 'headache', 'fatigue']",25,early,False,2,,False
+38,"['irregular bleeding', 'hot flashes']",22,on time,False,1,,False
+29,"['cramps', 'bloating']",27,late,False,1,,False
+32,"['heavy bleeding', 'cramps', 'fatigue']",33,on time,False,3,,False
+27,"['cramps', 'bloating', 'mood swings']",29,on time,False,2,,False
+35,"['spotting', 'cramps']",25,early,False,2,endometriosis,False
+23,"['cramps', 'fatigue', 'headache']",28,late,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,False,4,,False
+25,"['bloating', 'headache']",26,early,False,2,,False
+37,"['cramps', 'bloating', 'body pain']",29,on time,False,3,PCOS,False
+29,"['cramps', 'nausea']",27,early,False,2,,False
+32,"['bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,PCOD,False
+24,['cramps'],25,on time,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,early,False,4,,False
+26,['headache'],29,late,False,1,,False
+33,"['cramps', 'bloating']",27,on time,False,2,,False
+27,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,endometriosis,False
+36,"['nausea', 'body pain']",26,early,False,3,,False
+30,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,4,PCOS,False
+23,['bloating'],24,early,False,1,,False
+38,"['cramps', 'body pain']",28,late,False,3,,False
+29,"['headache', 'nausea']",30,on time,False,2,,False
+34,['cramps'],27,early,False,1,,False
+25,"['bloating', 'headache', 'nausea', 'body pain']",39,late,False,5,PCOD,False
+31,"['cramps', 'bloating', 'body pain']",26,on time,False,3,,False
+37,"['headache', 'body pain']",29,late,False,2,,False
+28,"['cramps', 'nausea']",25,early,False,2,,False
+35,"['bloating', 'headache', 'nausea']",32,on time,False,3,,False
+26,"['cramps', 'bloating']",28,late,False,2,,False
+32,['headache'],27,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'mood swings']",30,late,False,2,,False
+25,"['bloating', 'headache', 'nausea']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,4,PCOS,False
+27,"['cramps', 'mood swings']",29,on time,False,2,,False
+38,"['headache', 'fatigue']",27,early,False,1,,False
+29,"['cramps', 'bloating', 'body pain', 'acne']",35,late,False,4,PCOD,False
+33,"['cramps', 'bloating', 'mood swings']",28,on time,False,3,,False
+23,"['cramps', 'headache', 'nausea', 'diarrhea']",25,early,False,2,,False
+40,"['hot flashes', 'mood swings', 'insomnia']",30,late,False,2,,False
+26,"['cramps', 'bloating']",27,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'breast tenderness']",29,on time,False,3,,False
+31,"['heavy bleeding', 'cramps', 'fatigue']",34,late,False,4,,False
+24,"['cramps', 'acne', 'mood swings']",26,early,False,2,,False
+39,"['irregular bleeding', 'hot flashes', 'insomnia']",40,late,False,3,,False
+28,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,3,,False
+34,"['cramps', 'body pain']",29,on time,False,2,,False
+27,"['bloating', 'headache', 'mood swings', 'tender breasts']",27,early,False,1,,False
+30,"['heavy bleeding', 'cramps', 'fatigue', 'back pain']",33,late,False,5,,False
+36,"['cramps', 'mood swings', 'irritability']",28,on time,False,2,,False
+29,"['headache', 'fatigue', 'dizziness']",26,early,False,1,,False
+35,"['irregular bleeding', 'hot flashes', 'night sweats']",38,late,False,3,,False
+25,"['cramps', 'bloating', 'acne']",27,on time,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'breast tenderness']",29,on time,False,3,,False
+28,"['heavy bleeding', 'cramps', 'fatigue', 'abdominal pain']",35,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",32,late,False,4,PCOS,False
+25,"['bloating', 'mood swings']",26,early,False,2,,False
+37,"['cramps', 'bloating', 'back pain']",28,on time,False,3,,False
+29,"['headache', 'nausea', 'fatigue']",35,late,False,2,PCOD,False
+31,"['cramps', 'bloating', 'mood swings', 'acne']",27,early,False,4,,False
+23,['cramps'],21,on time,False,1,,False
+39,"['heavy bleeding', 'cramps', 'fatigue']",33,late,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'diarrhea']",29,on time,False,4,,False
+33,"['abdominal pain', 'back pain', 'leg pain']",38,late,False,5,endometriosis,False
+27,"['cramps', 'mood swings']",25,early,False,2,,False
+36,"['headache', 'breast tenderness']",30,on time,False,1,,False
+24,"['cramps', 'bloating', 'acne']",28,on time,False,3,,False
+38,"['irregular bleeding', 'hot flashes']",23,early,False,2,,False
+30,"['cramps', 'bloating', 'mood swings', 'fatigue']",31,late,False,4,,False
+29,"['cramps', 'headache']",26,early,False,2,,False
+34,"['heavy bleeding', 'cramps', 'fatigue', 'back pain']",35,late,False,4,fibroids,False
+25,"['bloating', 'mood swings', 'acne']",29,on time,False,3,,False
+37,"['cramps', 'headache', 'nausea']",27,early,False,2,,False
+32,"['cramps', 'bloating', 'mood swings']",30,on time,False,3,,False
+28,['irregular bleeding'],36,late,False,1,PCOS,False
+35,"['cramps', 'bloating', 'headache', 'back pain']",28,on time,False,4,,False
+26,"['cramps', 'mood swings', 'fatigue']",29,on time,False,3,,False
+39,"['heavy bleeding', 'cramps']",32,late,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'breast tenderness']",30,late,True,2,,True
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+38,"['cramps', 'bloating', 'headache', 'mood swings', 'breast tenderness']",27,early,False,3,,False
+29,"['cramps', 'nausea', 'diarrhea']",25,late,False,4,,False
+37,"['bloating', 'headache', 'fatigue', 'insomnia']",32,on time,True,2,PCOD,True
+23,"['cramps', 'bloating', 'mood swings']",28,on time,False,3,,False
+34,"['cramps', 'back pain', 'acne']",35,late,True,4,,True
+27,"['headache', 'fatigue', 'breast tenderness']",29,early,False,1,,False
+39,"['cramps', 'bloating', 'mood swings', 'irritability']",26,on time,False,2,,False
+31,"['abdominal pain', 'nausea', 'vomiting']",27,late,False,5,,False
+24,"['cramps', 'bloating', 'headache', 'fatigue']",30,on time,False,3,,False
+36,"['cramps', 'mood swings', 'breast tenderness', 'acne']",28,early,False,2,,False
+26,"['headache', 'nausea', 'dizziness']",24,late,False,3,,False
+33,"['bloating', 'fatigue', 'insomnia', 'food cravings']",31,on time,True,1,PCOS,True
+40,"['cramps', 'bloating', 'headache', 'mood swings', 'hot flashes']",29,early,True,4,PCOS,True
+29,"['cramps', 'back pain', 'leg pain']",33,late,True,5,,True
+37,"['headache', 'fatigue', 'breast tenderness', 'constipation']",27,on time,False,2,,False
+25,"['cramps', 'bloating', 'mood swings', 'acne', 'diarrhea']",26,early,False,3,,False
+32,"['cramps', 'abdominal pain', 'nausea']",28,late,False,4,,False
+38,"['bloating', 'headache', 'fatigue', 'irritability', 'breast tenderness']",30,on time,False,2,,False
+27,"['cramps', 'bloating']",25,early,False,1,,False
+34,"['cramps', 'headache', 'nausea', 'vomiting', 'fatigue']",29,late,False,5,,False
+40,"['cramps', 'bloating', 'mood swings', 'hot flashes', 'night sweats']",27,on time,True,3,PCOD,True
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'back pain', 'mood swings']",30,late,False,2,,False
+25,"['cramps', 'bloating', 'acne']",26,early,False,4,,False
+32,"['heavy bleeding', 'fatigue']",35,on time,False,3,,False
+27,"['cramps', 'headache', 'nausea']",29,late,False,2,,False
+38,"['irregular bleeding', 'mood swings', 'hot flashes']",24,early,False,1,,False
+29,"['cramps', 'bloating', 'breast tenderness']",27,on time,False,3,,False
+33,"['cramps', 'heavy bleeding', 'fatigue']",32,late,False,4,PCOS,False
+26,"['cramps', 'acne', 'mood swings']",28,on time,False,2,,False
+37,"['irregular bleeding', 'hot flashes', 'night sweats']",23,early,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,3,,False
+24,"['cramps', 'back pain']",25,early,False,2,,False
+39,"['irregular bleeding', 'mood swings']",29,on time,False,2,,False
+23,"['cramps', 'bloating', 'acne', 'mood swings']",27,on time,False,4,,False
+36,"['heavy bleeding', 'fatigue', 'headache']",33,late,False,3,PCOD,False
+28,"['cramps', 'nausea']",26,early,False,2,,False
+34,"['irregular bleeding', 'hot flashes']",25,early,False,1,,False
+31,"['cramps', 'bloating', 'breast tenderness', 'mood swings']",29,late,False,3,,False
+25,"['cramps', 'heavy bleeding']",31,on time,False,4,PCOS,False
+37,"['cramps', 'acne']",27,early,False,2,,False
+29,['irregular bleeding'],24,on time,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'back pain']",33,late,False,3,,False
+26,['cramps'],26,on time,False,2,,False
+38,"['heavy bleeding', 'fatigue', 'mood swings']",35,late,False,4,PCOD,False
+24,"['cramps', 'bloating']",28,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+37,"['cramps', 'bloating', 'body pain', 'fatigue']",29,on time,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'mood swings']",35,late,False,3,pcos,False
+32,"['cramps', 'nausea', 'body pain', 'fatigue']",27,early,False,4,,False
+24,"['cramps', 'headache', 'mood swings', 'acne']",30,on time,False,2,pcod,False
+39,"['cramps', 'bloating', 'fatigue']",28,late,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,early,False,4,endometriosis,False
+26,"['headache', 'mood swings']",29,on time,False,1,,False
+33,"['cramps', 'bloating', 'fatigue', 'acne']",27,late,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",31,early,False,4,pcos,False
+38,"['cramps', 'mood swings', 'fatigue']",28,on time,False,2,,False
+30,"['bloating', 'headache', 'acne']",26,late,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",36,early,False,5,endometriosis,False
+36,"['cramps', 'fatigue']",29,on time,False,2,,False
+29,"['cramps', 'bloating', 'mood swings']",27,early,False,3,,False
+34,"['headache', 'nausea', 'body pain']",30,late,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'mood swings', 'acne']",38,on time,False,3,pcod,False
+37,"['bloating', 'fatigue']",28,early,False,1,,False
+32,"['cramps', 'headache', 'nausea']",29,late,False,4,,False
+26,"['cramps', 'bloating', 'body pain', 'fatigue', 'acne']",31,on time,False,3,pcos,False
+40,"['cramps', 'headache']",27,early,False,2,,False
+28,"['cramps', 'bloating', 'mood swings', 'fatigue']",40,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+26,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['cramps', 'bloating', 'body pain', 'fatigue']",29,on time,False,3,PCOS,False
+39,"['cramps', 'bloating', 'headache', 'mood swings']",27,early,False,2,,False
+29,"['cramps', 'nausea', 'body pain']",35,late,False,4,PCOD,False
+23,"['cramps', 'bloating']",25,on time,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'mood swings', 'fatigue']",28,on time,False,3,,False
+30,"['headache', 'fatigue']",29,late,False,1,,False
+24,"['cramps', 'bloating', 'mood swings', 'body pain']",30,early,False,4,,False
+34,"['cramps', 'bloating', 'headache', 'nausea']",27,on time,False,5,,False
+27,"['bloating', 'mood swings']",26,late,False,2,,False
+31,"['cramps', 'fatigue']",33,on time,False,3,PCOS,False
+38,"['cramps', 'bloating', 'headache', 'mood swings', 'body pain']",29,early,False,4,,False
+25,"['cramps', 'nausea', 'fatigue']",24,late,False,3,,False
+36,['bloating'],28,on time,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'body pain', 'fatigue']",31,late,False,2,endometriosis,False
+29,"['cramps', 'mood swings', 'fatigue']",27,early,False,3,,False
+24,"['cramps', 'bloating', 'headache']",36,late,False,4,PCOD,False
+37,"['cramps', 'body pain']",28,on time,False,2,,False
+30,"['cramps', 'bloating', 'mood swings']",29,early,False,3,,False
+26,"['headache', 'nausea', 'fatigue']",25,late,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea', 'mood swings', 'body pain']",30,on time,False,4,,False
+28,"['bloating', 'fatigue']",27,early,False,1,,False
+32,"['cramps', 'headache', 'mood swings']",38,late,False,3,endometriosis,False
+35,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+27,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,True,4,PCOS,True
+32,"['cramps', 'headache', 'nausea']",26,early,False,2,,False
+38,"['cramps', 'bloating', 'back pain', 'fatigue']",29,on time,False,3,,False
+25,"['cramps', 'bloating', 'acne']",27,on time,False,2,,False
+31,"['cramps', 'bloating', 'mood swings', 'tender breasts']",35,late,True,4,,True
+29,"['cramps', 'bloating', 'headache', 'fatigue']",28,on time,False,3,,False
+37,"['cramps', 'back pain', 'fatigue', 'diarrhea']",26,early,False,2,,False
+24,"['cramps', 'bloating', 'mood swings', 'acne']",33,late,True,5,,True
+33,"['cramps', 'headache', 'nausea', 'body pain']",29,on time,False,4,,False
+28,"['cramps', 'bloating', 'mood swings']",27,early,False,2,,False
+36,"['cramps', 'bloating', 'back pain', 'fatigue', 'headache']",31,late,True,3,,True
+26,['cramps'],25,on time,False,1,,False
+30,"['cramps', 'bloating', 'mood swings', 'acne', 'fatigue']",38,late,True,5,PCOS,True
+39,"['cramps', 'headache', 'body pain']",28,on time,False,3,,False
+23,"['cramps', 'bloating']",26,early,False,2,,False
+34,"['cramps', 'bloating', 'mood swings', 'tender breasts', 'headache']",33,late,True,4,endometriosis,True
+29,"['cramps', 'fatigue']",29,on time,False,1,,False
+37,"['cramps', 'bloating', 'back pain']",27,early,False,2,,False
+25,"['cramps', 'bloating', 'mood swings', 'acne', 'fatigue', 'headache']",36,late,True,5,,True
+32,"['cramps', 'nausea', 'body pain']",28,on time,False,3,,False
+27,"['cramps', 'bloating']",25,early,False,1,,False
+35,"['cramps', 'bloating', 'mood swings', 'tender breasts']",31,late,True,3,,True
+31,"['cramps', 'back pain', 'fatigue']",29,on time,False,2,,False
+40,"['cramps', 'headache']",26,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,True,4,PCOS,True
+25,"['bloating', 'headache']",26,early,False,2,,False
+37,"['cramps', 'bloating', 'body pain']",29,on time,False,3,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOD,True
+23,['cramps'],27,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache']",28,early,False,3,,False
+32,"['cramps', 'nausea', 'body pain']",33,late,True,4,endometriosis,True
+26,['bloating'],25,on time,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",27,early,False,3,,False
+38,"['cramps', 'body pain']",31,late,True,3,,True
+30,['headache'],26,on time,False,1,,False
+24,"['cramps', 'bloating', 'nausea']",28,on time,False,2,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,True,5,endometriosis,True
+33,"['bloating', 'headache', 'body pain']",29,early,False,3,,False
+29,['cramps'],25,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,4,PCOS,True
+25,"['cramps', 'bloating']",27,on time,False,2,,False
+37,"['cramps', 'headache', 'body pain']",32,late,True,4,endometriosis,True
+28,['nausea'],26,early,False,1,,False
+34,"['cramps', 'bloating']",28,on time,False,3,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,True,5,,True
+26,"['headache', 'body pain']",29,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'nausea', 'body pain']",26,early,False,4,,False
+37,"['headache', 'fatigue']",29,on time,False,1,,False
+29,"['cramps', 'bloating', 'mood swings', 'acne']",35,late,False,3,PCOS,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",27,on time,False,4,,False
+32,"['headache', 'fatigue', 'diarrhea']",28,early,False,2,,False
+39,"['cramps', 'mood swings', 'insomnia']",30,late,False,3,,False
+26,"['bloating', 'acne', 'tender breasts']",25,on time,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue', 'dizziness']",33,early,False,4,endometriosis,False
+27,"['cramps', 'body pain']",29,late,False,2,,False
+31,"['bloating', 'mood swings', 'food cravings']",26,on time,False,3,,False
+38,"['fatigue', 'headache']",27,early,False,1,,False
+24,"['cramps', 'bloating', 'acne', 'tender breasts']",38,late,False,2,PCOD,False
+36,"['headache', 'nausea', 'mood swings', 'diarrhea']",29,on time,False,3,,False
+30,"['cramps', 'bloating', 'back pain', 'fatigue']",25,early,False,4,,False
+25,"['cramps', 'mood swings', 'irritability']",32,late,False,3,,False
+33,"['bloating', 'headache', 'breast tenderness']",28,on time,False,2,,False
+29,"['cramps', 'nausea', 'vomiting', 'fatigue']",26,early,False,4,,False
+37,"['headache', 'dizziness', 'lightheadedness']",30,late,False,2,,False
+26,"['cramps', 'bloating', 'constipation']",27,on time,False,3,,False
+34,"['bloating', 'mood swings', 'acne']",39,late,False,2,PCOS,False
+28,"['cramps', 'fatigue']",26,early,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'body pain', 'mood swings', 'acne']",28,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,True,4,pcos,True
+25,"['bloating', 'headache']",26,on time,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",29,early,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,on time,False,4,,False
+29,['cramps'],25,early,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'body pain']",35,late,True,5,pcod,True
+23,['bloating'],28,on time,False,1,,False
+31,"['cramps', 'nausea']",29,late,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,early,True,4,endometriosis,False
+33,['headache'],27,on time,False,2,,False
+40,"['cramps', 'bloating']",26,early,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,4,pcos,True
+36,['body pain'],28,on time,False,2,,False
+24,"['cramps', 'headache', 'nausea']",29,early,False,3,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,endometriosis,False
+30,['nausea'],27,on time,False,1,,False
+29,"['cramps', 'bloating']",26,early,False,2,,False
+34,"['cramps', 'bloating', 'headache', 'body pain']",31,late,True,4,pcod,True
+25,"['headache', 'body pain']",28,on time,False,3,,False
+39,"['cramps', 'nausea']",29,early,False,2,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,True,5,,True
+32,"['bloating', 'headache']",26,on time,False,2,,False
+36,"['cramps', 'body pain']",27,early,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",31,late,False,2,,False
+25,"['bloating', 'headache']",26,early,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,PCOS,False
+37,"['cramps', 'nausea']",27,late,False,2,,False
+29,"['headache', 'body pain']",30,on time,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,PCOD,False
+39,"['cramps', 'headache']",28,on time,False,2,,False
+27,"['cramps', 'bloating', 'nausea', 'body pain']",33,late,False,4,endometriosis,False
+34,['headache'],29,early,False,1,,False
+31,"['cramps', 'bloating']",27,on time,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea']",26,early,False,4,,False
+38,['body pain'],30,late,False,1,,False
+36,['cramps'],28,on time,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,5,PCOS,False
+30,"['bloating', 'headache', 'nausea']",29,early,False,3,,False
+35,"['cramps', 'body pain']",26,on time,False,2,,False
+29,['headache'],31,late,False,1,,False
+32,"['cramps', 'bloating', 'headache', 'nausea']",36,late,False,4,endometriosis,False
+27,['nausea'],27,early,False,1,,False
+34,"['cramps', 'bloating']",29,on time,False,3,,False
+37,"['cramps', 'headache', 'body pain']",25,early,False,2,,False
+26,['body pain'],30,late,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,True,4,PCOS,True
+25,"['bloating', 'headache']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,,False
+37,"['cramps', 'bloating', 'nausea', 'body pain']",35,late,True,4,PCOD,True
+29,['headache'],27,on time,False,1,,False
+24,"['cramps', 'bloating']",25,early,False,2,,False
+39,"['cramps', 'body pain']",28,on time,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,4,endometriosis,True
+31,['bloating'],26,early,False,1,,False
+38,"['cramps', 'headache', 'nausea']",29,on time,False,2,,False
+27,"['cramps', 'bloating', 'body pain']",27,on time,False,3,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,True,5,,True
+30,"['headache', 'nausea']",28,early,False,2,,False
+23,"['cramps', 'bloating']",26,on time,False,3,,False
+36,"['cramps', 'bloating', 'headache']",31,late,True,4,endometriosis,True
+29,['body pain'],25,early,False,1,,False
+33,"['cramps', 'nausea']",29,on time,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'body pain']",36,late,True,4,PCOD,True
+37,"['bloating', 'headache', 'nausea']",27,early,False,2,,False
+28,['cramps'],26,on time,False,1,,False
+32,"['cramps', 'bloating', 'body pain']",38,late,True,5,endometriosis,True
+39,['headache'],29,on time,False,1,,False
+26,"['cramps', 'nausea', 'body pain']",27,early,False,3,,False
+30,"['cramps', 'bloating', 'headache', 'nausea']",31,late,True,3,PCOS,True
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['headache', 'nausea', 'body pain']",26,early,False,4,,False
+32,"['cramps', 'bloating']",29,on time,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",35,late,False,4,PCOD,False
+27,"['cramps', 'mood swings']",27,on time,False,2,,False
+36,"['bloating', 'headache', 'fatigue']",32,early,False,3,,False
+29,"['cramps', 'nausea', 'mood swings']",28,late,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'body pain']",25,on time,False,4,,False
+37,"['cramps', 'fatigue']",29,on time,False,2,,False
+31,"['bloating', 'headache', 'nausea', 'mood swings']",33,late,False,3,endometriosis,False
+26,['cramps'],27,early,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue', 'mood swings']",38,late,False,5,PCOS,False
+24,"['bloating', 'fatigue']",26,on time,False,2,,False
+40,"['cramps', 'headache']",29,early,False,3,,False
+33,"['cramps', 'bloating', 'mood swings', 'fatigue']",28,late,False,2,,False
+28,"['headache', 'nausea']",31,on time,False,4,,False
+30,"['cramps', 'bloating', 'body pain']",27,early,False,3,,False
+38,['fatigue'],26,on time,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'mood swings']",35,late,False,4,PCOD,False
+25,"['bloating', 'headache', 'nausea', 'body pain', 'fatigue']",29,on time,False,3,,False
+36,"['cramps', 'mood swings']",28,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'fatigue']",30,late,False,3,,False
+27,['headache'],26,on time,False,2,,False
+39,"['cramps', 'bloating', 'nausea', 'body pain']",33,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+26,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+32,"['bloating', 'body pain', 'mood swings']",29,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'fatigue']",26,early,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",35,late,False,4,PCOD,False
+24,"['cramps', 'bloating']",28,on time,False,2,,False
+37,"['headache', 'fatigue', 'mood swings']",29,on time,False,1,,False
+31,"['cramps', 'bloating', 'nausea', 'body pain']",26,early,False,3,,False
+29,"['cramps', 'headache', 'mood swings', 'fatigue']",33,late,False,2,PCOS,False
+25,"['bloating', 'body pain']",27,on time,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",28,late,False,4,,False
+34,"['cramps', 'mood swings']",30,on time,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'body pain', 'mood swings', 'fatigue']",38,late,False,5,endometriosis,False
+40,"['headache', 'fatigue']",25,early,False,1,,False
+29,"['cramps', 'bloating', 'nausea']",29,on time,False,3,,False
+36,"['bloating', 'mood swings', 'fatigue']",27,early,False,2,,False
+27,"['cramps', 'headache']",26,on time,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",32,late,False,4,PCOS,False
+24,['body pain'],28,on time,False,1,,False
+39,"['cramps', 'bloating', 'fatigue']",29,late,False,3,,False
+30,"['headache', 'nausea']",27,early,False,2,,False
+26,"['cramps', 'bloating', 'headache', 'mood swings']",35,late,False,3,PCOD,False
+35,['fatigue'],28,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache']",30,late,False,2,,False
+25,"['bloating', 'nausea']",26,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,pcos,False
+29,"['cramps', 'bloating', 'nausea', 'body pain']",35,late,False,5,pcod,False
+23,"['cramps', 'headache']",27,on time,False,2,,False
+39,"['bloating', 'headache', 'nausea']",29,late,False,3,,False
+31,['cramps'],25,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,on time,False,4,endometriosis,False
+33,"['cramps', 'bloating']",28,late,False,2,,False
+27,"['headache', 'nausea']",26,early,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'body pain']",31,on time,False,3,pcos,False
+30,"['cramps', 'nausea']",27,late,False,2,,False
+24,['bloating'],25,early,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,on time,False,5,endometriosis,False
+29,"['cramps', 'body pain']",29,late,False,3,,False
+34,['headache'],26,early,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'nausea']",30,on time,False,4,pcos,False
+37,"['cramps', 'bloating']",28,late,False,2,,False
+32,"['nausea', 'body pain']",27,early,False,1,,False
+28,"['cramps', 'bloating', 'headache', 'body pain']",36,on time,False,4,pcod,False
+35,['cramps'],29,late,False,1,,False
+26,"['bloating', 'headache']",25,early,False,2,,False
+39,"['cramps', 'bloating', 'nausea', 'body pain']",31,on time,False,3,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,PCOS,False
+25,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+32,"['bloating', 'body pain', 'mood swings']",29,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'fatigue']",35,late,False,4,PCOD,False
+29,['cramps'],26,early,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'mood swings']",28,on time,False,3,,False
+39,"['headache', 'fatigue']",25,early,False,2,,False
+31,"['cramps', 'bloating', 'nausea', 'body pain', 'mood swings']",32,late,False,5,endometriosis,False
+26,"['bloating', 'mood swings', 'fatigue']",29,on time,False,2,,False
+33,"['cramps', 'headache']",27,early,False,3,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings', 'fatigue']",38,late,False,4,PCOS,False
+36,"['cramps', 'bloating']",26,on time,False,2,,False
+23,"['nausea', 'body pain']",29,late,False,3,,False
+30,"['cramps', 'bloating', 'headache', 'mood swings', 'fatigue']",31,on time,False,4,,False
+38,"['headache', 'nausea', 'fatigue']",24,early,False,1,,False
+25,"['cramps', 'bloating', 'body pain']",28,late,False,2,,False
+34,['mood swings'],27,on time,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,3,PCOD,False
+40,['fatigue'],26,early,False,1,,False
+27,"['cramps', 'headache', 'body pain', 'mood swings']",29,on time,False,4,,False
+32,"['bloating', 'nausea', 'mood swings', 'fatigue']",30,late,False,2,,False
+35,"['cramps', 'body pain']",28,early,False,3,,False
+24,"['headache', 'mood swings']",26,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache', 'nausea']",30,late,True,4,PCOS,True
+25,"['bloating', 'headache']",27,early,False,2,,False
+37,"['cramps', 'bloating', 'body pain']",32,on time,False,3,,False
+29,"['cramps', 'nausea', 'headache']",26,late,True,4,,True
+33,['bloating'],28,on time,False,1,,False
+23,"['cramps', 'bloating', 'body pain', 'headache', 'nausea']",35,late,True,5,PCOD,True
+40,"['cramps', 'headache']",29,early,False,2,,False
+26,"['bloating', 'body pain']",25,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",31,late,True,3,PCOD,True
+31,['cramps'],27,on time,False,2,,False
+24,"['cramps', 'bloating', 'body pain', 'nausea']",33,early,True,4,PCOS,True
+38,['headache'],28,late,False,1,,False
+27,"['cramps', 'bloating']",26,on time,False,3,,False
+36,"['cramps', 'body pain', 'headache']",30,early,True,4,,True
+30,['nausea'],29,on time,False,1,,False
+23,"['cramps', 'bloating', 'body pain', 'headache']",36,late,True,5,PCOD,True
+39,"['cramps', 'bloating']",27,early,False,2,,False
+25,"['body pain', 'headache']",28,on time,False,2,,False
+37,"['cramps', 'bloating', 'body pain', 'nausea']",31,late,True,3,,True
+29,['cramps'],25,early,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'nausea']",39,late,True,4,endometriosis,False
+26,"['bloating', 'nausea']",29,on time,False,2,,False
+40,"['cramps', 'headache']",27,early,False,3,,False
+32,"['cramps', 'bloating', 'body pain']",28,late,True,3,PCOD,True
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'headache', 'nausea']",26,early,False,2,,False
+25,"['cramps', 'bloating', 'body pain']",30,late,False,4,pcos,False
+32,"['bloating', 'headache']",27,on time,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcod,False
+27,['cramps'],29,on time,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea']",25,early,False,3,,False
+37,"['bloating', 'nausea']",28,late,False,1,,False
+29,"['cramps', 'body pain']",31,on time,False,4,endometriosis,False
+34,['headache'],26,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,3,pcos,False
+38,"['cramps', 'nausea', 'body pain']",36,late,False,4,endometriosis,False
+24,"['cramps', 'bloating']",29,on time,False,2,,False
+36,"['headache', 'nausea']",25,early,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,on time,False,5,,False
+33,"['cramps', 'body pain']",30,late,False,3,,False
+25,"['bloating', 'headache', 'nausea']",27,early,False,2,pcos,False
+40,['nausea'],26,on time,False,1,,False
+29,"['cramps', 'bloating', 'body pain']",32,late,False,4,endometriosis,False
+34,"['cramps', 'bloating']",26,early,False,2,,False
+31,"['cramps', 'headache', 'nausea', 'body pain']",35,late,False,5,pcod,False
+38,"['bloating', 'nausea']",29,on time,False,1,,False
+26,['cramps'],27,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings']",30,late,False,2,,False
+25,"['cramps', 'back pain', 'headache', 'fatigue']",26,early,False,4,,False
+37,"['bloating', 'acne', 'headache']",29,on time,False,2,,False
+29,"['cramps', 'bloating', 'nausea', 'fatigue']",35,late,False,3,pcos,False
+32,"['cramps', 'back pain']",27,on time,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'mood swings', 'acne']",32,late,False,4,pcod,False
+39,"['cramps', 'bloating']",28,on time,False,2,,False
+26,"['headache', 'fatigue']",25,early,False,1,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'back pain', 'mood swings']",29,on time,False,5,,False
+27,"['cramps', 'bloating']",38,late,False,4,endometriosis,False
+31,"['cramps', 'headache']",26,early,False,3,,False
+38,"['bloating', 'mood swings', 'acne']",27,on time,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue', 'acne']",30,late,False,3,pcos,False
+36,"['cramps', 'back pain', 'fatigue']",29,on time,False,4,,False
+30,['bloating'],25,early,False,1,,False
+24,"['cramps', 'bloating', 'mood swings']",33,late,False,2,pcod,False
+33,['cramps'],28,on time,False,2,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'back pain', 'fatigue', 'mood swings', 'acne']",40,late,False,5,endometriosis,False
+35,"['headache', 'fatigue']",27,early,False,1,,False
+26,"['cramps', 'bloating', 'mood swings', 'acne']",31,late,False,3,pcos,False
+37,"['cramps', 'bloating', 'headache', 'back pain']",29,on time,False,4,,False
+28,"['bloating', 'fatigue']",26,early,False,2,,False
+32,"['cramps', 'headache', 'nausea']",28,on time,False,3,,False
+25,"['cramps', 'back pain']",36,late,False,4,endometriosis,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['heavy bleeding', 'cramps', 'back pain']",32,early,False,4,,False
+37,"['headache', 'breast tenderness', 'acne']",26,on time,False,1,,False
+29,"['cramps', 'bloating', 'mood swings', 'nausea', 'body pain']",29,late,True,4,PCOS,True
+33,"['heavy bleeding', 'cramps', 'fatigue']",35,early,True,3,,True
+27,"['cramps', 'acne', 'mood swings']",27,on time,False,2,,False
+39,"['headache', 'breast tenderness']",25,late,False,1,,False
+31,"['cramps', 'bloating', 'nausea', 'body pain', 'fatigue']",31,on time,True,5,PCOD,True
+24,"['heavy bleeding', 'cramps']",29,early,False,3,,False
+36,"['cramps', 'bloating', 'mood swings', 'headache']",26,on time,False,2,,False
+26,"['heavy bleeding', 'cramps', 'back pain', 'fatigue']",33,late,True,4,,True
+38,"['headache', 'breast tenderness', 'acne', 'mood swings']",27,early,False,1,,False
+30,"['cramps', 'bloating', 'nausea', 'body pain']",28,on time,False,3,,False
+23,"['heavy bleeding', 'cramps', 'fatigue', 'mood swings']",30,late,True,4,PCOS,True
+34,"['cramps', 'bloating']",25,early,False,2,,False
+32,"['headache', 'breast tenderness', 'mood swings', 'acne']",29,on time,False,1,,False
+25,"['cramps', 'bloating', 'nausea', 'fatigue']",31,late,True,3,,True
+37,"['heavy bleeding', 'cramps']",27,early,False,4,,False
+29,"['cramps', 'headache', 'mood swings']",28,on time,False,2,,False
+33,"['bloating', 'breast tenderness', 'acne', 'fatigue']",30,late,False,1,,False
+27,"['heavy bleeding', 'cramps', 'back pain', 'nausea']",32,early,True,5,endometriosis,True
+39,"['headache', 'cramps']",26,on time,False,2,,False
+31,"['cramps', 'bloating', 'mood swings', 'fatigue', 'body pain']",29,late,True,3,,True
+24,"['heavy bleeding', 'cramps', 'back pain', 'acne']",33,early,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,True,4,,True
+25,"['bloating', 'headache']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",32,late,True,3,PCOD,True
+27,"['cramps', 'nausea']",29,on time,False,4,,False
+39,"['bloating', 'headache', 'body pain']",27,early,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOS,True
+30,['cramps'],28,on time,False,1,,False
+37,"['cramps', 'bloating']",26,early,False,3,,False
+29,"['headache', 'nausea', 'body pain']",33,late,True,4,endometriosis,True
+26,"['cramps', 'bloating', 'nausea']",27,on time,False,2,,False
+33,"['cramps', 'headache']",31,late,True,3,,True
+24,['bloating'],29,on time,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'nausea']",25,early,False,4,,False
+31,['body pain'],39,late,True,5,endometriosis,True
+27,"['cramps', 'bloating', 'headache', 'body pain']",28,on time,False,3,,False
+34,['nausea'],26,early,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,True,5,PCOD,True
+39,['cramps'],27,on time,False,2,,False
+29,"['headache', 'body pain']",30,late,True,3,PCOD,True
+36,"['bloating', 'nausea']",28,early,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea']",34,late,True,4,,True
+32,['body pain'],29,on time,False,2,,False
+28,"['cramps', 'headache', 'nausea']",27,early,False,3,,False
+35,['bloating'],38,late,True,4,,True
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'bloating', 'mood swings', 'fatigue']",30,late,False,2,,False
+25,"['cramps', 'body pain', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'mood swings', 'fatigue']",29,on time,False,1,,False
+39,"['cramps', 'headache', 'fatigue']",27,late,False,2,,False
+27,"['cramps', 'bloating', 'mood swings', 'body pain', 'headache']",35,late,False,4,pcos,False
+33,"['cramps', 'nausea']",25,on time,False,3,,False
+29,"['bloating', 'fatigue']",28,early,False,1,,False
+37,"['cramps', 'bloating', 'mood swings', 'headache', 'nausea']",32,late,False,3,pcod,False
+24,"['cramps', 'body pain']",29,on time,False,2,,False
+36,"['bloating', 'mood swings', 'fatigue', 'headache']",26,early,False,3,,False
+31,"['cramps', 'bloating', 'nausea', 'body pain']",33,late,False,4,endometriosis,False
+26,['headache'],27,on time,False,1,,False
+38,"['cramps', 'bloating', 'mood swings', 'fatigue']",28,early,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'body pain']",30,late,False,3,,False
+34,"['nausea', 'fatigue']",29,on time,False,2,,False
+30,"['cramps', 'mood swings']",26,early,False,1,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'fatigue']",38,late,False,5,pcos,False
+37,['body pain'],28,on time,False,2,,False
+29,"['cramps', 'bloating', 'mood swings', 'headache']",27,early,False,3,,False
+32,['fatigue'],31,late,False,1,,False
+27,"['cramps', 'bloating', 'mood swings', 'body pain', 'headache', 'nausea']",29,on time,False,4,,False
+35,"['headache', 'nausea']",26,early,False,2,,False
+24,['cramps'],28,late,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",26,early,False,2,,False
+25,"['bloating', 'headache', 'mood swings']",30,late,True,4,,True
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,,False
+39,"['cramps', 'heavy bleeding']",35,late,True,4,PCOS,True
+27,"['headache', 'nausea']",25,early,False,1,,False
+31,"['cramps', 'bloating', 'mood swings']",32,on time,True,2,PCOD,True
+23,"['cramps', 'acne']",27,on time,False,3,,False
+37,"['heavy bleeding', 'fatigue']",33,late,False,4,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,early,False,5,,False
+36,['bloating'],26,on time,False,1,,False
+24,"['cramps', 'mood swings', 'tender breasts']",31,late,True,3,,True
+33,"['cramps', 'headache', 'fatigue']",29,early,False,2,,False
+40,"['heavy bleeding', 'cramps', 'bloating']",38,late,True,4,PCOD,True
+26,['nausea'],24,on time,False,1,,False
+30,"['cramps', 'bloating', 'mood swings', 'acne']",33,on time,True,3,,True
+38,"['cramps', 'body pain']",27,early,False,2,,False
+25,"['heavy bleeding', 'fatigue', 'headache']",35,late,True,5,PCOD,True
+34,"['bloating', 'mood swings']",28,on time,False,1,,False
+27,"['cramps', 'headache', 'nausea', 'body pain', 'acne']",30,late,True,4,PCOS,True
+39,['cramps'],25,early,False,2,,False
+29,"['heavy bleeding', 'cramps', 'fatigue']",37,late,True,4,PCOS,True
+31,"['headache', 'mood swings']",29,on time,False,3,,False
+23,"['cramps', 'bloating', 'acne', 'tender breasts']",26,on time,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'nausea']",30,late,True,4,PCOS,True
+25,"['bloating', 'headache']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,,False
+39,"['cramps', 'headache', 'nausea', 'body pain']",27,late,False,3,,False
+29,['bloating'],25,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,True,5,PCOD,True
+23,"['cramps', 'bloating']",28,on time,False,2,,False
+34,['headache'],29,on time,False,1,,False
+26,"['cramps', 'bloating', 'nausea']",27,early,False,3,,False
+40,"['cramps', 'bloating', 'headache', 'body pain']",26,late,False,4,,False
+31,['cramps'],31,on time,True,2,,True
+27,"['bloating', 'headache', 'nausea']",28,early,False,3,,False
+38,"['cramps', 'body pain']",29,late,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,4,,False
+33,['nausea'],33,late,True,1,PCOS,True
+36,"['cramps', 'bloating', 'body pain']",27,early,False,3,,False
+29,"['headache', 'body pain']",30,on time,False,2,,False
+30,"['cramps', 'bloating']",25,early,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea']",38,late,True,4,endometriosis,True
+27,['body pain'],29,on time,False,1,,False
+32,"['cramps', 'headache', 'nausea', 'body pain']",26,early,False,4,,False
+39,"['bloating', 'nausea']",28,late,False,2,,False
+24,"['cramps', 'bloating', 'headache']",27,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+35,"['cramps', 'body pain', 'mood swings']",30,late,True,4,,True
+25,"['bloating', 'headache', 'nausea']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,,False
+39,"['cramps', 'mood swings', 'fatigue']",27,early,False,3,,False
+27,"['headache', 'nausea']",25,on time,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'nausea', 'body pain', 'mood swings']",35,late,True,5,PCOD,True
+23,"['cramps', 'bloating']",29,on time,False,2,,False
+33,"['body pain', 'fatigue']",28,late,True,3,,True
+29,"['cramps', 'bloating', 'mood swings', 'fatigue']",31,on time,False,4,,False
+36,['headache'],27,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",30,late,True,3,,True
+38,['cramps'],26,on time,False,2,,False
+24,"['bloating', 'headache', 'mood swings']",29,on time,False,3,,False
+31,"['cramps', 'nausea', 'body pain']",27,early,False,4,,False
+34,"['cramps', 'bloating', 'headache', 'fatigue']",33,late,True,2,,True
+29,"['body pain', 'mood swings']",28,on time,False,3,,False
+37,"['cramps', 'bloating']",26,early,False,2,,False
+25,"['headache', 'nausea', 'fatigue']",30,late,True,4,PCOD,True
+32,['cramps'],27,on time,False,1,,False
+39,"['bloating', 'headache', 'body pain', 'mood swings']",29,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,True,5,endometriosis,True
+35,"['headache', 'fatigue']",28,early,False,2,,False
+26,"['cramps', 'mood swings']",29,on time,False,3,,False
+28,"['cramps', 'bloating', 'headache']",29,on time,False,3,,False
+35,"['cramps', 'body pain', 'headache']",26,early,False,2,,False
+25,"['bloating', 'nausea', 'headache', 'body pain']",32,late,True,4,pcos,True
+37,"['cramps', 'bloating']",28,on time,False,2,,False
+29,"['cramps', 'bloating', 'nausea', 'headache', 'body pain']",35,late,True,5,pcod,True
+33,['headache'],27,early,False,1,,False
+26,"['cramps', 'bloating', 'headache']",30,on time,False,3,,False
+39,"['cramps', 'bloating', 'nausea']",29,late,False,2,,False
+27,['body pain'],25,early,False,1,,False
+34,"['cramps', 'bloating', 'nausea', 'headache', 'body pain']",38,late,True,4,endometriosis,True
+31,['cramps'],28,on time,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",31,late,True,3,pcos,True
+38,['nausea'],26,early,False,1,,False
+30,"['cramps', 'bloating', 'nausea', 'headache']",33,late,True,4,,True
+23,"['bloating', 'headache']",29,on time,False,2,,False
+36,"['cramps', 'body pain']",27,early,False,3,,False
+29,"['cramps', 'bloating', 'nausea', 'headache']",40,late,True,5,endometriosis,True
+32,"['headache', 'body pain']",28,on time,False,2,,False
+25,"['cramps', 'bloating']",26,early,False,1,,False
+37,"['cramps', 'bloating', 'nausea']",31,late,True,3,,True
+28,"['bloating', 'nausea', 'headache']",29,on time,False,2,,False
+34,['cramps'],25,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",36,late,True,4,pcos,True
+40,['body pain'],27,early,False,2,,False

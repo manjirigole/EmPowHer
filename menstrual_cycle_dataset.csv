@@ -1,0 +1,2089 @@
+age,symptoms,duration,early_late,hormonal_imbalance,pain,pcod_pcos,affecting_medicine
+15,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+32,"['nausea', 'headache', 'body pain']",25,early,False,4,,False
+18,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'cramps', 'headache']",35,late,False,3,,False
+27,"['nausea', 'body pain']",26,early,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,on time,False,5,,False
+19,['bloating'],27,on time,False,1,,False
+45,"['headache', 'body pain']",24,early,False,3,,False
+29,"['nausea', 'cramps']",31,late,False,2,,False
+17,"['cramps', 'bloating', 'headache']",28,on time,False,4,,False
+38,['bloating'],25,early,False,1,,False
+22,"['headache', 'body pain']",33,late,False,3,,False
+31,['nausea'],29,on time,False,2,,False
+49,"['cramps', 'bloating', 'headache', 'nausea']",26,early,False,4,,False
+24,['body pain'],27,on time,False,1,,False
+43,"['headache', 'cramps']",34,late,False,3,,False
+16,"['bloating', 'nausea']",28,on time,False,2,,False
+26,"['cramps', 'headache', 'body pain']",30,late,False,4,,False
+33,"['nausea', 'bloating']",25,early,False,2,,False
+14,['cramps'],31,late,False,3,pcos,False
+47,"['headache', 'body pain', 'cramps']",29,on time,False,5,,False
+21,"['bloating', 'cramps']",27,early,False,2,,False
+39,"['nausea', 'headache']",36,late,False,4,,False
+30,"['body pain', 'cramps']",28,on time,False,1,,False
+16,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['headache', 'cramps', 'nausea']",30,late,False,2,,False
+32,"['bloating', 'body pain']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache']",35,on time,False,2,,False
+41,"['body pain', 'nausea']",27,late,False,3,,False
+28,['cramps'],29,on time,False,1,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",32,early,False,4,,False
+35,"['headache', 'body pain']",25,on time,False,2,,False
+23,['bloating'],28,late,False,1,pcos,False
+48,"['cramps', 'nausea', 'body pain']",24,early,False,5,,False
+15,"['cramps', 'bloating', 'headache']",31,on time,False,3,,False
+29,['nausea'],27,early,False,1,,False
+38,"['cramps', 'bloating', 'body pain']",29,late,False,4,,False
+21,"['headache', 'cramps']",26,on time,False,2,pcos,False
+45,"['bloating', 'nausea', 'body pain']",23,early,False,3,,False
+33,['cramps'],30,on time,False,1,,False
+18,"['cramps', 'bloating', 'nausea', 'body pain']",33,late,False,5,,False
+42,['headache'],25,early,False,2,,False
+26,"['bloating', 'body pain']",28,on time,False,3,,False
+36,"['cramps', 'nausea']",29,late,False,2,,False
+20,"['headache', 'bloating', 'body pain']",27,early,False,4,,False
+49,['cramps'],24,on time,False,1,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,3,,False
+31,['body pain'],26,early,False,2,,False
+39,"['cramps', 'bloating']",28,on time,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,on time,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",32,late,False,2,,False
+25,['headache'],26,on time,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",29,on time,False,5,,False
+19,['cramps'],27,early,False,2,,False
+48,"['bloating', 'headache']",35,late,False,3,,False
+22,"['cramps', 'bloating']",29,on time,False,3,,False
+39,['nausea'],26,early,False,1,,False
+15,"['cramps', 'bloating', 'headache', 'body pain']",31,late,False,4,,False
+29,"['headache', 'nausea']",27,on time,False,2,,False
+45,['cramps'],33,late,False,2,,False
+21,['bloating'],28,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,4,,False
+13,"['cramps', 'body pain']",26,late,False,3,,False
+31,"['bloating', 'headache']",29,early,False,2,pcos,False
+49,"['headache', 'nausea']",36,late,False,3,,False
+23,"['cramps', 'nausea']",25,on time,False,2,,False
+42,['bloating'],32,early,False,1,,False
+16,"['cramps', 'bloating', 'headache', 'body pain']",28,on time,False,4,,False
+27,"['headache', 'body pain']",30,late,False,3,pcos,False
+34,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+46,['nausea'],34,on time,False,1,,False
+20,['cramps'],29,late,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['headache', 'nausea']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['bloating', 'body pain']",35,early,False,3,,False
+28,"['headache', 'nausea', 'body pain']",29,on time,False,2,,False
+17,"['cramps', 'bloating', 'headache']",32,late,False,4,,False
+35,"['cramps', 'bloating', 'nausea']",28,early,False,3,,False
+22,['cramps'],25,on time,False,2,,False
+48,['headache'],30,late,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,on time,False,5,,False
+14,['bloating'],26,early,False,2,,False
+38,"['cramps', 'body pain']",29,late,False,4,pcos,False
+24,"['headache', 'nausea']",24,on time,False,3,,False
+45,['bloating'],31,early,False,2,,False
+31,"['cramps', 'headache', 'body pain']",27,late,False,3,,False
+20,"['cramps', 'bloating', 'nausea']",28,on time,False,4,,False
+42,['cramps'],33,early,False,2,,False
+27,"['headache', 'body pain']",26,late,False,3,,False
+16,"['bloating', 'nausea']",29,on time,False,2,,False
+36,"['cramps', 'bloating', 'headache']",30,early,False,4,,False
+23,['cramps'],25,on time,False,1,,False
+49,"['headache', 'nausea', 'body pain']",28,late,False,3,,False
+30,"['cramps', 'bloating']",31,on time,False,2,pcos,False
+18,['body pain'],27,early,False,3,,False
+16,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['cramps', 'headache', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'nausea']",26,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['bloating', 'headache']",27,on time,False,2,,False
+36,"['cramps', 'nausea', 'body pain']",31,early,False,4,,False
+17,"['cramps', 'bloating']",28,on time,False,3,,False
+29,['headache'],25,early,False,1,,False
+43,"['cramps', 'bloating', 'headache']",33,late,False,3,,False
+22,['nausea'],29,on time,False,2,,False
+31,"['cramps', 'body pain']",26,early,False,4,,False
+15,"['cramps', 'bloating', 'headache']",30,late,False,3,,False
+38,"['bloating', 'nausea', 'body pain']",27,on time,False,2,,False
+26,['cramps'],24,early,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,4,,False
+18,"['headache', 'body pain']",29,on time,False,3,,False
+30,['bloating'],25,early,False,1,,False
+39,"['cramps', 'nausea']",32,late,False,2,,False
+23,['body pain'],28,on time,False,3,,False
+35,"['cramps', 'bloating', 'headache']",26,early,False,4,pcos,False
+27,"['headache', 'nausea']",31,late,False,2,,False
+42,['cramps'],29,on time,False,1,,False
+21,"['bloating', 'body pain']",24,early,False,3,pcod,False
+33,['nausea'],30,late,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+23,"['headache', 'nausea', 'cramps']",26,early,False,4,,False
+31,"['bloating', 'body pain']",30,late,False,2,,False
+28,"['cramps', 'bloating', 'headache']",32,on time,False,3,,False
+17,"['nausea', 'cramps']",27,early,False,4,,False
+42,"['body pain', 'headache']",29,late,False,2,,False
+25,['cramps'],25,on time,False,1,,False
+33,"['bloating', 'headache', 'nausea']",33,on time,False,3,,False
+19,"['cramps', 'bloating', 'body pain']",29,late,False,5,,False
+38,['headache'],27,early,False,2,,False
+29,"['cramps', 'nausea']",31,on time,False,4,pcos,False
+21,['bloating'],24,early,False,1,,False
+45,"['body pain', 'headache', 'cramps']",35,late,False,3,,False
+36,['nausea'],26,on time,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",28,early,False,5,,False
+40,['body pain'],30,late,False,2,,False
+26,"['cramps', 'headache']",29,on time,False,3,,False
+34,"['bloating', 'nausea', 'body pain']",31,early,False,4,,False
+22,['cramps'],27,late,False,1,,False
+43,"['headache', 'body pain']",33,on time,False,2,,False
+39,"['bloating', 'cramps']",28,early,False,3,pcos,False
+16,"['nausea', 'cramps', 'body pain']",26,late,False,4,,False
+30,['headache'],25,on time,False,1,,False
+27,"['cramps', 'bloating', 'nausea']",30,early,False,5,,False
+24,['body pain'],29,late,False,2,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,,False
+19,['cramps'],29,on time,False,2,,False
+41,"['bloating', 'headache']",27,early,False,3,,False
+36,"['cramps', 'nausea']",32,late,False,2,,False
+22,['body pain'],28,on time,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea']",25,early,False,4,,False
+17,"['cramps', 'bloating']",31,late,False,3,,False
+29,"['headache', 'nausea', 'body pain']",29,on time,False,2,,False
+38,['cramps'],27,early,False,1,,False
+21,['bloating'],33,late,False,3,pcos,False
+43,"['cramps', 'headache', 'body pain']",26,on time,False,4,,False
+15,['nausea'],28,on time,False,2,,False
+34,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,early,False,5,,False
+27,"['cramps', 'bloating']",29,late,False,3,,False
+40,"['headache', 'nausea']",27,on time,False,2,,False
+18,['body pain'],31,early,False,1,,False
+31,"['cramps', 'bloating', 'headache']",26,late,False,4,,False
+24,"['nausea', 'body pain']",28,on time,False,2,,False
+37,['cramps'],32,early,False,1,,False
+20,"['bloating', 'headache', 'nausea']",29,late,False,3,pcod,False
+46,"['cramps', 'body pain']",25,on time,False,4,,False
+33,['headache'],27,early,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'nausea']",26,early,False,2,,False
+31,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+42,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,on time,False,5,,False
+19,['cramps'],27,early,False,1,,False
+28,['bloating'],29,on time,False,2,,False
+37,['headache'],31,late,False,3,,False
+45,"['nausea', 'body pain']",33,on time,False,4,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",25,early,False,2,,False
+26,['cramps'],29,on time,False,3,pcos,False
+35,"['bloating', 'body pain']",31,late,False,4,,False
+43,"['headache', 'nausea']",32,on time,False,1,,False
+21,"['cramps', 'bloating', 'headache']",28,early,False,3,,False
+29,['nausea'],30,on time,False,2,pcod,False
+39,['body pain'],32,late,False,4,,False
+48,"['cramps', 'bloating']",35,on time,False,5,,False
+18,"['headache', 'nausea', 'body pain']",26,early,False,3,,False
+24,"['cramps', 'bloating']",27,on time,False,2,pcos,False
+32,"['nausea', 'body pain']",29,late,False,1,,False
+40,"['cramps', 'headache']",31,on time,False,3,,False
+14,"['bloating', 'headache', 'nausea']",24,early,False,4,,False
+22,"['cramps', 'body pain']",28,on time,False,2,pcod,False
+30,['headache'],30,late,False,5,,False
+38,"['bloating', 'nausea']",32,on time,False,3,,False
+46,"['cramps', 'headache', 'body pain']",33,on time,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['cramps', 'bloating']",29,on time,False,2,,False
+37,['headache'],25,early,False,1,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,PCOS,False
+23,['body pain'],24,on time,False,2,,False
+48,"['bloating', 'headache']",28,early,False,3,,False
+31,"['cramps', 'nausea']",33,late,False,2,,False
+29,"['headache', 'body pain']",27,on time,False,4,,False
+14,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,on time,False,5,,False
+40,['bloating'],26,early,False,1,,False
+22,['cramps'],28,late,False,2,,False
+35,"['headache', 'nausea']",31,on time,False,3,,False
+18,"['cramps', 'bloating', 'body pain']",29,early,False,4,PCOS,False
+26,['nausea'],25,late,False,1,,False
+45,"['bloating', 'headache', 'body pain']",27,on time,False,3,,False
+33,"['cramps', 'headache']",32,early,False,2,,False
+21,['body pain'],29,late,False,4,,False
+38,"['cramps', 'bloating', 'nausea', 'body pain']",26,on time,False,5,,False
+16,"['bloating', 'headache']",30,early,False,3,PCOS,False
+43,['cramps'],24,late,False,1,,False
+27,"['headache', 'nausea', 'body pain']",28,on time,False,4,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'body pain']",26,early,False,2,,False
+32,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],29,on time,False,2,,False
+37,"['cramps', 'headache']",25,early,False,3,,False
+17,"['cramps', 'bloating', 'body pain']",32,late,False,4,pcos,False
+23,['nausea'],24,on time,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",40,late,False,5,,False
+31,"['headache', 'body pain']",28,on time,False,3,,False
+26,['cramps'],26,early,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,,False
+14,"['bloating', 'nausea']",29,on time,False,2,,False
+48,['headache'],27,early,False,1,,False
+29,"['cramps', 'bloating', 'nausea', 'body pain']",31,late,False,3,,False
+35,['body pain'],25,on time,False,2,,False
+18,"['cramps', 'headache', 'nausea']",28,early,False,4,pcos,False
+22,['bloating'],30,late,False,1,,False
+43,"['cramps', 'bloating', 'headache', 'nausea']",38,late,False,5,,False
+30,"['nausea', 'body pain']",29,on time,False,3,,False
+27,"['cramps', 'headache']",24,early,False,2,,False
+40,"['cramps', 'bloating']",36,late,False,4,,False
+16,"['headache', 'nausea']",27,on time,False,3,,False
+24,"['cramps', 'body pain']",25,early,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'headache', 'nausea']",30,late,False,2,,False
+32,"['cramps', 'body pain']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcos,False
+28,['bloating'],27,on time,False,1,,False
+40,"['cramps', 'headache', 'body pain']",32,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea']",29,late,False,4,,False
+35,"['headache', 'body pain']",25,on time,False,2,,False
+22,['cramps'],21,early,False,1,,False
+45,"['bloating', 'headache']",28,late,False,3,,False
+29,"['cramps', 'bloating', 'headache', 'body pain']",33,on time,False,4,,False
+14,"['cramps', 'nausea']",30,early,False,5,,False
+38,['body pain'],24,late,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,3,pcos,False
+42,"['bloating', 'headache', 'nausea', 'body pain']",27,early,False,2,,False
+18,['cramps'],26,late,False,4,,False
+31,"['bloating', 'nausea']",29,on time,False,1,,False
+23,"['cramps', 'headache', 'body pain']",34,early,False,3,,False
+48,['headache'],25,late,False,2,,False
+27,"['cramps', 'bloating']",28,on time,False,5,,False
+39,"['nausea', 'body pain']",32,early,False,4,,False
+16,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,late,False,3,,False
+33,['bloating'],26,on time,False,1,,False
+24,"['headache', 'nausea']",27,early,False,2,pcos,False
+41,"['cramps', 'body pain']",31,late,False,4,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea']",26,early,False,2,,False
+32,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,,False
+28,['bloating'],29,on time,False,2,,False
+17,"['cramps', 'headache']",25,late,False,3,,False
+35,"['nausea', 'body pain']",32,on time,False,4,PCOS,False
+22,"['cramps', 'bloating', 'body pain']",28,early,False,2,,False
+48,['headache'],33,late,False,1,,False
+31,"['cramps', 'nausea', 'body pain']",30,on time,False,3,,False
+24,"['bloating', 'headache']",26,early,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,4,,False
+18,['body pain'],29,on time,False,1,,False
+45,['cramps'],27,early,False,3,,False
+29,"['bloating', 'nausea', 'body pain']",31,late,False,4,PCOS,False
+21,"['headache', 'body pain']",28,on time,False,2,,False
+37,"['cramps', 'bloating']",33,early,False,5,,False
+42,['nausea'],26,late,False,1,,False
+15,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",29,on time,False,3,,False
+27,['body pain'],25,early,False,2,,False
+34,"['cramps', 'headache', 'nausea']",31,late,False,4,,False
+23,['bloating'],27,on time,False,1,,False
+49,"['cramps', 'bloating', 'headache']",35,early,False,3,,False
+30,"['nausea', 'body pain']",29,late,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,3,,False
+23,['nausea'],29,late,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,pcos,False
+38,"['cramps', 'bloating']",27,on time,False,2,,False
+26,"['headache', 'body pain']",31,late,False,3,,False
+45,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",25,early,False,4,,False
+21,['cramps'],29,on time,False,1,,False
+33,"['bloating', 'headache']",33,late,False,2,pcod,False
+48,"['cramps', 'bloating', 'body pain']",24,early,False,3,,False
+18,"['nausea', 'body pain']",28,on time,False,2,,False
+37,"['cramps', 'headache', 'nausea']",30,late,False,4,,False
+29,['bloating'],26,early,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,on time,False,5,,False
+25,"['cramps', 'body pain']",27,late,False,3,,False
+16,['headache'],29,early,False,2,,False
+39,"['cramps', 'bloating', 'nausea', 'body pain']",31,on time,False,4,,False
+31,"['bloating', 'headache', 'body pain']",25,late,False,1,,False
+46,"['cramps', 'nausea']",28,early,False,3,,False
+22,"['headache', 'nausea', 'body pain']",32,on time,False,2,,False
+14,"['cramps', 'bloating']",34,late,False,4,,False
+43,['body pain'],26,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,3,,False
+24,['headache'],29,late,False,1,,False
+19,"['cramps', 'bloating', 'nausea', 'body pain']",35,early,False,5,pcos,False
+31,['cramps'],27,on time,False,2,,False
+48,"['bloating', 'headache']",25,early,False,3,,False
+26,"['cramps', 'body pain']",31,late,False,4,,False
+39,"['bloating', 'headache', 'nausea', 'body pain']",29,on time,False,2,,False
+18,"['cramps', 'bloating']",28,early,False,3,,False
+45,"['headache', 'nausea']",26,late,False,4,,False
+22,"['cramps', 'bloating', 'headache', 'body pain']",33,on time,False,2,,False
+37,['body pain'],27,early,False,1,,False
+29,"['cramps', 'nausea']",30,late,False,5,pcod,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+43,['bloating'],25,early,False,2,,False
+25,"['cramps', 'headache', 'body pain']",32,late,False,4,,False
+36,"['bloating', 'headache', 'nausea', 'body pain']",29,on time,False,3,,False
+20,['nausea'],27,early,False,1,,False
+47,"['cramps', 'bloating']",26,late,False,5,,False
+33,"['cramps', 'bloating', 'headache', 'body pain']",34,on time,False,2,,False
+14,"['headache', 'body pain']",28,early,False,4,,False
+40,"['bloating', 'headache', 'nausea']",25,late,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",26,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+25,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,5,,False
+19,['bloating'],29,on time,False,2,,False
+36,['headache'],25,early,False,1,,False
+22,"['cramps', 'bloating', 'body pain']",31,late,False,3,,False
+48,"['hot flashes', 'mood swings']",35,late,False,2,,False
+15,"['cramps', 'bloating', 'headache']",24,on time,False,4,,False
+29,['nausea'],28,early,False,1,,False
+37,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,5,PCOS,False
+45,"['hot flashes', 'mood swings', 'insomnia']",29,early,False,3,,False
+18,"['cramps', 'bloating']",30,late,False,2,,False
+31,"['headache', 'nausea']",27,on time,False,3,,False
+49,['hot flashes'],26,early,False,1,,False
+16,"['cramps', 'body pain']",28,late,False,4,,False
+27,"['bloating', 'headache']",31,on time,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",34,late,False,5,,False
+23,['cramps'],25,early,False,1,,False
+43,"['hot flashes', 'mood swings', 'insomnia']",28,on time,False,3,,False
+20,"['cramps', 'bloating', 'headache']",29,late,False,4,,False
+35,['nausea'],26,on time,False,1,,False
+15,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+32,"['nausea', 'headache', 'cramps']",26,early,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'body pain']",35,late,False,3,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,on time,False,5,,False
+37,['headache'],21,early,False,2,,False
+17,"['cramps', 'bloating']",32,late,False,3,pcos,False
+45,['body pain'],29,on time,False,1,,False
+22,"['nausea', 'cramps']",25,early,False,4,,False
+30,['bloating'],33,late,False,2,,False
+39,"['cramps', 'headache', 'body pain']",28,on time,False,3,,False
+14,['cramps'],31,late,False,1,,False
+27,"['bloating', 'nausea']",26,early,False,2,,False
+48,"['headache', 'body pain']",24,early,False,4,,False
+21,"['cramps', 'bloating', 'headache']",39,late,False,5,pcos,False
+33,[],27,on time,False,1,,False
+43,"['bloating', 'cramps']",22,early,False,2,,False
+18,['nausea'],35,late,False,3,pcod,False
+29,"['headache', 'cramps', 'body pain']",28,on time,False,4,,False
+36,['cramps'],25,early,False,1,,False
+46,"['bloating', 'body pain', 'nausea']",29,on time,False,3,,False
+24,"['headache', 'bloating']",31,late,False,2,,False
+31,"['cramps', 'nausea', 'body pain']",26,early,False,4,,False
+40,['bloating'],23,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+25,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'body pain']",32,early,False,5,,False
+19,"['headache', 'nausea']",29,late,False,2,,False
+36,['bloating'],26,on time,False,1,,False
+22,"['cramps', 'bloating', 'nausea', 'body pain']",35,late,False,4,pcos,False
+48,['headache'],24,early,False,2,,False
+15,"['cramps', 'bloating']",31,on time,False,3,,False
+29,['body pain'],28,late,False,1,,False
+37,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+18,"['bloating', 'nausea', 'body pain']",33,on time,False,3,pcos,False
+45,"['cramps', 'bloating']",29,late,False,2,,False
+26,['headache'],26,on time,False,1,,False
+31,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,early,False,5,,False
+20,['nausea'],25,late,False,2,,False
+39,['cramps'],28,on time,False,1,,False
+49,"['headache', 'body pain']",22,early,False,3,,False
+14,"['cramps', 'bloating', 'headache']",30,on time,False,4,,False
+23,['bloating'],27,late,False,1,,False
+35,"['cramps', 'nausea', 'body pain']",29,early,False,3,,False
+16,"['headache', 'nausea']",24,on time,False,2,pcod,False
+42,"['cramps', 'bloating']",31,late,False,4,,False
+27,['body pain'],26,on time,False,1,,False
+25,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",26,early,False,2,,False
+32,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",35,on time,False,2,,False
+19,['cramps'],27,on time,False,1,,False
+38,"['headache', 'nausea']",29,early,False,3,,False
+29,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,late,False,5,,False
+45,['bloating'],25,early,False,2,,False
+22,"['cramps', 'headache']",28,on time,False,3,,False
+35,"['nausea', 'body pain']",33,late,False,4,,False
+18,"['cramps', 'bloating', 'headache']",29,on time,False,2,pcos,False
+27,['headache'],26,early,False,1,,False
+40,"['cramps', 'bloating', 'nausea', 'body pain']",30,on time,False,3,,False
+15,"['cramps', 'body pain']",35,late,False,4,,False
+33,"['bloating', 'headache']",27,early,False,2,,False
+21,"['cramps', 'nausea']",29,on time,False,3,,False
+43,['body pain'],25,late,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",31,early,False,4,,False
+39,"['headache', 'nausea']",28,on time,False,2,,False
+16,['cramps'],33,late,False,5,pcos,False
+30,"['bloating', 'body pain']",26,early,False,3,,False
+47,['headache'],24,on time,False,1,,False
+23,"['cramps', 'bloating', 'nausea']",32,late,False,4,,False
+36,"['nausea', 'body pain']",29,early,False,2,,False
+14,"['cramps', 'headache', 'body pain']",30,on time,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['cramps', 'bloating']",29,on time,False,2,,False
+36,['headache'],25,early,False,1,,False
+17,"['cramps', 'nausea', 'body pain']",28,late,False,4,,False
+23,['bloating'],31,on time,False,1,,False
+40,"['cramps', 'headache', 'nausea']",26,early,False,3,,False
+31,['body pain'],27,on time,False,2,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,,False
+29,['nausea'],28,on time,False,1,,False
+38,"['cramps', 'bloating', 'body pain']",24,early,False,3,,False
+22,"['headache', 'nausea']",30,late,False,2,,False
+43,['cramps'],29,on time,False,1,,False
+18,"['bloating', 'headache', 'body pain']",27,early,False,3,,False
+35,"['nausea', 'body pain']",31,late,False,5,,False
+27,"['cramps', 'bloating', 'headache']",26,on time,False,2,pcos,False
+39,['headache'],28,early,False,1,,False
+21,"['cramps', 'nausea']",33,late,False,3,pcod,False
+42,"['bloating', 'body pain']",25,on time,False,2,,False
+30,"['cramps', 'headache', 'nausea', 'body pain']",29,early,False,4,,False
+24,['nausea'],27,late,False,1,,False
+37,"['cramps', 'bloating']",32,on time,False,3,,False
+15,"['cramps', 'headache', 'bloating']",28,on time,False,3,,False
+23,"['bloating', 'body pain']",25,early,False,2,,False
+31,"['cramps', 'nausea', 'headache']",30,late,False,4,,False
+42,"['cramps', 'bloating', 'body pain']",33,on time,False,2,,False
+19,['headache'],29,early,False,1,,False
+28,"['cramps', 'bloating', 'nausea', 'headache', 'body pain']",35,late,False,5,,False
+37,['bloating'],26,on time,False,1,,False
+17,"['cramps', 'body pain']",27,early,False,3,,False
+25,"['cramps', 'headache', 'bloating', 'nausea']",31,late,False,4,,False
+33,['body pain'],24,on time,False,2,,False
+45,"['cramps', 'bloating']",29,early,False,3,,False
+21,"['headache', 'nausea']",26,late,False,2,,False
+39,"['cramps', 'body pain']",32,on time,False,4,,False
+14,['bloating'],28,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,5,pcos,False
+35,['nausea'],25,on time,False,2,,False
+43,"['cramps', 'bloating', 'body pain']",27,early,False,3,,False
+18,['headache'],30,late,False,1,,False
+29,"['cramps', 'bloating', 'nausea']",33,on time,False,4,,False
+36,['body pain'],26,early,False,2,,False
+47,"['cramps', 'bloating']",28,late,False,3,,False
+22,"['headache', 'nausea', 'body pain']",29,on time,False,2,,False
+40,"['cramps', 'bloating', 'headache']",31,early,False,4,,False
+16,"['bloating', 'body pain']",27,late,False,2,,False
+34,"['cramps', 'nausea']",24,on time,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'nausea']",26,early,False,2,,False
+31,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+19,['cramps'],29,on time,False,1,,False
+42,"['bloating', 'body pain']",27,early,False,3,,False
+38,['headache'],24,on time,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,4,,False
+25,['nausea'],21,early,False,1,,False
+48,['bloating'],28,on time,False,2,,False
+33,"['cramps', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+14,"['cramps', 'bloating']",30,late,False,3,,False
+40,"['headache', 'body pain']",26,early,False,4,,False
+21,"['cramps', 'bloating', 'nausea']",31,late,False,2,pcos,False
+35,['body pain'],29,on time,False,1,,False
+16,"['cramps', 'headache', 'nausea']",27,early,False,3,,False
+28,"['bloating', 'headache']",34,late,False,4,,False
+45,['cramps'],23,on time,False,2,,False
+37,"['cramps', 'bloating', 'headache', 'nausea']",29,late,False,5,,False
+22,"['nausea', 'body pain']",25,early,False,3,pcod,False
+30,"['bloating', 'body pain']",32,late,False,4,,False
+49,['headache'],26,on time,False,1,,False
+18,"['cramps', 'bloating', 'headache']",28,early,False,2,,False
+43,['body pain'],24,late,False,3,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,late,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+41,"['cramps', 'headache']",29,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea', 'body pain']",32,late,False,4,,False
+35,"['bloating', 'headache']",28,on time,False,2,,False
+22,['cramps'],25,early,False,1,,False
+48,"['headache', 'body pain']",30,late,False,3,,False
+15,"['cramps', 'bloating', 'headache', 'nausea']",33,on time,False,4,,False
+29,"['cramps', 'nausea', 'body pain']",26,early,False,3,pcos,False
+38,"['bloating', 'headache', 'body pain']",29,late,False,2,,False
+23,"['cramps', 'bloating']",27,on time,False,3,,False
+45,['headache'],25,early,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,late,False,5,,False
+33,['nausea'],28,on time,False,1,,False
+26,"['cramps', 'bloating', 'body pain']",29,early,False,4,pcos,False
+42,"['headache', 'nausea']",26,late,False,2,,False
+21,['cramps'],24,on time,False,1,,False
+36,"['bloating', 'headache', 'nausea', 'body pain']",32,early,False,3,,False
+49,['body pain'],27,late,False,2,,False
+14,"['cramps', 'headache', 'nausea']",30,on time,False,4,,False
+30,"['cramps', 'bloating']",25,early,False,2,,False
+39,"['nausea', 'body pain']",28,late,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,,False
+28,"['cramps', 'bloating']",29,on time,False,2,,False
+36,['nausea'],25,late,False,1,,False
+17,"['cramps', 'headache', 'body pain']",32,early,False,4,,False
+29,"['bloating', 'nausea']",28,on time,False,3,pcos,False
+43,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+22,['headache'],26,on time,False,2,,False
+37,"['cramps', 'body pain']",31,early,False,3,,False
+14,['bloating'],29,late,False,1,,False
+26,"['cramps', 'nausea', 'body pain']",27,on time,False,4,pcos,False
+39,"['headache', 'nausea']",34,early,False,3,,False
+18,"['cramps', 'bloating', 'headache', 'body pain']",25,late,False,2,,False
+31,"['bloating', 'body pain']",30,on time,False,4,,False
+45,['cramps'],28,early,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'nausea']",29,late,False,3,,False
+35,"['headache', 'body pain']",26,on time,False,5,,False
+21,"['nausea', 'body pain']",32,early,False,2,pcod,False
+40,"['cramps', 'bloating']",27,late,False,4,,False
+27,['headache'],31,on time,False,1,,False
+33,"['cramps', 'nausea', 'body pain']",25,early,False,3,,False
+16,"['bloating', 'headache']",28,late,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'body pain']",35,on time,False,4,,False
+25,['cramps'],27,on time,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",29,early,False,5,,False
+38,['headache'],26,late,False,1,,False
+22,"['bloating', 'nausea']",32,on time,False,2,,False
+45,"['cramps', 'bloating']",24,early,False,3,,False
+31,"['cramps', 'headache', 'body pain']",33,late,False,4,,False
+29,['bloating'],29,on time,False,1,pcos,False
+18,"['cramps', 'bloating', 'nausea', 'body pain']",26,early,False,3,,False
+35,"['headache', 'nausea']",31,late,False,2,,False
+42,"['cramps', 'body pain']",27,on time,False,4,,False
+23,"['cramps', 'bloating', 'headache']",34,early,False,3,,False
+48,"['bloating', 'headache']",25,late,False,2,,False
+26,['cramps'],28,on time,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",30,early,False,5,,False
+16,"['headache', 'nausea', 'body pain']",29,late,False,3,,False
+36,"['cramps', 'bloating']",26,on time,False,2,pcos,False
+43,"['cramps', 'headache', 'body pain']",32,early,False,4,,False
+27,['bloating'],31,late,False,1,,False
+20,"['cramps', 'bloating', 'nausea']",27,on time,False,3,,False
+49,"['headache', 'body pain']",24,early,False,2,,False
+30,['cramps'],33,late,False,1,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'body pain']",30,late,False,2,,False
+32,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+19,"['bloating', 'headache']",29,on time,False,1,,False
+41,"['cramps', 'bloating', 'body pain']",35,late,False,3,,False
+28,['cramps'],27,on time,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,5,,False
+36,['bloating'],25,early,False,1,,False
+29,"['cramps', 'headache']",31,on time,False,3,,False
+43,"['cramps', 'bloating', 'body pain']",24,early,False,2,,False
+22,"['headache', 'nausea']",28,late,False,4,,False
+33,"['cramps', 'bloating']",33,on time,False,1,,False
+15,"['cramps', 'body pain']",29,early,False,3,,False
+39,"['bloating', 'headache', 'nausea']",26,late,False,4,,False
+27,['cramps'],25,on time,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'body pain']",30,early,False,5,pcos,False
+40,['headache'],27,late,False,1,,False
+31,"['cramps', 'nausea']",32,on time,False,3,,False
+23,"['bloating', 'body pain']",28,early,False,2,,False
+35,"['cramps', 'headache', 'nausea', 'body pain']",29,late,False,4,,False
+26,"['cramps', 'bloating']",24,on time,False,1,,False
+42,['nausea'],31,early,False,3,,False
+19,"['cramps', 'headache', 'body pain']",30,late,False,5,pcod,False
+38,['bloating'],27,on time,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'nausea']",33,early,False,4,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea']",26,early,False,2,,False
+32,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcos,False
+28,['cramps'],27,on time,False,1,,False
+41,"['bloating', 'headache']",29,early,False,2,,False
+17,"['cramps', 'nausea', 'body pain']",32,late,False,4,,False
+35,['headache'],25,on time,False,1,,False
+23,"['cramps', 'bloating', 'body pain']",28,early,False,3,,False
+48,['bloating'],31,late,False,2,,False
+14,"['cramps', 'headache', 'nausea']",33,on time,False,4,,False
+29,"['nausea', 'body pain']",26,early,False,3,,False
+37,"['cramps', 'bloating']",28,late,False,2,,False
+21,"['headache', 'body pain']",30,on time,False,5,pcos,False
+45,['cramps'],24,early,False,1,,False
+16,"['bloating', 'nausea', 'body pain']",31,late,False,4,,False
+33,"['cramps', 'headache']",27,on time,False,3,,False
+26,['body pain'],29,early,False,2,,False
+42,"['cramps', 'bloating', 'headache', 'nausea']",25,late,False,4,,False
+18,['nausea'],34,on time,False,3,pcod,False
+30,"['cramps', 'body pain']",28,early,False,2,,False
+39,"['bloating', 'headache']",26,late,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,on time,False,5,,False
+46,['headache'],27,early,False,1,,False
+27,"['cramps', 'nausea']",29,late,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,,False
+28,"['cramps', 'bloating']",27,on time,False,2,,False
+36,['headache'],29,late,False,3,,False
+17,"['cramps', 'body pain']",31,on time,False,4,,False
+48,"['bloating', 'nausea']",25,early,False,2,,False
+23,['cramps'],24,on time,False,1,,False
+31,"['headache', 'body pain']",33,late,False,3,pcos,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,4,,False
+45,['bloating'],26,early,False,1,,False
+29,"['cramps', 'nausea', 'body pain']",30,late,False,5,,False
+18,['headache'],27,on time,False,2,,False
+37,"['cramps', 'bloating', 'body pain']",32,early,False,4,,False
+22,['nausea'],25,on time,False,1,,False
+42,"['cramps', 'headache']",29,late,False,3,,False
+33,"['bloating', 'nausea', 'body pain']",31,on time,False,5,pcos,False
+26,['cramps'],28,early,False,2,,False
+49,"['headache', 'body pain']",24,late,False,4,,False
+16,"['cramps', 'bloating', 'nausea']",29,on time,False,3,,False
+39,['bloating'],27,early,False,1,,False
+21,"['cramps', 'body pain']",33,late,False,5,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'headache']",26,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['bloating', 'body pain']",27,on time,False,2,,False
+36,"['cramps', 'headache']",32,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea']",28,late,False,4,,False
+45,"['headache', 'body pain']",25,on time,False,2,,False
+22,['cramps'],31,early,False,1,,False
+30,"['cramps', 'bloating']",29,late,False,3,pcos,False
+39,"['bloating', 'headache', 'nausea']",26,on time,False,4,,False
+14,"['cramps', 'body pain']",27,early,False,2,,False
+27,['headache'],33,late,False,1,,False
+48,"['cramps', 'bloating', 'headache', 'nausea']",24,early,False,3,,False
+21,['body pain'],30,on time,False,2,,False
+33,"['cramps', 'nausea']",28,late,False,4,pcos,False
+42,"['bloating', 'headache', 'body pain']",29,early,False,3,,False
+16,['cramps'],26,on time,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'body pain']",31,late,False,5,,False
+37,['nausea'],27,early,False,2,,False
+13,"['cramps', 'bloating']",35,on time,False,3,,False
+24,"['headache', 'body pain']",28,late,False,4,,False
+46,['cramps'],25,early,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+41,['bloating'],27,on time,False,1,,False
+28,"['cramps', 'headache']",29,early,False,3,,False
+36,"['nausea', 'body pain']",25,late,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",32,on time,False,4,,False
+29,"['bloating', 'headache', 'body pain']",28,early,False,3,pcos,False
+43,['cramps'],26,late,False,1,,False
+22,"['cramps', 'bloating']",31,on time,False,2,,False
+35,"['headache', 'nausea', 'body pain']",27,early,False,4,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+40,['body pain'],25,on time,False,1,,False
+27,"['cramps', 'headache']",29,early,False,3,,False
+37,"['nausea', 'body pain']",24,late,False,2,,False
+21,"['cramps', 'bloating', 'headache', 'body pain']",30,on time,False,4,,False
+34,"['bloating', 'headache']",28,early,False,3,pcos,False
+42,['cramps'],26,late,False,1,,False
+26,"['cramps', 'bloating']",31,on time,False,2,,False
+38,"['headache', 'nausea']",27,early,False,4,,False
+20,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+33,['body pain'],25,on time,False,1,,False
+44,"['cramps', 'headache']",29,early,False,3,,False
+24,"['nausea', 'body pain']",24,late,False,2,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",25,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+41,"['cramps', 'headache']",29,early,False,3,,False
+18,['cramps'],26,on time,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,4,,False
+22,"['headache', 'body pain']",24,early,False,3,pcos,False
+45,"['cramps', 'bloating']",31,on time,False,2,,False
+17,"['bloating', 'headache', 'nausea']",28,late,False,3,,False
+29,['cramps'],25,early,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,4,,False
+21,['nausea'],27,late,False,2,,False
+42,"['cramps', 'headache', 'body pain']",29,early,False,3,,False
+15,"['cramps', 'bloating']",30,on time,False,4,,False
+31,['headache'],26,late,False,1,,False
+48,"['cramps', 'bloating', 'nausea', 'body pain']",33,early,False,2,,False
+24,['body pain'],28,on time,False,3,pcos,False
+37,"['cramps', 'nausea']",25,late,False,4,,False
+14,"['bloating', 'headache']",31,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,on time,False,5,,False
+44,"['nausea', 'body pain']",29,late,False,3,,False
+27,"['cramps', 'headache']",24,early,False,1,,False
+40,['bloating'],32,on time,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea']",26,early,False,2,,False
+32,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,,False
+28,['bloating'],29,on time,False,2,,False
+36,"['headache', 'nausea']",25,late,False,3,,False
+17,"['cramps', 'body pain']",32,early,False,4,,False
+45,"['bloating', 'headache']",24,on time,False,2,,False
+22,['nausea'],28,late,False,1,,False
+30,"['cramps', 'bloating', 'body pain']",33,early,False,3,pcos,False
+39,['headache'],26,on time,False,2,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,4,,False
+27,['body pain'],29,early,False,1,,False
+48,"['cramps', 'bloating']",25,on time,False,3,,False
+21,"['nausea', 'headache']",27,late,False,2,,False
+33,"['cramps', 'headache', 'body pain']",32,early,False,5,,False
+16,['bloating'],28,on time,False,1,,False
+42,"['cramps', 'nausea', 'body pain']",24,late,False,4,,False
+24,"['headache', 'body pain']",30,early,False,3,pcos,False
+37,['cramps'],26,on time,False,2,,False
+18,"['bloating', 'headache', 'nausea']",29,late,False,5,,False
+46,['body pain'],27,early,False,1,,False
+29,"['cramps', 'bloating', 'headache']",25,on time,False,4,,False
+35,['nausea'],31,late,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+31,"['headache', 'body pain']",30,late,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],29,on time,False,1,,False
+42,"['cramps', 'headache']",27,early,False,3,,False
+17,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,4,,False
+35,['nausea'],25,on time,False,2,,False
+26,"['cramps', 'bloating', 'nausea', 'body pain']",33,early,False,3,pcos,False
+48,"['headache', 'body pain']",24,late,False,4,,False
+14,"['cramps', 'bloating']",29,on time,False,2,,False
+39,['cramps'],27,early,False,1,,False
+22,"['bloating', 'headache', 'nausea', 'body pain']",31,late,False,5,pcod,False
+33,['headache'],28,on time,False,3,,False
+45,"['cramps', 'body pain']",26,early,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,4,,False
+29,"['bloating', 'nausea']",25,on time,False,1,,False
+41,"['cramps', 'headache', 'body pain']",29,early,False,3,,False
+20,"['headache', 'nausea', 'body pain']",32,late,False,5,,False
+37,['cramps'],27,on time,False,2,,False
+49,"['bloating', 'headache']",24,early,False,4,,False
+16,"['cramps', 'bloating', 'nausea', 'body pain']",30,late,False,3,,False
+34,"['nausea', 'body pain']",28,on time,False,2,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,pcos,False
+43,"['bloating', 'body pain']",25,late,False,3,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+32,"['bloating', 'body pain']",30,late,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['cramps'],25,on time,False,1,,False
+41,"['headache', 'body pain']",29,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea']",32,late,False,4,,False
+35,['bloating'],27,on time,False,2,,False
+23,"['cramps', 'headache']",24,early,False,3,,False
+40,"['nausea', 'body pain']",31,late,False,4,,False
+29,"['cramps', 'bloating', 'headache']",28,on time,False,2,,False
+18,"['bloating', 'headache', 'body pain']",33,late,False,3,,False
+37,"['cramps', 'nausea']",26,early,False,4,,False
+26,['headache'],29,on time,False,1,,False
+42,"['cramps', 'bloating', 'body pain']",30,late,False,3,,False
+31,['nausea'],27,early,False,2,,False
+21,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,5,,False
+39,['body pain'],25,on time,False,1,,False
+27,"['cramps', 'headache', 'nausea', 'body pain']",28,early,False,4,,False
+43,['bloating'],32,late,False,2,,False
+33,"['cramps', 'nausea', 'body pain']",29,on time,False,3,PCOS,False
+19,"['headache', 'body pain']",36,late,False,4,PCOD,False
+24,"['cramps', 'bloating']",24,early,False,2,,False
+38,"['nausea', 'body pain']",31,on time,False,5,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'bloating', 'body pain']",30,late,False,2,,False
+31,"['headache', 'nausea']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+42,"['cramps', 'headache']",29,early,False,3,,False
+17,"['cramps', 'bloating', 'body pain']",32,late,False,4,,False
+35,"['headache', 'nausea', 'body pain']",25,on time,False,2,,False
+26,['cramps'],28,early,False,1,,False
+40,"['bloating', 'headache', 'nausea']",33,late,False,3,,False
+14,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,,False
+22,['nausea'],27,early,False,1,,False
+38,"['cramps', 'bloating']",31,late,False,2,,False
+29,"['headache', 'body pain']",26,on time,False,3,,False
+45,"['cramps', 'nausea']",28,early,False,4,,False
+18,"['bloating', 'headache', 'nausea', 'body pain']",34,late,False,5,,False
+25,['cramps'],25,on time,False,1,,False
+33,"['bloating', 'body pain']",29,early,False,2,pcos,False
+39,['headache'],27,late,False,3,,False
+21,"['cramps', 'nausea', 'body pain']",32,on time,False,4,,False
+48,"['bloating', 'headache']",26,early,False,5,,False
+27,['nausea'],28,late,False,1,,False
+36,"['cramps', 'body pain']",30,on time,False,2,,False
+16,"['headache', 'nausea', 'body pain']",33,early,False,3,pcod,False
+43,"['cramps', 'bloating', 'headache', 'nausea']",25,late,False,4,,False
+15,"['cramps', 'headache']",28,on time,False,3,,False
+23,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+31,"['headache', 'nausea']",25,early,False,4,,False
+42,"['cramps', 'bloating', 'body pain']",35,on time,False,3,,False
+19,['headache'],29,late,False,1,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,early,False,5,,False
+37,['bloating'],26,on time,False,2,,False
+17,"['cramps', 'headache', 'body pain']",27,late,False,4,,False
+25,['nausea'],31,early,False,2,,False
+33,"['cramps', 'bloating']",29,on time,False,3,,False
+41,"['headache', 'body pain']",24,late,False,4,,False
+21,['cramps'],33,early,False,1,,False
+29,"['bloating', 'nausea', 'body pain']",28,on time,False,3,,False
+39,"['headache', 'cramps']",36,late,False,5,,False
+18,['body pain'],27,early,False,2,,False
+26,"['cramps', 'bloating', 'headache']",30,on time,False,4,,False
+35,"['nausea', 'cramps']",25,late,False,3,,False
+43,"['bloating', 'headache', 'body pain']",34,early,False,2,,False
+22,"['cramps', 'nausea']",29,on time,False,5,,False
+30,['headache'],26,late,False,1,PCOS,False
+40,"['bloating', 'body pain', 'cramps']",37,early,False,4,,False
+16,"['cramps', 'bloating', 'headache', 'nausea']",28,on time,False,3,,False
+24,"['nausea', 'body pain']",31,late,False,2,,False
+32,"['headache', 'cramps', 'bloating']",24,early,False,4,PCOD,False
+27,"['body pain', 'cramps']",33,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",32,on time,False,2,,False
+25,['headache'],27,early,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcos,False
+36,['cramps'],29,on time,False,2,,False
+22,"['bloating', 'nausea']",26,early,False,3,,False
+48,"['headache', 'body pain']",38,late,False,4,,False
+30,"['cramps', 'bloating']",27,on time,False,2,,False
+15,"['cramps', 'headache', 'nausea']",33,late,False,4,,False
+27,['body pain'],29,early,False,1,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",31,on time,False,3,,False
+24,['nausea'],26,late,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,on time,False,5,,False
+35,['cramps'],30,early,False,2,,False
+21,"['bloating', 'nausea', 'body pain']",25,late,False,3,,False
+47,['headache'],37,on time,False,1,,False
+29,"['cramps', 'bloating', 'body pain']",28,early,False,2,,False
+16,"['cramps', 'headache']",32,late,False,4,pcos,False
+38,['body pain'],29,on time,False,1,,False
+23,"['cramps', 'nausea']",27,early,False,3,,False
+49,"['bloating', 'headache']",36,late,False,2,,False
+31,"['cramps', 'body pain']",28,on time,False,2,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+22,"['cramps', 'bloating', 'body pain']",32,on time,False,1,,False
+41,"['cramps', 'headache']",27,late,False,3,,False
+19,"['bloating', 'nausea', 'body pain']",29,early,False,2,,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",35,on time,False,4,,False
+26,['cramps'],21,early,False,1,,False
+38,"['bloating', 'headache']",28,late,False,3,,False
+15,"['cramps', 'bloating', 'body pain']",31,on time,False,2,,False
+29,['nausea'],26,early,False,1,,False
+42,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+20,"['cramps', 'bloating']",27,on time,False,3,pcos,False
+36,"['headache', 'body pain']",29,early,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",30,late,False,4,,False
+18,['bloating'],25,on time,False,1,,False
+31,"['cramps', 'nausea', 'body pain']",34,early,False,3,pcos,False
+27,['headache'],28,late,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,4,,False
+16,"['cramps', 'body pain']",32,early,False,3,,False
+30,"['bloating', 'nausea']",29,late,False,2,,False
+43,"['cramps', 'bloating', 'headache']",27,on time,False,5,,False
+21,['cramps'],24,early,False,1,,False
+37,"['bloating', 'headache', 'nausea', 'body pain']",31,late,False,3,,False
+25,"['cramps', 'bloating']",28,on time,False,2,pcod,False
+15,"['cramps', 'bloating']",28,on time,False,2,,False
+22,"['headache', 'nausea', 'cramps']",30,late,False,4,,False
+31,"['bloating', 'body pain']",26,early,False,3,,False
+42,"['cramps', 'bloating', 'headache', 'nausea']",35,on time,False,5,,False
+28,['nausea'],27,early,False,1,,False
+17,"['cramps', 'bloating', 'headache']",29,late,False,3,pcos,False
+35,['body pain'],25,on time,False,2,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,4,,False
+48,"['headache', 'body pain']",24,early,False,3,,False
+19,['cramps'],28,on time,False,2,,False
+38,"['bloating', 'nausea']",33,late,False,4,,False
+26,"['cramps', 'headache', 'body pain']",27,early,False,3,,False
+45,['body pain'],29,on time,False,1,,False
+21,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,late,False,5,pcod,False
+33,['nausea'],26,early,False,2,,False
+40,"['cramps', 'bloating']",34,late,False,3,,False
+29,"['headache', 'body pain']",28,on time,False,4,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,5,pcos,False
+36,['bloating'],25,early,False,1,,False
+25,"['cramps', 'headache']",29,on time,False,3,,False
+43,"['nausea', 'body pain']",32,late,False,2,,False
+20,"['cramps', 'bloating', 'headache', 'body pain']",27,early,False,4,,False
+37,['headache'],31,on time,False,3,,False
+47,"['cramps', 'nausea']",26,late,False,5,,False
+30,"['bloating', 'body pain']",28,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+22,['cramps'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'body pain']",32,early,False,5,,False
+19,"['bloating', 'nausea']",26,on time,False,2,,False
+37,"['cramps', 'headache']",29,late,False,3,,False
+25,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,on time,False,4,,False
+15,['cramps'],24,early,False,1,,False
+31,['bloating'],28,late,False,2,,False
+45,"['headache', 'body pain']",33,early,False,3,,False
+21,"['cramps', 'bloating', 'nausea']",27,on time,False,4,pcos,False
+39,['cramps'],31,late,False,2,,False
+29,"['bloating', 'headache']",26,on time,False,3,,False
+18,"['cramps', 'body pain']",29,early,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,5,,False
+23,['nausea'],25,on time,False,1,,False
+42,"['cramps', 'bloating']",27,early,False,4,,False
+26,['headache'],30,late,False,2,,False
+16,"['cramps', 'bloating', 'body pain']",28,on time,False,3,,False
+30,"['bloating', 'nausea', 'body pain']",33,early,False,4,,False
+48,['headache'],26,late,False,2,,False
+20,"['cramps', 'bloating']",29,on time,False,3,pcos,False
+36,['body pain'],24,early,False,1,,False
+27,"['cramps', 'headache', 'nausea']",31,late,False,4,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+33,"['bloating', 'headache', 'nausea']",26,early,False,1,,False
+41,"['cramps', 'bloating', 'body pain']",32,on time,False,4,,False
+25,['cramps'],27,early,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+38,['bloating'],29,on time,False,1,,False
+22,['headache'],25,early,False,1,,False
+45,"['cramps', 'bloating']",24,early,False,3,,False
+30,"['nausea', 'body pain']",31,on time,False,2,,False
+18,"['cramps', 'bloating', 'headache']",29,late,False,4,pcos,False
+35,['cramps'],26,on time,False,2,,False
+27,"['bloating', 'headache']",33,early,False,3,,False
+40,"['cramps', 'body pain']",28,late,False,4,,False
+21,"['cramps', 'nausea']",25,on time,False,2,,False
+37,"['bloating', 'headache', 'body pain']",30,early,False,3,,False
+24,"['cramps', 'bloating']",27,late,False,4,pcos,False
+32,"['headache', 'nausea']",29,on time,False,1,,False
+16,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,5,,False
+43,['body pain'],26,early,False,2,,False
+29,['cramps'],28,on time,False,1,,False
+15,"['cramps', 'bloating', 'body pain']",33,late,False,3,,False
+39,['headache'],25,early,False,1,,False
+26,"['cramps', 'nausea', 'body pain']",30,on time,False,4,,False
+31,"['bloating', 'headache']",27,late,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+23,"['headache', 'nausea']",25,early,False,2,,False
+31,"['cramps', 'bloating', 'body pain']",30,late,False,4,,False
+42,['headache'],27,on time,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcos,False
+27,['bloating'],26,on time,False,2,,False
+35,"['cramps', 'headache']",29,early,False,3,,False
+45,['body pain'],24,late,False,2,,False
+16,"['cramps', 'bloating', 'headache']",32,on time,False,4,,False
+29,['nausea'],21,early,False,1,,False
+38,"['cramps', 'bloating', 'body pain']",33,late,False,3,,False
+48,"['headache', 'nausea']",26,on time,False,2,,False
+19,['cramps'],29,early,False,2,,False
+25,"['bloating', 'headache', 'body pain']",27,late,False,4,pcos,False
+33,"['nausea', 'body pain']",22,on time,False,3,,False
+41,"['cramps', 'bloating']",31,early,False,1,,False
+17,['headache'],25,late,False,2,,False
+28,"['cramps', 'nausea', 'body pain']",28,on time,False,4,,False
+36,"['bloating', 'headache']",23,early,False,3,,False
+46,['cramps'],26,late,False,1,,False
+21,"['bloating', 'nausea']",34,on time,False,2,,False
+30,"['headache', 'body pain']",29,early,False,3,pcod,False
+39,"['cramps', 'bloating', 'nausea']",27,late,False,4,,False
+49,['body pain'],21,on time,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'nausea']",26,early,False,2,,False
+31,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,pcos,False
+42,"['bloating', 'body pain']",27,early,False,2,,False
+17,"['cramps', 'headache']",32,late,False,3,,False
+35,['nausea'],25,on time,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea']",33,early,False,4,,False
+40,['body pain'],29,on time,False,2,,False
+14,"['cramps', 'bloating']",27,late,False,3,,False
+29,"['headache', 'nausea', 'body pain']",31,on time,False,4,pcos,False
+37,['cramps'],26,early,False,1,,False
+22,"['cramps', 'bloating', 'headache', 'body pain']",34,late,False,5,,False
+45,['bloating'],28,on time,False,2,,False
+18,"['cramps', 'nausea']",25,early,False,3,,False
+33,"['headache', 'body pain']",30,late,False,4,,False
+25,"['cramps', 'bloating']",29,on time,False,2,,False
+43,['nausea'],27,early,False,1,,False
+20,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,5,pcod,False
+38,['body pain'],26,on time,False,2,,False
+16,"['cramps', 'headache']",28,early,False,3,,False
+30,"['bloating', 'nausea']",32,late,False,4,,False
+27,['cramps'],25,on time,False,1,,False
+41,"['cramps', 'bloating', 'body pain']",29,early,False,3,,False
+15,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+32,"['nausea', 'headache', 'cramps']",25,early,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'body pain']",35,late,False,3,,False
+28,"['headache', 'nausea', 'cramps', 'bloating']",27,early,False,4,,False
+36,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,2,,False
+17,['nausea'],26,late,False,1,,False
+45,"['body pain', 'cramps']",29,early,False,3,,False
+23,['bloating'],31,on time,False,1,,False
+30,"['headache', 'cramps', 'nausea', 'bloating', 'body pain']",24,late,False,5,,False
+39,['cramps'],33,early,False,2,,False
+14,"['bloating', 'headache']",27,on time,False,3,,False
+27,"['nausea', 'body pain']",34,late,False,1,,False
+48,['headache'],25,early,False,2,,False
+21,"['cramps', 'bloating', 'nausea']",28,on time,False,4,,False
+33,['body pain'],31,late,False,1,,False
+37,"['bloating', 'headache', 'cramps']",26,early,False,3,,False
+18,"['nausea', 'cramps']",29,on time,False,2,,False
+42,['cramps'],32,late,False,1,,False
+24,"['bloating', 'body pain', 'headache']",27,early,False,4,,False
+29,['headache'],30,on time,False,2,,False
+35,"['cramps', 'nausea', 'bloating']",25,late,False,3,PCOS,False
+46,"['body pain', 'headache']",28,early,False,1,,False
+16,"['bloating', 'cramps']",31,on time,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'headache', 'nausea']",30,late,False,2,,False
+32,"['cramps', 'body pain']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+41,['bloating'],27,on time,False,1,,False
+28,['headache'],29,early,False,2,,False
+36,"['cramps', 'bloating']",25,on time,False,3,,False
+17,"['cramps', 'nausea', 'body pain']",32,late,False,4,,False
+29,"['bloating', 'headache', 'body pain']",28,on time,False,3,,False
+43,"['headache', 'nausea']",26,early,False,2,,False
+22,['cramps'],31,late,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,4,pcos,False
+14,"['bloating', 'nausea']",27,early,False,2,,False
+38,"['cramps', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+26,['body pain'],25,on time,False,1,,False
+45,"['cramps', 'bloating', 'headache']",28,early,False,3,,False
+18,"['headache', 'body pain']",30,late,False,4,,False
+30,"['cramps', 'nausea']",26,on time,False,2,,False
+40,['bloating'],29,early,False,1,,False
+23,"['cramps', 'bloating', 'nausea', 'body pain']",32,late,False,4,pcos,False
+35,['headache'],27,on time,False,2,,False
+47,"['cramps', 'bloating', 'headache', 'body pain']",25,early,False,3,,False
+20,"['nausea', 'body pain']",31,late,False,5,,False
+31,['cramps'],28,on time,False,1,,False
+39,"['bloating', 'headache']",26,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",27,on time,False,2,,False
+22,['cramps'],26,early,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,5,,False
+19,"['bloating', 'headache']",29,on time,False,3,,False
+26,"['cramps', 'nausea']",24,early,False,2,,False
+44,['bloating'],28,on time,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'body pain']",35,late,False,4,pcos,False
+29,"['headache', 'nausea']",27,on time,False,2,,False
+38,"['cramps', 'bloating']",31,late,False,3,,False
+21,"['cramps', 'body pain']",26,early,False,2,,False
+47,"['hot flashes', 'night sweats']",38,late,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,4,,False
+23,['bloating'],25,early,False,1,,False
+15,"['cramps', 'body pain']",33,late,False,3,pcod,False
+40,"['headache', 'nausea']",28,on time,False,2,,False
+25,['cramps'],27,on time,False,1,,False
+35,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,late,False,5,,False
+16,"['bloating', 'headache']",29,on time,False,3,,False
+27,"['cramps', 'nausea']",24,early,False,2,,False
+43,['hot flashes'],28,irregular,False,1,,False
+30,"['cramps', 'bloating', 'body pain']",31,late,False,3,,False
+20,"['cramps', 'body pain']",26,early,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'nausea']",26,early,False,2,,False
+31,"['bloating', 'headache', 'body pain']",30,late,False,4,,False
+42,"['cramps', 'bloating', 'nausea', 'body pain']",35,on time,False,3,,False
+18,['headache'],29,early,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,late,False,5,,False
+35,['bloating'],32,on time,False,2,,False
+16,"['cramps', 'headache', 'body pain']",25,early,False,4,,False
+29,"['nausea', 'body pain']",33,late,False,3,,False
+40,"['cramps', 'bloating']",28,on time,False,2,,False
+19,['cramps'],30,early,False,1,,False
+33,"['bloating', 'headache', 'nausea']",26,late,False,4,pcos,False
+48,"['headache', 'body pain']",38,on time,False,3,,False
+24,"['cramps', 'nausea', 'body pain']",29,early,False,5,,False
+37,['bloating'],27,late,False,1,,False
+17,"['cramps', 'bloating', 'headache']",31,on time,False,3,pcod,False
+22,['nausea'],25,early,False,2,,False
+39,"['cramps', 'body pain']",33,late,False,4,,False
+45,"['headache', 'bloating']",29,on time,False,3,,False
+26,"['cramps', 'bloating', 'nausea', 'body pain']",28,early,False,5,,False
+34,"['bloating', 'headache']",31,late,False,2,,False
+41,['cramps'],26,on time,False,1,,False
+14,"['cramps', 'headache', 'nausea', 'body pain']",35,early,False,4,,False
+28,"['bloating', 'body pain']",29,late,False,3,,False
+36,['nausea'],27,on time,False,2,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'headache']",26,early,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+41,['cramps'],27,on time,False,1,,False
+29,"['bloating', 'headache', 'nausea']",29,early,False,3,,False
+36,"['cramps', 'body pain']",31,late,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+48,['headache'],25,early,False,1,,False
+22,"['cramps', 'nausea', 'body pain']",33,late,False,4,pcos,False
+31,['bloating'],27,on time,False,2,,False
+40,"['cramps', 'headache', 'body pain']",26,early,False,3,,False
+19,"['cramps', 'bloating', 'nausea']",32,late,False,4,,False
+27,"['headache', 'nausea']",28,on time,False,2,,False
+35,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",29,early,False,5,,False
+43,['body pain'],25,on time,False,1,,False
+21,['cramps'],30,late,False,2,,False
+38,"['bloating', 'headache']",27,early,False,3,,False
+17,"['cramps', 'bloating', 'headache', 'body pain']",34,late,False,4,pcos,False
+26,['nausea'],29,on time,False,1,,False
+33,"['cramps', 'bloating']",26,early,False,2,,False
+45,"['headache', 'body pain']",28,late,False,3,,False
+23,"['cramps', 'headache', 'nausea']",31,on time,False,4,,False
+39,"['bloating', 'nausea', 'body pain']",27,early,False,5,,False
+14,"['cramps', 'bloating', 'headache']",36,late,False,3,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+22,"['cramps', 'bloating', 'body pain']",32,on time,False,1,,False
+41,"['headache', 'nausea']",27,late,False,3,,False
+19,"['cramps', 'bloating', 'headache', 'body pain']",35,on time,False,4,,False
+33,['bloating'],29,early,False,1,,False
+25,"['cramps', 'headache', 'nausea', 'body pain']",25,on time,False,5,,False
+48,['headache'],23,late,False,2,,False
+29,"['cramps', 'bloating']",31,early,False,3,,False
+16,"['cramps', 'body pain']",28,on time,False,4,pcos,False
+37,"['bloating', 'headache']",24,late,False,2,,False
+21,"['cramps', 'nausea', 'body pain']",33,early,False,5,,False
+44,"['headache', 'body pain']",29,on time,False,3,,False
+18,['cramps'],26,late,False,1,,False
+31,"['bloating', 'nausea']",30,early,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea']",27,on time,False,4,pcos,False
+40,['headache'],25,late,False,1,,False
+27,"['cramps', 'body pain']",34,early,False,3,,False
+49,"['bloating', 'headache', 'nausea', 'body pain']",21,on time,False,5,,False
+15,"['cramps', 'bloating']",32,late,False,2,pcod,False
+39,['nausea'],28,early,False,1,,False
+20,"['cramps', 'headache', 'body pain']",29,on time,False,4,,False
+46,['bloating'],26,late,False,2,,False
+36,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,early,False,5,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,early,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,late,False,1,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,4,,False
+25,['cramps'],27,on time,False,2,,False
+19,"['cramps', 'bloating', 'body pain']",35,late,False,4,pcos,False
+31,"['headache', 'nausea']",29,early,False,1,,False
+48,"['cramps', 'bloating']",25,late,False,3,,False
+22,"['bloating', 'headache', 'body pain']",33,on time,False,2,,False
+39,"['cramps', 'nausea']",24,early,False,3,,False
+15,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,late,False,5,,False
+27,['bloating'],28,on time,False,1,,False
+33,['headache'],26,early,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea']",30,late,False,4,,False
+21,['body pain'],29,on time,False,2,,False
+16,"['cramps', 'bloating', 'headache', 'body pain']",36,late,False,5,pcos,False
+38,['nausea'],27,early,False,1,,False
+49,['cramps'],23,on time,False,2,,False
+24,"['bloating', 'headache']",34,late,False,3,,False
+41,"['cramps', 'body pain']",25,early,False,4,,False
+18,"['cramps', 'bloating', 'nausea', 'body pain']",29,on time,False,3,,False
+30,"['headache', 'body pain']",27,late,False,2,,False
+36,"['cramps', 'bloating', 'headache']",31,early,False,4,,False
+47,['bloating'],24,on time,False,1,,False
+29,"['cramps', 'nausea', 'body pain']",28,late,False,3,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'body pain']",30,late,False,2,,False
+32,"['headache', 'nausea']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache']",29,early,False,3,,False
+17,['cramps'],25,on time,False,2,,False
+36,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,,False
+23,"['bloating', 'headache']",28,on time,False,2,,False
+45,"['cramps', 'headache', 'nausea']",26,early,False,3,,False
+29,['body pain'],31,late,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,4,pcos,False
+33,['nausea'],24,early,False,2,,False
+21,"['cramps', 'bloating']",32,late,False,3,,False
+39,"['headache', 'body pain']",27,on time,False,2,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,late,False,5,,False
+42,[],25,early,False,1,,False
+15,"['cramps', 'bloating']",34,late,False,3,pcod,False
+30,['headache'],29,on time,False,2,,False
+37,"['cramps', 'body pain']",26,early,False,3,,False
+24,"['bloating', 'headache', 'nausea']",31,late,False,4,,False
+48,['cramps'],28,on time,False,2,,False
+13,"['cramps', 'bloating', 'headache']",36,late,False,3,,False
+35,['body pain'],27,early,False,1,,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",29,on time,False,4,,False
+15,"['cramps', 'bloating']",28,on time,False,2,,False
+25,"['cramps', 'headache', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'nausea']",25,early,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'body pain']",35,late,False,3,,False
+41,['cramps'],29,on time,False,2,,False
+28,"['bloating', 'headache', 'nausea']",27,early,False,3,,False
+35,"['cramps', 'bloating', 'headache']",32,late,False,4,,False
+17,"['nausea', 'body pain']",26,on time,False,1,,False
+43,"['cramps', 'bloating']",33,early,False,2,,False
+22,['headache'],29,late,False,3,,False
+38,"['cramps', 'nausea', 'body pain']",24,on time,False,5,,False
+29,['bloating'],28,early,False,1,pcos,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,2,,False
+45,['body pain'],26,on time,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,early,False,4,,False
+31,[],27,late,False,1,,False
+18,"['cramps', 'headache']",30,on time,False,2,,False
+40,"['bloating', 'nausea']",25,early,False,3,,False
+27,"['cramps', 'bloating', 'body pain']",32,late,False,4,,False
+34,"['headache', 'body pain']",29,on time,False,1,,False
+21,['cramps'],26,early,False,2,pcos,False
+37,"['bloating', 'nausea', 'body pain']",34,late,False,5,,False
+30,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+16,['nausea'],24,early,False,1,,False
+42,"['cramps', 'headache', 'body pain']",31,late,False,2,,False
+15,"['cramps', 'headache']",28,on time,False,3,,False
+23,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+31,"['nausea', 'headache', 'cramps']",25,early,False,4,,False
+42,"['bloating', 'body pain']",35,on time,False,1,,False
+28,['cramps'],29,late,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,on time,False,5,,False
+35,['bloating'],27,early,False,1,,False
+26,"['headache', 'cramps']",33,late,False,3,,False
+40,"['cramps', 'body pain']",26,early,False,2,,False
+19,['nausea'],28,on time,False,1,,False
+33,"['bloating', 'headache', 'body pain']",31,on time,False,3,,False
+24,"['cramps', 'bloating']",29,late,False,4,pcos,False
+38,['headache'],27,early,False,2,,False
+29,"['nausea', 'cramps', 'body pain']",34,late,False,3,,False
+18,"['bloating', 'cramps', 'headache']",26,early,False,5,,False
+43,['body pain'],28,on time,False,1,,False
+21,['cramps'],30,late,False,2,,False
+36,"['bloating', 'nausea']",25,early,False,3,,False
+27,"['headache', 'cramps', 'body pain']",32,on time,False,4,,False
+41,"['cramps', 'bloating', 'nausea']",29,late,False,2,pcod,False
+20,['body pain'],27,early,False,1,,False
+34,"['cramps', 'headache']",33,on time,False,3,,False
+25,['bloating'],26,early,False,1,,False
+39,"['nausea', 'cramps']",31,late,False,4,,False
+30,"['headache', 'bloating', 'body pain']",28,on time,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+23,"['headache', 'nausea', 'cramps']",30,late,False,4,,False
+31,"['bloating', 'body pain']",25,early,False,2,,False
+42,"['cramps', 'headache', 'nausea', 'bloating', 'body pain']",35,late,False,5,,False
+19,['cramps'],29,on time,False,1,,False
+36,"['headache', 'bloating']",27,early,False,3,,False
+28,"['nausea', 'body pain']",32,on time,False,2,,False
+45,"['cramps', 'bloating', 'headache']",26,late,False,4,,False
+17,['body pain'],24,early,False,1,,False
+33,"['cramps', 'nausea', 'bloating', 'body pain']",31,on time,False,3,,False
+25,['headache'],29,late,False,2,,False
+40,"['bloating', 'body pain', 'cramps']",33,early,False,4,,False
+21,['nausea'],26,on time,False,1,,False
+38,"['cramps', 'headache', 'bloating']",28,late,False,3,,False
+14,"['body pain', 'cramps']",30,early,False,2,,False
+35,"['headache', 'nausea']",27,on time,False,4,pcos,False
+29,['bloating'],31,late,False,1,,False
+43,"['cramps', 'body pain', 'headache']",25,early,False,3,,False
+18,"['nausea', 'cramps']",29,on time,False,2,,False
+32,"['headache', 'bloating', 'body pain']",34,late,False,4,,False
+26,['body pain'],26,early,False,1,,False
+39,"['cramps', 'nausea', 'headache']",28,on time,False,5,,False
+22,"['bloating', 'cramps']",32,late,False,3,,False
+47,['nausea'],24,early,False,2,,False
+20,"['cramps', 'headache', 'nausea', 'bloating', 'body pain']",30,on time,False,4,pcod,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+23,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+31,"['bloating', 'headache']",26,early,False,2,,False
+28,['cramps'],29,on time,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+42,"['bloating', 'headache', 'body pain']",27,early,False,3,,False
+35,"['cramps', 'bloating']",32,on time,False,2,,False
+26,['nausea'],28,late,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea']",33,early,False,4,,False
+40,['body pain'],25,on time,False,2,,False
+29,"['cramps', 'headache', 'nausea', 'body pain']",29,late,False,5,PCOS,False
+37,['bloating'],27,on time,False,1,,False
+22,"['cramps', 'bloating', 'nausea']",31,early,False,3,,False
+45,"['headache', 'body pain']",26,late,False,4,,False
+33,['cramps'],28,on time,False,2,,False
+25,"['cramps', 'bloating', 'headache', 'body pain']",30,early,False,3,,False
+17,"['nausea', 'body pain']",34,late,False,5,,False
+39,"['bloating', 'headache']",25,on time,False,2,,False
+27,"['cramps', 'nausea']",29,early,False,1,,False
+43,"['cramps', 'bloating', 'headache', 'nausea']",27,late,False,4,,False
+36,['body pain'],28,on time,False,3,,False
+21,"['cramps', 'bloating']",32,early,False,2,,False
+48,"['headache', 'nausea', 'body pain']",26,late,False,5,,False
+30,['cramps'],29,on time,False,1,,False
+24,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,early,False,4,PCOS,False
+15,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'body pain']",30,late,False,2,,False
+32,"['cramps', 'bloating', 'nausea']",26,early,False,4,,False
+19,['headache'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'body pain']",35,late,False,3,,False
+28,['nausea'],27,on time,False,2,,False
+36,"['cramps', 'bloating']",32,early,False,4,,False
+17,"['headache', 'body pain']",28,late,False,3,,False
+45,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",25,on time,False,5,,False
+22,[],29,on time,False,1,,False
+30,['cramps'],33,early,False,2,,False
+39,"['bloating', 'headache', 'nausea']",27,late,False,4,,False
+14,"['cramps', 'body pain']",31,on time,False,3,,False
+27,"['headache', 'nausea']",26,early,False,2,,False
+34,"['cramps', 'bloating', 'body pain']",35,late,False,4,pcos,False
+21,['bloating'],28,on time,False,1,,False
+42,"['cramps', 'headache', 'nausea', 'body pain']",29,early,False,5,,False
+18,"['cramps', 'bloating', 'headache']",27,late,False,3,,False
+29,"['nausea', 'body pain']",31,on time,False,2,,False
+37,['cramps'],26,early,False,1,,False
+24,"['bloating', 'headache']",33,late,False,3,pcod,False
+31,"['cramps', 'nausea', 'body pain']",28,on time,False,4,,False
+40,"['headache', 'body pain']",25,early,False,2,,False
+16,"['cramps', 'bloating', 'nausea']",29,late,False,3,,False
+26,['body pain'],27,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+35,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,2,,False
+21,['cramps'],27,on time,False,1,,False
+31,"['bloating', 'headache']",29,late,False,3,,False
+19,"['cramps', 'bloating', 'nausea', 'body pain']",26,early,False,4,,False
+48,['headache'],35,late,False,2,,False
+25,"['cramps', 'bloating']",28,on time,False,3,,False
+37,"['cramps', 'headache', 'nausea', 'body pain']",31,on time,False,5,,False
+16,"['cramps', 'bloating', 'headache']",24,early,False,2,,False
+41,['bloating'],29,late,False,1,,False
+29,"['nausea', 'body pain']",27,on time,False,4,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,3,,False
+33,"['headache', 'body pain']",30,late,False,2,pcos,False
+22,['cramps'],28,on time,False,1,,False
+45,"['bloating', 'headache']",33,late,False,3,,False
+26,"['cramps', 'nausea', 'body pain']",29,early,False,4,,False
+39,['body pain'],27,on time,False,2,,False
+15,"['cramps', 'bloating']",25,early,False,3,,False
+49,"['hot flashes', 'mood swings']",40,late,False,2,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",30,on time,False,5,,False
+36,"['cramps', 'bloating']",28,late,False,3,,False
+13,['cramps'],21,early,False,2,,False
+52,['hot flashes'],38,late,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['cramps', 'bloating']",27,early,False,2,,False
+36,['nausea'],28,on time,False,1,,False
+17,"['cramps', 'headache', 'body pain']",32,late,False,4,pcos,False
+23,['bloating'],25,early,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",40,late,False,5,,False
+29,['headache'],29,on time,False,2,,False
+38,"['cramps', 'nausea', 'body pain']",31,early,False,3,,False
+14,"['cramps', 'bloating']",27,late,False,3,pcod,False
+26,['body pain'],26,on time,False,1,,False
+48,"['bloating', 'headache']",38,late,False,4,,False
+33,"['cramps', 'bloating', 'nausea']",28,early,False,2,,False
+21,"['headache', 'body pain']",30,on time,False,3,,False
+39,['cramps'],29,late,False,1,,False
+16,"['bloating', 'nausea', 'body pain']",33,early,False,4,pcos,False
+27,['nausea'],25,on time,False,1,,False
+43,"['cramps', 'bloating', 'headache', 'body pain']",36,late,False,5,,False
+30,['headache'],27,early,False,2,,False
+37,"['cramps', 'nausea']",29,on time,False,3,,False
+24,"['bloating', 'body pain']",26,late,False,4,,False
+46,['cramps'],37,early,False,2,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,late,False,4,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,,False
+28,"['cramps', 'bloating']",27,on time,False,2,,False
+36,['headache'],29,late,False,1,,False
+17,"['cramps', 'nausea', 'body pain']",32,on time,False,4,,False
+23,['bloating'],25,early,False,1,,False
+48,"['headache', 'body pain']",28,late,False,3,,False
+30,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,4,,False
+21,['body pain'],26,early,False,2,,False
+39,"['cramps', 'headache']",33,late,False,5,,False
+14,"['bloating', 'nausea']",27,on time,False,3,,False
+26,['cramps'],24,early,False,1,,False
+45,"['bloating', 'headache', 'nausea', 'body pain']",36,late,False,4,,False
+18,"['cramps', 'bloating', 'headache', 'body pain']",29,on time,False,3,pcos,False
+33,['nausea'],25,early,False,2,,False
+29,"['cramps', 'headache', 'body pain']",32,late,False,5,,False
+37,['bloating'],28,on time,False,1,,False
+22,"['cramps', 'nausea']",26,early,False,3,,False
+42,"['headache', 'body pain']",34,late,False,4,,False
+27,"['cramps', 'bloating', 'headache']",30,on time,False,2,pcos,False
+35,['body pain'],27,early,False,1,,False
+16,"['cramps', 'bloating', 'nausea', 'body pain']",31,on time,False,4,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+23,"['cramps', 'headache', 'nausea']",26,early,False,4,,False
+31,"['bloating', 'body pain']",30,late,False,2,,False
+42,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,on time,False,5,,False
+19,['cramps'],27,early,False,2,,False
+28,"['bloating', 'headache']",29,on time,False,3,,False
+35,"['nausea', 'body pain']",32,late,False,4,,False
+45,"['cramps', 'bloating', 'headache']",25,early,False,1,,False
+17,"['cramps', 'nausea', 'body pain']",28,on time,False,3,,False
+26,['bloating'],31,late,False,2,,False
+33,"['headache', 'body pain']",29,on time,False,4,pcos,False
+43,"['cramps', 'bloating', 'nausea']",26,early,False,1,,False
+21,"['cramps', 'headache']",33,late,False,3,,False
+29,"['bloating', 'nausea', 'body pain']",27,on time,False,2,,False
+37,['cramps'],30,early,False,4,,False
+48,"['headache', 'body pain']",28,late,False,5,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",26,on time,False,3,,False
+24,"['bloating', 'headache']",29,early,False,2,,False
+32,"['nausea', 'body pain']",31,late,False,4,pcos,False
+40,"['cramps', 'bloating', 'headache']",27,on time,False,1,,False
+16,"['cramps', 'nausea']",35,early,False,3,,False
+30,['bloating'],28,late,False,2,,False
+38,"['headache', 'body pain']",26,on time,False,4,,False
+46,"['cramps', 'bloating', 'nausea']",29,early,False,1,,False
+22,"['cramps', 'headache']",31,late,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",25,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+41,"['cramps', 'headache', 'body pain']",29,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea']",32,late,False,4,,False
+35,['headache'],26,on time,False,2,,False
+22,"['cramps', 'body pain']",29,early,False,3,,False
+48,"['bloating', 'headache']",24,early,False,2,,False
+31,['nausea'],28,on time,False,1,,False
+14,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+27,['cramps'],26,on time,False,2,,False
+39,"['bloating', 'headache', 'nausea']",29,early,False,4,,False
+23,['body pain'],31,late,False,1,,False
+45,"['cramps', 'bloating']",25,early,False,3,,False
+18,"['headache', 'nausea']",30,on time,False,2,,False
+33,"['cramps', 'body pain']",27,early,False,4,,False
+29,['bloating'],29,late,False,1,,False
+42,"['cramps', 'headache', 'body pain']",24,early,False,3,,False
+21,"['nausea', 'body pain']",32,late,False,2,,False
+37,['cramps'],26,on time,False,3,,False
+26,"['bloating', 'headache']",28,early,False,1,,False
+49,"['headache', 'nausea']",25,early,False,2,,False
+30,"['cramps', 'body pain']",30,late,False,4,pcos,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,pcos,False
+28,['bloating'],29,on time,False,1,,False
+41,"['cramps', 'headache', 'body pain']",27,early,False,3,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,,False
+36,"['cramps', 'bloating']",28,on time,False,2,,False
+24,['headache'],25,early,False,1,,False
+48,"['cramps', 'bloating', 'headache', 'body pain']",30,late,False,3,,False
+31,['body pain'],29,on time,False,2,,False
+22,"['cramps', 'nausea', 'body pain']",33,late,False,4,pcos,False
+39,"['bloating', 'headache']",27,on time,False,1,,False
+16,"['cramps', 'headache', 'nausea']",31,late,False,3,,False
+29,['cramps'],26,early,False,2,,False
+45,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,5,,False
+18,"['bloating', 'nausea']",29,on time,False,3,,False
+33,"['headache', 'body pain']",27,early,False,1,,False
+26,"['cramps', 'bloating', 'nausea', 'body pain']",32,late,False,4,,False
+42,['cramps'],28,on time,False,2,,False
+21,"['bloating', 'headache', 'body pain']",25,early,False,3,,False
+37,['nausea'],29,on time,False,1,,False
+49,"['cramps', 'bloating', 'headache']",36,late,False,4,,False
+30,['body pain'],26,early,False,2,,False
+23,"['cramps', 'bloating']",31,late,False,3,,False
+16,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",30,late,False,4,,False
+32,"['nausea', 'headache']",26,early,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'body pain']",33,on time,False,5,,False
+41,['bloating'],27,late,False,1,,False
+28,"['nausea', 'cramps']",29,on time,False,3,,False
+35,"['headache', 'body pain']",31,early,False,2,,False
+18,['cramps'],25,on time,False,2,,False
+43,"['bloating', 'cramps', 'headache']",26,late,False,4,,False
+29,['nausea'],32,early,False,1,,False
+22,"['body pain', 'headache']",27,on time,False,3,,False
+37,"['cramps', 'bloating']",35,late,False,5,,False
+15,['headache'],29,on time,False,2,,False
+48,"['bloating', 'nausea']",24,early,False,3,,False
+26,"['cramps', 'body pain', 'nausea']",31,late,False,4,,False
+33,['body pain'],28,on time,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,early,False,5,pcos,False
+45,"['bloating', 'headache']",25,late,False,3,,False
+30,"['nausea', 'cramps', 'body pain']",29,on time,False,2,,False
+39,['cramps'],33,early,False,4,,False
+17,"['bloating', 'headache', 'body pain']",26,on time,False,3,,False
+46,['nausea'],27,late,False,1,,False
+27,"['cramps', 'bloating', 'nausea']",30,early,False,2,,False
+34,"['body pain', 'headache']",28,on time,False,3,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",26,early,False,1,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,on time,False,4,pcos,False
+18,['cramps'],27,early,False,2,,False
+42,"['bloating', 'headache']",29,late,False,3,,False
+35,"['nausea', 'body pain']",24,on time,False,1,,False
+23,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,,False
+48,['headache'],28,early,False,2,,False
+19,"['cramps', 'bloating']",31,on time,False,3,,False
+29,"['cramps', 'body pain']",25,early,False,2,,False
+37,"['bloating', 'nausea', 'body pain']",33,on time,False,4,,False
+45,"['cramps', 'bloating', 'headache']",27,late,False,3,,False
+21,"['headache', 'nausea']",29,early,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,5,pcos,False
+14,['cramps'],26,on time,False,2,,False
+39,['body pain'],28,early,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",30,late,False,3,,False
+46,"['bloating', 'headache', 'nausea']",24,on time,False,2,,False
+17,"['cramps', 'nausea']",32,early,False,4,,False
+30,"['headache', 'body pain']",27,late,False,1,,False
+43,"['cramps', 'bloating']",29,on time,False,3,,False
+22,['nausea'],25,early,False,1,,False
+36,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,4,,False
+49,"['headache', 'nausea', 'body pain']",28,early,False,2,,False
+16,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",30,late,False,2,,False
+32,"['cramps', 'nausea', 'headache']",26,early,False,4,,False
+19,['bloating'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,3,,False
+28,"['headache', 'nausea']",27,on time,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+36,"['bloating', 'body pain']",24,early,False,1,,False
+22,['cramps'],31,on time,False,2,,False
+48,"['headache', 'body pain']",28,late,False,3,,False
+30,"['cramps', 'bloating']",25,early,False,4,,False
+15,['nausea'],29,on time,False,1,,False
+40,"['cramps', 'bloating', 'headache']",33,late,False,2,,False
+27,['body pain'],26,on time,False,3,,False
+18,"['cramps', 'nausea', 'headache', 'body pain']",36,late,False,4,pcos,False
+35,"['bloating', 'cramps']",23,early,False,2,,False
+23,['headache'],30,on time,False,1,,False
+47,"['cramps', 'bloating', 'body pain']",27,late,False,3,,False
+29,['nausea'],24,early,False,2,,False
+20,"['cramps', 'bloating', 'headache', 'nausea']",34,late,False,5,pcos,False
+38,"['body pain', 'cramps']",29,on time,False,1,,False
+26,"['headache', 'nausea']",25,early,False,3,,False
+43,"['cramps', 'bloating']",26,late,False,2,,False
+33,['body pain'],27,on time,False,1,,False
+14,"['cramps', 'headache', 'nausea']",37,late,False,4,,False
+25,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+32,"['bloating', 'headache', 'nausea']",26,early,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",35,late,False,2,,False
+19,"['cramps', 'headache']",29,on time,False,3,,False
+28,"['bloating', 'nausea', 'body pain']",27,early,False,1,,False
+35,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,4,,False
+45,['headache'],24,early,False,2,,False
+22,['cramps'],33,on time,False,1,,False
+38,"['cramps', 'bloating']",29,late,False,3,,False
+15,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",31,on time,False,5,,False
+29,['nausea'],25,early,False,1,,False
+48,"['headache', 'body pain']",27,late,False,3,,False
+23,"['cramps', 'bloating']",36,late,False,4,PCOS,False
+31,"['bloating', 'headache']",28,on time,False,2,,False
+42,"['cramps', 'body pain']",26,early,False,3,,False
+18,"['cramps', 'headache', 'nausea']",30,late,False,4,,False
+36,['bloating'],29,on time,False,1,,False
+52,['headache'],23,early,False,2,,False
+27,"['cramps', 'bloating', 'body pain']",33,late,False,3,PCOD,False
+39,"['cramps', 'nausea']",27,on time,False,2,,False
+16,"['cramps', 'bloating', 'headache']",28,early,False,4,,False
+33,['body pain'],31,late,False,1,,False
+46,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",25,early,False,4,,False
+21,"['headache', 'nausea']",29,on time,False,3,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['headache', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['cramps', 'bloating', 'headache']",26,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'body pain']",35,late,False,3,,False
+28,"['cramps', 'headache', 'nausea']",27,early,False,4,,False
+36,['bloating'],31,on time,False,2,,False
+17,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,late,False,5,,False
+29,['headache'],25,early,False,1,,False
+43,"['cramps', 'bloating']",33,on time,False,3,,False
+22,['body pain'],29,late,False,2,,False
+38,['nausea'],26,early,False,1,,False
+14,"['cramps', 'bloating', 'headache']",30,on time,False,4,pcos,False
+27,"['bloating', 'headache', 'nausea', 'body pain']",27,late,False,3,,False
+35,['cramps'],32,early,False,2,,False
+23,"['cramps', 'body pain']",28,on time,False,1,,False
+40,"['bloating', 'headache']",34,late,False,3,,False
+31,"['headache', 'nausea']",26,early,False,4,,False
+18,"['cramps', 'bloating', 'nausea', 'body pain']",29,on time,False,5,,False
+26,['body pain'],25,late,False,2,,False
+39,['nausea'],33,early,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'body pain']",27,on time,False,3,,False
+21,"['bloating', 'headache']",29,late,False,2,,False
+37,"['headache', 'nausea', 'body pain']",25,early,False,4,,False
+24,['cramps'],31,on time,False,1,,False
+16,"['cramps', 'bloating']",28,on time,False,2,,False
+25,"['cramps', 'headache', 'nausea']",30,late,False,4,,False
+32,"['bloating', 'body pain']",26,early,False,3,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['headache'],27,on time,False,2,,False
+18,"['cramps', 'bloating', 'nausea']",32,late,False,3,,False
+35,['bloating'],25,early,False,1,,False
+22,"['cramps', 'headache', 'body pain']",29,on time,False,4,,False
+48,"['cramps', 'bloating']",24,early,False,2,,False
+30,['nausea'],28,on time,False,1,,False
+15,"['cramps', 'bloating', 'headache']",31,late,False,3,,False
+27,['body pain'],26,early,False,2,,False
+39,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,PCOS,False
+45,"['cramps', 'headache']",25,early,False,3,,False
+17,"['cramps', 'bloating', 'nausea', 'body pain']",30,on time,False,4,,False
+33,"['bloating', 'headache']",29,late,False,2,,False
+24,['cramps'],26,early,False,1,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",31,late,False,4,,False
+29,"['nausea', 'body pain']",28,on time,False,3,PCOD,False
+14,"['cramps', 'bloating']",35,late,False,2,,False
+37,['headache'],24,early,False,1,,False
+26,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+46,"['bloating', 'body pain']",27,early,False,3,,False
+16,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'cramps', 'body pain']",29,late,False,4,,False
+32,"['nausea', 'headache']",26,early,False,2,,False
+19,['cramps'],31,on time,False,1,,False
+41,"['bloating', 'cramps', 'headache', 'body pain']",28,late,False,5,,False
+27,"['nausea', 'body pain']",35,on time,False,3,pcos,False
+15,"['cramps', 'bloating']",29,early,False,2,,False
+38,['headache'],27,on time,False,1,,False
+23,"['bloating', 'nausea', 'cramps']",30,late,False,4,,False
+45,['body pain'],25,early,False,2,,False
+18,"['cramps', 'headache', 'nausea']",33,on time,False,3,,False
+31,['bloating'],26,late,False,1,pcos,False
+29,"['nausea', 'cramps', 'body pain']",28,early,False,4,,False
+48,"['headache', 'body pain']",24,on time,False,2,,False
+21,['cramps'],32,late,False,1,,False
+35,"['bloating', 'cramps', 'headache']",29,early,False,3,,False
+43,['nausea'],27,on time,False,1,,False
+26,"['cramps', 'bloating', 'body pain']",30,late,False,5,,False
+17,"['headache', 'nausea']",28,early,False,2,,False
+39,['cramps'],26,on time,False,1,,False
+24,"['bloating', 'nausea']",31,late,False,3,pcod,False
+46,"['body pain', 'cramps']",25,early,False,4,,False
+33,"['headache', 'cramps']",29,on time,False,2,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",35,late,False,3,,False
+52,['bloating'],27,early,False,1,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['headache', 'nausea']",26,early,False,2,,False
+32,"['cramps', 'bloating', 'body pain']",30,late,False,4,,False
+19,['cramps'],27,on time,False,2,,False
+41,"['headache', 'body pain']",32,early,False,3,,False
+28,"['bloating', 'nausea', 'body pain']",29,on time,False,4,,False
+35,"['cramps', 'headache', 'nausea']",25,late,False,2,,False
+17,"['cramps', 'bloating', 'headache']",31,on time,False,5,,False
+29,['nausea'],24,early,False,1,,False
+43,"['cramps', 'bloating', 'body pain']",33,late,False,4,,False
+22,"['bloating', 'headache']",28,on time,False,3,,False
+38,"['cramps', 'nausea', 'body pain']",26,early,False,2,,False
+14,['cramps'],30,late,False,4,,False
+27,"['headache', 'body pain']",29,on time,False,3,pcos,False
+34,"['bloating', 'nausea']",27,early,False,2,,False
+21,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,5,,False
+40,['nausea'],25,on time,False,1,,False
+31,"['cramps', 'body pain']",28,early,False,4,,False
+18,"['headache', 'nausea', 'body pain']",31,late,False,3,pcod,False
+24,['bloating'],26,on time,False,2,,False
+37,"['cramps', 'headache']",29,early,False,3,,False
+16,"['cramps', 'bloating', 'nausea', 'body pain']",33,late,False,5,,False
+30,['body pain'],27,on time,False,4,,False
+23,"['cramps', 'nausea']",24,early,False,2,,False
+39,"['bloating', 'headache', 'body pain']",30,late,False,3,,False
+25,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+18,"['cramps', 'body pain']",26,early,False,2,,False
+32,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",35,on time,False,2,,False
+16,['cramps'],29,late,False,1,,False
+28,"['headache', 'nausea']",27,early,False,3,,False
+37,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,4,,False
+19,['bloating'],24,early,False,1,,False
+45,"['cramps', 'headache', 'nausea', 'body pain']",29,late,False,5,,False
+23,"['cramps', 'bloating']",31,on time,False,2,,False
+33,['headache'],25,early,False,1,,False
+17,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,4,pcos,False
+29,['body pain'],28,on time,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,5,,False
+21,['nausea'],26,early,False,1,,False
+35,"['cramps', 'headache']",30,on time,False,3,,False
+15,"['cramps', 'bloating']",27,late,False,2,,False
+26,"['bloating', 'headache', 'body pain']",34,early,False,4,pcos,False
+38,['cramps'],29,on time,False,1,,False
+20,"['headache', 'nausea', 'body pain']",25,late,False,3,,False
+43,"['cramps', 'bloating', 'headache']",31,early,False,4,,False
+24,['body pain'],27,on time,False,2,,False
+31,"['cramps', 'nausea']",26,late,False,3,,False
+14,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,early,False,5,pcod,False
+27,['bloating'],28,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+41,"['cramps', 'bloating', 'body pain']",32,on time,False,2,,False
+25,['headache'],27,on time,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+36,['bloating'],29,on time,False,1,,False
+22,"['cramps', 'headache']",26,early,False,3,,False
+48,"['hot flashes', 'mood swings']",24,early,False,2,,False
+30,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,,False
+16,['cramps'],21,on time,False,2,,False
+39,"['heavy bleeding', 'cramps']",38,late,False,3,,False
+27,"['cramps', 'bloating']",29,on time,False,2,,False
+45,"['irregular bleeding', 'hot flashes']",40,late,False,1,,False
+23,"['cramps', 'nausea', 'body pain']",26,early,False,4,,False
+31,"['bloating', 'headache']",31,on time,False,2,,False
+18,"['cramps', 'bloating', 'headache', 'nausea']",24,early,False,3,pcos,False
+42,['irregular bleeding'],35,late,False,1,,False
+29,['cramps'],27,on time,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+37,"['heavy bleeding', 'cramps', 'bloating']",32,late,False,4,,False
+21,"['headache', 'nausea']",25,early,False,2,,False
+49,"['irregular bleeding', 'hot flashes', 'mood swings']",30,late,False,3,,False
+24,"['cramps', 'body pain']",29,on time,False,3,,False
+34,['bloating'],26,early,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'headache']",26,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,"['bloating', 'body pain']",27,on time,False,2,,False
+36,"['cramps', 'headache', 'nausea']",32,early,False,3,,False
+17,"['cramps', 'bloating']",28,late,False,2,,False
+23,"['headache', 'body pain']",31,on time,False,4,pcos,False
+40,"['cramps', 'bloating', 'headache', 'nausea']",29,early,False,3,,False
+31,['nausea'],25,on time,False,1,,False
+18,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,,False
+27,['body pain'],26,early,False,2,,False
+35,"['cramps', 'nausea']",30,on time,False,3,,False
+21,"['bloating', 'headache', 'nausea']",29,late,False,4,,False
+43,"['cramps', 'bloating']",27,early,False,2,,False
+29,['headache'],28,on time,False,1,,False
+38,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,late,False,5,,False
+16,"['nausea', 'body pain']",26,early,False,3,,False
+24,['cramps'],31,on time,False,2,pcos,False
+33,"['bloating', 'headache']",29,late,False,1,,False
+14,"['cramps', 'bloating', 'body pain']",27,early,False,4,,False
+45,"['headache', 'nausea']",33,on time,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'body pain']",28,late,False,5,,False
+37,['body pain'],25,early,False,2,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'bloating', 'body pain']",30,late,False,4,,False
+35,"['headache', 'nausea']",26,early,False,2,,False
+22,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,pcos,False
+42,['bloating'],27,on time,False,1,,False
+19,"['cramps', 'headache']",29,on time,False,2,,False
+31,"['cramps', 'bloating', 'headache', 'nausea']",35,late,False,4,,False
+25,['body pain'],25,early,False,1,,False
+48,"['hot flashes', 'mood swings']",23,early,False,2,,False
+16,"['cramps', 'bloating', 'headache', 'body pain']",31,on time,False,3,,False
+39,"['cramps', 'bloating']",26,early,False,2,,False
+27,"['headache', 'nausea', 'body pain']",32,late,False,4,pcos,False
+14,['cramps'],28,on time,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",38,late,False,5,,False
+21,"['bloating', 'headache']",24,early,False,2,,False
+45,"['hot flashes', 'mood swings', 'insomnia']",21,early,False,3,,False
+18,"['cramps', 'bloating', 'body pain']",30,on time,False,3,,False
+37,"['headache', 'nausea']",29,late,False,2,,False
+24,['cramps'],27,early,False,1,,False
+52,['hot flashes'],25,irregular,False,2,,False
+15,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,4,,False
+41,"['bloating', 'headache']",26,on time,False,2,,False
+29,"['cramps', 'body pain']",28,early,False,3,,False
+13,"['cramps', 'bloating']",35,late,False,3,,False
+36,['headache'],27,on time,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",30,late,False,2,,False
+35,"['bloating', 'headache', 'nausea']",26,early,False,1,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,on time,False,4,,False
+23,['cramps'],27,on time,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+31,['bloating'],29,early,False,1,,False
+48,"['cramps', 'headache']",25,late,False,3,,False
+26,"['nausea', 'body pain']",33,on time,False,2,,False
+39,"['cramps', 'bloating', 'nausea']",27,early,False,4,,False
+18,"['cramps', 'bloating']",31,on time,False,3,,False
+45,['headache'],24,late,False,1,,False
+29,"['cramps', 'body pain']",28,early,False,2,,False
+36,"['bloating', 'headache', 'nausea', 'body pain']",30,on time,False,4,PCOS,False
+22,"['cramps', 'nausea']",29,late,False,3,,False
+41,['body pain'],26,early,False,2,,False
+15,"['cramps', 'bloating', 'headache']",33,on time,False,4,,False
+33,"['bloating', 'nausea']",27,late,False,1,,False
+47,"['cramps', 'headache', 'body pain']",25,early,False,3,,False
+25,['nausea'],31,on time,False,2,,False
+38,"['cramps', 'bloating']",29,late,False,4,,False
+21,"['headache', 'nausea', 'body pain']",28,early,False,5,PCOD,False
+44,['cramps'],24,on time,False,1,,False
+30,"['bloating', 'body pain']",26,late,False,2,,False
+37,"['cramps', 'headache', 'nausea']",32,early,False,3,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'body pain']",29,late,False,2,,False
+32,"['headache', 'nausea']",26,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+28,['bloating'],27,on time,False,1,,False
+41,"['cramps', 'headache', 'body pain']",30,early,False,3,,False
+18,['cramps'],28,on time,False,2,,False
+36,"['bloating', 'headache', 'nausea']",25,late,False,4,,False
+27,"['cramps', 'bloating', 'body pain']",31,on time,False,3,PCOS,False
+15,"['cramps', 'headache']",29,early,False,2,,False
+33,['nausea'],26,on time,False,1,,False
+22,"['cramps', 'bloating', 'headache', 'body pain']",33,late,False,4,,False
+40,"['cramps', 'bloating']",27,early,False,2,,False
+17,"['headache', 'nausea', 'body pain']",28,on time,False,3,,False
+29,['cramps'],25,late,False,1,,False
+38,"['bloating', 'headache']",30,on time,False,4,,False
+24,"['cramps', 'nausea', 'body pain']",29,early,False,3,,False
+14,"['cramps', 'bloating', 'headache', 'nausea']",31,late,False,5,,False
+35,['body pain'],26,on time,False,2,,False
+21,"['cramps', 'bloating', 'headache', 'body pain']",32,early,False,4,PCOS,False
+39,['headache'],28,late,False,1,,False
+26,"['cramps', 'bloating']",27,on time,False,2,,False
+31,"['nausea', 'body pain']",29,early,False,3,,False
+13,"['cramps', 'headache', 'nausea']",35,late,False,4,,False
+37,['bloating'],25,on time,False,1,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['headache', 'body pain']",26,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea']",35,late,False,3,,False
+28,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",27,on time,False,5,,False
+17,"['cramps', 'headache']",32,late,False,2,,False
+36,['bloating'],25,early,False,1,,False
+22,"['nausea', 'body pain']",28,on time,False,3,,False
+48,"['cramps', 'bloating', 'headache']",30,late,False,4,,False
+31,"['cramps', 'bloating']",24,early,False,2,,False
+14,['headache'],29,on time,False,1,,False
+27,"['cramps', 'nausea', 'body pain']",33,late,False,5,PCOS,False
+39,"['bloating', 'headache']",26,early,False,3,,False
+21,['cramps'],27,on time,False,1,,False
+45,"['headache', 'nausea', 'body pain']",28,late,False,4,,False
+33,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,3,,False
+16,"['bloating', 'body pain']",29,late,False,2,,False
+29,['cramps'],25,early,False,1,,False
+42,"['headache', 'nausea']",34,late,False,3,,False
+24,"['cramps', 'bloating', 'headache', 'body pain']",28,on time,False,4,PCOS,False
+37,"['bloating', 'nausea', 'body pain']",26,early,False,2,,False
+18,"['cramps', 'headache']",31,late,False,3,,False
+30,['headache'],27,on time,False,1,,False
+46,"['cramps', 'bloating', 'nausea']",29,early,False,4,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",30,late,False,2,,False
+32,"['headache', 'body pain']",25,early,False,4,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,on time,False,5,,False
+41,['bloating'],27,late,False,1,,False
+28,['cramps'],29,on time,False,2,,False
+36,"['headache', 'nausea']",26,early,False,3,,False
+17,"['cramps', 'bloating', 'body pain']",31,late,False,4,,False
+23,"['bloating', 'headache']",24,on time,False,2,,False
+45,"['cramps', 'nausea']",28,early,False,3,,False
+31,['body pain'],35,on time,False,1,,False
+29,"['cramps', 'bloating', 'headache', 'nausea']",29,late,False,4,,False
+39,"['headache', 'body pain']",27,early,False,3,,False
+14,['cramps'],32,on time,False,2,,False
+27,"['bloating', 'nausea']",26,late,False,1,,False
+34,"['cramps', 'headache', 'body pain']",30,early,False,5,,False
+22,['headache'],23,on time,False,3,,False
+43,"['cramps', 'bloating']",29,late,False,2,,False
+37,"['nausea', 'body pain']",25,early,False,4,,False
+18,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",34,on time,False,5,PCOS,False
+26,['bloating'],27,late,False,1,PCOD,False
+33,"['cramps', 'headache']",31,early,False,3,,False
+47,"['headache', 'nausea', 'body pain']",28,on time,False,4,,False
+21,"['cramps', 'bloating', 'nausea', 'body pain']",24,late,False,2,,False
+40,['body pain'],26,early,False,1,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+33,"['bloating', 'headache', 'nausea']",30,late,False,4,,False
+25,"['cramps', 'bloating', 'body pain']",29,on time,False,2,,False
+41,"['headache', 'nausea']",35,early,False,3,,False
+19,"['cramps', 'bloating', 'headache', 'body pain']",26,on time,False,4,,False
+36,['bloating'],27,late,False,1,,False
+29,"['cramps', 'nausea', 'body pain']",31,on time,False,5,pcos,False
+18,['cramps'],24,early,False,2,,False
+45,"['headache', 'body pain']",28,late,False,3,,False
+22,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,on time,False,4,,False
+31,"['bloating', 'nausea']",29,on time,False,2,,False
+48,['cramps'],26,late,False,1,,False
+26,"['cramps', 'body pain']",33,early,False,3,,False
+15,"['cramps', 'bloating', 'headache']",27,on time,False,4,,False
+39,['nausea'],25,early,False,2,,False
+21,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",28,late,False,5,,False
+34,"['bloating', 'headache']",31,on time,False,3,pcos,False
+42,"['cramps', 'body pain']",29,early,False,2,,False
+27,"['headache', 'nausea', 'body pain']",26,late,False,4,,False
+16,"['cramps', 'bloating']",28,on time,False,3,,False
+37,"['bloating', 'nausea']",30,early,False,2,,False
+24,"['cramps', 'headache', 'nausea']",27,on time,False,4,,False
+49,['headache'],29,late,False,1,,False
+30,"['cramps', 'bloating', 'headache', 'body pain']",32,early,False,3,,False
+15,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'bloating', 'nausea']",26,early,False,2,,False
+32,"['headache', 'body pain']",30,on time,False,1,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,,False
+41,"['bloating', 'headache']",27,early,False,2,,False
+28,['cramps'],29,on time,False,1,,False
+35,"['cramps', 'bloating', 'headache', 'nausea']",32,late,False,5,pcos,False
+17,"['cramps', 'bloating']",25,on time,False,3,,False
+22,"['headache', 'nausea', 'body pain']",28,early,False,2,,False
+48,['bloating'],24,late,False,1,,False
+33,"['cramps', 'headache', 'body pain']",31,on time,False,3,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,4,pcos,False
+14,['cramps'],29,on time,False,2,,False
+45,"['headache', 'body pain']",26,early,False,3,,False
+29,"['bloating', 'nausea']",27,on time,False,1,,False
+38,"['cramps', 'bloating', 'headache']",30,late,False,4,,False
+18,"['cramps', 'headache', 'nausea', 'body pain']",24,early,False,3,,False
+23,['bloating'],28,on time,False,1,,False
+49,['headache'],25,late,False,2,,False
+31,"['cramps', 'bloating']",32,early,False,3,,False
+27,"['cramps', 'nausea', 'body pain']",29,on time,False,4,,False
+36,"['headache', 'nausea']",26,late,False,2,,False
+20,"['bloating', 'body pain']",27,early,False,1,,False
+43,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,5,,False
+28,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+17,"['cramps', 'body pain']",25,early,False,2,,False
+35,"['cramps', 'bloating', 'nausea']",30,late,False,4,,False
+22,"['bloating', 'headache']",27,on time,False,2,,False
+42,"['cramps', 'bloating', 'headache', 'body pain']",32,late,False,5,,False
+19,['cramps'],26,on time,False,1,,False
+31,"['bloating', 'nausea', 'body pain']",29,early,False,3,,False
+25,"['cramps', 'headache']",24,on time,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,4,,False
+16,"['cramps', 'bloating']",23,early,False,3,,False
+37,"['headache', 'nausea']",28,on time,False,1,,False
+29,"['cramps', 'body pain']",31,late,False,2,,False
+21,['bloating'],26,on time,False,1,,False
+45,"['cramps', 'bloating', 'headache', 'nausea']",33,late,False,3,,False
+18,"['cramps', 'headache', 'body pain']",27,early,False,4,,False
+33,['nausea'],29,on time,False,1,,False
+26,"['cramps', 'bloating', 'body pain']",25,late,False,2,pcos,False
+39,"['bloating', 'headache', 'nausea']",31,on time,False,3,,False
+15,['cramps'],24,early,False,2,,False
+48,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",36,late,False,4,,False
+23,"['headache', 'body pain']",28,on time,False,3,,False
+36,"['cramps', 'nausea']",30,early,False,2,,False
+30,"['bloating', 'body pain']",27,late,False,1,pcos,False
+27,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,5,,False
+43,['headache'],32,late,False,2,,False
+15,"['cramps', 'bloating']",28,on time,False,3,,False
+25,"['headache', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['cramps', 'bloating', 'headache']",25,early,False,2,,False
+19,['cramps'],29,on time,False,1,,False
+41,"['bloating', 'headache', 'nausea']",27,late,False,3,,False
+28,"['cramps', 'bloating', 'body pain']",33,early,False,4,,False
+17,['headache'],26,on time,False,2,,False
+35,"['nausea', 'body pain']",29,late,False,3,,False
+22,"['cramps', 'bloating', 'headache', 'nausea']",31,on time,False,5,pcos,False
+44,['bloating'],24,early,False,1,,False
+30,"['cramps', 'body pain']",28,late,False,2,,False
+14,"['headache', 'nausea']",35,on time,False,4,,False
+27,"['cramps', 'bloating', 'headache', 'body pain']",26,early,False,3,,False
+39,['nausea'],29,on time,False,2,,False
+21,['cramps'],32,late,False,1,,False
+47,"['bloating', 'headache']",25,early,False,3,,False
+33,"['cramps', 'nausea', 'body pain']",27,on time,False,4,,False
+18,['body pain'],28,late,False,2,,False
+40,"['cramps', 'bloating', 'headache', 'nausea']",30,early,False,5,,False
+24,['headache'],26,on time,False,1,,False
+37,"['bloating', 'nausea']",29,late,False,3,,False
+29,"['cramps', 'headache', 'body pain']",31,early,False,4,pcos,False
+16,"['nausea', 'body pain']",27,on time,False,2,,False
+43,"['cramps', 'bloating']",24,late,False,3,,False
+31,"['headache', 'nausea']",28,early,False,5,,False
+16,"['cramps', 'bloating', 'headache']",28,on time,False,3,,False
+25,"['cramps', 'nausea', 'body pain']",30,late,False,4,,False
+32,"['bloating', 'headache']",26,early,False,2,,False
+19,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+41,['cramps'],27,on time,False,1,,False
+28,"['bloating', 'headache', 'body pain']",29,on time,False,3,,False
+36,"['cramps', 'nausea']",25,early,False,2,,False
+17,"['cramps', 'bloating']",32,late,False,4,pcos,False
+48,['headache'],24,early,False,1,,False
+23,"['nausea', 'body pain']",31,on time,False,3,,False
+39,"['cramps', 'bloating', 'headache', 'body pain']",28,late,False,4,,False
+14,['cramps'],33,on time,False,2,pcod,False
+29,['bloating'],26,early,False,1,,False
+45,"['headache', 'nausea']",27,late,False,3,,False
+21,"['cramps', 'bloating', 'body pain']",30,on time,False,5,,False
+37,"['cramps', 'headache']",25,early,False,2,,False
+15,"['bloating', 'headache', 'nausea']",34,late,False,4,pcos,False
+33,['cramps'],29,on time,False,1,,False
+49,"['headache', 'body pain']",23,early,False,2,,False
+26,['nausea'],28,late,False,3,,False
+42,"['cramps', 'bloating', 'headache', 'nausea']",26,on time,False,4,,False
+18,"['cramps', 'body pain']",31,early,False,5,pcod,False
+30,"['bloating', 'headache']",27,late,False,2,,False
+46,['cramps'],24,early,False,1,,False
+22,"['headache', 'nausea', 'body pain']",29,on time,False,3,,False
+15,"['cramps', 'bloating']",28,on time,False,2,,False
+25,"['cramps', 'headache', 'nausea']",30,late,False,4,,False
+32,"['bloating', 'body pain']",25,early,False,3,,False
+18,['cramps'],29,on time,False,1,,False
+41,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",35,late,False,5,,False
+27,['headache'],27,on time,False,2,,False
+36,"['cramps', 'bloating', 'body pain']",32,early,False,3,,False
+19,['nausea'],26,late,False,1,,False
+45,"['cramps', 'bloating', 'headache']",29,on time,False,4,,False
+22,['body pain'],24,early,False,2,,False
+31,"['cramps', 'nausea', 'body pain']",33,late,False,3,,False
+17,"['bloating', 'headache']",28,on time,False,2,,False
+48,"['headache', 'nausea']",26,early,False,4,,False
+29,['cramps'],31,late,False,1,,False
+38,"['bloating', 'body pain']",27,on time,False,3,,False
+23,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",29,early,False,5,pcos,False
+43,['nausea'],25,late,False,1,,False
+35,"['cramps', 'headache']",34,on time,False,2,,False
+16,['bloating'],28,early,False,1,,False
+52,"['cramps', 'bloating', 'headache', 'body pain']",26,late,False,4,,False
+26,['body pain'],30,on time,False,2,,False
+40,"['cramps', 'nausea']",27,early,False,3,,False
+14,"['cramps', 'bloating', 'headache']",32,late,False,4,pcod,False
+33,"['headache', 'nausea', 'body pain']",29,on time,False,3,,False
+21,['bloating'],25,early,False,1,,False
+16,"['cramps', 'headache']",28,on time,False,3,,False
+25,"['bloating', 'mood swings', 'cramps']",30,late,False,2,,False
+32,"['cramps', 'bloating', 'headache', 'nausea']",26,early,False,4,,False
+19,"['body pain', 'headache']",29,on time,False,2,,False
+41,"['cramps', 'bloating', 'headache']",35,late,False,3,,False
+28,"['nausea', 'body pain']",27,on time,False,1,,False
+33,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,early,False,5,,False
+22,['bloating'],24,early,False,1,,False
+45,"['cramps', 'bloating']",29,late,False,2,,False
+17,"['cramps', 'headache', 'nausea']",31,on time,False,4,,False
+29,"['bloating', 'body pain']",25,early,False,3,,False
+38,['cramps'],28,on time,False,2,,False
+15,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",33,late,False,5,,False
+23,['headache'],26,early,False,1,,False
+48,"['cramps', 'bloating', 'headache']",30,late,False,3,,False
+31,['nausea'],27,on time,False,1,,False
+26,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",34,early,False,4,pcos,False
+39,"['bloating', 'body pain']",28,late,False,2,,False
+18,['cramps'],29,on time,False,3,,False
+42,"['cramps', 'bloating', 'headache']",26,early,False,4,,False
+24,"['headache', 'nausea']",31,late,False,2,,False
+35,['bloating'],27,on time,False,1,,False
+46,"['cramps', 'bloating', 'headache', 'nausea', 'body pain']",32,early,False,5,,False
+27,['body pain'],25,early,False,2,,False
+37,"['cramps', 'headache']",28,late,False,3,,False
