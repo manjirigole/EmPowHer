@@ -1,0 +1,2001 @@
+age,symptoms,duration,early_late,hormonal_imbalance,pain,pcod_pcos,medications,affecting_medicine,last_menstrual_date,next_period_date
+34,['bloating'],24,on time,False,1,None,None,True,2024-09-11,2024-10-05
+33,"['headache', 'cramps']",34,early,True,5,None,"['birth control pills', 'ibuprofen']",True,2024-09-10,2024-10-14
+28,"['bloating', 'cramps', 'fatigue']",40,early,False,1,None,None,True,2024-09-04,2024-10-14
+33,"['nausea', 'cramps']",23,on time,False,5,None,None,True,2024-09-08,2024-10-01
+27,"['cramps', 'fatigue', 'headache']",38,early,True,5,None,"['ibuprofen', 'naproxen']",False,2024-09-08,2024-10-16
+37,"['nausea', 'bloating']",26,late,False,5,None,None,False,2024-09-14,2024-10-10
+38,"['cramps', 'mood swings']",33,early,True,2,None,"['ibuprofen', 'naproxen']",False,2024-09-06,2024-10-09
+24,['cramps'],28,late,True,4,PCOD,"['naproxen', 'acetaminophen']",False,2024-09-13,2024-10-11
+32,"['body pain', 'headache', 'nausea']",22,late,True,5,PCOD,"['naproxen', 'ibuprofen']",True,2024-09-15,2024-10-07
+28,"['cramps', 'mood swings', 'nausea']",23,late,False,3,None,None,True,2024-08-30,2024-09-22
+26,"['cramps', 'body pain', 'mood swings']",38,on time,False,1,None,None,False,2024-09-04,2024-10-12
+32,['fatigue'],22,early,True,5,None,['birth control pills'],False,2024-08-29,2024-09-20
+39,"['body pain', 'nausea', 'bloating']",25,early,False,5,None,None,False,2024-09-04,2024-09-29
+34,['nausea'],34,late,True,4,PCOS,['ibuprofen'],False,2024-09-15,2024-10-19
+34,"['headache', 'nausea']",34,early,True,3,None,['ibuprofen'],False,2024-09-01,2024-10-05
+31,"['headache', 'body pain']",36,late,False,3,None,None,False,2024-09-08,2024-10-14
+35,"['headache', 'bloating', 'body pain']",32,on time,False,3,None,None,True,2024-09-11,2024-10-13
+37,['mood swings'],28,on time,False,4,None,None,False,2024-09-12,2024-10-10
+40,"['bloating', 'headache']",29,on time,True,4,PCOS,"['acetaminophen', 'birth control pills']",False,2024-09-02,2024-10-01
+37,['cramps'],22,on time,False,1,None,None,False,2024-08-30,2024-09-21
+23,['body pain'],36,on time,False,1,None,None,False,2024-09-04,2024-10-10
+23,"['body pain', 'bloating']",25,early,True,1,PCOS,['acetaminophen'],False,2024-09-08,2024-10-03
+19,['cramps'],31,early,False,5,None,None,False,2024-09-12,2024-10-13
+31,"['fatigue', 'cramps', 'headache']",39,on time,False,3,None,None,False,2024-09-01,2024-10-10
+25,['fatigue'],33,on time,False,1,None,None,True,2024-08-30,2024-10-02
+24,"['bloating', 'headache', 'cramps']",25,early,False,5,None,None,True,2024-09-01,2024-09-26
+23,['mood swings'],37,on time,False,5,None,None,False,2024-08-29,2024-10-05
+34,"['mood swings', 'cramps']",31,late,True,3,PCOS,['acetaminophen'],False,2024-09-12,2024-10-13
+21,"['headache', 'fatigue', 'cramps']",37,on time,False,1,None,None,True,2024-09-03,2024-10-10
+21,['mood swings'],24,on time,True,4,PCOD,['acetaminophen'],True,2024-09-04,2024-09-28
+23,"['fatigue', 'bloating']",30,on time,True,2,PCOD,"['naproxen', 'birth control pills']",True,2024-08-30,2024-09-29
+32,['cramps'],28,on time,False,1,None,None,False,2024-09-14,2024-10-12
+38,['headache'],29,late,True,2,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-10,2024-10-09
+27,"['mood swings', 'headache', 'cramps']",37,on time,True,2,PCOD,['naproxen'],True,2024-09-14,2024-10-21
+37,"['headache', 'body pain', 'bloating']",33,late,True,1,PCOS,['birth control pills'],True,2024-09-09,2024-10-12
+23,['cramps'],34,on time,False,4,None,None,False,2024-09-03,2024-10-07
+28,['headache'],39,late,False,5,None,None,False,2024-08-31,2024-10-09
+23,"['mood swings', 'fatigue', 'nausea']",21,late,True,5,None,['ibuprofen'],False,2024-09-11,2024-10-02
+34,"['fatigue', 'mood swings', 'headache']",38,on time,True,5,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-09,2024-10-17
+37,"['mood swings', 'headache', 'fatigue']",22,late,True,3,PCOD,['acetaminophen'],False,2024-09-12,2024-10-04
+21,"['headache', 'nausea', 'mood swings']",39,on time,True,3,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-02,2024-10-11
+30,"['headache', 'cramps', 'mood swings']",35,early,False,5,None,None,True,2024-09-03,2024-10-08
+19,"['fatigue', 'mood swings', 'body pain']",29,early,False,1,None,None,True,2024-09-04,2024-10-03
+26,"['bloating', 'headache']",37,early,False,1,None,None,True,2024-09-06,2024-10-13
+22,['body pain'],40,late,False,2,None,None,True,2024-09-08,2024-10-18
+21,"['mood swings', 'headache', 'cramps']",26,on time,False,2,None,None,True,2024-09-11,2024-10-07
+28,"['fatigue', 'mood swings']",36,on time,False,2,None,None,False,2024-08-29,2024-10-04
+40,"['headache', 'fatigue', 'cramps']",37,on time,True,3,None,['birth control pills'],True,2024-09-07,2024-10-14
+19,"['body pain', 'bloating']",38,late,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-09-15,2024-10-23
+19,['mood swings'],25,early,False,1,None,None,False,2024-09-09,2024-10-04
+26,"['nausea', 'bloating']",38,on time,False,4,None,None,False,2024-08-30,2024-10-07
+27,['fatigue'],36,late,True,5,PCOS,['birth control pills'],False,2024-08-31,2024-10-06
+23,['headache'],37,late,False,3,None,None,True,2024-09-11,2024-10-18
+35,"['body pain', 'cramps']",32,on time,True,1,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-06,2024-10-08
+37,"['nausea', 'bloating']",37,on time,True,3,None,"['acetaminophen', 'ibuprofen']",True,2024-09-04,2024-10-11
+36,['bloating'],35,on time,False,2,None,None,True,2024-09-14,2024-10-19
+39,"['headache', 'fatigue']",28,late,False,3,None,None,True,2024-09-09,2024-10-07
+22,"['cramps', 'bloating', 'fatigue']",21,early,True,2,PCOS,['birth control pills'],False,2024-09-08,2024-09-29
+38,['nausea'],38,early,True,2,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-12,2024-10-20
+31,"['fatigue', 'cramps']",37,on time,False,2,None,None,False,2024-09-05,2024-10-12
+21,"['body pain', 'mood swings', 'headache']",32,early,True,3,None,['naproxen'],True,2024-09-07,2024-10-09
+29,['nausea'],23,early,False,2,None,None,True,2024-09-13,2024-10-06
+39,"['mood swings', 'bloating', 'cramps']",21,early,True,1,PCOD,['birth control pills'],True,2024-08-29,2024-09-19
+34,['bloating'],39,on time,False,4,None,None,False,2024-09-02,2024-10-11
+19,['bloating'],23,on time,True,1,PCOD,"['naproxen', 'ibuprofen']",True,2024-09-03,2024-09-26
+38,['body pain'],29,early,True,2,None,['acetaminophen'],True,2024-09-01,2024-09-30
+35,"['body pain', 'cramps']",34,early,False,2,None,None,True,2024-09-05,2024-10-09
+35,"['body pain', 'nausea', 'cramps']",27,early,True,1,PCOS,"['acetaminophen', 'naproxen']",True,2024-09-11,2024-10-08
+28,"['cramps', 'fatigue', 'nausea']",25,on time,True,1,PCOD,['naproxen'],False,2024-09-01,2024-09-26
+40,"['mood swings', 'nausea', 'cramps']",26,late,False,1,None,None,False,2024-09-16,2024-10-12
+25,"['cramps', 'mood swings']",36,on time,False,1,None,None,False,2024-08-28,2024-10-03
+34,['mood swings'],29,on time,False,2,None,None,False,2024-09-04,2024-10-03
+28,"['cramps', 'nausea']",23,on time,True,2,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-14,2024-10-07
+35,['mood swings'],36,late,False,4,None,None,False,2024-09-10,2024-10-16
+40,['bloating'],32,on time,False,2,None,None,True,2024-09-16,2024-10-18
+40,"['fatigue', 'headache']",38,late,False,1,None,None,True,2024-09-13,2024-10-21
+21,"['body pain', 'cramps', 'mood swings']",40,on time,True,5,PCOD,['acetaminophen'],True,2024-09-14,2024-10-24
+33,"['bloating', 'mood swings']",31,late,False,2,None,None,False,2024-09-16,2024-10-17
+25,"['headache', 'mood swings']",36,early,False,3,None,None,True,2024-09-16,2024-10-22
+40,"['fatigue', 'bloating', 'cramps']",36,late,False,4,None,None,True,2024-09-01,2024-10-07
+21,['body pain'],33,on time,False,5,None,None,False,2024-08-30,2024-10-02
+30,"['fatigue', 'bloating', 'mood swings']",29,late,True,5,None,"['birth control pills', 'acetaminophen']",False,2024-08-28,2024-09-26
+28,"['cramps', 'headache', 'mood swings']",24,early,True,3,None,"['naproxen', 'birth control pills']",False,2024-09-05,2024-09-29
+29,['bloating'],37,on time,True,1,PCOD,['naproxen'],False,2024-09-04,2024-10-11
+33,['nausea'],21,on time,True,1,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-03,2024-09-24
+24,['cramps'],27,on time,True,3,None,"['birth control pills', 'acetaminophen']",True,2024-09-07,2024-10-04
+27,"['body pain', 'headache', 'bloating']",25,early,False,5,None,None,True,2024-08-30,2024-09-24
+29,"['body pain', 'mood swings', 'bloating']",21,on time,True,4,PCOD,['naproxen'],True,2024-09-13,2024-10-04
+32,"['nausea', 'headache', 'bloating']",31,early,True,3,PCOS,['naproxen'],True,2024-09-09,2024-10-10
+26,"['mood swings', 'body pain']",26,on time,True,4,PCOD,['naproxen'],False,2024-09-07,2024-10-03
+27,"['body pain', 'fatigue']",21,early,False,3,None,None,True,2024-09-14,2024-10-05
+26,"['mood swings', 'nausea', 'bloating']",30,on time,True,1,PCOS,['ibuprofen'],False,2024-09-15,2024-10-15
+23,['headache'],37,late,True,1,PCOD,"['acetaminophen', 'ibuprofen']",True,2024-09-15,2024-10-22
+39,"['body pain', 'nausea', 'cramps']",29,early,False,1,None,None,False,2024-09-02,2024-10-01
+22,['headache'],23,late,True,5,None,['acetaminophen'],False,2024-09-08,2024-10-01
+21,"['mood swings', 'body pain']",24,early,True,2,None,['naproxen'],False,2024-09-07,2024-10-01
+39,"['body pain', 'cramps', 'mood swings']",38,early,True,3,None,"['birth control pills', 'acetaminophen']",True,2024-09-08,2024-10-16
+27,['headache'],25,late,True,4,None,['acetaminophen'],False,2024-08-28,2024-09-22
+39,['fatigue'],24,on time,False,3,None,None,True,2024-09-16,2024-10-10
+32,['cramps'],32,late,True,1,PCOS,['ibuprofen'],False,2024-09-08,2024-10-10
+35,['body pain'],25,late,True,5,PCOS,['ibuprofen'],True,2024-09-02,2024-09-27
+34,"['mood swings', 'headache', 'body pain']",40,on time,False,3,None,None,False,2024-09-06,2024-10-16
+38,['mood swings'],28,early,False,3,None,None,True,2024-09-16,2024-10-14
+22,"['headache', 'body pain', 'mood swings']",23,on time,True,3,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-03,2024-09-26
+24,"['nausea', 'bloating']",35,on time,False,5,None,None,False,2024-09-14,2024-10-19
+30,['cramps'],35,late,False,5,None,None,False,2024-09-15,2024-10-20
+40,"['bloating', 'body pain']",39,early,False,3,None,None,True,2024-09-07,2024-10-16
+30,['mood swings'],31,early,False,5,None,None,False,2024-09-10,2024-10-11
+29,['mood swings'],32,late,False,2,None,None,False,2024-09-07,2024-10-09
+23,"['nausea', 'mood swings', 'headache']",39,early,False,2,None,None,False,2024-09-11,2024-10-20
+29,"['bloating', 'mood swings', 'cramps']",32,on time,False,5,None,None,True,2024-09-09,2024-10-11
+31,"['cramps', 'mood swings', 'bloating']",26,on time,True,3,PCOD,['acetaminophen'],False,2024-08-30,2024-09-25
+30,"['headache', 'cramps', 'bloating']",32,late,False,1,None,None,False,2024-09-14,2024-10-16
+34,['mood swings'],26,late,True,1,None,"['acetaminophen', 'naproxen']",False,2024-09-11,2024-10-07
+21,['fatigue'],36,early,True,5,PCOD,['naproxen'],True,2024-09-15,2024-10-21
+26,"['headache', 'body pain']",35,late,False,3,None,None,False,2024-09-14,2024-10-19
+36,['body pain'],35,early,True,5,None,['naproxen'],True,2024-09-07,2024-10-12
+39,['bloating'],25,early,True,5,PCOD,['ibuprofen'],False,2024-09-06,2024-10-01
+21,['cramps'],40,late,True,1,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-02,2024-10-12
+22,"['fatigue', 'bloating', 'headache']",26,late,True,3,PCOD,['acetaminophen'],True,2024-09-15,2024-10-11
+26,['mood swings'],23,late,False,4,None,None,False,2024-09-04,2024-09-27
+31,['headache'],27,late,False,1,None,None,True,2024-08-28,2024-09-24
+26,"['cramps', 'nausea', 'headache']",24,late,True,1,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-08,2024-10-02
+20,['fatigue'],31,on time,True,4,PCOD,['acetaminophen'],False,2024-08-29,2024-09-29
+31,['mood swings'],21,late,True,2,None,['birth control pills'],True,2024-09-06,2024-09-27
+19,"['bloating', 'headache', 'body pain']",40,on time,True,5,PCOS,['ibuprofen'],True,2024-09-13,2024-10-23
+30,"['fatigue', 'headache']",28,early,False,2,None,None,False,2024-08-31,2024-09-28
+21,['body pain'],25,on time,False,4,None,None,False,2024-09-03,2024-09-28
+29,"['cramps', 'bloating']",35,on time,False,4,None,None,False,2024-09-04,2024-10-09
+21,['headache'],31,early,True,2,PCOS,['birth control pills'],True,2024-09-05,2024-10-06
+28,"['body pain', 'mood swings']",31,early,True,1,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-09-09,2024-10-10
+27,"['fatigue', 'headache', 'bloating']",21,late,True,5,None,"['birth control pills', 'naproxen']",True,2024-09-09,2024-09-30
+30,"['bloating', 'headache']",25,late,True,2,PCOD,"['birth control pills', 'naproxen']",False,2024-08-30,2024-09-24
+30,"['nausea', 'bloating', 'cramps']",26,on time,False,2,None,None,True,2024-09-14,2024-10-10
+28,"['bloating', 'body pain', 'fatigue']",40,on time,True,3,PCOD,['ibuprofen'],True,2024-09-06,2024-10-16
+20,"['bloating', 'body pain']",34,early,True,2,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-10,2024-10-14
+36,"['fatigue', 'cramps']",27,late,False,5,None,None,True,2024-08-29,2024-09-25
+34,"['cramps', 'headache']",36,early,False,4,None,None,False,2024-09-02,2024-10-08
+35,['body pain'],30,on time,False,1,None,None,False,2024-09-07,2024-10-07
+21,"['bloating', 'mood swings', 'fatigue']",33,on time,False,3,None,None,False,2024-09-13,2024-10-16
+32,"['fatigue', 'nausea', 'cramps']",40,late,False,3,None,None,False,2024-09-04,2024-10-14
+22,"['bloating', 'nausea', 'mood swings']",24,on time,True,2,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-11,2024-10-05
+21,['nausea'],31,early,True,2,None,['ibuprofen'],True,2024-09-02,2024-10-03
+37,['headache'],34,on time,False,5,None,None,True,2024-09-05,2024-10-09
+38,['mood swings'],21,early,False,2,None,None,False,2024-09-09,2024-09-30
+22,"['headache', 'fatigue', 'cramps']",39,early,False,1,None,None,False,2024-09-12,2024-10-21
+24,"['mood swings', 'cramps']",28,early,False,1,None,None,True,2024-09-05,2024-10-03
+33,['mood swings'],22,late,False,4,None,None,False,2024-09-07,2024-09-29
+27,"['mood swings', 'nausea', 'fatigue']",40,late,False,1,None,None,True,2024-09-12,2024-10-22
+40,"['fatigue', 'cramps', 'body pain']",30,on time,True,1,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-04,2024-10-04
+26,"['bloating', 'fatigue', 'body pain']",33,early,False,1,None,None,False,2024-09-04,2024-10-07
+29,['fatigue'],31,on time,False,1,None,None,True,2024-09-08,2024-10-09
+30,['bloating'],38,late,True,1,PCOS,"['naproxen', 'acetaminophen']",False,2024-09-16,2024-10-24
+27,"['bloating', 'fatigue', 'cramps']",22,late,True,1,PCOD,['ibuprofen'],True,2024-08-28,2024-09-19
+34,"['bloating', 'mood swings']",31,late,True,1,None,['naproxen'],True,2024-09-05,2024-10-06
+32,['headache'],30,on time,False,3,None,None,False,2024-09-08,2024-10-08
+32,"['cramps', 'fatigue', 'body pain']",38,early,False,2,None,None,True,2024-09-01,2024-10-09
+37,"['cramps', 'mood swings', 'bloating']",36,late,False,4,None,None,True,2024-09-12,2024-10-18
+37,"['fatigue', 'mood swings']",36,early,True,4,PCOD,"['ibuprofen', 'birth control pills']",True,2024-08-29,2024-10-04
+39,"['nausea', 'cramps']",37,late,False,3,None,None,True,2024-08-29,2024-10-05
+40,"['cramps', 'body pain', 'bloating']",26,early,False,4,None,None,False,2024-09-12,2024-10-08
+19,"['body pain', 'mood swings']",21,early,False,3,None,None,False,2024-08-30,2024-09-20
+36,['headache'],36,on time,False,1,None,None,True,2024-09-16,2024-10-22
+29,['cramps'],38,late,True,5,PCOS,"['acetaminophen', 'ibuprofen']",False,2024-09-11,2024-10-19
+40,"['headache', 'body pain']",27,on time,False,1,None,None,True,2024-09-06,2024-10-03
+20,['body pain'],21,on time,True,4,PCOS,['naproxen'],False,2024-09-12,2024-10-03
+33,"['bloating', 'fatigue', 'body pain']",31,early,True,1,PCOS,['acetaminophen'],True,2024-09-06,2024-10-07
+35,"['nausea', 'headache', 'cramps']",22,late,False,4,None,None,True,2024-09-03,2024-09-25
+29,['bloating'],39,early,True,4,None,['ibuprofen'],False,2024-09-04,2024-10-13
+30,"['bloating', 'cramps']",36,late,True,4,PCOS,['naproxen'],True,2024-09-14,2024-10-20
+30,"['cramps', 'fatigue']",36,on time,False,2,None,None,False,2024-09-14,2024-10-20
+31,"['body pain', 'mood swings', 'fatigue']",37,early,True,3,None,"['naproxen', 'acetaminophen']",False,2024-09-16,2024-10-23
+40,"['mood swings', 'body pain']",40,late,False,2,None,None,True,2024-09-06,2024-10-16
+29,"['mood swings', 'nausea', 'cramps']",36,on time,False,2,None,None,False,2024-08-29,2024-10-04
+20,"['body pain', 'nausea', 'fatigue']",23,early,True,2,None,['naproxen'],False,2024-08-28,2024-09-20
+33,"['fatigue', 'nausea']",33,early,True,4,None,"['naproxen', 'birth control pills']",True,2024-09-08,2024-10-11
+39,"['cramps', 'headache', 'body pain']",26,early,False,2,None,None,False,2024-09-12,2024-10-08
+35,"['nausea', 'bloating']",28,early,True,4,None,['birth control pills'],True,2024-09-04,2024-10-02
+26,"['headache', 'body pain', 'cramps']",27,late,False,4,None,None,False,2024-09-05,2024-10-02
+34,"['bloating', 'headache', 'fatigue']",40,on time,False,2,None,None,True,2024-09-07,2024-10-17
+33,"['nausea', 'mood swings']",25,late,False,5,None,None,True,2024-09-10,2024-10-05
+32,"['cramps', 'mood swings']",34,on time,False,4,None,None,True,2024-08-30,2024-10-03
+24,"['body pain', 'fatigue', 'mood swings']",33,on time,False,2,None,None,True,2024-09-02,2024-10-05
+23,"['cramps', 'bloating', 'headache']",25,on time,True,4,PCOS,['ibuprofen'],False,2024-09-05,2024-09-30
+23,['fatigue'],37,on time,False,5,None,None,True,2024-09-02,2024-10-09
+39,"['bloating', 'body pain', 'cramps']",38,late,False,3,None,None,False,2024-09-01,2024-10-09
+19,['headache'],27,late,False,3,None,None,False,2024-08-31,2024-09-27
+39,"['bloating', 'nausea']",36,on time,False,2,None,None,True,2024-09-01,2024-10-07
+39,"['body pain', 'headache']",25,early,True,2,None,"['acetaminophen', 'ibuprofen']",False,2024-09-03,2024-09-28
+20,"['cramps', 'headache']",37,on time,True,2,PCOS,"['ibuprofen', 'naproxen']",True,2024-08-31,2024-10-07
+25,['mood swings'],33,late,True,3,PCOS,['ibuprofen'],False,2024-09-06,2024-10-09
+37,"['body pain', 'fatigue']",30,on time,True,2,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-07,2024-10-07
+39,"['fatigue', 'nausea', 'mood swings']",34,late,True,2,PCOS,"['naproxen', 'birth control pills']",True,2024-09-06,2024-10-10
+25,"['bloating', 'nausea', 'headache']",32,on time,True,5,PCOS,"['naproxen', 'acetaminophen']",True,2024-09-15,2024-10-17
+19,"['body pain', 'bloating', 'nausea']",25,late,False,5,None,None,False,2024-08-31,2024-09-25
+34,"['cramps', 'mood swings', 'body pain']",26,early,False,5,None,None,True,2024-09-06,2024-10-02
+36,"['headache', 'fatigue', 'nausea']",22,late,False,5,None,None,True,2024-09-08,2024-09-30
+21,"['mood swings', 'nausea']",39,early,True,1,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-15,2024-10-24
+26,['fatigue'],26,early,True,1,None,['naproxen'],True,2024-09-11,2024-10-07
+23,['nausea'],39,late,True,1,None,['ibuprofen'],True,2024-08-28,2024-10-06
+33,"['mood swings', 'bloating']",24,on time,True,2,PCOD,['ibuprofen'],True,2024-09-10,2024-10-04
+19,['body pain'],30,late,True,1,None,"['naproxen', 'ibuprofen']",False,2024-08-29,2024-09-28
+19,['fatigue'],23,late,False,5,None,None,False,2024-09-11,2024-10-04
+32,"['bloating', 'headache']",36,early,False,3,None,None,False,2024-09-14,2024-10-20
+31,['fatigue'],37,on time,False,5,None,None,True,2024-09-11,2024-10-18
+26,"['cramps', 'headache', 'body pain']",34,late,False,5,None,None,False,2024-09-16,2024-10-20
+39,"['body pain', 'mood swings']",32,on time,False,4,None,None,True,2024-09-06,2024-10-08
+37,"['fatigue', 'nausea', 'body pain']",24,on time,True,1,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-16,2024-10-10
+40,['mood swings'],37,on time,False,3,None,None,True,2024-09-04,2024-10-11
+40,"['bloating', 'cramps', 'headache']",38,early,False,1,None,None,False,2024-09-06,2024-10-14
+25,"['cramps', 'mood swings']",31,late,True,2,None,['naproxen'],False,2024-09-16,2024-10-17
+25,"['headache', 'nausea', 'cramps']",31,early,False,1,None,None,True,2024-09-13,2024-10-14
+37,"['mood swings', 'nausea']",35,early,False,1,None,None,False,2024-08-31,2024-10-05
+28,['mood swings'],33,early,True,4,None,"['ibuprofen', 'acetaminophen']",False,2024-08-30,2024-10-02
+23,['headache'],32,early,True,2,None,['naproxen'],True,2024-08-31,2024-10-02
+26,"['bloating', 'nausea']",40,early,True,4,PCOS,"['acetaminophen', 'naproxen']",True,2024-09-06,2024-10-16
+22,"['mood swings', 'fatigue', 'bloating']",29,late,True,3,None,['acetaminophen'],False,2024-09-06,2024-10-05
+20,"['body pain', 'fatigue']",38,on time,True,4,PCOD,"['naproxen', 'birth control pills']",True,2024-09-05,2024-10-13
+20,"['fatigue', 'body pain', 'bloating']",26,early,True,4,PCOD,['acetaminophen'],False,2024-09-02,2024-09-28
+28,"['mood swings', 'headache']",26,early,False,1,None,None,False,2024-09-03,2024-09-29
+31,"['mood swings', 'nausea']",25,on time,True,3,None,['naproxen'],False,2024-09-03,2024-09-28
+24,"['mood swings', 'headache']",28,late,True,2,None,"['birth control pills', 'acetaminophen']",True,2024-09-06,2024-10-04
+27,['body pain'],24,on time,True,1,None,"['naproxen', 'acetaminophen']",False,2024-08-30,2024-09-23
+35,"['body pain', 'cramps', 'headache']",35,early,False,1,None,None,True,2024-09-01,2024-10-06
+23,['headache'],39,early,True,2,PCOD,"['birth control pills', 'naproxen']",True,2024-08-30,2024-10-08
+20,"['headache', 'body pain', 'nausea']",38,late,True,1,None,"['ibuprofen', 'birth control pills']",False,2024-08-31,2024-10-08
+38,"['mood swings', 'fatigue', 'body pain']",29,on time,True,2,PCOD,"['ibuprofen', 'acetaminophen']",False,2024-08-30,2024-09-28
+34,"['nausea', 'fatigue', 'headache']",39,early,True,2,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-15,2024-10-24
+29,['mood swings'],22,early,False,2,None,None,True,2024-09-04,2024-09-26
+38,"['fatigue', 'headache', 'body pain']",35,on time,False,1,None,None,False,2024-09-09,2024-10-14
+34,['cramps'],33,late,False,2,None,None,False,2024-09-09,2024-10-12
+38,"['headache', 'bloating']",36,early,False,5,None,None,True,2024-09-12,2024-10-18
+24,['fatigue'],32,late,False,2,None,None,False,2024-09-15,2024-10-17
+23,['bloating'],22,on time,False,5,None,None,False,2024-09-09,2024-10-01
+22,['fatigue'],32,early,False,4,None,None,True,2024-09-08,2024-10-10
+20,"['fatigue', 'mood swings']",21,early,True,2,None,"['naproxen', 'ibuprofen']",True,2024-09-11,2024-10-02
+25,['bloating'],22,on time,True,2,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-12,2024-10-04
+32,"['cramps', 'bloating']",33,early,True,1,None,"['birth control pills', 'ibuprofen']",False,2024-09-03,2024-10-06
+38,"['cramps', 'mood swings']",28,early,False,3,None,None,True,2024-09-12,2024-10-10
+35,['bloating'],22,late,False,4,None,None,True,2024-09-03,2024-09-25
+20,"['bloating', 'headache']",34,on time,False,2,None,None,True,2024-09-01,2024-10-05
+36,['body pain'],23,early,False,1,None,None,False,2024-09-02,2024-09-25
+26,"['headache', 'cramps']",30,early,False,4,None,None,True,2024-09-06,2024-10-06
+24,"['bloating', 'mood swings', 'headache']",24,early,True,5,PCOS,"['ibuprofen', 'birth control pills']",True,2024-08-30,2024-09-23
+30,['bloating'],40,late,False,3,None,None,True,2024-09-16,2024-10-26
+34,"['bloating', 'fatigue']",24,on time,False,2,None,None,False,2024-09-09,2024-10-03
+29,['headache'],26,early,False,2,None,None,False,2024-09-15,2024-10-11
+22,"['bloating', 'mood swings', 'body pain']",26,late,False,3,None,None,True,2024-08-29,2024-09-24
+37,"['fatigue', 'nausea']",32,on time,False,4,None,None,False,2024-08-30,2024-10-01
+23,['nausea'],27,on time,False,2,None,None,True,2024-09-08,2024-10-05
+39,"['mood swings', 'cramps']",38,on time,False,3,None,None,True,2024-09-04,2024-10-12
+20,['headache'],28,on time,False,3,None,None,True,2024-09-07,2024-10-05
+24,['fatigue'],33,late,False,1,None,None,False,2024-09-11,2024-10-14
+32,['headache'],31,on time,True,3,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-07,2024-10-08
+26,"['mood swings', 'body pain', 'headache']",25,on time,False,5,None,None,False,2024-09-09,2024-10-04
+22,['fatigue'],30,on time,True,3,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-08-31,2024-09-30
+36,"['cramps', 'fatigue']",32,early,True,3,None,['ibuprofen'],True,2024-09-07,2024-10-09
+31,"['nausea', 'fatigue', 'cramps']",34,on time,False,2,None,None,True,2024-09-05,2024-10-09
+26,"['nausea', 'mood swings', 'body pain']",31,on time,False,4,None,None,True,2024-09-03,2024-10-04
+26,"['nausea', 'cramps']",39,late,True,5,None,"['acetaminophen', 'ibuprofen']",False,2024-09-16,2024-10-25
+23,['nausea'],23,late,True,3,None,"['ibuprofen', 'birth control pills']",True,2024-09-10,2024-10-03
+24,"['bloating', 'mood swings', 'body pain']",24,early,False,1,None,None,False,2024-09-07,2024-10-01
+33,"['mood swings', 'fatigue']",31,late,False,2,None,None,False,2024-09-04,2024-10-05
+27,"['nausea', 'mood swings', 'cramps']",31,late,True,1,PCOD,['ibuprofen'],True,2024-09-11,2024-10-12
+22,['nausea'],24,late,False,1,None,None,True,2024-09-13,2024-10-07
+28,['bloating'],22,early,False,1,None,None,True,2024-09-07,2024-09-29
+33,"['fatigue', 'headache', 'cramps']",39,late,False,4,None,None,False,2024-09-01,2024-10-10
+38,"['nausea', 'headache', 'fatigue']",28,early,True,1,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-04,2024-10-02
+29,"['cramps', 'nausea']",32,late,True,2,PCOD,['birth control pills'],True,2024-09-16,2024-10-18
+29,"['headache', 'mood swings']",26,early,True,4,None,"['birth control pills', 'naproxen']",True,2024-08-31,2024-09-26
+38,['headache'],39,early,True,1,None,['birth control pills'],False,2024-09-09,2024-10-18
+36,"['cramps', 'headache']",27,late,False,5,None,None,True,2024-08-28,2024-09-24
+33,"['bloating', 'cramps', 'body pain']",35,early,True,3,None,"['naproxen', 'acetaminophen']",False,2024-09-08,2024-10-13
+26,"['headache', 'cramps']",39,on time,True,3,PCOD,"['birth control pills', 'naproxen']",True,2024-09-11,2024-10-20
+26,['bloating'],24,early,False,3,None,None,False,2024-09-08,2024-10-02
+23,['nausea'],26,on time,True,2,None,"['birth control pills', 'ibuprofen']",False,2024-09-16,2024-10-12
+32,['mood swings'],29,late,False,3,None,None,False,2024-08-29,2024-09-27
+25,"['headache', 'mood swings']",28,early,True,2,PCOD,"['naproxen', 'birth control pills']",True,2024-09-13,2024-10-11
+19,"['fatigue', 'nausea']",30,early,False,1,None,None,False,2024-09-04,2024-10-04
+24,"['fatigue', 'nausea', 'body pain']",29,late,False,5,None,None,False,2024-08-29,2024-09-27
+37,['body pain'],29,late,False,3,None,None,False,2024-09-16,2024-10-15
+30,"['bloating', 'fatigue']",34,early,False,5,None,None,False,2024-09-04,2024-10-08
+24,"['fatigue', 'nausea']",39,on time,True,5,None,['ibuprofen'],False,2024-08-31,2024-10-09
+27,"['bloating', 'fatigue']",37,on time,False,1,None,None,False,2024-08-31,2024-10-07
+25,"['mood swings', 'cramps', 'nausea']",26,on time,False,1,None,None,False,2024-09-12,2024-10-08
+33,"['fatigue', 'nausea']",27,late,False,4,None,None,False,2024-08-29,2024-09-25
+38,"['mood swings', 'fatigue']",36,early,False,4,None,None,True,2024-08-30,2024-10-05
+30,"['body pain', 'cramps']",31,early,True,4,PCOD,['ibuprofen'],True,2024-09-02,2024-10-03
+27,"['nausea', 'headache', 'mood swings']",24,late,True,5,PCOS,"['naproxen', 'birth control pills']",False,2024-08-31,2024-09-24
+37,"['bloating', 'body pain', 'headache']",24,early,False,1,None,None,True,2024-08-29,2024-09-22
+23,['body pain'],29,late,False,3,None,None,False,2024-09-06,2024-10-05
+34,"['body pain', 'nausea']",28,early,True,5,PCOS,['naproxen'],False,2024-08-30,2024-09-27
+25,"['bloating', 'mood swings']",22,on time,True,2,PCOS,['naproxen'],False,2024-09-13,2024-10-05
+31,"['fatigue', 'cramps']",36,on time,True,3,PCOD,['ibuprofen'],True,2024-09-03,2024-10-09
+40,"['fatigue', 'mood swings', 'cramps']",33,early,False,2,None,None,True,2024-09-15,2024-10-18
+38,"['fatigue', 'cramps']",25,late,False,4,None,None,True,2024-08-28,2024-09-22
+31,"['fatigue', 'mood swings', 'bloating']",22,on time,True,4,None,"['naproxen', 'ibuprofen']",True,2024-09-11,2024-10-03
+38,"['fatigue', 'bloating', 'nausea']",37,on time,False,5,None,None,True,2024-09-10,2024-10-17
+37,"['headache', 'bloating', 'cramps']",29,late,True,5,PCOS,"['birth control pills', 'naproxen']",False,2024-09-01,2024-09-30
+26,"['mood swings', 'cramps', 'headache']",24,on time,True,5,PCOD,['naproxen'],False,2024-09-03,2024-09-27
+23,"['headache', 'fatigue', 'body pain']",33,on time,True,2,None,"['naproxen', 'acetaminophen']",False,2024-09-14,2024-10-17
+37,"['cramps', 'bloating']",23,on time,True,5,PCOD,['naproxen'],False,2024-09-06,2024-09-29
+34,"['fatigue', 'bloating', 'body pain']",28,on time,False,5,None,None,False,2024-08-28,2024-09-25
+21,"['headache', 'cramps']",28,on time,True,2,None,['birth control pills'],False,2024-08-31,2024-09-28
+34,"['body pain', 'fatigue']",35,late,True,2,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-07,2024-10-12
+31,"['bloating', 'fatigue', 'body pain']",27,late,False,1,None,None,False,2024-09-11,2024-10-08
+40,['bloating'],21,late,True,1,PCOD,"['naproxen', 'acetaminophen']",False,2024-08-28,2024-09-18
+38,"['cramps', 'body pain']",38,on time,True,5,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-02,2024-10-10
+33,"['bloating', 'mood swings', 'body pain']",38,early,False,3,None,None,True,2024-09-08,2024-10-16
+34,"['body pain', 'nausea']",37,on time,True,4,PCOD,"['birth control pills', 'naproxen']",True,2024-09-14,2024-10-21
+38,['cramps'],25,on time,False,3,None,None,False,2024-09-06,2024-10-01
+29,['mood swings'],25,early,False,3,None,None,True,2024-09-15,2024-10-10
+31,['bloating'],22,early,False,1,None,None,False,2024-09-08,2024-09-30
+33,"['headache', 'body pain']",40,on time,False,2,None,None,False,2024-09-15,2024-10-25
+36,"['body pain', 'bloating']",23,on time,False,1,None,None,True,2024-09-16,2024-10-09
+26,['cramps'],35,late,True,5,None,['acetaminophen'],True,2024-09-13,2024-10-18
+28,"['mood swings', 'bloating']",31,early,False,2,None,None,True,2024-08-28,2024-09-28
+40,['fatigue'],34,late,False,4,None,None,False,2024-09-02,2024-10-06
+19,['nausea'],33,early,False,2,None,None,True,2024-09-14,2024-10-17
+22,['fatigue'],32,on time,True,3,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-09,2024-10-11
+21,"['fatigue', 'nausea', 'bloating']",34,early,True,5,None,"['birth control pills', 'naproxen']",True,2024-09-07,2024-10-11
+33,['headache'],21,on time,True,3,PCOD,['birth control pills'],False,2024-09-10,2024-10-01
+22,"['nausea', 'body pain']",31,on time,False,5,None,None,False,2024-09-08,2024-10-09
+38,"['fatigue', 'cramps', 'bloating']",34,early,True,5,PCOD,['birth control pills'],True,2024-09-06,2024-10-10
+27,['mood swings'],30,early,False,4,None,None,False,2024-09-04,2024-10-04
+31,"['mood swings', 'body pain', 'fatigue']",24,early,True,5,None,['ibuprofen'],False,2024-09-12,2024-10-06
+29,"['body pain', 'mood swings']",34,early,False,4,None,None,False,2024-09-01,2024-10-05
+39,"['body pain', 'nausea']",22,late,True,2,None,"['naproxen', 'ibuprofen']",False,2024-09-13,2024-10-05
+19,"['headache', 'nausea']",27,late,False,3,None,None,True,2024-09-04,2024-10-01
+35,"['nausea', 'bloating']",34,early,True,1,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-03,2024-10-07
+28,['mood swings'],25,late,False,1,None,None,False,2024-09-07,2024-10-02
+28,"['body pain', 'headache']",40,early,False,5,None,None,False,2024-09-13,2024-10-23
+25,"['fatigue', 'mood swings']",39,late,True,3,PCOS,['acetaminophen'],True,2024-08-28,2024-10-06
+27,"['bloating', 'headache', 'body pain']",23,early,False,3,None,None,True,2024-09-12,2024-10-05
+26,"['headache', 'bloating', 'nausea']",35,early,False,4,None,None,True,2024-08-30,2024-10-04
+27,"['body pain', 'bloating', 'mood swings']",31,on time,False,3,None,None,False,2024-09-10,2024-10-11
+39,"['nausea', 'bloating', 'cramps']",23,on time,True,2,PCOD,"['naproxen', 'ibuprofen']",True,2024-09-13,2024-10-06
+21,['mood swings'],24,early,True,1,PCOS,"['naproxen', 'birth control pills']",True,2024-09-04,2024-09-28
+22,['body pain'],26,late,True,2,PCOD,['acetaminophen'],True,2024-09-09,2024-10-05
+27,"['headache', 'body pain', 'cramps']",36,early,True,5,None,['acetaminophen'],True,2024-09-13,2024-10-19
+39,"['fatigue', 'nausea', 'mood swings']",36,early,False,2,None,None,False,2024-09-09,2024-10-15
+31,"['mood swings', 'cramps', 'bloating']",23,late,False,1,None,None,True,2024-09-12,2024-10-05
+38,"['headache', 'bloating']",36,late,True,3,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-12,2024-10-18
+22,"['cramps', 'bloating']",25,late,False,3,None,None,True,2024-09-05,2024-09-30
+25,"['fatigue', 'nausea', 'bloating']",40,early,True,5,None,"['ibuprofen', 'birth control pills']",True,2024-09-02,2024-10-12
+33,"['headache', 'bloating', 'fatigue']",36,early,False,4,None,None,False,2024-09-09,2024-10-15
+40,['fatigue'],32,early,False,4,None,None,False,2024-09-16,2024-10-18
+36,"['mood swings', 'fatigue']",36,late,False,5,None,None,False,2024-09-08,2024-10-14
+36,['headache'],36,late,False,2,None,None,False,2024-08-28,2024-10-03
+19,"['body pain', 'fatigue', 'nausea']",36,late,False,2,None,None,True,2024-09-13,2024-10-19
+36,"['body pain', 'bloating']",37,early,True,3,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-12,2024-10-19
+25,"['body pain', 'bloating', 'headache']",27,on time,False,2,None,None,False,2024-09-12,2024-10-09
+30,['fatigue'],36,early,True,5,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-16,2024-10-22
+25,['body pain'],37,on time,True,2,None,['birth control pills'],False,2024-09-13,2024-10-20
+36,"['body pain', 'mood swings']",39,on time,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-08-31,2024-10-09
+27,"['fatigue', 'headache', 'bloating']",24,on time,False,3,None,None,False,2024-09-12,2024-10-06
+24,"['cramps', 'mood swings']",22,on time,False,2,None,None,False,2024-09-03,2024-09-25
+34,"['mood swings', 'cramps', 'headache']",35,on time,True,4,None,"['birth control pills', 'ibuprofen']",False,2024-09-05,2024-10-10
+35,"['bloating', 'cramps']",22,early,False,4,None,None,True,2024-09-09,2024-10-01
+22,"['nausea', 'fatigue', 'cramps']",28,on time,False,2,None,None,False,2024-08-29,2024-09-26
+29,"['mood swings', 'fatigue']",36,early,True,5,PCOS,"['birth control pills', 'ibuprofen']",True,2024-08-28,2024-10-03
+39,"['bloating', 'cramps']",22,on time,True,3,PCOS,"['acetaminophen', 'birth control pills']",True,2024-08-31,2024-09-22
+21,['body pain'],32,on time,True,1,PCOD,['ibuprofen'],True,2024-09-05,2024-10-07
+40,['fatigue'],26,on time,False,4,None,None,True,2024-09-04,2024-09-30
+32,"['mood swings', 'nausea', 'body pain']",35,late,False,2,None,None,False,2024-09-02,2024-10-07
+19,"['mood swings', 'bloating']",36,on time,True,1,None,"['ibuprofen', 'birth control pills']",True,2024-09-16,2024-10-22
+25,['bloating'],31,early,True,2,None,['naproxen'],True,2024-09-07,2024-10-08
+21,"['mood swings', 'body pain', 'fatigue']",37,late,True,3,PCOS,['ibuprofen'],True,2024-08-30,2024-10-06
+19,"['cramps', 'headache']",22,late,False,1,None,None,True,2024-09-05,2024-09-27
+26,"['mood swings', 'bloating', 'nausea']",34,late,False,5,None,None,False,2024-09-14,2024-10-18
+31,"['mood swings', 'headache', 'body pain']",22,on time,True,5,None,"['ibuprofen', 'acetaminophen']",True,2024-09-07,2024-09-29
+19,['cramps'],27,late,False,1,None,None,False,2024-09-12,2024-10-09
+30,"['bloating', 'fatigue', 'headache']",26,on time,True,4,PCOS,"['ibuprofen', 'birth control pills']",True,2024-09-01,2024-09-27
+24,['body pain'],24,early,True,3,PCOD,"['birth control pills', 'naproxen']",False,2024-09-05,2024-09-29
+20,"['nausea', 'fatigue', 'cramps']",33,late,True,5,None,['ibuprofen'],False,2024-09-04,2024-10-07
+19,"['body pain', 'mood swings', 'headache']",29,early,False,1,None,None,False,2024-08-31,2024-09-29
+33,"['cramps', 'bloating']",28,late,False,3,None,None,False,2024-09-08,2024-10-06
+22,"['headache', 'fatigue', 'body pain']",21,late,True,3,None,"['birth control pills', 'ibuprofen']",False,2024-09-16,2024-10-07
+24,"['mood swings', 'headache']",22,on time,False,5,None,None,False,2024-08-29,2024-09-20
+21,"['mood swings', 'body pain', 'fatigue']",33,on time,True,5,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-11,2024-10-14
+19,['cramps'],39,late,True,1,PCOS,['birth control pills'],False,2024-09-02,2024-10-11
+28,['bloating'],21,on time,False,4,None,None,False,2024-08-28,2024-09-18
+28,"['bloating', 'mood swings']",24,late,True,2,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-15,2024-10-09
+23,['mood swings'],33,late,True,2,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-06,2024-10-09
+32,"['fatigue', 'headache']",23,early,False,2,None,None,False,2024-09-08,2024-10-01
+37,['body pain'],22,late,False,1,None,None,False,2024-09-05,2024-09-27
+24,"['body pain', 'mood swings']",40,on time,False,1,None,None,True,2024-09-15,2024-10-25
+20,"['cramps', 'nausea']",32,early,False,1,None,None,True,2024-09-02,2024-10-04
+35,['nausea'],35,on time,False,3,None,None,False,2024-09-06,2024-10-11
+24,"['headache', 'bloating']",34,early,True,4,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-14,2024-10-18
+34,['body pain'],37,late,True,3,None,"['acetaminophen', 'birth control pills']",False,2024-08-31,2024-10-07
+20,"['mood swings', 'headache']",36,late,True,5,PCOS,['birth control pills'],True,2024-09-15,2024-10-21
+37,['nausea'],26,late,False,4,None,None,True,2024-09-16,2024-10-12
+36,['nausea'],35,late,False,2,None,None,False,2024-08-28,2024-10-02
+40,['fatigue'],29,early,False,2,None,None,False,2024-09-11,2024-10-10
+35,"['mood swings', 'nausea', 'body pain']",38,early,True,3,PCOS,"['birth control pills', 'ibuprofen']",False,2024-09-16,2024-10-24
+38,['bloating'],38,early,True,4,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-10,2024-10-18
+27,"['nausea', 'headache']",28,on time,False,1,None,None,False,2024-09-12,2024-10-10
+36,"['bloating', 'mood swings']",38,on time,True,5,PCOS,"['naproxen', 'birth control pills']",True,2024-09-14,2024-10-22
+21,"['cramps', 'headache']",39,late,True,1,PCOD,['naproxen'],True,2024-08-28,2024-10-06
+37,"['cramps', 'bloating']",22,late,True,5,None,['acetaminophen'],False,2024-09-03,2024-09-25
+21,"['bloating', 'mood swings', 'body pain']",37,on time,False,4,None,None,False,2024-08-30,2024-10-06
+35,"['fatigue', 'nausea', 'headache']",27,on time,True,3,None,['naproxen'],True,2024-09-09,2024-10-06
+35,['body pain'],22,early,True,1,PCOD,['ibuprofen'],False,2024-09-05,2024-09-27
+38,"['body pain', 'headache']",32,late,False,3,None,None,True,2024-09-09,2024-10-11
+19,"['bloating', 'fatigue']",21,early,True,4,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-10,2024-10-01
+22,"['bloating', 'mood swings']",26,late,True,3,PCOD,['ibuprofen'],True,2024-09-09,2024-10-05
+23,"['bloating', 'mood swings']",29,early,True,1,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-03,2024-10-02
+37,['mood swings'],32,late,False,2,None,None,False,2024-08-31,2024-10-02
+35,"['headache', 'fatigue', 'body pain']",31,on time,True,2,PCOD,['birth control pills'],True,2024-09-08,2024-10-09
+23,"['body pain', 'cramps']",24,on time,False,2,None,None,False,2024-09-13,2024-10-07
+36,"['body pain', 'nausea']",22,early,True,4,None,['acetaminophen'],True,2024-09-07,2024-09-29
+28,"['mood swings', 'nausea']",21,on time,False,3,None,None,False,2024-08-30,2024-09-20
+35,['body pain'],32,on time,False,2,None,None,True,2024-09-12,2024-10-14
+32,"['headache', 'cramps']",31,early,False,3,None,None,False,2024-08-29,2024-09-29
+21,"['headache', 'body pain', 'fatigue']",26,early,False,5,None,None,True,2024-09-05,2024-10-01
+24,"['headache', 'bloating']",35,late,False,3,None,None,True,2024-09-16,2024-10-21
+29,['body pain'],22,late,False,1,None,None,True,2024-09-10,2024-10-02
+26,['fatigue'],35,on time,False,3,None,None,True,2024-08-29,2024-10-03
+37,"['fatigue', 'cramps']",29,early,True,4,PCOS,"['acetaminophen', 'ibuprofen']",False,2024-08-31,2024-09-29
+25,"['nausea', 'headache']",33,early,False,5,None,None,True,2024-09-02,2024-10-05
+24,"['mood swings', 'body pain', 'cramps']",29,early,False,5,None,None,False,2024-09-01,2024-09-30
+33,['bloating'],37,late,True,2,PCOS,['birth control pills'],True,2024-09-12,2024-10-19
+37,"['nausea', 'bloating', 'mood swings']",30,on time,False,3,None,None,True,2024-08-29,2024-09-28
+39,"['fatigue', 'cramps']",34,on time,True,2,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-05,2024-10-09
+40,"['fatigue', 'headache', 'nausea']",32,on time,False,4,None,None,False,2024-09-08,2024-10-10
+19,['bloating'],34,on time,False,2,None,None,True,2024-09-14,2024-10-18
+34,"['headache', 'cramps', 'mood swings']",37,late,False,2,None,None,False,2024-09-12,2024-10-19
+30,"['mood swings', 'headache']",37,late,False,2,None,None,False,2024-09-13,2024-10-20
+37,"['bloating', 'fatigue', 'headache']",32,late,False,5,None,None,True,2024-09-10,2024-10-12
+29,['fatigue'],33,early,False,4,None,None,False,2024-09-16,2024-10-19
+27,"['body pain', 'mood swings', 'cramps']",24,early,False,1,None,None,False,2024-08-30,2024-09-23
+27,['fatigue'],26,on time,False,3,None,None,True,2024-08-28,2024-09-23
+23,['mood swings'],29,on time,False,3,None,None,True,2024-09-16,2024-10-15
+34,"['mood swings', 'bloating']",24,early,False,3,None,None,False,2024-09-06,2024-09-30
+33,['headache'],30,late,False,2,None,None,True,2024-09-15,2024-10-15
+25,"['cramps', 'mood swings']",37,on time,False,2,None,None,True,2024-09-08,2024-10-15
+25,"['fatigue', 'bloating']",22,late,False,5,None,None,False,2024-09-07,2024-09-29
+26,"['mood swings', 'bloating', 'body pain']",35,late,False,3,None,None,False,2024-09-03,2024-10-08
+27,"['bloating', 'body pain']",26,on time,True,5,None,['acetaminophen'],True,2024-09-09,2024-10-05
+37,"['mood swings', 'headache', 'fatigue']",37,on time,True,2,PCOD,['ibuprofen'],False,2024-08-31,2024-10-07
+26,"['nausea', 'fatigue']",21,early,False,5,None,None,True,2024-09-05,2024-09-26
+34,"['headache', 'cramps', 'bloating']",30,on time,False,5,None,None,True,2024-09-07,2024-10-07
+25,"['cramps', 'headache', 'body pain']",25,early,False,4,None,None,True,2024-09-07,2024-10-02
+29,['cramps'],29,late,True,5,PCOS,['naproxen'],True,2024-09-16,2024-10-15
+20,['cramps'],24,late,True,5,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-11,2024-10-05
+21,"['body pain', 'nausea']",34,early,True,1,PCOS,['naproxen'],True,2024-09-16,2024-10-20
+38,['fatigue'],33,early,False,4,None,None,True,2024-09-14,2024-10-17
+38,"['mood swings', 'cramps']",33,on time,False,3,None,None,False,2024-08-30,2024-10-02
+37,"['nausea', 'fatigue', 'cramps']",29,early,True,3,PCOD,['acetaminophen'],True,2024-09-04,2024-10-03
+38,"['body pain', 'nausea', 'fatigue']",25,early,False,3,None,None,False,2024-09-14,2024-10-09
+35,"['fatigue', 'cramps', 'headache']",32,late,True,3,None,"['naproxen', 'birth control pills']",True,2024-09-04,2024-10-06
+19,['body pain'],23,on time,True,3,None,"['birth control pills', 'acetaminophen']",True,2024-09-09,2024-10-02
+22,"['cramps', 'bloating', 'mood swings']",24,late,False,3,None,None,True,2024-09-11,2024-10-05
+33,"['body pain', 'cramps']",23,early,False,2,None,None,True,2024-09-14,2024-10-07
+24,"['cramps', 'headache', 'body pain']",28,on time,True,3,None,['birth control pills'],True,2024-09-06,2024-10-04
+27,['headache'],22,late,True,1,None,['birth control pills'],True,2024-09-11,2024-10-03
+31,['fatigue'],26,on time,True,3,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-05,2024-10-01
+31,['cramps'],38,on time,False,5,None,None,False,2024-09-14,2024-10-22
+39,"['body pain', 'fatigue', 'mood swings']",33,late,True,4,PCOD,['naproxen'],False,2024-08-30,2024-10-02
+26,"['body pain', 'mood swings', 'fatigue']",33,early,True,3,PCOS,['birth control pills'],False,2024-09-16,2024-10-19
+34,"['body pain', 'nausea', 'fatigue']",34,late,False,5,None,None,True,2024-09-08,2024-10-12
+28,"['nausea', 'body pain']",38,on time,False,5,None,None,True,2024-09-05,2024-10-13
+36,"['bloating', 'headache']",36,on time,False,2,None,None,True,2024-08-30,2024-10-05
+34,"['cramps', 'headache', 'bloating']",26,early,True,3,PCOS,"['naproxen', 'acetaminophen']",True,2024-08-30,2024-09-25
+32,['mood swings'],37,on time,True,1,None,"['acetaminophen', 'birth control pills']",True,2024-09-05,2024-10-12
+39,['headache'],40,early,False,3,None,None,False,2024-09-14,2024-10-24
+21,['headache'],30,early,False,4,None,None,False,2024-09-05,2024-10-05
+40,"['bloating', 'mood swings', 'headache']",37,early,True,3,None,['ibuprofen'],True,2024-09-11,2024-10-18
+23,"['fatigue', 'body pain']",22,late,False,2,None,None,True,2024-09-15,2024-10-07
+34,"['cramps', 'bloating']",31,late,False,4,None,None,True,2024-09-09,2024-10-10
+21,"['bloating', 'headache', 'body pain']",22,on time,True,2,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-07,2024-09-29
+39,['headache'],22,early,True,2,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-07,2024-09-29
+27,"['headache', 'cramps']",40,late,True,1,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-10,2024-10-20
+36,"['headache', 'fatigue']",22,early,True,3,None,['acetaminophen'],False,2024-09-04,2024-09-26
+37,"['fatigue', 'cramps']",27,early,False,3,None,None,False,2024-09-11,2024-10-08
+36,['fatigue'],31,late,False,1,None,None,False,2024-09-03,2024-10-04
+32,"['fatigue', 'cramps', 'body pain']",34,early,False,4,None,None,False,2024-09-13,2024-10-17
+20,"['cramps', 'body pain', 'bloating']",30,early,False,4,None,None,True,2024-09-12,2024-10-12
+32,"['mood swings', 'body pain']",26,on time,False,4,None,None,True,2024-09-10,2024-10-06
+35,"['bloating', 'nausea', 'cramps']",24,on time,False,5,None,None,False,2024-09-05,2024-09-29
+21,['bloating'],28,late,False,1,None,None,True,2024-09-06,2024-10-04
+36,['body pain'],28,on time,True,5,None,"['ibuprofen', 'naproxen']",True,2024-09-08,2024-10-06
+29,"['headache', 'nausea', 'bloating']",26,on time,True,3,PCOD,['birth control pills'],True,2024-09-08,2024-10-04
+21,"['mood swings', 'headache']",22,early,True,1,PCOS,['ibuprofen'],False,2024-09-05,2024-09-27
+30,"['fatigue', 'headache', 'cramps']",37,on time,True,3,PCOS,"['birth control pills', 'naproxen']",True,2024-09-09,2024-10-16
+20,"['headache', 'nausea', 'body pain']",36,late,True,4,None,['acetaminophen'],False,2024-08-29,2024-10-04
+26,"['body pain', 'nausea']",26,late,True,1,PCOD,['acetaminophen'],False,2024-08-30,2024-09-25
+19,['headache'],35,early,True,2,PCOD,['birth control pills'],False,2024-09-09,2024-10-14
+20,['headache'],29,late,True,4,PCOD,['acetaminophen'],True,2024-08-30,2024-09-28
+35,"['nausea', 'mood swings']",33,early,True,2,None,['ibuprofen'],True,2024-09-07,2024-10-10
+33,['bloating'],26,early,True,1,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-06,2024-10-02
+40,"['headache', 'bloating', 'nausea']",32,on time,False,3,None,None,True,2024-09-01,2024-10-03
+39,"['bloating', 'headache']",39,late,True,2,PCOS,"['ibuprofen', 'birth control pills']",True,2024-09-05,2024-10-14
+29,"['nausea', 'bloating']",34,late,True,3,None,"['ibuprofen', 'acetaminophen']",False,2024-09-09,2024-10-13
+37,"['cramps', 'mood swings']",25,late,True,5,None,"['acetaminophen', 'birth control pills']",False,2024-09-15,2024-10-10
+27,['bloating'],39,on time,False,3,None,None,False,2024-09-12,2024-10-21
+32,"['bloating', 'nausea', 'fatigue']",35,on time,True,3,PCOD,"['naproxen', 'birth control pills']",False,2024-09-08,2024-10-13
+27,['nausea'],32,early,True,3,None,"['acetaminophen', 'birth control pills']",False,2024-08-28,2024-09-29
+28,"['nausea', 'body pain']",36,late,True,2,None,['naproxen'],False,2024-09-15,2024-10-21
+21,"['nausea', 'fatigue']",32,late,False,3,None,None,False,2024-09-02,2024-10-04
+35,"['mood swings', 'headache', 'bloating']",38,on time,False,1,None,None,True,2024-09-03,2024-10-11
+33,"['body pain', 'cramps', 'mood swings']",35,early,True,4,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-04,2024-10-09
+25,"['fatigue', 'body pain', 'headache']",22,on time,True,5,None,['acetaminophen'],False,2024-09-13,2024-10-05
+35,"['headache', 'bloating', 'mood swings']",22,late,True,1,PCOS,['ibuprofen'],True,2024-09-16,2024-10-08
+39,['cramps'],26,on time,False,4,None,None,True,2024-09-07,2024-10-03
+39,['mood swings'],38,on time,False,3,None,None,False,2024-09-16,2024-10-24
+20,['headache'],33,on time,True,3,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-10,2024-10-13
+28,['fatigue'],26,on time,False,1,None,None,True,2024-08-31,2024-09-26
+31,"['nausea', 'bloating', 'headache']",21,early,False,2,None,None,False,2024-09-05,2024-09-26
+27,"['body pain', 'cramps']",33,early,True,3,PCOD,['naproxen'],False,2024-09-16,2024-10-19
+32,['cramps'],38,on time,False,1,None,None,False,2024-08-29,2024-10-06
+21,"['nausea', 'bloating', 'headache']",39,on time,True,5,PCOS,['naproxen'],True,2024-08-28,2024-10-06
+33,"['nausea', 'cramps', 'mood swings']",28,on time,False,4,None,None,False,2024-09-01,2024-09-29
+33,"['bloating', 'nausea', 'mood swings']",28,late,True,2,PCOD,['ibuprofen'],True,2024-09-03,2024-10-01
+40,['nausea'],21,late,True,4,PCOD,"['naproxen', 'birth control pills']",False,2024-09-04,2024-09-25
+25,['fatigue'],24,late,True,1,PCOS,['acetaminophen'],True,2024-08-30,2024-09-23
+27,"['cramps', 'body pain']",26,on time,True,2,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-14,2024-10-10
+31,"['bloating', 'nausea', 'fatigue']",25,on time,True,2,None,"['acetaminophen', 'birth control pills']",True,2024-09-01,2024-09-26
+25,"['cramps', 'headache', 'mood swings']",24,on time,True,4,PCOS,"['birth control pills', 'acetaminophen']",False,2024-08-28,2024-09-21
+25,"['headache', 'body pain']",35,early,False,5,None,None,False,2024-09-04,2024-10-09
+37,"['bloating', 'body pain']",30,late,True,5,None,['birth control pills'],False,2024-09-01,2024-10-01
+19,"['nausea', 'bloating', 'cramps']",33,early,False,5,None,None,True,2024-09-04,2024-10-07
+20,"['nausea', 'headache']",29,early,True,2,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-01,2024-09-30
+19,['fatigue'],40,late,True,5,None,"['naproxen', 'acetaminophen']",False,2024-09-04,2024-10-14
+23,"['cramps', 'nausea']",32,early,False,4,None,None,False,2024-09-02,2024-10-04
+27,"['fatigue', 'cramps', 'bloating']",25,on time,False,3,None,None,False,2024-09-10,2024-10-05
+36,['bloating'],30,early,False,3,None,None,False,2024-08-29,2024-09-28
+21,['headache'],23,early,True,4,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-04,2024-09-27
+30,"['body pain', 'fatigue', 'mood swings']",23,on time,False,1,None,None,True,2024-09-09,2024-10-02
+29,"['nausea', 'body pain', 'headache']",28,on time,True,1,None,"['birth control pills', 'ibuprofen']",False,2024-09-09,2024-10-07
+36,"['fatigue', 'nausea']",30,early,False,3,None,None,True,2024-09-06,2024-10-06
+28,['body pain'],40,early,False,5,None,None,True,2024-08-31,2024-10-10
+40,"['nausea', 'headache', 'cramps']",32,early,False,1,None,None,False,2024-09-03,2024-10-05
+32,"['bloating', 'nausea']",38,on time,True,3,PCOS,"['acetaminophen', 'ibuprofen']",False,2024-09-14,2024-10-22
+19,['body pain'],34,late,True,4,None,['birth control pills'],True,2024-09-08,2024-10-12
+32,"['fatigue', 'headache']",24,late,False,4,None,None,False,2024-09-12,2024-10-06
+20,"['headache', 'cramps', 'mood swings']",38,early,False,5,None,None,False,2024-09-08,2024-10-16
+29,['headache'],36,on time,False,1,None,None,False,2024-09-16,2024-10-22
+39,['nausea'],37,late,False,3,None,None,True,2024-09-02,2024-10-09
+38,"['fatigue', 'headache', 'nausea']",26,late,True,2,PCOS,['birth control pills'],False,2024-09-01,2024-09-27
+30,"['body pain', 'fatigue', 'bloating']",36,on time,False,3,None,None,True,2024-09-11,2024-10-17
+31,"['fatigue', 'bloating', 'body pain']",25,late,True,2,PCOS,"['birth control pills', 'naproxen']",True,2024-09-09,2024-10-04
+23,"['nausea', 'mood swings']",26,late,False,3,None,None,True,2024-09-16,2024-10-12
+39,"['nausea', 'mood swings', 'headache']",29,late,False,2,None,None,False,2024-09-07,2024-10-06
+39,"['fatigue', 'body pain', 'cramps']",36,on time,True,2,None,['birth control pills'],True,2024-09-05,2024-10-11
+31,"['headache', 'cramps', 'body pain']",27,late,True,3,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-13,2024-10-10
+39,['mood swings'],28,early,False,4,None,None,True,2024-09-04,2024-10-02
+32,"['cramps', 'bloating', 'headache']",31,late,True,1,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-05,2024-10-06
+31,['nausea'],22,on time,False,2,None,None,False,2024-08-29,2024-09-20
+40,['bloating'],40,early,False,2,None,None,True,2024-09-10,2024-10-20
+24,['cramps'],23,early,True,1,PCOS,['ibuprofen'],True,2024-09-15,2024-10-08
+40,['body pain'],22,early,True,4,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-04,2024-09-26
+33,"['headache', 'fatigue', 'bloating']",40,late,True,1,PCOS,['acetaminophen'],False,2024-09-05,2024-10-15
+39,"['bloating', 'mood swings', 'nausea']",40,late,True,3,PCOD,['birth control pills'],True,2024-09-15,2024-10-25
+22,"['mood swings', 'bloating']",24,on time,True,4,None,"['naproxen', 'ibuprofen']",False,2024-09-06,2024-09-30
+26,"['bloating', 'nausea']",25,early,True,1,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-13,2024-10-08
+30,"['headache', 'body pain', 'nausea']",26,late,False,4,None,None,False,2024-09-12,2024-10-08
+23,"['mood swings', 'body pain']",35,early,False,5,None,None,False,2024-09-15,2024-10-20
+38,['nausea'],28,on time,False,3,None,None,True,2024-09-09,2024-10-07
+29,"['fatigue', 'cramps', 'mood swings']",22,early,True,3,None,['acetaminophen'],True,2024-09-08,2024-09-30
+35,"['headache', 'cramps', 'fatigue']",37,early,False,1,None,None,False,2024-08-31,2024-10-07
+40,['headache'],22,on time,False,2,None,None,True,2024-09-04,2024-09-26
+37,"['cramps', 'mood swings', 'fatigue']",22,early,False,3,None,None,False,2024-08-28,2024-09-19
+34,"['cramps', 'fatigue']",30,late,True,4,PCOD,['birth control pills'],False,2024-08-31,2024-09-30
+29,"['bloating', 'fatigue', 'mood swings']",22,on time,True,5,PCOS,"['birth control pills', 'naproxen']",True,2024-09-05,2024-09-27
+20,['nausea'],24,early,False,3,None,None,False,2024-09-04,2024-09-28
+26,"['body pain', 'cramps']",29,early,False,2,None,None,True,2024-09-07,2024-10-06
+37,"['body pain', 'nausea']",34,on time,True,1,PCOS,['acetaminophen'],True,2024-09-02,2024-10-06
+36,"['mood swings', 'cramps']",22,on time,False,5,None,None,True,2024-09-08,2024-09-30
+39,['mood swings'],39,late,False,3,None,None,True,2024-09-04,2024-10-13
+20,['headache'],23,late,True,4,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-04,2024-09-27
+27,"['mood swings', 'bloating']",22,late,True,5,None,"['ibuprofen', 'naproxen']",False,2024-09-13,2024-10-05
+24,"['fatigue', 'nausea']",22,early,False,1,None,None,False,2024-09-09,2024-10-01
+34,"['headache', 'mood swings', 'nausea']",23,late,True,4,PCOD,['acetaminophen'],False,2024-09-12,2024-10-05
+32,"['body pain', 'headache']",23,on time,False,4,None,None,True,2024-09-06,2024-09-29
+29,"['fatigue', 'cramps', 'headache']",22,late,False,5,None,None,True,2024-09-11,2024-10-03
+27,"['nausea', 'fatigue', 'mood swings']",28,late,True,5,PCOS,['ibuprofen'],True,2024-09-03,2024-10-01
+24,"['fatigue', 'nausea']",31,late,True,5,None,"['ibuprofen', 'birth control pills']",True,2024-09-12,2024-10-13
+19,"['body pain', 'cramps', 'bloating']",31,on time,False,4,None,None,False,2024-09-04,2024-10-05
+35,"['bloating', 'cramps', 'body pain']",30,on time,True,5,PCOS,['ibuprofen'],False,2024-09-14,2024-10-14
+32,"['mood swings', 'headache', 'body pain']",26,late,False,4,None,None,True,2024-09-03,2024-09-29
+35,"['bloating', 'cramps']",36,early,True,3,None,"['birth control pills', 'acetaminophen']",True,2024-09-08,2024-10-14
+30,"['cramps', 'mood swings', 'nausea']",29,on time,True,1,PCOD,['acetaminophen'],False,2024-09-02,2024-10-01
+25,"['body pain', 'mood swings', 'bloating']",32,early,False,3,None,None,False,2024-09-06,2024-10-08
+30,"['headache', 'mood swings', 'body pain']",28,on time,False,1,None,None,False,2024-09-09,2024-10-07
+24,"['headache', 'body pain']",40,on time,False,2,None,None,True,2024-09-02,2024-10-12
+30,"['mood swings', 'nausea', 'headache']",37,early,False,1,None,None,False,2024-09-07,2024-10-14
+20,"['bloating', 'nausea', 'headache']",30,early,True,5,None,"['acetaminophen', 'ibuprofen']",False,2024-09-09,2024-10-09
+35,"['headache', 'mood swings', 'cramps']",28,on time,True,4,None,['acetaminophen'],True,2024-09-10,2024-10-08
+20,"['fatigue', 'bloating', 'nausea']",34,early,True,2,PCOD,"['naproxen', 'birth control pills']",True,2024-09-07,2024-10-11
+23,"['fatigue', 'nausea']",22,late,False,2,None,None,True,2024-09-12,2024-10-04
+40,"['mood swings', 'body pain']",39,late,False,5,None,None,False,2024-08-31,2024-10-09
+27,"['bloating', 'body pain']",34,late,False,3,None,None,False,2024-09-05,2024-10-09
+39,['mood swings'],29,late,True,5,None,"['ibuprofen', 'acetaminophen']",True,2024-09-01,2024-09-30
+33,"['cramps', 'fatigue', 'bloating']",36,early,False,3,None,None,True,2024-09-12,2024-10-18
+36,"['body pain', 'fatigue', 'cramps']",22,on time,True,1,None,['acetaminophen'],True,2024-09-05,2024-09-27
+21,"['nausea', 'cramps']",23,late,True,1,PCOS,['naproxen'],True,2024-09-13,2024-10-06
+22,"['nausea', 'mood swings', 'body pain']",36,late,True,5,PCOD,['acetaminophen'],True,2024-09-01,2024-10-07
+37,['cramps'],34,on time,False,5,None,None,True,2024-09-13,2024-10-17
+23,"['fatigue', 'nausea']",33,on time,True,4,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-01,2024-10-04
+26,"['fatigue', 'body pain']",29,early,False,1,None,None,True,2024-09-13,2024-10-12
+29,"['headache', 'fatigue', 'body pain']",32,late,False,4,None,None,False,2024-09-06,2024-10-08
+28,"['mood swings', 'nausea']",29,early,True,5,PCOS,['acetaminophen'],True,2024-09-10,2024-10-09
+26,"['body pain', 'nausea']",27,on time,False,4,None,None,False,2024-09-06,2024-10-03
+20,"['body pain', 'headache']",23,on time,True,1,PCOS,"['naproxen', 'ibuprofen']",False,2024-08-28,2024-09-20
+39,"['mood swings', 'cramps', 'body pain']",26,early,True,5,None,['naproxen'],False,2024-09-02,2024-09-28
+31,['cramps'],22,early,True,5,PCOS,"['acetaminophen', 'naproxen']",True,2024-08-29,2024-09-20
+31,['headache'],37,early,True,3,PCOD,['acetaminophen'],False,2024-08-31,2024-10-07
+33,"['cramps', 'mood swings']",37,early,True,1,None,['birth control pills'],False,2024-09-15,2024-10-22
+39,"['headache', 'bloating', 'nausea']",35,on time,True,3,PCOS,['acetaminophen'],True,2024-09-09,2024-10-14
+30,"['headache', 'mood swings', 'fatigue']",36,late,False,1,None,None,True,2024-09-07,2024-10-13
+21,['mood swings'],25,late,True,4,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-08,2024-10-03
+40,"['nausea', 'mood swings', 'headache']",29,early,True,4,None,"['birth control pills', 'ibuprofen']",True,2024-08-31,2024-09-29
+33,"['headache', 'body pain', 'mood swings']",24,late,False,4,None,None,True,2024-09-03,2024-09-27
+29,"['nausea', 'cramps']",30,late,False,4,None,None,False,2024-08-28,2024-09-27
+28,"['fatigue', 'body pain', 'mood swings']",28,late,False,2,None,None,True,2024-09-03,2024-10-01
+25,['body pain'],36,early,True,2,PCOD,"['acetaminophen', 'naproxen']",False,2024-09-12,2024-10-18
+19,"['nausea', 'body pain']",27,on time,False,2,None,None,True,2024-09-04,2024-10-01
+35,"['headache', 'body pain', 'fatigue']",29,late,False,5,None,None,True,2024-09-05,2024-10-04
+39,"['headache', 'mood swings']",35,on time,True,1,None,['birth control pills'],False,2024-09-14,2024-10-19
+24,['mood swings'],32,on time,True,1,None,"['naproxen', 'ibuprofen']",False,2024-09-16,2024-10-18
+38,['nausea'],33,early,False,5,None,None,False,2024-09-16,2024-10-19
+23,"['headache', 'mood swings', 'nausea']",22,early,True,2,PCOS,"['naproxen', 'birth control pills']",False,2024-09-09,2024-10-01
+35,"['nausea', 'body pain', 'mood swings']",36,early,True,3,PCOS,['acetaminophen'],True,2024-09-04,2024-10-10
+35,['fatigue'],23,late,True,3,PCOD,['ibuprofen'],True,2024-09-07,2024-09-30
+37,"['headache', 'bloating', 'nausea']",33,late,False,4,None,None,False,2024-09-02,2024-10-05
+29,"['mood swings', 'body pain']",30,on time,False,1,None,None,False,2024-09-09,2024-10-09
+20,"['mood swings', 'body pain', 'fatigue']",23,on time,False,5,None,None,False,2024-09-13,2024-10-06
+36,"['bloating', 'headache']",21,on time,True,3,PCOS,['naproxen'],False,2024-08-30,2024-09-20
+20,"['nausea', 'body pain', 'cramps']",28,early,True,2,PCOD,['acetaminophen'],True,2024-09-04,2024-10-02
+20,"['cramps', 'mood swings', 'nausea']",23,early,True,3,None,"['acetaminophen', 'birth control pills']",False,2024-09-14,2024-10-07
+26,['nausea'],33,late,True,4,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-04,2024-10-07
+25,['bloating'],39,early,True,4,PCOS,"['acetaminophen', 'birth control pills']",False,2024-09-12,2024-10-21
+28,['nausea'],40,on time,True,2,None,"['birth control pills', 'naproxen']",True,2024-09-16,2024-10-26
+25,"['mood swings', 'nausea', 'cramps']",35,on time,False,3,None,None,True,2024-09-14,2024-10-19
+23,"['mood swings', 'bloating']",22,late,True,2,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-14,2024-10-06
+34,"['headache', 'body pain', 'mood swings']",21,late,True,2,PCOD,['acetaminophen'],False,2024-08-30,2024-09-20
+39,"['nausea', 'fatigue', 'bloating']",29,on time,False,5,None,None,True,2024-09-09,2024-10-08
+33,"['fatigue', 'mood swings']",27,on time,True,4,None,"['naproxen', 'acetaminophen']",False,2024-09-05,2024-10-02
+29,"['fatigue', 'bloating', 'nausea']",38,late,False,3,None,None,True,2024-09-07,2024-10-15
+30,"['nausea', 'headache']",28,late,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-08-31,2024-09-28
+39,"['headache', 'body pain']",40,on time,True,3,PCOD,"['naproxen', 'acetaminophen']",False,2024-08-30,2024-10-09
+39,"['cramps', 'body pain', 'bloating']",25,early,True,4,PCOD,['ibuprofen'],False,2024-08-29,2024-09-23
+40,"['bloating', 'fatigue']",23,on time,True,2,PCOD,['ibuprofen'],True,2024-09-02,2024-09-25
+39,"['body pain', 'fatigue', 'nausea']",31,late,False,1,None,None,False,2024-09-06,2024-10-07
+35,['headache'],23,on time,True,1,PCOD,['birth control pills'],False,2024-09-03,2024-09-26
+26,['body pain'],28,late,True,3,None,"['birth control pills', 'naproxen']",True,2024-09-12,2024-10-10
+29,['cramps'],40,early,True,3,None,"['naproxen', 'acetaminophen']",True,2024-09-01,2024-10-11
+35,"['mood swings', 'fatigue', 'headache']",33,early,False,2,None,None,False,2024-09-04,2024-10-07
+35,"['fatigue', 'nausea', 'mood swings']",40,early,False,4,None,None,True,2024-08-30,2024-10-09
+20,['body pain'],39,late,True,1,None,['birth control pills'],True,2024-08-31,2024-10-09
+34,['body pain'],28,on time,True,3,PCOD,['birth control pills'],False,2024-09-10,2024-10-08
+32,"['fatigue', 'body pain']",24,on time,False,4,None,None,True,2024-09-15,2024-10-09
+20,['fatigue'],22,on time,False,2,None,None,True,2024-09-16,2024-10-08
+26,"['mood swings', 'cramps', 'bloating']",31,on time,True,1,PCOD,['ibuprofen'],False,2024-09-01,2024-10-02
+34,"['bloating', 'cramps', 'headache']",35,late,False,5,None,None,True,2024-09-05,2024-10-10
+23,"['cramps', 'bloating']",28,late,False,1,None,None,True,2024-09-15,2024-10-13
+32,"['bloating', 'nausea', 'body pain']",32,early,True,5,None,['acetaminophen'],True,2024-09-02,2024-10-04
+35,"['cramps', 'nausea']",38,late,False,4,None,None,True,2024-09-07,2024-10-15
+26,['body pain'],33,late,False,1,None,None,True,2024-09-14,2024-10-17
+32,"['fatigue', 'nausea', 'mood swings']",38,early,True,5,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-01,2024-10-09
+33,['nausea'],24,on time,False,2,None,None,True,2024-09-04,2024-09-28
+26,"['headache', 'nausea']",24,early,False,5,None,None,False,2024-09-03,2024-09-27
+23,"['body pain', 'fatigue']",37,early,False,3,None,None,True,2024-09-09,2024-10-16
+24,"['nausea', 'bloating']",38,early,False,1,None,None,False,2024-09-03,2024-10-11
+31,['bloating'],21,on time,True,2,None,['naproxen'],True,2024-09-05,2024-09-26
+29,"['mood swings', 'body pain']",32,on time,False,5,None,None,True,2024-09-16,2024-10-18
+25,['body pain'],40,early,False,2,None,None,True,2024-09-02,2024-10-12
+21,['nausea'],40,late,False,5,None,None,True,2024-09-14,2024-10-24
+23,"['cramps', 'headache']",23,early,False,4,None,None,False,2024-09-08,2024-10-01
+30,['fatigue'],24,late,False,2,None,None,False,2024-09-06,2024-09-30
+28,"['nausea', 'bloating']",26,late,False,3,None,None,False,2024-09-16,2024-10-12
+20,"['bloating', 'mood swings', 'body pain']",25,early,False,1,None,None,True,2024-09-03,2024-09-28
+32,['cramps'],37,early,False,5,None,None,True,2024-09-14,2024-10-21
+24,"['headache', 'nausea', 'mood swings']",32,late,True,1,None,['naproxen'],True,2024-09-04,2024-10-06
+21,"['fatigue', 'cramps', 'headache']",27,late,True,1,None,"['naproxen', 'ibuprofen']",False,2024-09-12,2024-10-09
+19,"['body pain', 'fatigue', 'headache']",39,early,True,2,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-04,2024-10-13
+27,"['headache', 'body pain']",32,on time,True,2,None,['naproxen'],False,2024-09-11,2024-10-13
+30,"['fatigue', 'body pain']",33,early,True,4,PCOD,['ibuprofen'],False,2024-09-11,2024-10-14
+26,['fatigue'],32,late,True,5,PCOD,['naproxen'],True,2024-09-06,2024-10-08
+28,['fatigue'],33,early,True,1,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-03,2024-10-06
+24,"['fatigue', 'bloating']",35,early,False,3,None,None,True,2024-09-12,2024-10-17
+37,"['mood swings', 'nausea', 'bloating']",21,on time,True,4,PCOD,['naproxen'],True,2024-09-10,2024-10-01
+22,"['headache', 'mood swings']",35,on time,True,2,None,['acetaminophen'],True,2024-09-06,2024-10-11
+31,"['fatigue', 'cramps']",26,on time,False,2,None,None,True,2024-09-01,2024-09-27
+40,['headache'],36,on time,True,2,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-15,2024-10-21
+31,"['fatigue', 'headache', 'cramps']",32,on time,True,3,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-16,2024-10-18
+40,"['headache', 'fatigue']",24,early,False,3,None,None,False,2024-09-04,2024-09-28
+33,"['nausea', 'headache']",35,on time,False,5,None,None,False,2024-08-30,2024-10-04
+24,"['fatigue', 'headache', 'body pain']",31,early,False,2,None,None,True,2024-09-12,2024-10-13
+32,"['mood swings', 'fatigue']",28,on time,True,1,PCOS,['birth control pills'],False,2024-09-16,2024-10-14
+26,"['nausea', 'cramps']",24,on time,True,1,PCOS,['ibuprofen'],True,2024-09-05,2024-09-29
+26,['headache'],26,on time,True,5,None,['birth control pills'],True,2024-09-13,2024-10-09
+31,"['cramps', 'fatigue', 'headache']",33,early,False,4,None,None,False,2024-09-11,2024-10-14
+34,"['nausea', 'cramps', 'headache']",38,early,False,1,None,None,True,2024-09-15,2024-10-23
+28,"['cramps', 'nausea', 'headache']",26,early,True,2,None,['naproxen'],True,2024-09-02,2024-09-28
+22,"['headache', 'body pain']",33,on time,True,4,PCOS,"['ibuprofen', 'naproxen']",False,2024-08-29,2024-10-01
+40,"['bloating', 'cramps', 'headache']",29,late,True,4,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-08,2024-10-07
+40,"['cramps', 'fatigue', 'bloating']",38,early,True,2,PCOD,"['naproxen', 'birth control pills']",True,2024-09-03,2024-10-11
+25,"['mood swings', 'body pain', 'fatigue']",31,late,False,2,None,None,False,2024-08-31,2024-10-01
+39,"['fatigue', 'body pain']",27,late,False,2,None,None,True,2024-08-31,2024-09-27
+34,['nausea'],21,on time,True,1,None,['naproxen'],True,2024-09-13,2024-10-04
+23,"['nausea', 'cramps']",31,early,False,4,None,None,False,2024-09-10,2024-10-11
+36,"['bloating', 'fatigue', 'body pain']",30,late,True,1,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-04,2024-10-04
+23,"['fatigue', 'bloating', 'cramps']",23,early,True,1,PCOD,['ibuprofen'],True,2024-09-14,2024-10-07
+23,"['body pain', 'fatigue']",38,on time,False,1,None,None,True,2024-09-14,2024-10-22
+25,['body pain'],30,early,True,2,None,"['naproxen', 'ibuprofen']",True,2024-09-12,2024-10-12
+24,['nausea'],31,on time,True,5,PCOD,"['birth control pills', 'acetaminophen']",False,2024-09-08,2024-10-09
+24,['mood swings'],36,on time,True,4,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-15,2024-10-21
+39,"['mood swings', 'cramps', 'nausea']",22,late,True,4,None,"['acetaminophen', 'naproxen']",False,2024-08-31,2024-09-22
+28,"['bloating', 'fatigue', 'body pain']",23,late,True,1,None,['birth control pills'],False,2024-09-07,2024-09-30
+35,"['mood swings', 'body pain']",28,early,True,1,None,"['birth control pills', 'acetaminophen']",False,2024-08-29,2024-09-26
+25,"['fatigue', 'mood swings', 'nausea']",35,early,False,5,None,None,True,2024-09-16,2024-10-21
+29,['bloating'],37,early,True,2,PCOD,['naproxen'],True,2024-09-15,2024-10-22
+33,"['headache', 'bloating', 'mood swings']",24,early,True,1,PCOD,"['acetaminophen', 'birth control pills']",False,2024-09-02,2024-09-26
+33,"['headache', 'bloating']",25,late,False,3,None,None,True,2024-08-31,2024-09-25
+30,"['mood swings', 'nausea']",35,on time,True,3,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-08-30,2024-10-04
+26,"['mood swings', 'body pain', 'bloating']",38,late,False,5,None,None,True,2024-09-08,2024-10-16
+26,['body pain'],32,late,True,5,None,['naproxen'],False,2024-09-02,2024-10-04
+25,"['cramps', 'mood swings', 'bloating']",27,on time,True,5,None,['naproxen'],True,2024-09-16,2024-10-13
+29,"['bloating', 'headache', 'cramps']",24,on time,True,4,None,"['naproxen', 'acetaminophen']",True,2024-09-12,2024-10-06
+29,['cramps'],28,early,True,2,None,['birth control pills'],False,2024-09-16,2024-10-14
+37,"['mood swings', 'headache']",29,late,False,1,None,None,False,2024-09-14,2024-10-13
+38,['fatigue'],23,late,True,1,PCOD,['naproxen'],True,2024-09-09,2024-10-02
+33,['headache'],28,on time,True,3,None,"['naproxen', 'birth control pills']",False,2024-09-08,2024-10-06
+23,"['body pain', 'mood swings']",26,on time,True,3,PCOS,"['naproxen', 'acetaminophen']",True,2024-09-11,2024-10-07
+37,"['body pain', 'headache', 'fatigue']",40,late,True,2,PCOS,"['acetaminophen', 'ibuprofen']",True,2024-08-28,2024-10-07
+26,['fatigue'],35,early,False,4,None,None,True,2024-09-05,2024-10-10
+20,"['fatigue', 'mood swings', 'bloating']",31,late,False,3,None,None,False,2024-09-06,2024-10-07
+22,['cramps'],30,on time,False,1,None,None,False,2024-09-15,2024-10-15
+27,"['fatigue', 'nausea', 'bloating']",28,early,True,5,PCOD,['acetaminophen'],True,2024-09-05,2024-10-03
+23,"['cramps', 'headache']",29,early,False,3,None,None,True,2024-09-01,2024-09-30
+22,"['body pain', 'bloating']",36,late,False,2,None,None,False,2024-09-02,2024-10-08
+29,"['headache', 'bloating']",37,late,True,5,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-07,2024-10-14
+32,['nausea'],21,late,False,1,None,None,False,2024-09-11,2024-10-02
+36,['bloating'],28,late,True,3,None,['naproxen'],True,2024-09-16,2024-10-14
+37,"['headache', 'cramps', 'mood swings']",21,late,False,4,None,None,False,2024-09-07,2024-09-28
+21,"['nausea', 'cramps', 'fatigue']",29,early,True,3,PCOD,['birth control pills'],True,2024-09-11,2024-10-10
+32,"['headache', 'fatigue', 'cramps']",35,late,True,1,None,['ibuprofen'],True,2024-08-30,2024-10-04
+36,['headache'],30,early,True,1,None,['ibuprofen'],False,2024-08-28,2024-09-27
+34,['fatigue'],32,on time,True,3,PCOD,"['ibuprofen', 'acetaminophen']",False,2024-09-15,2024-10-17
+34,"['cramps', 'headache']",32,on time,True,1,None,"['birth control pills', 'acetaminophen']",True,2024-09-16,2024-10-18
+28,"['mood swings', 'cramps']",23,on time,True,4,None,['acetaminophen'],False,2024-08-31,2024-09-23
+21,"['mood swings', 'cramps', 'headache']",22,early,True,3,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-03,2024-09-25
+36,"['fatigue', 'cramps', 'bloating']",37,on time,True,1,None,"['birth control pills', 'naproxen']",True,2024-09-12,2024-10-19
+24,"['mood swings', 'body pain']",40,late,False,5,None,None,False,2024-09-15,2024-10-25
+39,['nausea'],34,on time,False,5,None,None,False,2024-09-08,2024-10-12
+24,"['nausea', 'body pain']",30,on time,True,5,None,['naproxen'],False,2024-09-10,2024-10-10
+39,"['cramps', 'bloating', 'mood swings']",30,late,True,1,None,"['birth control pills', 'naproxen']",True,2024-08-28,2024-09-27
+27,['body pain'],35,on time,False,4,None,None,True,2024-08-28,2024-10-02
+19,"['fatigue', 'mood swings', 'headache']",30,on time,True,2,PCOD,['birth control pills'],True,2024-09-07,2024-10-07
+35,['cramps'],31,late,False,5,None,None,False,2024-09-15,2024-10-16
+22,['nausea'],25,early,True,5,PCOS,['acetaminophen'],True,2024-09-06,2024-10-01
+25,"['headache', 'bloating']",28,late,False,1,None,None,True,2024-09-06,2024-10-04
+34,"['body pain', 'bloating', 'headache']",39,early,False,2,None,None,True,2024-09-03,2024-10-12
+27,['cramps'],29,late,False,3,None,None,False,2024-09-10,2024-10-09
+36,['fatigue'],22,on time,True,1,PCOD,"['birth control pills', 'acetaminophen']",False,2024-09-04,2024-09-26
+21,['cramps'],29,on time,True,4,PCOD,['acetaminophen'],True,2024-09-06,2024-10-05
+25,"['bloating', 'mood swings']",38,early,False,1,None,None,False,2024-08-29,2024-10-06
+29,['body pain'],31,early,True,3,PCOS,['acetaminophen'],False,2024-08-28,2024-09-28
+20,"['bloating', 'mood swings', 'nausea']",29,on time,False,3,None,None,False,2024-09-02,2024-10-01
+38,['mood swings'],35,on time,False,5,None,None,True,2024-08-30,2024-10-04
+36,"['headache', 'fatigue']",32,late,True,2,PCOD,['acetaminophen'],False,2024-09-15,2024-10-17
+20,"['body pain', 'headache', 'cramps']",30,late,False,3,None,None,True,2024-09-02,2024-10-02
+39,['bloating'],28,early,False,4,None,None,False,2024-09-08,2024-10-06
+20,"['headache', 'nausea', 'bloating']",24,on time,False,3,None,None,True,2024-09-01,2024-09-25
+22,"['nausea', 'body pain', 'cramps']",35,early,False,4,None,None,True,2024-09-16,2024-10-21
+30,"['nausea', 'cramps', 'body pain']",22,late,False,1,None,None,False,2024-09-02,2024-09-24
+23,"['bloating', 'nausea']",38,late,True,2,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-02,2024-10-10
+30,"['cramps', 'bloating']",40,late,True,3,None,['birth control pills'],False,2024-09-05,2024-10-15
+24,['headache'],23,on time,True,5,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-02,2024-09-25
+21,['nausea'],38,on time,False,4,None,None,False,2024-09-09,2024-10-17
+40,"['cramps', 'headache']",23,early,True,5,PCOS,['ibuprofen'],False,2024-09-16,2024-10-09
+34,['fatigue'],36,on time,True,1,PCOD,['naproxen'],False,2024-09-16,2024-10-22
+20,"['body pain', 'nausea']",35,on time,True,5,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-09,2024-10-14
+25,"['nausea', 'cramps', 'headache']",32,early,False,4,None,None,False,2024-08-28,2024-09-29
+20,['headache'],33,late,False,2,None,None,True,2024-09-03,2024-10-06
+22,"['headache', 'mood swings']",27,early,True,4,PCOS,['naproxen'],False,2024-09-09,2024-10-06
+35,"['mood swings', 'headache']",35,early,True,1,PCOS,['naproxen'],False,2024-09-05,2024-10-10
+22,"['headache', 'mood swings', 'bloating']",25,late,True,2,None,"['birth control pills', 'ibuprofen']",False,2024-09-15,2024-10-10
+33,['fatigue'],33,on time,True,4,None,['acetaminophen'],True,2024-09-03,2024-10-06
+23,"['headache', 'bloating']",26,late,False,3,None,None,False,2024-08-30,2024-09-25
+35,['body pain'],21,late,True,4,PCOS,['acetaminophen'],False,2024-08-28,2024-09-18
+36,['mood swings'],27,late,True,2,None,['ibuprofen'],False,2024-09-02,2024-09-29
+21,['cramps'],38,late,True,1,None,['acetaminophen'],False,2024-09-02,2024-10-10
+28,"['headache', 'bloating']",28,on time,False,2,None,None,False,2024-09-16,2024-10-14
+24,['fatigue'],26,late,False,3,None,None,True,2024-09-15,2024-10-11
+21,"['fatigue', 'cramps', 'nausea']",39,on time,False,3,None,None,False,2024-09-16,2024-10-25
+19,"['body pain', 'bloating', 'fatigue']",22,on time,False,2,None,None,False,2024-08-29,2024-09-20
+37,"['nausea', 'cramps']",27,on time,False,3,None,None,True,2024-09-06,2024-10-03
+19,"['mood swings', 'nausea']",28,on time,True,2,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-14,2024-10-12
+25,"['bloating', 'body pain']",26,on time,False,3,None,None,False,2024-09-03,2024-09-29
+37,"['mood swings', 'fatigue', 'cramps']",32,on time,False,2,None,None,False,2024-09-05,2024-10-07
+40,['headache'],35,on time,True,4,PCOS,"['birth control pills', 'ibuprofen']",False,2024-09-06,2024-10-11
+35,"['body pain', 'nausea', 'headache']",26,late,False,1,None,None,False,2024-09-14,2024-10-10
+30,['mood swings'],30,early,False,5,None,None,False,2024-08-29,2024-09-28
+32,"['headache', 'cramps']",24,on time,False,3,None,None,True,2024-09-04,2024-09-28
+40,"['body pain', 'headache', 'fatigue']",23,late,True,2,None,['birth control pills'],True,2024-09-02,2024-09-25
+26,"['headache', 'body pain', 'mood swings']",33,late,True,4,PCOD,"['acetaminophen', 'birth control pills']",False,2024-08-28,2024-09-30
+40,"['fatigue', 'nausea']",36,on time,False,5,None,None,False,2024-09-07,2024-10-13
+23,"['nausea', 'headache']",35,late,False,5,None,None,True,2024-09-08,2024-10-13
+27,"['bloating', 'cramps']",22,late,False,4,None,None,True,2024-09-13,2024-10-05
+24,['bloating'],24,on time,False,1,None,None,True,2024-09-10,2024-10-04
+28,['mood swings'],29,on time,True,4,PCOS,"['acetaminophen', 'birth control pills']",False,2024-09-11,2024-10-10
+30,"['nausea', 'body pain', 'fatigue']",23,early,True,4,PCOS,['ibuprofen'],True,2024-09-13,2024-10-06
+24,['body pain'],36,on time,True,2,PCOD,['birth control pills'],False,2024-09-15,2024-10-21
+20,"['body pain', 'mood swings']",38,late,False,3,None,None,False,2024-09-11,2024-10-19
+26,"['mood swings', 'fatigue']",26,on time,False,2,None,None,True,2024-09-16,2024-10-12
+20,"['body pain', 'nausea', 'fatigue']",27,early,True,1,PCOS,['acetaminophen'],False,2024-09-01,2024-09-28
+21,"['headache', 'bloating', 'cramps']",32,early,False,2,None,None,True,2024-09-14,2024-10-16
+36,"['bloating', 'nausea']",26,early,True,4,PCOS,['ibuprofen'],False,2024-09-16,2024-10-12
+32,"['body pain', 'cramps']",33,on time,False,1,None,None,True,2024-09-09,2024-10-12
+30,['body pain'],24,early,False,1,None,None,False,2024-09-02,2024-09-26
+23,"['headache', 'fatigue', 'nausea']",38,early,True,1,PCOD,['ibuprofen'],False,2024-09-11,2024-10-19
+23,"['fatigue', 'body pain', 'cramps']",26,on time,False,5,None,None,True,2024-08-31,2024-09-26
+35,['body pain'],25,late,True,4,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-03,2024-09-28
+29,"['body pain', 'bloating', 'mood swings']",21,on time,True,2,None,"['birth control pills', 'naproxen']",False,2024-08-31,2024-09-21
+34,"['body pain', 'fatigue', 'headache']",34,early,False,2,None,None,True,2024-09-05,2024-10-09
+29,"['nausea', 'fatigue']",22,late,False,3,None,None,True,2024-09-13,2024-10-05
+37,['bloating'],30,early,False,4,None,None,False,2024-08-29,2024-09-28
+31,"['body pain', 'cramps']",25,late,True,2,PCOD,"['birth control pills', 'naproxen']",False,2024-09-05,2024-09-30
+28,['cramps'],28,early,True,1,PCOD,['birth control pills'],False,2024-09-01,2024-09-29
+22,"['fatigue', 'body pain', 'nausea']",24,late,True,1,PCOD,['ibuprofen'],True,2024-09-03,2024-09-27
+23,"['cramps', 'body pain']",32,early,False,4,None,None,True,2024-08-28,2024-09-29
+34,"['cramps', 'bloating']",26,early,True,1,PCOS,"['birth control pills', 'ibuprofen']",False,2024-09-07,2024-10-03
+40,"['mood swings', 'fatigue', 'cramps']",33,on time,False,4,None,None,False,2024-09-07,2024-10-10
+33,"['headache', 'mood swings']",23,early,False,3,None,None,False,2024-09-16,2024-10-09
+28,"['nausea', 'bloating']",23,on time,False,1,None,None,False,2024-09-07,2024-09-30
+39,['bloating'],36,early,True,4,None,"['acetaminophen', 'naproxen']",True,2024-09-02,2024-10-08
+25,['body pain'],22,late,True,4,PCOD,['naproxen'],False,2024-09-01,2024-09-23
+23,['nausea'],22,on time,True,4,PCOD,['ibuprofen'],False,2024-09-03,2024-09-25
+27,"['cramps', 'fatigue', 'bloating']",36,early,True,5,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-05,2024-10-11
+26,"['body pain', 'headache']",39,early,True,3,PCOS,['naproxen'],True,2024-09-15,2024-10-24
+31,['cramps'],23,late,True,2,PCOS,"['birth control pills', 'naproxen']",True,2024-09-14,2024-10-07
+26,['body pain'],29,late,True,4,PCOS,['naproxen'],False,2024-09-06,2024-10-05
+33,['nausea'],28,on time,False,5,None,None,False,2024-08-30,2024-09-27
+36,['headache'],32,on time,True,1,None,"['ibuprofen', 'acetaminophen']",True,2024-09-13,2024-10-15
+39,"['body pain', 'cramps']",22,early,False,2,None,None,True,2024-09-10,2024-10-02
+23,"['mood swings', 'fatigue', 'cramps']",22,late,False,4,None,None,True,2024-09-01,2024-09-23
+27,['body pain'],31,early,False,3,None,None,False,2024-09-14,2024-10-15
+31,"['body pain', 'headache']",23,late,False,3,None,None,False,2024-09-09,2024-10-02
+40,"['headache', 'nausea']",40,on time,False,5,None,None,True,2024-08-31,2024-10-10
+22,"['bloating', 'fatigue']",22,late,False,3,None,None,True,2024-08-31,2024-09-22
+26,"['mood swings', 'bloating', 'headache']",21,early,True,4,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-12,2024-10-03
+40,"['headache', 'mood swings', 'bloating']",31,on time,False,2,None,None,True,2024-09-10,2024-10-11
+24,"['body pain', 'nausea']",28,early,False,3,None,None,False,2024-09-07,2024-10-05
+20,['fatigue'],36,late,False,2,None,None,False,2024-09-06,2024-10-12
+20,"['bloating', 'headache']",27,early,True,3,PCOD,['birth control pills'],True,2024-09-10,2024-10-07
+32,"['mood swings', 'bloating', 'headache']",26,early,False,5,None,None,True,2024-09-07,2024-10-03
+24,"['body pain', 'bloating']",25,on time,False,4,None,None,False,2024-09-14,2024-10-09
+39,"['cramps', 'mood swings', 'fatigue']",38,on time,False,5,None,None,False,2024-09-05,2024-10-13
+22,"['bloating', 'fatigue']",37,on time,False,5,None,None,True,2024-09-04,2024-10-11
+31,"['headache', 'cramps']",31,late,True,2,None,['naproxen'],False,2024-09-10,2024-10-11
+30,"['nausea', 'bloating']",40,on time,False,2,None,None,True,2024-09-13,2024-10-23
+39,['body pain'],40,on time,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-07,2024-10-17
+40,"['cramps', 'headache', 'fatigue']",21,late,True,5,PCOD,['ibuprofen'],True,2024-09-09,2024-09-30
+39,"['mood swings', 'fatigue', 'cramps']",24,on time,False,3,None,None,True,2024-08-29,2024-09-22
+30,"['mood swings', 'headache', 'nausea']",38,late,True,1,None,"['acetaminophen', 'birth control pills']",False,2024-09-07,2024-10-15
+34,"['cramps', 'bloating', 'nausea']",21,early,True,2,PCOD,['acetaminophen'],True,2024-09-05,2024-09-26
+35,['bloating'],28,late,True,5,None,"['acetaminophen', 'naproxen']",False,2024-09-16,2024-10-14
+22,"['cramps', 'mood swings']",37,on time,False,4,None,None,False,2024-09-04,2024-10-11
+36,['cramps'],27,late,True,1,PCOS,['naproxen'],False,2024-09-06,2024-10-03
+21,['headache'],35,on time,True,4,PCOS,['birth control pills'],False,2024-09-14,2024-10-19
+32,['headache'],33,early,False,2,None,None,False,2024-08-30,2024-10-02
+29,"['fatigue', 'cramps', 'nausea']",29,early,False,5,None,None,True,2024-08-30,2024-09-28
+36,"['cramps', 'body pain']",35,on time,False,2,None,None,True,2024-09-02,2024-10-07
+31,['mood swings'],26,late,False,3,None,None,True,2024-09-10,2024-10-06
+20,['mood swings'],25,late,False,1,None,None,False,2024-09-03,2024-09-28
+39,"['bloating', 'nausea', 'headache']",28,on time,False,2,None,None,False,2024-09-09,2024-10-07
+32,"['bloating', 'body pain', 'fatigue']",40,on time,False,4,None,None,False,2024-09-07,2024-10-17
+20,"['body pain', 'bloating', 'headache']",22,early,True,4,PCOD,"['naproxen', 'birth control pills']",True,2024-09-11,2024-10-03
+23,"['body pain', 'bloating']",39,early,True,4,None,"['acetaminophen', 'naproxen']",False,2024-08-31,2024-10-09
+33,"['nausea', 'headache', 'cramps']",34,early,True,5,None,['naproxen'],False,2024-08-29,2024-10-02
+38,"['mood swings', 'cramps', 'headache']",34,on time,False,5,None,None,True,2024-09-10,2024-10-14
+32,"['nausea', 'bloating']",35,late,True,1,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-03,2024-10-08
+26,"['cramps', 'headache', 'fatigue']",34,early,True,2,PCOD,['naproxen'],True,2024-09-09,2024-10-13
+31,"['bloating', 'nausea', 'headache']",25,on time,True,5,PCOS,['acetaminophen'],False,2024-09-03,2024-09-28
+23,['mood swings'],39,on time,False,2,None,None,False,2024-09-09,2024-10-18
+24,"['mood swings', 'fatigue']",28,on time,True,3,PCOD,['naproxen'],True,2024-09-03,2024-10-01
+32,"['cramps', 'body pain', 'headache']",30,late,False,2,None,None,True,2024-08-31,2024-09-30
+33,"['nausea', 'bloating']",34,on time,True,4,PCOD,"['birth control pills', 'acetaminophen']",False,2024-09-07,2024-10-11
+20,['mood swings'],31,on time,False,4,None,None,True,2024-09-16,2024-10-17
+24,"['bloating', 'fatigue']",34,on time,False,5,None,None,False,2024-09-05,2024-10-09
+31,['mood swings'],37,on time,True,5,None,"['naproxen', 'acetaminophen']",False,2024-09-08,2024-10-15
+23,"['body pain', 'nausea']",28,on time,True,5,PCOS,"['birth control pills', 'naproxen']",True,2024-08-28,2024-09-25
+38,['headache'],27,on time,False,3,None,None,False,2024-09-02,2024-09-29
+28,"['body pain', 'cramps']",24,late,False,2,None,None,False,2024-09-13,2024-10-07
+33,"['mood swings', 'nausea', 'headache']",23,on time,False,3,None,None,True,2024-09-04,2024-09-27
+35,"['bloating', 'body pain']",27,late,True,4,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-10,2024-10-07
+28,['bloating'],24,late,True,4,None,"['acetaminophen', 'ibuprofen']",False,2024-09-16,2024-10-10
+32,"['cramps', 'bloating']",30,on time,True,2,None,"['acetaminophen', 'birth control pills']",False,2024-09-13,2024-10-13
+34,"['bloating', 'headache', 'nausea']",35,on time,False,3,None,None,False,2024-09-13,2024-10-18
+32,"['body pain', 'bloating', 'cramps']",28,late,False,4,None,None,True,2024-08-31,2024-09-28
+38,"['cramps', 'fatigue']",31,late,True,3,None,"['naproxen', 'ibuprofen']",True,2024-09-13,2024-10-14
+26,['body pain'],36,early,True,4,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-08,2024-10-14
+19,"['headache', 'body pain']",22,late,True,1,None,"['naproxen', 'ibuprofen']",True,2024-09-15,2024-10-07
+38,"['bloating', 'cramps', 'fatigue']",36,on time,True,2,None,"['birth control pills', 'ibuprofen']",False,2024-09-11,2024-10-17
+33,"['nausea', 'headache', 'fatigue']",37,on time,True,1,PCOS,['birth control pills'],False,2024-08-31,2024-10-07
+34,"['fatigue', 'cramps']",36,early,True,5,PCOS,"['ibuprofen', 'naproxen']",True,2024-08-31,2024-10-06
+23,"['nausea', 'cramps']",28,late,False,4,None,None,False,2024-09-10,2024-10-08
+31,['bloating'],34,early,True,4,PCOD,['naproxen'],False,2024-08-28,2024-10-01
+32,['mood swings'],23,early,True,3,PCOS,"['naproxen', 'acetaminophen']",False,2024-09-16,2024-10-09
+33,['cramps'],36,late,True,2,None,['naproxen'],True,2024-09-01,2024-10-07
+26,['nausea'],36,early,True,3,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-11,2024-10-17
+22,['mood swings'],28,late,True,4,PCOD,['ibuprofen'],False,2024-09-14,2024-10-12
+26,['body pain'],37,on time,True,1,PCOD,"['birth control pills', 'ibuprofen']",True,2024-08-30,2024-10-06
+20,"['headache', 'nausea', 'bloating']",33,on time,False,3,None,None,False,2024-09-12,2024-10-15
+27,"['mood swings', 'body pain', 'headache']",29,late,True,3,None,['ibuprofen'],True,2024-09-14,2024-10-13
+19,"['headache', 'nausea', 'mood swings']",38,early,True,1,None,"['acetaminophen', 'ibuprofen']",True,2024-09-06,2024-10-14
+23,['cramps'],28,early,True,5,None,"['naproxen', 'acetaminophen']",True,2024-09-03,2024-10-01
+35,"['cramps', 'nausea']",38,late,False,3,None,None,False,2024-08-31,2024-10-08
+32,"['mood swings', 'headache']",30,late,True,3,PCOD,"['naproxen', 'ibuprofen']",True,2024-09-10,2024-10-10
+38,"['mood swings', 'nausea']",38,late,True,1,PCOD,['birth control pills'],True,2024-09-05,2024-10-13
+34,"['body pain', 'nausea']",38,late,False,5,None,None,False,2024-09-16,2024-10-24
+34,['mood swings'],26,early,True,1,None,"['naproxen', 'ibuprofen']",True,2024-09-03,2024-09-29
+36,['body pain'],29,on time,True,2,PCOD,"['ibuprofen', 'naproxen']",False,2024-08-31,2024-09-29
+24,"['mood swings', 'body pain', 'nausea']",39,on time,True,5,None,['birth control pills'],False,2024-09-09,2024-10-18
+39,['body pain'],36,early,True,2,PCOD,['ibuprofen'],True,2024-08-31,2024-10-06
+40,"['fatigue', 'headache']",29,late,False,4,None,None,False,2024-09-03,2024-10-02
+30,"['headache', 'mood swings']",22,late,False,4,None,None,False,2024-09-12,2024-10-04
+29,"['bloating', 'headache', 'body pain']",34,early,True,5,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-07,2024-10-11
+37,['fatigue'],31,late,True,2,PCOD,['naproxen'],False,2024-09-01,2024-10-02
+40,['nausea'],21,on time,False,5,None,None,False,2024-09-15,2024-10-06
+40,"['headache', 'fatigue', 'bloating']",29,early,False,5,None,None,False,2024-09-04,2024-10-03
+30,"['bloating', 'nausea', 'headache']",36,on time,True,4,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-16,2024-10-22
+32,"['bloating', 'nausea']",31,early,False,3,None,None,True,2024-08-30,2024-09-30
+30,['body pain'],31,early,False,2,None,None,True,2024-09-05,2024-10-06
+38,['headache'],37,late,False,3,None,None,False,2024-09-12,2024-10-19
+21,"['body pain', 'cramps']",28,early,True,1,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-06,2024-10-04
+34,['body pain'],28,on time,True,2,PCOS,['acetaminophen'],True,2024-09-07,2024-10-05
+35,['bloating'],28,early,True,3,PCOS,"['acetaminophen', 'ibuprofen']",True,2024-08-31,2024-09-28
+19,"['bloating', 'fatigue', 'nausea']",34,late,True,2,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-15,2024-10-19
+36,"['bloating', 'nausea']",33,on time,True,2,PCOS,['birth control pills'],True,2024-09-07,2024-10-10
+39,"['mood swings', 'fatigue', 'headache']",37,on time,False,5,None,None,False,2024-09-08,2024-10-15
+31,['bloating'],34,early,False,4,None,None,False,2024-09-07,2024-10-11
+23,['bloating'],28,on time,True,2,PCOS,['naproxen'],False,2024-09-04,2024-10-02
+38,"['mood swings', 'nausea', 'bloating']",28,late,True,4,None,['ibuprofen'],True,2024-09-13,2024-10-11
+38,['mood swings'],30,early,False,2,None,None,True,2024-09-10,2024-10-10
+23,"['body pain', 'fatigue']",29,on time,True,2,PCOD,['naproxen'],True,2024-09-13,2024-10-12
+20,"['cramps', 'body pain']",39,late,True,2,None,['birth control pills'],True,2024-09-08,2024-10-17
+22,['cramps'],32,early,False,1,None,None,True,2024-09-05,2024-10-07
+35,"['bloating', 'fatigue']",35,on time,False,4,None,None,False,2024-09-02,2024-10-07
+29,"['bloating', 'body pain', 'headache']",22,early,False,3,None,None,False,2024-09-01,2024-09-23
+30,"['bloating', 'headache']",30,on time,False,2,None,None,True,2024-09-10,2024-10-10
+27,"['fatigue', 'headache']",25,early,True,3,PCOD,['acetaminophen'],False,2024-09-07,2024-10-02
+22,['nausea'],22,late,False,3,None,None,True,2024-09-09,2024-10-01
+28,['fatigue'],37,on time,True,5,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-11,2024-10-18
+32,"['body pain', 'bloating']",26,early,True,1,PCOD,['ibuprofen'],False,2024-09-10,2024-10-06
+37,"['nausea', 'body pain']",39,on time,False,2,None,None,True,2024-09-08,2024-10-17
+25,['cramps'],29,on time,False,2,None,None,False,2024-09-12,2024-10-11
+31,['nausea'],34,early,True,5,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-02,2024-10-06
+36,['fatigue'],23,early,True,1,None,"['acetaminophen', 'naproxen']",True,2024-09-14,2024-10-07
+29,"['nausea', 'headache', 'cramps']",30,early,False,1,None,None,False,2024-08-28,2024-09-27
+38,"['mood swings', 'cramps', 'nausea']",31,late,False,5,None,None,False,2024-08-31,2024-10-01
+27,"['mood swings', 'body pain']",40,early,True,5,PCOS,"['acetaminophen', 'ibuprofen']",False,2024-09-14,2024-10-24
+35,"['mood swings', 'headache']",32,on time,True,1,PCOS,['acetaminophen'],True,2024-09-08,2024-10-10
+22,"['bloating', 'fatigue']",33,early,True,5,None,['birth control pills'],True,2024-09-08,2024-10-11
+24,"['bloating', 'headache', 'mood swings']",23,early,True,3,PCOD,"['ibuprofen', 'birth control pills']",True,2024-08-30,2024-09-22
+39,"['cramps', 'nausea']",24,on time,True,3,PCOD,['naproxen'],True,2024-09-09,2024-10-03
+38,"['bloating', 'body pain', 'nausea']",31,on time,False,4,None,None,True,2024-09-13,2024-10-14
+26,"['bloating', 'headache', 'fatigue']",32,on time,True,1,PCOD,['naproxen'],True,2024-09-10,2024-10-12
+34,['cramps'],26,late,True,2,None,"['acetaminophen', 'birth control pills']",False,2024-09-08,2024-10-04
+28,"['fatigue', 'nausea']",25,late,False,1,None,None,False,2024-08-28,2024-09-22
+22,"['bloating', 'nausea']",29,on time,False,4,None,None,True,2024-08-31,2024-09-29
+34,"['nausea', 'mood swings', 'body pain']",22,on time,True,2,PCOS,['acetaminophen'],True,2024-08-31,2024-09-22
+29,"['cramps', 'headache', 'bloating']",22,early,True,1,None,"['birth control pills', 'acetaminophen']",True,2024-08-28,2024-09-19
+25,['nausea'],31,on time,True,2,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-09,2024-10-10
+22,"['body pain', 'headache', 'bloating']",36,on time,False,1,None,None,False,2024-09-04,2024-10-10
+38,"['headache', 'nausea', 'cramps']",22,late,False,2,None,None,False,2024-09-07,2024-09-29
+34,"['body pain', 'headache']",21,early,False,3,None,None,False,2024-09-14,2024-10-05
+22,"['headache', 'body pain']",31,on time,False,1,None,None,True,2024-09-13,2024-10-14
+36,"['headache', 'fatigue']",37,on time,True,5,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-11,2024-10-18
+31,['nausea'],31,late,False,2,None,None,False,2024-09-15,2024-10-16
+34,['headache'],38,early,True,2,None,"['acetaminophen', 'naproxen']",True,2024-09-11,2024-10-19
+38,"['cramps', 'mood swings', 'nausea']",35,late,False,4,None,None,False,2024-09-15,2024-10-20
+38,['bloating'],28,on time,False,5,None,None,True,2024-09-07,2024-10-05
+40,"['headache', 'bloating', 'nausea']",32,early,True,5,PCOS,['acetaminophen'],True,2024-09-16,2024-10-18
+39,"['body pain', 'nausea', 'cramps']",23,on time,False,4,None,None,True,2024-09-05,2024-09-28
+24,"['nausea', 'cramps', 'fatigue']",32,early,True,5,None,"['naproxen', 'birth control pills']",False,2024-09-04,2024-10-06
+40,"['cramps', 'headache']",26,early,False,2,None,None,False,2024-08-29,2024-09-24
+19,['mood swings'],39,on time,False,5,None,None,True,2024-08-31,2024-10-09
+24,"['cramps', 'bloating']",34,late,False,4,None,None,False,2024-08-29,2024-10-02
+33,['mood swings'],27,on time,False,3,None,None,True,2024-09-08,2024-10-05
+20,"['fatigue', 'cramps', 'bloating']",28,late,True,3,None,"['naproxen', 'acetaminophen']",True,2024-09-09,2024-10-07
+27,"['cramps', 'bloating']",28,on time,True,5,PCOD,['naproxen'],False,2024-09-04,2024-10-02
+33,"['body pain', 'headache', 'nausea']",31,late,True,4,PCOD,"['naproxen', 'acetaminophen']",False,2024-08-30,2024-09-30
+25,['cramps'],32,late,False,5,None,None,True,2024-08-30,2024-10-01
+24,"['fatigue', 'bloating']",29,late,True,2,PCOD,['naproxen'],True,2024-08-31,2024-09-29
+25,['mood swings'],40,on time,False,5,None,None,False,2024-09-11,2024-10-21
+30,"['mood swings', 'fatigue', 'body pain']",40,early,True,5,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-07,2024-10-17
+36,"['nausea', 'cramps']",33,late,True,4,PCOS,['ibuprofen'],False,2024-09-07,2024-10-10
+21,"['fatigue', 'nausea', 'bloating']",37,on time,True,1,PCOD,['birth control pills'],False,2024-09-04,2024-10-11
+30,"['mood swings', 'fatigue', 'nausea']",35,on time,True,2,PCOD,"['acetaminophen', 'ibuprofen']",True,2024-09-03,2024-10-08
+33,"['body pain', 'nausea', 'headache']",35,early,False,2,None,None,False,2024-09-13,2024-10-18
+25,"['bloating', 'fatigue', 'headache']",33,late,True,2,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-08,2024-10-11
+21,"['mood swings', 'cramps', 'fatigue']",27,late,True,3,PCOD,"['birth control pills', 'naproxen']",False,2024-08-28,2024-09-24
+20,"['body pain', 'bloating', 'mood swings']",39,on time,True,2,PCOS,['birth control pills'],False,2024-08-30,2024-10-08
+38,"['cramps', 'fatigue']",39,on time,False,5,None,None,False,2024-09-13,2024-10-22
+34,"['bloating', 'mood swings']",21,late,True,2,PCOD,['naproxen'],False,2024-09-13,2024-10-04
+40,"['bloating', 'body pain', 'fatigue']",23,early,False,3,None,None,True,2024-09-14,2024-10-07
+34,"['cramps', 'fatigue']",26,late,False,4,None,None,True,2024-09-10,2024-10-06
+24,"['fatigue', 'nausea']",26,late,False,2,None,None,False,2024-09-04,2024-09-30
+23,"['nausea', 'body pain', 'cramps']",31,on time,False,1,None,None,False,2024-09-01,2024-10-02
+23,"['body pain', 'mood swings']",40,on time,True,2,None,['naproxen'],True,2024-08-29,2024-10-08
+24,['fatigue'],28,early,True,1,None,"['birth control pills', 'naproxen']",True,2024-08-28,2024-09-25
+26,"['mood swings', 'body pain', 'bloating']",32,late,False,1,None,None,True,2024-09-12,2024-10-14
+26,"['fatigue', 'nausea']",27,on time,False,5,None,None,False,2024-09-03,2024-09-30
+26,"['cramps', 'nausea']",24,early,True,5,PCOD,"['naproxen', 'birth control pills']",False,2024-09-03,2024-09-27
+30,"['cramps', 'bloating', 'mood swings']",30,on time,True,1,None,"['ibuprofen', 'acetaminophen']",True,2024-09-13,2024-10-13
+37,"['fatigue', 'mood swings', 'cramps']",34,on time,False,1,None,None,True,2024-09-02,2024-10-06
+20,"['headache', 'nausea', 'body pain']",30,late,False,5,None,None,True,2024-09-15,2024-10-15
+22,['nausea'],22,on time,False,3,None,None,True,2024-09-13,2024-10-05
+32,"['nausea', 'headache']",35,on time,False,2,None,None,True,2024-08-28,2024-10-02
+36,['bloating'],34,on time,False,5,None,None,False,2024-09-15,2024-10-19
+30,"['headache', 'mood swings', 'fatigue']",24,on time,False,3,None,None,False,2024-09-01,2024-09-25
+38,"['headache', 'mood swings']",26,early,False,1,None,None,False,2024-09-07,2024-10-03
+30,"['mood swings', 'cramps']",29,on time,True,3,PCOD,['ibuprofen'],False,2024-09-13,2024-10-12
+39,['bloating'],30,early,True,2,PCOS,['acetaminophen'],False,2024-09-15,2024-10-15
+39,"['headache', 'nausea', 'fatigue']",26,late,False,2,None,None,True,2024-09-14,2024-10-10
+21,"['body pain', 'mood swings']",40,late,True,5,None,"['birth control pills', 'acetaminophen']",True,2024-08-30,2024-10-09
+20,"['body pain', 'nausea', 'mood swings']",39,late,True,3,PCOD,['naproxen'],True,2024-09-08,2024-10-17
+33,"['mood swings', 'cramps', 'nausea']",24,on time,False,1,None,None,True,2024-09-10,2024-10-04
+35,['mood swings'],23,late,True,4,PCOS,['ibuprofen'],True,2024-08-29,2024-09-21
+30,"['body pain', 'headache', 'bloating']",23,late,False,2,None,None,True,2024-09-07,2024-09-30
+23,"['cramps', 'nausea']",24,on time,True,4,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-10,2024-10-04
+26,['bloating'],35,late,False,1,None,None,False,2024-09-06,2024-10-11
+37,['cramps'],25,late,True,2,None,"['naproxen', 'birth control pills']",True,2024-09-15,2024-10-10
+26,['cramps'],26,late,False,3,None,None,False,2024-09-07,2024-10-03
+23,"['fatigue', 'mood swings', 'cramps']",33,late,True,4,PCOS,['ibuprofen'],True,2024-08-29,2024-10-01
+32,"['cramps', 'headache', 'mood swings']",23,early,False,5,None,None,True,2024-09-13,2024-10-06
+20,"['nausea', 'bloating', 'body pain']",27,late,True,4,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-08,2024-10-05
+23,"['bloating', 'headache', 'nausea']",35,late,True,1,None,['birth control pills'],True,2024-09-08,2024-10-13
+34,"['bloating', 'mood swings']",38,late,True,2,None,"['naproxen', 'ibuprofen']",True,2024-08-30,2024-10-07
+33,"['cramps', 'bloating']",35,early,True,5,PCOD,['naproxen'],False,2024-09-03,2024-10-08
+36,"['fatigue', 'nausea', 'mood swings']",37,early,False,5,None,None,True,2024-09-04,2024-10-11
+20,"['body pain', 'cramps']",24,late,True,5,None,['naproxen'],True,2024-09-05,2024-09-29
+30,"['mood swings', 'body pain']",30,late,True,1,PCOD,['ibuprofen'],False,2024-08-30,2024-09-29
+30,"['bloating', 'headache']",26,early,True,4,PCOS,['birth control pills'],True,2024-08-30,2024-09-25
+23,['nausea'],36,late,True,3,PCOD,"['naproxen', 'birth control pills']",True,2024-09-10,2024-10-16
+27,"['nausea', 'mood swings', 'body pain']",32,early,True,2,PCOS,['ibuprofen'],False,2024-09-05,2024-10-07
+31,"['cramps', 'body pain', 'bloating']",29,on time,True,1,PCOS,"['naproxen', 'ibuprofen']",False,2024-09-01,2024-09-30
+19,['nausea'],38,on time,False,3,None,None,False,2024-09-03,2024-10-11
+39,"['nausea', 'mood swings']",32,early,False,2,None,None,True,2024-08-30,2024-10-01
+30,"['fatigue', 'cramps']",37,on time,True,2,None,['ibuprofen'],False,2024-09-01,2024-10-08
+38,"['nausea', 'headache', 'mood swings']",23,late,True,5,None,"['acetaminophen', 'naproxen']",True,2024-08-28,2024-09-20
+37,"['fatigue', 'cramps']",31,early,False,4,None,None,False,2024-09-10,2024-10-11
+37,"['nausea', 'fatigue']",21,early,False,5,None,None,True,2024-08-30,2024-09-20
+23,"['body pain', 'bloating', 'nausea']",32,on time,True,2,PCOD,"['birth control pills', 'naproxen']",False,2024-09-05,2024-10-07
+37,['bloating'],40,on time,True,1,PCOS,['naproxen'],True,2024-08-31,2024-10-10
+36,"['body pain', 'bloating', 'cramps']",35,early,False,2,None,None,True,2024-08-30,2024-10-04
+19,"['mood swings', 'cramps']",38,late,False,5,None,None,False,2024-08-31,2024-10-08
+34,"['body pain', 'cramps']",30,early,False,5,None,None,True,2024-09-13,2024-10-13
+38,"['body pain', 'fatigue', 'mood swings']",39,early,True,4,PCOS,['acetaminophen'],True,2024-09-12,2024-10-21
+25,['body pain'],30,late,True,2,None,['ibuprofen'],False,2024-09-05,2024-10-05
+22,"['bloating', 'fatigue']",32,late,True,3,None,['ibuprofen'],False,2024-09-03,2024-10-05
+25,"['body pain', 'cramps', 'bloating']",31,on time,False,1,None,None,False,2024-09-11,2024-10-12
+37,"['body pain', 'nausea']",37,on time,False,2,None,None,False,2024-09-16,2024-10-23
+28,"['fatigue', 'cramps']",32,on time,True,1,PCOD,['acetaminophen'],False,2024-09-14,2024-10-16
+28,['body pain'],31,on time,False,2,None,None,True,2024-09-01,2024-10-02
+21,['bloating'],37,late,False,1,None,None,True,2024-09-07,2024-10-14
+24,"['nausea', 'mood swings']",32,early,True,5,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-02,2024-10-04
+22,"['cramps', 'nausea', 'body pain']",29,early,False,1,None,None,True,2024-09-10,2024-10-09
+25,"['cramps', 'body pain']",29,late,False,3,None,None,False,2024-09-08,2024-10-07
+29,"['headache', 'fatigue']",32,late,False,1,None,None,False,2024-09-01,2024-10-03
+34,['headache'],33,early,False,5,None,None,False,2024-09-12,2024-10-15
+38,"['nausea', 'headache']",24,on time,True,5,None,['ibuprofen'],False,2024-09-06,2024-09-30
+25,"['cramps', 'mood swings', 'nausea']",33,late,False,1,None,None,False,2024-09-13,2024-10-16
+19,['cramps'],25,early,False,3,None,None,True,2024-08-29,2024-09-23
+32,['bloating'],31,on time,True,5,PCOS,['acetaminophen'],False,2024-09-05,2024-10-06
+26,['fatigue'],22,on time,False,4,None,None,True,2024-09-16,2024-10-08
+19,['mood swings'],30,on time,True,4,PCOS,"['naproxen', 'birth control pills']",True,2024-09-16,2024-10-16
+24,['cramps'],30,early,False,3,None,None,True,2024-09-05,2024-10-05
+33,"['mood swings', 'cramps', 'headache']",22,late,True,3,PCOD,"['naproxen', 'acetaminophen']",False,2024-09-14,2024-10-06
+40,['body pain'],27,on time,True,2,PCOD,['ibuprofen'],False,2024-09-03,2024-09-30
+31,"['bloating', 'body pain', 'fatigue']",22,early,False,3,None,None,False,2024-08-31,2024-09-22
+30,['fatigue'],38,late,True,4,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-08-29,2024-10-06
+20,['bloating'],21,on time,False,2,None,None,True,2024-09-07,2024-09-28
+31,"['nausea', 'mood swings', 'headache']",30,on time,True,1,PCOS,"['birth control pills', 'naproxen']",True,2024-09-01,2024-10-01
+19,"['cramps', 'bloating', 'nausea']",25,early,True,1,None,['birth control pills'],False,2024-09-13,2024-10-08
+20,['headache'],36,on time,False,1,None,None,False,2024-08-31,2024-10-06
+39,['nausea'],32,late,True,2,PCOD,"['naproxen', 'acetaminophen']",False,2024-09-02,2024-10-04
+35,"['bloating', 'fatigue', 'cramps']",22,early,False,2,None,None,False,2024-09-05,2024-09-27
+36,"['fatigue', 'nausea', 'bloating']",29,late,True,4,None,['naproxen'],False,2024-09-08,2024-10-07
+20,"['nausea', 'headache']",40,late,True,4,PCOS,"['birth control pills', 'ibuprofen']",False,2024-09-10,2024-10-20
+26,"['cramps', 'fatigue', 'headache']",39,early,True,3,None,"['birth control pills', 'ibuprofen']",True,2024-09-13,2024-10-22
+37,"['fatigue', 'body pain', 'cramps']",30,on time,True,1,PCOS,['acetaminophen'],True,2024-09-02,2024-10-02
+24,"['nausea', 'fatigue', 'mood swings']",40,on time,True,1,PCOD,['ibuprofen'],False,2024-08-30,2024-10-09
+21,"['nausea', 'headache', 'bloating']",24,late,True,2,PCOD,['birth control pills'],False,2024-09-02,2024-09-26
+37,"['nausea', 'bloating']",22,early,False,4,None,None,True,2024-09-14,2024-10-06
+32,"['fatigue', 'cramps', 'bloating']",26,late,True,5,None,['acetaminophen'],True,2024-09-01,2024-09-27
+24,"['bloating', 'fatigue', 'nausea']",31,early,False,5,None,None,False,2024-09-04,2024-10-05
+35,['nausea'],37,on time,False,5,None,None,False,2024-09-09,2024-10-16
+23,['cramps'],34,on time,False,1,None,None,False,2024-09-14,2024-10-18
+21,['headache'],35,on time,True,4,None,"['ibuprofen', 'acetaminophen']",False,2024-09-07,2024-10-12
+23,"['cramps', 'headache']",29,early,True,5,PCOD,"['acetaminophen', 'naproxen']",False,2024-09-03,2024-10-02
+32,"['nausea', 'body pain']",37,late,False,4,None,None,True,2024-09-08,2024-10-15
+21,"['mood swings', 'headache', 'cramps']",36,late,False,5,None,None,False,2024-08-30,2024-10-05
+28,['mood swings'],34,late,True,2,PCOS,"['birth control pills', 'naproxen']",True,2024-09-11,2024-10-15
+39,"['cramps', 'bloating', 'body pain']",37,late,False,3,None,None,True,2024-09-04,2024-10-11
+33,"['bloating', 'body pain']",31,early,False,2,None,None,True,2024-09-08,2024-10-09
+25,['headache'],22,late,False,3,None,None,True,2024-09-04,2024-09-26
+39,"['body pain', 'fatigue', 'bloating']",23,early,True,3,None,['birth control pills'],True,2024-09-05,2024-09-28
+39,['headache'],29,late,True,3,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-09,2024-10-08
+25,"['bloating', 'headache']",25,late,True,1,PCOS,"['birth control pills', 'acetaminophen']",True,2024-08-30,2024-09-24
+34,"['nausea', 'body pain']",25,late,True,5,None,['birth control pills'],True,2024-08-30,2024-09-24
+20,"['body pain', 'mood swings']",23,early,False,4,None,None,True,2024-09-10,2024-10-03
+22,"['bloating', 'cramps', 'headache']",30,early,True,3,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-01,2024-10-01
+26,"['body pain', 'fatigue', 'cramps']",37,late,True,5,PCOD,['birth control pills'],False,2024-09-16,2024-10-23
+39,"['bloating', 'fatigue']",39,late,False,1,None,None,True,2024-08-30,2024-10-08
+36,"['body pain', 'headache', 'fatigue']",35,late,True,4,PCOD,['naproxen'],False,2024-09-10,2024-10-15
+19,"['headache', 'cramps', 'fatigue']",25,on time,True,2,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-11,2024-10-06
+34,['headache'],27,on time,False,5,None,None,True,2024-09-08,2024-10-05
+35,"['fatigue', 'headache', 'mood swings']",38,late,False,3,None,None,True,2024-08-29,2024-10-06
+32,"['headache', 'nausea', 'fatigue']",40,on time,True,5,PCOD,['ibuprofen'],True,2024-09-04,2024-10-14
+36,"['fatigue', 'body pain']",26,early,False,2,None,None,True,2024-09-09,2024-10-05
+26,"['mood swings', 'bloating']",31,late,False,3,None,None,True,2024-09-14,2024-10-15
+34,"['bloating', 'headache', 'nausea']",32,early,False,5,None,None,False,2024-09-13,2024-10-15
+38,['body pain'],35,early,False,4,None,None,False,2024-08-28,2024-10-02
+36,"['headache', 'mood swings']",37,late,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-14,2024-10-21
+31,"['nausea', 'cramps', 'mood swings']",40,on time,True,1,PCOS,"['acetaminophen', 'naproxen']",True,2024-09-16,2024-10-26
+39,"['body pain', 'bloating']",25,on time,False,4,None,None,True,2024-09-07,2024-10-02
+28,"['nausea', 'body pain']",30,on time,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-07,2024-10-07
+37,['bloating'],30,on time,True,2,PCOS,['acetaminophen'],False,2024-09-03,2024-10-03
+31,['cramps'],31,early,True,4,PCOS,['acetaminophen'],True,2024-09-16,2024-10-17
+21,['body pain'],39,early,False,4,None,None,True,2024-08-28,2024-10-06
+21,['body pain'],35,late,False,5,None,None,False,2024-09-06,2024-10-11
+35,"['body pain', 'mood swings']",22,late,False,1,None,None,True,2024-09-11,2024-10-03
+37,"['cramps', 'bloating', 'mood swings']",38,late,False,1,None,None,True,2024-09-15,2024-10-23
+23,"['bloating', 'cramps']",29,late,False,4,None,None,False,2024-09-09,2024-10-08
+34,['bloating'],34,late,False,3,None,None,True,2024-09-03,2024-10-07
+34,['cramps'],25,on time,True,1,PCOD,"['naproxen', 'birth control pills']",False,2024-09-08,2024-10-03
+35,"['nausea', 'mood swings']",35,late,False,4,None,None,False,2024-09-01,2024-10-06
+40,"['cramps', 'fatigue', 'body pain']",38,late,False,1,None,None,False,2024-09-07,2024-10-15
+35,"['headache', 'bloating', 'fatigue']",23,late,True,1,PCOD,['naproxen'],False,2024-09-07,2024-09-30
+38,"['headache', 'body pain', 'mood swings']",28,late,False,3,None,None,False,2024-09-12,2024-10-10
+37,"['mood swings', 'headache', 'nausea']",21,on time,True,1,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-04,2024-09-25
+33,"['bloating', 'cramps']",29,on time,True,2,PCOS,"['acetaminophen', 'birth control pills']",False,2024-09-11,2024-10-10
+33,['fatigue'],40,early,False,2,None,None,False,2024-09-03,2024-10-13
+21,['nausea'],35,on time,True,5,PCOS,['acetaminophen'],True,2024-09-07,2024-10-12
+32,"['mood swings', 'body pain']",39,early,True,5,PCOS,['ibuprofen'],False,2024-09-10,2024-10-19
+20,"['cramps', 'fatigue', 'mood swings']",39,early,False,3,None,None,False,2024-08-30,2024-10-08
+37,"['cramps', 'nausea', 'mood swings']",23,on time,True,1,PCOS,['acetaminophen'],True,2024-09-08,2024-10-01
+33,"['bloating', 'body pain']",28,early,False,5,None,None,False,2024-09-09,2024-10-07
+24,"['fatigue', 'bloating']",28,late,False,4,None,None,False,2024-09-10,2024-10-08
+36,"['bloating', 'cramps']",26,on time,False,5,None,None,True,2024-09-02,2024-09-28
+28,['headache'],23,late,True,1,None,"['ibuprofen', 'birth control pills']",True,2024-09-04,2024-09-27
+39,['nausea'],32,on time,False,4,None,None,True,2024-09-01,2024-10-03
+40,['headache'],23,early,False,3,None,None,False,2024-09-04,2024-09-27
+27,"['headache', 'body pain', 'bloating']",31,early,False,1,None,None,False,2024-08-30,2024-09-30
+23,"['headache', 'nausea']",40,on time,False,3,None,None,False,2024-08-31,2024-10-10
+23,"['nausea', 'cramps', 'mood swings']",26,late,False,1,None,None,True,2024-09-03,2024-09-29
+38,['cramps'],38,early,False,4,None,None,True,2024-09-06,2024-10-14
+23,"['fatigue', 'cramps', 'nausea']",26,late,True,3,PCOS,"['acetaminophen', 'birth control pills']",False,2024-09-01,2024-09-27
+27,"['bloating', 'cramps', 'mood swings']",31,early,True,5,None,"['birth control pills', 'naproxen']",True,2024-09-13,2024-10-14
+36,"['cramps', 'nausea', 'fatigue']",33,late,False,3,None,None,False,2024-09-05,2024-10-08
+35,['bloating'],23,late,False,2,None,None,False,2024-08-30,2024-09-22
+26,['cramps'],29,late,True,5,PCOS,"['acetaminophen', 'ibuprofen']",True,2024-09-12,2024-10-11
+27,['body pain'],21,early,False,2,None,None,False,2024-09-05,2024-09-26
+34,"['cramps', 'nausea']",26,on time,True,5,None,"['ibuprofen', 'naproxen']",False,2024-08-28,2024-09-23
+25,['bloating'],26,late,False,3,None,None,True,2024-09-11,2024-10-07
+21,"['mood swings', 'cramps']",26,early,True,4,PCOS,"['birth control pills', 'ibuprofen']",True,2024-08-28,2024-09-23
+36,"['bloating', 'headache']",21,early,False,5,None,None,True,2024-09-15,2024-10-06
+35,"['body pain', 'nausea']",40,on time,False,3,None,None,False,2024-09-12,2024-10-22
+35,"['mood swings', 'nausea']",32,on time,True,2,None,"['naproxen', 'birth control pills']",True,2024-09-16,2024-10-18
+24,['mood swings'],31,on time,False,2,None,None,True,2024-08-31,2024-10-01
+40,"['mood swings', 'bloating']",25,on time,False,2,None,None,False,2024-08-29,2024-09-23
+29,"['body pain', 'fatigue', 'bloating']",30,early,True,4,None,"['acetaminophen', 'ibuprofen']",True,2024-09-02,2024-10-02
+33,"['headache', 'fatigue']",40,late,False,1,None,None,True,2024-09-07,2024-10-17
+27,['headache'],28,early,False,2,None,None,False,2024-08-31,2024-09-28
+23,['mood swings'],23,early,True,2,None,['naproxen'],True,2024-09-13,2024-10-06
+27,"['bloating', 'headache', 'mood swings']",23,on time,True,1,PCOD,['birth control pills'],True,2024-09-04,2024-09-27
+35,"['bloating', 'headache', 'mood swings']",21,early,True,2,None,"['acetaminophen', 'birth control pills']",True,2024-09-05,2024-09-26
+37,['headache'],23,late,False,1,None,None,False,2024-09-04,2024-09-27
+38,"['mood swings', 'headache', 'body pain']",28,on time,True,3,None,['acetaminophen'],True,2024-09-09,2024-10-07
+28,"['headache', 'body pain', 'mood swings']",21,late,True,5,PCOD,['naproxen'],True,2024-09-04,2024-09-25
+32,['mood swings'],35,on time,True,1,PCOS,['ibuprofen'],True,2024-08-28,2024-10-02
+37,['nausea'],34,on time,False,2,None,None,True,2024-09-03,2024-10-07
+24,['fatigue'],29,early,True,3,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-14,2024-10-13
+39,"['body pain', 'cramps']",37,early,True,1,PCOD,"['acetaminophen', 'naproxen']",False,2024-08-30,2024-10-06
+20,"['bloating', 'nausea', 'headache']",30,early,False,5,None,None,False,2024-09-16,2024-10-16
+26,['cramps'],39,early,False,3,None,None,True,2024-09-05,2024-10-14
+38,"['headache', 'mood swings']",22,early,False,1,None,None,False,2024-09-01,2024-09-23
+33,['mood swings'],26,late,True,2,PCOS,['ibuprofen'],True,2024-08-29,2024-09-24
+34,"['mood swings', 'headache']",26,on time,True,3,PCOD,['birth control pills'],True,2024-09-07,2024-10-03
+38,['body pain'],23,early,True,5,PCOS,['birth control pills'],True,2024-09-15,2024-10-08
+26,['bloating'],39,early,False,2,None,None,False,2024-09-10,2024-10-19
+29,"['nausea', 'bloating', 'headache']",25,late,True,5,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-05,2024-09-30
+37,['body pain'],37,on time,True,2,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-09,2024-10-16
+33,"['fatigue', 'cramps', 'headache']",35,late,False,2,None,None,False,2024-09-03,2024-10-08
+29,"['headache', 'mood swings']",29,early,True,5,PCOS,['ibuprofen'],False,2024-08-29,2024-09-27
+33,"['mood swings', 'bloating', 'headache']",21,late,True,5,PCOS,"['naproxen', 'birth control pills']",True,2024-08-28,2024-09-18
+35,"['nausea', 'fatigue', 'body pain']",28,late,False,3,None,None,False,2024-09-13,2024-10-11
+40,['body pain'],28,early,False,5,None,None,True,2024-09-07,2024-10-05
+40,['cramps'],38,early,False,1,None,None,False,2024-09-16,2024-10-24
+21,"['headache', 'nausea', 'fatigue']",29,on time,True,1,None,['birth control pills'],False,2024-09-14,2024-10-13
+21,['body pain'],29,on time,True,2,PCOD,['acetaminophen'],True,2024-08-28,2024-09-26
+22,"['nausea', 'cramps']",27,on time,False,5,None,None,False,2024-09-08,2024-10-05
+23,"['bloating', 'mood swings', 'cramps']",23,late,True,1,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-06,2024-09-29
+34,['headache'],26,early,False,2,None,None,False,2024-09-08,2024-10-04
+33,"['bloating', 'body pain']",36,on time,True,1,PCOD,['birth control pills'],False,2024-09-11,2024-10-17
+29,"['nausea', 'body pain', 'fatigue']",24,early,False,2,None,None,True,2024-09-08,2024-10-02
+25,"['fatigue', 'nausea', 'headache']",28,early,False,2,None,None,False,2024-08-28,2024-09-25
+25,"['cramps', 'body pain']",35,late,True,2,PCOS,"['naproxen', 'acetaminophen']",False,2024-09-06,2024-10-11
+19,"['cramps', 'mood swings']",40,on time,True,1,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-13,2024-10-23
+23,['mood swings'],26,late,True,1,PCOD,['acetaminophen'],False,2024-09-04,2024-09-30
+31,"['bloating', 'body pain', 'nausea']",22,late,False,4,None,None,False,2024-09-05,2024-09-27
+36,"['headache', 'body pain', 'cramps']",24,on time,False,3,None,None,False,2024-09-13,2024-10-07
+21,['fatigue'],23,on time,True,1,PCOD,"['naproxen', 'birth control pills']",True,2024-09-14,2024-10-07
+20,['cramps'],40,on time,True,3,PCOD,['ibuprofen'],True,2024-09-11,2024-10-21
+32,['headache'],21,early,False,5,None,None,False,2024-09-02,2024-09-23
+20,['bloating'],23,on time,False,1,None,None,True,2024-09-07,2024-09-30
+35,"['fatigue', 'mood swings']",21,early,False,5,None,None,False,2024-09-06,2024-09-27
+25,"['nausea', 'bloating']",22,late,False,5,None,None,False,2024-09-13,2024-10-05
+19,"['bloating', 'nausea', 'fatigue']",23,on time,False,1,None,None,True,2024-09-15,2024-10-08
+22,"['headache', 'bloating']",32,early,True,3,PCOS,['birth control pills'],False,2024-09-04,2024-10-06
+34,['fatigue'],39,early,True,1,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-06,2024-10-15
+32,"['nausea', 'body pain', 'bloating']",24,early,True,3,PCOS,['birth control pills'],False,2024-09-08,2024-10-02
+28,"['fatigue', 'body pain']",31,late,False,3,None,None,True,2024-09-09,2024-10-10
+20,['fatigue'],28,on time,False,4,None,None,False,2024-09-01,2024-09-29
+38,"['fatigue', 'nausea']",34,late,True,3,None,"['acetaminophen', 'naproxen']",False,2024-09-13,2024-10-17
+24,"['headache', 'fatigue']",30,early,True,5,PCOS,['acetaminophen'],True,2024-09-03,2024-10-03
+21,"['nausea', 'body pain', 'fatigue']",34,on time,True,2,PCOD,['acetaminophen'],False,2024-09-04,2024-10-08
+31,"['headache', 'nausea', 'fatigue']",33,late,True,1,None,['acetaminophen'],True,2024-09-06,2024-10-09
+23,"['bloating', 'nausea', 'body pain']",32,late,False,2,None,None,False,2024-09-02,2024-10-04
+29,['fatigue'],33,on time,False,1,None,None,False,2024-08-30,2024-10-02
+38,"['fatigue', 'bloating', 'headache']",37,on time,False,1,None,None,True,2024-09-08,2024-10-15
+32,"['mood swings', 'bloating', 'nausea']",33,late,True,1,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-03,2024-10-06
+19,['bloating'],36,early,False,2,None,None,True,2024-09-16,2024-10-22
+37,"['headache', 'bloating']",28,on time,True,3,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-08,2024-10-06
+23,"['headache', 'nausea', 'bloating']",28,early,False,1,None,None,False,2024-09-08,2024-10-06
+26,['nausea'],27,early,False,2,None,None,False,2024-09-01,2024-09-28
+29,"['body pain', 'mood swings', 'cramps']",24,late,False,3,None,None,False,2024-09-06,2024-09-30
+29,"['bloating', 'fatigue']",39,on time,False,2,None,None,False,2024-09-10,2024-10-19
+22,['fatigue'],36,early,False,2,None,None,False,2024-09-02,2024-10-08
+29,"['mood swings', 'fatigue', 'nausea']",30,on time,True,1,PCOD,"['birth control pills', 'naproxen']",False,2024-09-14,2024-10-14
+24,['nausea'],36,early,False,1,None,None,False,2024-09-04,2024-10-10
+33,"['headache', 'body pain']",21,late,False,2,None,None,False,2024-08-30,2024-09-20
+21,"['mood swings', 'cramps']",30,on time,False,4,None,None,True,2024-09-10,2024-10-10
+37,['cramps'],32,early,True,3,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-11,2024-10-13
+25,['fatigue'],21,late,True,1,PCOS,"['naproxen', 'ibuprofen']",False,2024-09-04,2024-09-25
+28,['fatigue'],23,early,False,4,None,None,False,2024-09-01,2024-09-24
+29,"['body pain', 'headache', 'nausea']",40,early,True,4,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-08-30,2024-10-09
+33,"['headache', 'body pain']",22,early,False,1,None,None,False,2024-09-13,2024-10-05
+30,['headache'],30,early,True,2,None,"['ibuprofen', 'naproxen']",True,2024-09-12,2024-10-12
+20,"['body pain', 'mood swings', 'cramps']",37,early,False,2,None,None,False,2024-08-28,2024-10-04
+25,"['mood swings', 'cramps', 'bloating']",24,early,True,5,PCOD,['birth control pills'],True,2024-09-07,2024-10-01
+37,"['cramps', 'body pain', 'nausea']",21,early,True,1,PCOD,"['naproxen', 'ibuprofen']",False,2024-08-30,2024-09-20
+27,"['fatigue', 'body pain', 'nausea']",39,late,False,3,None,None,False,2024-09-08,2024-10-17
+21,"['body pain', 'nausea']",25,early,False,2,None,None,True,2024-08-31,2024-09-25
+33,"['headache', 'mood swings', 'body pain']",26,late,False,5,None,None,True,2024-09-15,2024-10-11
+29,['bloating'],22,late,True,1,PCOD,['acetaminophen'],True,2024-09-07,2024-09-29
+31,['nausea'],21,late,True,3,PCOS,"['birth control pills', 'naproxen']",False,2024-09-03,2024-09-24
+20,"['body pain', 'cramps', 'headache']",27,on time,True,2,PCOS,['ibuprofen'],False,2024-09-07,2024-10-04
+37,"['headache', 'fatigue', 'nausea']",30,early,True,2,None,"['birth control pills', 'ibuprofen']",True,2024-09-08,2024-10-08
+40,"['mood swings', 'bloating']",31,late,True,2,None,['naproxen'],False,2024-08-31,2024-10-01
+37,"['headache', 'nausea']",38,on time,True,5,PCOD,['acetaminophen'],False,2024-08-30,2024-10-07
+29,"['mood swings', 'headache']",30,early,True,2,PCOD,['ibuprofen'],True,2024-09-02,2024-10-02
+34,"['fatigue', 'headache']",28,on time,True,2,PCOD,"['acetaminophen', 'birth control pills']",True,2024-08-30,2024-09-27
+34,"['fatigue', 'mood swings']",31,early,False,1,None,None,False,2024-09-01,2024-10-02
+28,['cramps'],25,early,False,5,None,None,True,2024-08-29,2024-09-23
+20,['cramps'],38,early,True,3,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-16,2024-10-24
+25,['mood swings'],35,late,True,3,PCOD,"['naproxen', 'birth control pills']",False,2024-09-01,2024-10-06
+38,"['cramps', 'body pain', 'fatigue']",36,late,False,1,None,None,True,2024-09-08,2024-10-14
+37,['body pain'],31,late,True,1,None,['ibuprofen'],True,2024-09-03,2024-10-04
+20,"['nausea', 'cramps']",37,late,True,2,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-06,2024-10-13
+22,"['nausea', 'mood swings']",24,late,False,5,None,None,False,2024-09-05,2024-09-29
+28,"['headache', 'bloating']",21,late,False,1,None,None,True,2024-09-08,2024-09-29
+27,"['mood swings', 'cramps', 'nausea']",30,early,True,2,PCOS,['birth control pills'],False,2024-09-15,2024-10-15
+28,['bloating'],36,on time,False,1,None,None,False,2024-09-03,2024-10-09
+29,['cramps'],34,early,False,1,None,None,True,2024-09-12,2024-10-16
+32,"['body pain', 'headache']",40,early,True,2,PCOS,['acetaminophen'],True,2024-09-14,2024-10-24
+20,['mood swings'],30,late,True,2,None,"['naproxen', 'birth control pills']",False,2024-08-28,2024-09-27
+31,"['fatigue', 'body pain']",38,on time,False,3,None,None,False,2024-09-14,2024-10-22
+24,['mood swings'],38,early,False,5,None,None,False,2024-09-04,2024-10-12
+26,"['body pain', 'nausea', 'fatigue']",33,late,False,4,None,None,True,2024-09-10,2024-10-13
+38,"['headache', 'fatigue']",28,late,False,2,None,None,True,2024-08-28,2024-09-25
+30,"['body pain', 'mood swings', 'nausea']",36,late,True,4,PCOD,"['birth control pills', 'naproxen']",False,2024-09-16,2024-10-22
+30,['nausea'],38,late,True,3,PCOD,['birth control pills'],True,2024-09-03,2024-10-11
+32,['nausea'],32,on time,False,5,None,None,True,2024-09-14,2024-10-16
+35,"['fatigue', 'body pain']",40,late,False,1,None,None,False,2024-09-08,2024-10-18
+35,"['bloating', 'mood swings']",38,late,True,4,None,['birth control pills'],False,2024-09-10,2024-10-18
+32,"['nausea', 'mood swings']",22,on time,True,2,None,"['birth control pills', 'acetaminophen']",False,2024-09-11,2024-10-03
+34,['nausea'],39,early,False,4,None,None,True,2024-09-15,2024-10-24
+20,"['headache', 'body pain', 'fatigue']",38,late,False,2,None,None,False,2024-09-06,2024-10-14
+28,"['nausea', 'fatigue']",27,on time,True,3,None,"['acetaminophen', 'birth control pills']",True,2024-09-13,2024-10-10
+25,"['nausea', 'fatigue']",27,early,True,3,None,"['ibuprofen', 'birth control pills']",False,2024-09-09,2024-10-06
+29,['headache'],29,early,False,2,None,None,True,2024-09-06,2024-10-05
+33,"['fatigue', 'bloating', 'nausea']",31,on time,False,5,None,None,True,2024-09-03,2024-10-04
+27,"['bloating', 'body pain', 'fatigue']",23,early,True,2,PCOS,"['naproxen', 'birth control pills']",False,2024-08-28,2024-09-20
+26,"['headache', 'bloating']",34,late,True,1,PCOS,['birth control pills'],False,2024-08-31,2024-10-04
+31,"['mood swings', 'nausea']",30,late,False,3,None,None,True,2024-09-08,2024-10-08
+26,['cramps'],33,early,False,2,None,None,False,2024-09-11,2024-10-14
+40,"['cramps', 'headache']",29,early,False,2,None,None,True,2024-09-15,2024-10-14
+39,"['fatigue', 'bloating']",29,early,True,1,PCOS,"['birth control pills', 'acetaminophen']",True,2024-08-28,2024-09-26
+19,"['headache', 'nausea']",29,late,True,5,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-08,2024-10-07
+36,"['nausea', 'cramps']",35,late,False,5,None,None,False,2024-09-02,2024-10-07
+25,"['bloating', 'mood swings']",34,late,True,3,PCOS,['birth control pills'],False,2024-09-11,2024-10-15
+33,"['mood swings', 'headache']",35,early,True,2,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-07,2024-10-12
+21,"['cramps', 'body pain', 'nausea']",26,early,False,1,None,None,True,2024-09-13,2024-10-09
+35,"['headache', 'body pain']",29,on time,True,3,None,"['naproxen', 'ibuprofen']",True,2024-09-04,2024-10-03
+20,"['mood swings', 'headache', 'fatigue']",28,early,True,4,None,['acetaminophen'],False,2024-09-13,2024-10-11
+33,"['bloating', 'body pain']",32,early,False,2,None,None,True,2024-09-12,2024-10-14
+25,"['cramps', 'headache', 'fatigue']",33,early,True,4,None,['birth control pills'],False,2024-09-13,2024-10-16
+27,"['fatigue', 'headache', 'cramps']",39,on time,True,4,None,"['naproxen', 'birth control pills']",False,2024-09-04,2024-10-13
+33,['fatigue'],30,on time,True,5,PCOS,['birth control pills'],False,2024-09-13,2024-10-13
+40,"['cramps', 'mood swings']",31,late,False,5,None,None,False,2024-09-02,2024-10-03
+34,['bloating'],40,early,True,2,PCOD,"['birth control pills', 'naproxen']",False,2024-09-01,2024-10-11
+28,"['headache', 'cramps', 'fatigue']",33,late,False,5,None,None,False,2024-09-16,2024-10-19
+21,"['nausea', 'bloating', 'mood swings']",31,on time,False,2,None,None,False,2024-09-12,2024-10-13
+35,"['mood swings', 'cramps']",36,early,False,3,None,None,False,2024-09-02,2024-10-08
+35,"['body pain', 'nausea']",40,early,True,3,None,"['acetaminophen', 'birth control pills']",True,2024-08-28,2024-10-07
+23,['fatigue'],31,on time,True,2,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-06,2024-10-07
+29,"['mood swings', 'fatigue', 'bloating']",37,early,False,4,None,None,True,2024-09-01,2024-10-08
+19,"['bloating', 'nausea']",32,late,False,3,None,None,False,2024-09-04,2024-10-06
+23,"['nausea', 'body pain', 'fatigue']",37,on time,True,5,PCOD,"['ibuprofen', 'naproxen']",True,2024-09-12,2024-10-19
+31,"['cramps', 'mood swings']",32,early,False,2,None,None,False,2024-09-15,2024-10-17
+23,['bloating'],24,late,False,1,None,None,True,2024-09-06,2024-09-30
+37,"['fatigue', 'nausea', 'cramps']",36,late,False,5,None,None,False,2024-09-03,2024-10-09
+23,"['headache', 'mood swings', 'bloating']",25,on time,False,1,None,None,False,2024-09-06,2024-10-01
+28,"['mood swings', 'bloating', 'nausea']",29,late,False,5,None,None,True,2024-09-11,2024-10-10
+26,['bloating'],35,late,True,4,None,['acetaminophen'],False,2024-09-01,2024-10-06
+32,['bloating'],29,early,True,1,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-01,2024-09-30
+33,"['fatigue', 'nausea', 'headache']",36,on time,False,1,None,None,True,2024-09-05,2024-10-11
+33,"['nausea', 'fatigue', 'bloating']",38,early,False,5,None,None,False,2024-09-03,2024-10-11
+38,['cramps'],36,on time,True,1,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-05,2024-10-11
+20,"['mood swings', 'fatigue']",38,on time,False,3,None,None,False,2024-09-13,2024-10-21
+36,"['cramps', 'body pain', 'bloating']",37,early,True,4,None,['naproxen'],False,2024-09-09,2024-10-16
+33,['headache'],38,on time,True,4,PCOD,['acetaminophen'],True,2024-09-12,2024-10-20
+36,"['nausea', 'headache', 'mood swings']",28,late,False,1,None,None,True,2024-09-16,2024-10-14
+28,"['mood swings', 'fatigue', 'cramps']",39,late,True,5,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-14,2024-10-23
+35,"['body pain', 'bloating']",27,on time,False,5,None,None,False,2024-08-28,2024-09-24
+34,"['body pain', 'headache', 'nausea']",40,early,True,5,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-08,2024-10-18
+29,"['bloating', 'nausea']",31,on time,False,2,None,None,True,2024-08-30,2024-09-30
+37,"['bloating', 'body pain']",24,on time,False,5,None,None,True,2024-09-10,2024-10-04
+23,['body pain'],24,early,True,3,None,['ibuprofen'],False,2024-09-01,2024-09-25
+19,"['headache', 'cramps', 'fatigue']",40,late,True,2,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-13,2024-10-23
+32,"['mood swings', 'fatigue']",21,late,False,2,None,None,False,2024-09-10,2024-10-01
+27,"['mood swings', 'body pain', 'fatigue']",40,early,False,3,None,None,True,2024-09-12,2024-10-22
+38,"['headache', 'body pain']",30,late,True,4,PCOD,['naproxen'],False,2024-08-30,2024-09-29
+38,"['body pain', 'cramps']",39,early,False,1,None,None,False,2024-08-29,2024-10-07
+25,"['headache', 'cramps', 'mood swings']",25,on time,True,1,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-15,2024-10-10
+32,"['body pain', 'mood swings', 'bloating']",22,on time,True,1,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-06,2024-09-28
+22,['bloating'],27,early,True,5,PCOS,['naproxen'],True,2024-09-14,2024-10-11
+35,['bloating'],32,early,False,4,None,None,False,2024-08-29,2024-09-30
+37,['bloating'],38,on time,True,1,PCOD,['naproxen'],True,2024-09-09,2024-10-17
+39,"['headache', 'body pain']",21,on time,True,2,PCOD,['ibuprofen'],False,2024-09-01,2024-09-22
+36,"['body pain', 'cramps', 'bloating']",27,on time,False,2,None,None,True,2024-09-15,2024-10-12
+27,"['cramps', 'headache']",28,late,False,3,None,None,False,2024-08-28,2024-09-25
+27,"['headache', 'fatigue', 'nausea']",21,on time,True,4,PCOS,['ibuprofen'],False,2024-09-01,2024-09-22
+36,"['mood swings', 'cramps', 'headache']",22,late,False,4,None,None,False,2024-09-09,2024-10-01
+24,"['body pain', 'fatigue']",36,on time,False,5,None,None,False,2024-09-07,2024-10-13
+35,['cramps'],21,early,True,3,None,"['acetaminophen', 'ibuprofen']",True,2024-09-05,2024-09-26
+19,['nausea'],33,late,True,3,PCOS,"['naproxen', 'birth control pills']",False,2024-08-29,2024-10-01
+35,"['nausea', 'cramps']",21,on time,False,5,None,None,False,2024-09-15,2024-10-06
+37,['headache'],31,on time,True,3,PCOD,"['ibuprofen', 'naproxen']",True,2024-09-05,2024-10-06
+23,"['nausea', 'headache', 'fatigue']",21,on time,True,5,PCOS,"['birth control pills', 'naproxen']",False,2024-09-09,2024-09-30
+31,"['body pain', 'cramps']",36,late,False,4,None,None,False,2024-09-13,2024-10-19
+34,['nausea'],35,late,True,1,PCOS,['acetaminophen'],False,2024-08-31,2024-10-05
+34,['bloating'],40,late,True,4,None,"['ibuprofen', 'birth control pills']",False,2024-09-10,2024-10-20
+22,"['fatigue', 'headache', 'cramps']",24,on time,True,4,PCOS,['birth control pills'],True,2024-09-16,2024-10-10
+36,"['headache', 'cramps', 'nausea']",36,late,False,1,None,None,False,2024-08-28,2024-10-03
+22,"['nausea', 'mood swings', 'body pain']",31,early,False,1,None,None,False,2024-09-04,2024-10-05
+31,"['bloating', 'cramps']",39,late,True,2,None,"['acetaminophen', 'birth control pills']",False,2024-09-13,2024-10-22
+34,"['body pain', 'bloating']",27,early,True,2,PCOS,['naproxen'],False,2024-09-08,2024-10-05
+32,"['bloating', 'nausea', 'cramps']",31,late,True,5,None,['acetaminophen'],False,2024-09-15,2024-10-16
+29,"['headache', 'bloating', 'mood swings']",32,late,False,1,None,None,False,2024-09-07,2024-10-09
+24,['headache'],35,early,True,5,PCOD,"['ibuprofen', 'acetaminophen']",False,2024-08-30,2024-10-04
+28,['mood swings'],38,late,True,5,PCOD,['naproxen'],False,2024-09-16,2024-10-24
+19,"['body pain', 'fatigue']",40,late,False,5,None,None,False,2024-09-14,2024-10-24
+24,"['headache', 'mood swings', 'bloating']",36,late,False,3,None,None,False,2024-09-08,2024-10-14
+26,['body pain'],34,on time,True,4,None,['birth control pills'],True,2024-09-01,2024-10-05
+25,"['fatigue', 'nausea']",30,late,True,2,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-05,2024-10-05
+32,['cramps'],23,early,True,5,PCOS,['birth control pills'],False,2024-09-09,2024-10-02
+20,"['mood swings', 'fatigue', 'headache']",21,on time,True,3,None,['naproxen'],True,2024-08-29,2024-09-19
+39,['fatigue'],33,on time,True,2,PCOS,['naproxen'],True,2024-08-30,2024-10-02
+26,['bloating'],30,on time,True,4,None,"['birth control pills', 'naproxen']",True,2024-09-15,2024-10-15
+21,"['body pain', 'fatigue', 'headache']",31,early,True,1,None,['acetaminophen'],True,2024-09-02,2024-10-03
+29,['bloating'],23,early,True,4,None,"['ibuprofen', 'acetaminophen']",True,2024-09-02,2024-09-25
+27,"['nausea', 'headache', 'body pain']",31,early,True,5,PCOD,['naproxen'],True,2024-08-30,2024-09-30
+36,['bloating'],30,on time,False,2,None,None,True,2024-08-29,2024-09-28
+21,"['body pain', 'bloating', 'fatigue']",21,on time,False,2,None,None,True,2024-08-29,2024-09-19
+35,['nausea'],40,early,False,4,None,None,True,2024-09-05,2024-10-15
+22,"['body pain', 'fatigue']",24,early,True,2,PCOS,['birth control pills'],False,2024-09-06,2024-09-30
+23,"['nausea', 'bloating']",26,late,True,1,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-14,2024-10-10
+21,['nausea'],32,late,True,4,PCOD,['acetaminophen'],True,2024-09-02,2024-10-04
+26,"['body pain', 'mood swings', 'fatigue']",25,late,False,3,None,None,False,2024-09-13,2024-10-08
+37,"['mood swings', 'headache']",25,early,False,1,None,None,True,2024-08-30,2024-09-24
+34,"['mood swings', 'cramps']",22,late,False,2,None,None,True,2024-09-01,2024-09-23
+24,['fatigue'],23,early,True,2,PCOS,"['ibuprofen', 'birth control pills']",True,2024-08-29,2024-09-21
+21,"['cramps', 'body pain', 'headache']",21,early,False,1,None,None,False,2024-09-04,2024-09-25
+20,"['body pain', 'cramps']",22,early,False,5,None,None,True,2024-09-10,2024-10-02
+22,"['bloating', 'fatigue']",38,early,False,2,None,None,True,2024-09-05,2024-10-13
+39,"['body pain', 'fatigue']",39,early,False,1,None,None,False,2024-09-06,2024-10-15
+39,"['nausea', 'body pain']",30,late,True,1,PCOS,['ibuprofen'],False,2024-09-16,2024-10-16
+39,['fatigue'],26,early,False,4,None,None,True,2024-09-05,2024-10-01
+37,"['body pain', 'bloating']",34,late,True,4,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-03,2024-10-07
+28,"['body pain', 'fatigue', 'nausea']",34,early,False,4,None,None,False,2024-09-01,2024-10-05
+37,"['cramps', 'bloating']",22,early,False,1,None,None,True,2024-09-07,2024-09-29
+31,['body pain'],28,late,True,1,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-10,2024-10-08
+39,"['mood swings', 'fatigue']",28,on time,True,5,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-09-14,2024-10-12
+21,"['mood swings', 'headache']",33,late,True,2,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-12,2024-10-15
+40,['fatigue'],29,early,True,4,None,['acetaminophen'],True,2024-09-06,2024-10-05
+32,['cramps'],32,late,True,2,PCOS,['naproxen'],False,2024-08-31,2024-10-02
+26,['cramps'],28,on time,False,4,None,None,True,2024-09-01,2024-09-29
+23,"['bloating', 'fatigue']",26,on time,True,2,PCOD,['acetaminophen'],True,2024-09-10,2024-10-06
+33,"['mood swings', 'body pain', 'bloating']",33,late,True,5,PCOS,['acetaminophen'],False,2024-09-03,2024-10-06
+22,"['nausea', 'cramps', 'headache']",39,late,False,4,None,None,True,2024-09-10,2024-10-19
+23,['fatigue'],26,early,False,5,None,None,False,2024-09-09,2024-10-05
+39,['bloating'],30,on time,False,4,None,None,True,2024-09-08,2024-10-08
+23,['cramps'],34,on time,False,1,None,None,True,2024-08-31,2024-10-04
+28,['fatigue'],23,early,True,1,PCOS,['birth control pills'],True,2024-09-06,2024-09-29
+40,"['nausea', 'mood swings', 'bloating']",28,on time,True,4,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-16,2024-10-14
+19,"['nausea', 'bloating', 'mood swings']",28,early,True,2,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-04,2024-10-02
+33,"['fatigue', 'bloating', 'mood swings']",40,early,False,3,None,None,True,2024-09-01,2024-10-11
+20,"['bloating', 'body pain']",22,on time,False,5,None,None,True,2024-09-11,2024-10-03
+25,"['nausea', 'fatigue']",39,late,True,2,None,"['birth control pills', 'ibuprofen']",True,2024-09-16,2024-10-25
+34,"['fatigue', 'nausea']",36,late,True,3,PCOS,"['naproxen', 'birth control pills']",True,2024-08-30,2024-10-05
+23,"['cramps', 'body pain', 'headache']",25,early,True,2,PCOS,['naproxen'],True,2024-08-30,2024-09-24
+23,"['nausea', 'cramps', 'body pain']",31,on time,False,2,None,None,False,2024-08-28,2024-09-28
+39,['body pain'],38,on time,False,4,None,None,True,2024-08-30,2024-10-07
+40,"['cramps', 'body pain']",31,late,False,3,None,None,False,2024-09-09,2024-10-10
+26,"['nausea', 'mood swings', 'fatigue']",40,early,False,1,None,None,True,2024-09-02,2024-10-12
+19,['bloating'],38,early,True,3,PCOD,"['naproxen', 'birth control pills']",True,2024-09-07,2024-10-15
+33,"['headache', 'nausea']",25,late,True,5,None,['naproxen'],False,2024-09-16,2024-10-11
+40,"['cramps', 'body pain', 'bloating']",34,early,True,3,None,"['ibuprofen', 'acetaminophen']",True,2024-09-09,2024-10-13
+36,"['mood swings', 'body pain']",34,late,False,4,None,None,True,2024-09-07,2024-10-11
+22,"['mood swings', 'cramps']",38,late,False,5,None,None,False,2024-09-02,2024-10-10
+35,"['fatigue', 'headache']",25,late,True,4,PCOD,['birth control pills'],True,2024-08-31,2024-09-25
+38,['bloating'],31,on time,False,5,None,None,True,2024-08-30,2024-09-30
+38,['mood swings'],35,late,True,1,PCOS,"['naproxen', 'birth control pills']",True,2024-09-11,2024-10-16
+34,"['fatigue', 'bloating']",34,on time,False,2,None,None,True,2024-09-14,2024-10-18
+35,"['mood swings', 'cramps', 'nausea']",31,late,False,5,None,None,False,2024-09-09,2024-10-10
+40,"['cramps', 'nausea']",31,early,False,4,None,None,True,2024-09-09,2024-10-10
+38,"['cramps', 'bloating', 'fatigue']",31,on time,False,4,None,None,True,2024-09-08,2024-10-09
+22,['nausea'],21,late,True,2,PCOD,"['acetaminophen', 'birth control pills']",True,2024-08-28,2024-09-18
+27,"['headache', 'nausea']",33,late,True,2,None,['ibuprofen'],True,2024-08-28,2024-09-30
+31,['fatigue'],36,on time,True,2,PCOS,"['naproxen', 'acetaminophen']",True,2024-09-13,2024-10-19
+38,"['fatigue', 'mood swings']",38,late,False,2,None,None,True,2024-09-02,2024-10-10
+28,['mood swings'],38,on time,True,2,None,"['naproxen', 'acetaminophen']",False,2024-09-09,2024-10-17
+22,"['body pain', 'cramps']",34,early,True,5,None,"['naproxen', 'acetaminophen']",True,2024-09-05,2024-10-09
+19,"['cramps', 'nausea']",22,on time,False,1,None,None,False,2024-09-09,2024-10-01
+20,"['headache', 'body pain']",40,on time,True,5,None,"['birth control pills', 'ibuprofen']",True,2024-09-09,2024-10-19
+40,['headache'],38,on time,True,3,None,['ibuprofen'],True,2024-09-01,2024-10-09
+22,"['nausea', 'headache', 'cramps']",23,on time,True,2,None,['birth control pills'],False,2024-08-29,2024-09-21
+19,"['headache', 'cramps', 'bloating']",32,early,True,1,PCOS,['naproxen'],False,2024-09-04,2024-10-06
+22,"['headache', 'bloating']",28,early,False,3,None,None,False,2024-09-08,2024-10-06
+27,"['mood swings', 'cramps']",34,late,True,5,PCOS,"['birth control pills', 'ibuprofen']",False,2024-08-28,2024-10-01
+24,"['nausea', 'body pain']",29,on time,False,4,None,None,False,2024-09-06,2024-10-05
+31,"['bloating', 'mood swings']",25,early,False,2,None,None,True,2024-08-29,2024-09-23
+37,"['bloating', 'nausea', 'headache']",27,on time,True,2,PCOS,['naproxen'],False,2024-09-02,2024-09-29
+26,"['fatigue', 'headache']",33,late,False,1,None,None,True,2024-09-01,2024-10-04
+35,"['nausea', 'cramps', 'headache']",23,on time,True,5,PCOS,['naproxen'],True,2024-09-16,2024-10-09
+25,"['body pain', 'fatigue', 'nausea']",35,late,False,5,None,None,True,2024-09-04,2024-10-09
+36,['body pain'],38,late,True,1,None,"['ibuprofen', 'birth control pills']",True,2024-08-28,2024-10-05
+26,['bloating'],26,early,True,2,PCOD,['acetaminophen'],False,2024-09-13,2024-10-09
+32,"['headache', 'fatigue']",36,early,False,2,None,None,True,2024-09-14,2024-10-20
+38,"['nausea', 'body pain']",35,early,True,4,PCOD,['birth control pills'],True,2024-09-10,2024-10-15
+39,"['fatigue', 'nausea', 'bloating']",21,early,False,1,None,None,True,2024-09-01,2024-09-22
+38,['nausea'],25,late,True,1,None,['ibuprofen'],True,2024-09-13,2024-10-08
+38,"['body pain', 'fatigue', 'headache']",21,on time,False,5,None,None,False,2024-09-08,2024-09-29
+40,"['cramps', 'headache', 'fatigue']",33,on time,False,4,None,None,False,2024-09-15,2024-10-18
+22,"['headache', 'cramps']",33,on time,True,1,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-06,2024-10-09
+27,['body pain'],32,on time,False,3,None,None,False,2024-09-16,2024-10-18
+40,['headache'],32,on time,True,4,PCOD,['birth control pills'],False,2024-09-09,2024-10-11
+35,"['mood swings', 'body pain']",32,late,True,1,PCOS,['acetaminophen'],False,2024-09-11,2024-10-13
+29,"['nausea', 'bloating']",40,early,True,5,PCOS,['acetaminophen'],True,2024-09-07,2024-10-17
+23,['headache'],26,early,True,2,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-03,2024-09-29
+30,"['fatigue', 'headache', 'bloating']",38,early,True,1,PCOS,"['ibuprofen', 'acetaminophen']",False,2024-09-05,2024-10-13
+20,['nausea'],37,on time,True,3,PCOD,['birth control pills'],True,2024-09-04,2024-10-11
+31,"['nausea', 'headache', 'bloating']",35,early,False,5,None,None,True,2024-08-30,2024-10-04
+21,"['bloating', 'body pain', 'fatigue']",29,late,True,3,PCOD,"['acetaminophen', 'ibuprofen']",True,2024-09-10,2024-10-09
+36,['cramps'],35,early,True,1,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-14,2024-10-19
+26,"['nausea', 'body pain']",23,on time,True,1,PCOS,"['ibuprofen', 'naproxen']",True,2024-09-11,2024-10-04
+26,['cramps'],26,on time,True,3,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-03,2024-09-29
+20,"['headache', 'fatigue', 'bloating']",23,on time,True,4,PCOS,['acetaminophen'],True,2024-09-10,2024-10-03
+32,"['fatigue', 'nausea', 'cramps']",24,late,False,2,None,None,True,2024-09-12,2024-10-06
+29,['bloating'],30,early,True,2,None,['ibuprofen'],True,2024-08-29,2024-09-28
+26,"['cramps', 'fatigue']",25,on time,True,5,PCOS,['acetaminophen'],True,2024-09-16,2024-10-11
+33,['body pain'],24,early,True,5,None,"['acetaminophen', 'naproxen']",False,2024-09-06,2024-09-30
+34,"['nausea', 'mood swings']",23,early,True,5,PCOS,['ibuprofen'],False,2024-08-29,2024-09-21
+38,"['body pain', 'cramps', 'fatigue']",26,early,False,3,None,None,False,2024-09-08,2024-10-04
+20,"['headache', 'bloating', 'fatigue']",34,late,False,3,None,None,True,2024-08-31,2024-10-04
+34,"['cramps', 'fatigue', 'mood swings']",34,on time,False,5,None,None,True,2024-09-04,2024-10-08
+21,"['cramps', 'nausea', 'headache']",24,early,True,4,PCOS,['acetaminophen'],False,2024-09-12,2024-10-06
+37,"['headache', 'mood swings']",23,on time,True,3,None,['birth control pills'],True,2024-08-28,2024-09-20
+22,"['nausea', 'fatigue', 'body pain']",26,late,False,3,None,None,True,2024-09-12,2024-10-08
+36,['bloating'],25,late,False,1,None,None,False,2024-08-29,2024-09-23
+31,"['body pain', 'cramps', 'nausea']",25,early,True,5,PCOS,['acetaminophen'],False,2024-09-05,2024-09-30
+36,['bloating'],37,late,False,1,None,None,False,2024-08-31,2024-10-07
+23,"['headache', 'nausea', 'cramps']",36,late,False,3,None,None,True,2024-08-31,2024-10-06
+38,"['mood swings', 'body pain']",36,late,True,4,PCOS,['acetaminophen'],False,2024-09-11,2024-10-17
+35,"['fatigue', 'mood swings']",26,on time,True,1,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-02,2024-09-28
+24,"['headache', 'mood swings', 'cramps']",27,on time,False,2,None,None,True,2024-09-12,2024-10-09
+31,"['cramps', 'bloating']",27,late,False,5,None,None,True,2024-09-10,2024-10-07
+29,"['fatigue', 'nausea']",24,early,False,4,None,None,True,2024-09-06,2024-09-30
+20,['headache'],30,early,True,2,PCOD,['ibuprofen'],False,2024-09-16,2024-10-16
+30,"['cramps', 'nausea']",22,on time,False,3,None,None,True,2024-08-31,2024-09-22
+29,['fatigue'],28,on time,True,3,None,"['birth control pills', 'naproxen']",True,2024-09-08,2024-10-06
+21,"['cramps', 'bloating', 'mood swings']",29,late,True,5,None,"['birth control pills', 'ibuprofen']",True,2024-08-29,2024-09-27
+39,"['cramps', 'mood swings']",37,late,False,2,None,None,True,2024-09-02,2024-10-09
+30,"['body pain', 'cramps', 'nausea']",35,late,False,1,None,None,True,2024-08-30,2024-10-04
+22,['bloating'],28,early,False,5,None,None,False,2024-09-07,2024-10-05
+32,"['fatigue', 'cramps']",39,late,True,5,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-03,2024-10-12
+31,"['headache', 'fatigue']",37,late,False,4,None,None,True,2024-08-30,2024-10-06
+39,"['body pain', 'nausea', 'mood swings']",39,on time,False,1,None,None,True,2024-09-10,2024-10-19
+23,"['headache', 'mood swings']",25,early,False,4,None,None,False,2024-09-14,2024-10-09
+20,"['headache', 'bloating', 'body pain']",23,early,False,1,None,None,True,2024-09-02,2024-09-25
+23,"['cramps', 'body pain', 'headache']",31,on time,False,2,None,None,False,2024-09-16,2024-10-17
+21,"['body pain', 'cramps']",31,late,True,4,PCOD,['ibuprofen'],True,2024-08-30,2024-09-30
+34,['mood swings'],30,early,True,1,None,"['ibuprofen', 'acetaminophen']",True,2024-09-08,2024-10-08
+33,"['bloating', 'headache']",22,on time,False,4,None,None,True,2024-08-30,2024-09-21
+29,['headache'],35,early,True,1,PCOS,['acetaminophen'],False,2024-08-28,2024-10-02
+24,"['fatigue', 'mood swings']",22,on time,True,3,None,"['birth control pills', 'ibuprofen']",True,2024-09-11,2024-10-03
+38,"['headache', 'bloating', 'mood swings']",37,on time,True,5,PCOS,"['birth control pills', 'naproxen']",True,2024-09-02,2024-10-09
+26,"['body pain', 'cramps', 'mood swings']",34,on time,True,2,PCOD,['acetaminophen'],True,2024-09-08,2024-10-12
+37,"['mood swings', 'nausea', 'bloating']",33,early,True,2,PCOS,"['naproxen', 'acetaminophen']",True,2024-08-28,2024-09-30
+20,['bloating'],40,on time,False,3,None,None,False,2024-09-15,2024-10-25
+28,"['nausea', 'cramps']",40,late,False,3,None,None,True,2024-09-10,2024-10-20
+20,['mood swings'],26,early,True,1,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-10,2024-10-06
+28,['body pain'],23,late,False,1,None,None,True,2024-09-14,2024-10-07
+30,"['nausea', 'fatigue']",39,early,False,2,None,None,True,2024-09-11,2024-10-20
+36,"['fatigue', 'mood swings', 'bloating']",30,early,True,3,PCOS,"['ibuprofen', 'naproxen']",False,2024-08-29,2024-09-28
+28,"['body pain', 'fatigue']",22,early,True,2,None,['acetaminophen'],True,2024-09-03,2024-09-25
+23,['fatigue'],31,on time,False,3,None,None,False,2024-09-15,2024-10-16
+40,"['fatigue', 'bloating', 'body pain']",32,on time,False,2,None,None,False,2024-09-16,2024-10-18
+32,['bloating'],26,late,False,3,None,None,True,2024-08-28,2024-09-23
+20,['nausea'],22,on time,True,3,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-01,2024-09-23
+27,['body pain'],31,on time,True,3,PCOD,['birth control pills'],False,2024-09-10,2024-10-11
+28,['bloating'],29,on time,True,2,PCOD,"['birth control pills', 'ibuprofen']",False,2024-09-04,2024-10-03
+29,"['bloating', 'headache']",34,early,False,3,None,None,True,2024-09-02,2024-10-06
+31,"['nausea', 'bloating']",36,on time,False,2,None,None,False,2024-09-05,2024-10-11
+32,['headache'],36,early,False,4,None,None,False,2024-09-05,2024-10-11
+29,"['cramps', 'headache']",28,early,True,4,None,['naproxen'],True,2024-09-08,2024-10-06
+25,['fatigue'],24,late,False,3,None,None,True,2024-09-12,2024-10-06
+33,"['nausea', 'headache']",32,early,True,1,None,['naproxen'],False,2024-08-29,2024-09-30
+36,"['nausea', 'headache', 'mood swings']",23,early,False,5,None,None,True,2024-09-09,2024-10-02
+20,"['fatigue', 'body pain']",40,late,True,4,PCOS,['birth control pills'],False,2024-09-05,2024-10-15
+25,"['bloating', 'nausea']",34,early,True,2,PCOS,['acetaminophen'],False,2024-08-31,2024-10-04
+37,"['cramps', 'nausea', 'mood swings']",39,late,True,5,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-02,2024-10-11
+29,['cramps'],36,on time,False,1,None,None,False,2024-09-06,2024-10-12
+37,"['cramps', 'fatigue']",23,on time,False,5,None,None,True,2024-09-05,2024-09-28
+22,"['headache', 'bloating', 'body pain']",21,late,True,5,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-13,2024-10-04
+24,"['mood swings', 'body pain', 'nausea']",27,early,True,1,PCOS,['ibuprofen'],False,2024-09-01,2024-09-28
+27,"['nausea', 'cramps']",22,late,False,2,None,None,True,2024-08-31,2024-09-22
+30,"['bloating', 'headache', 'fatigue']",40,early,True,5,None,"['acetaminophen', 'ibuprofen']",True,2024-08-31,2024-10-10
+20,"['nausea', 'bloating']",31,on time,True,2,None,"['acetaminophen', 'birth control pills']",True,2024-09-14,2024-10-15
+33,"['mood swings', 'fatigue']",24,early,False,5,None,None,True,2024-09-12,2024-10-06
+37,"['bloating', 'mood swings']",22,early,True,3,PCOS,['ibuprofen'],True,2024-08-31,2024-09-22
+19,"['fatigue', 'cramps']",32,late,True,2,PCOS,['birth control pills'],False,2024-09-13,2024-10-15
+38,"['fatigue', 'body pain', 'nausea']",37,late,False,4,None,None,True,2024-09-11,2024-10-18
+29,"['bloating', 'cramps', 'headache']",34,on time,False,1,None,None,False,2024-08-28,2024-10-01
+39,"['body pain', 'fatigue', 'cramps']",22,late,False,4,None,None,True,2024-09-15,2024-10-07
+19,['fatigue'],25,on time,False,2,None,None,False,2024-09-15,2024-10-10
+37,['mood swings'],32,late,False,4,None,None,True,2024-09-15,2024-10-17
+26,"['body pain', 'fatigue', 'cramps']",34,late,False,3,None,None,False,2024-09-14,2024-10-18
+37,['bloating'],23,on time,True,4,PCOS,"['naproxen', 'acetaminophen']",True,2024-08-28,2024-09-20
+34,"['fatigue', 'cramps']",39,late,False,5,None,None,True,2024-09-06,2024-10-15
+25,"['mood swings', 'bloating']",24,on time,True,2,None,['naproxen'],True,2024-08-30,2024-09-23
+27,"['headache', 'bloating']",26,late,True,4,PCOS,['acetaminophen'],False,2024-09-11,2024-10-07
+24,"['bloating', 'headache', 'body pain']",29,early,True,4,PCOD,"['ibuprofen', 'acetaminophen']",False,2024-09-04,2024-10-03
+38,['bloating'],27,late,True,3,None,['acetaminophen'],True,2024-08-28,2024-09-24
+25,['headache'],40,late,False,1,None,None,False,2024-08-30,2024-10-09
+33,"['cramps', 'mood swings', 'body pain']",35,early,False,2,None,None,True,2024-09-16,2024-10-21
+21,"['headache', 'nausea']",22,late,True,5,None,['birth control pills'],False,2024-09-08,2024-09-30
+20,['nausea'],24,late,False,4,None,None,False,2024-09-15,2024-10-09
+21,['fatigue'],37,on time,True,3,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-03,2024-10-10
+35,['body pain'],38,on time,False,5,None,None,False,2024-09-02,2024-10-10
+30,['body pain'],28,late,True,2,None,"['naproxen', 'ibuprofen']",True,2024-09-03,2024-10-01
+28,"['body pain', 'nausea']",30,on time,False,5,None,None,False,2024-09-12,2024-10-12
+31,"['body pain', 'fatigue']",31,late,True,3,PCOS,['birth control pills'],True,2024-09-02,2024-10-03
+23,"['headache', 'bloating']",34,early,False,4,None,None,True,2024-08-30,2024-10-03
+27,['fatigue'],38,on time,False,5,None,None,False,2024-08-28,2024-10-05
+29,"['nausea', 'fatigue']",31,on time,True,2,PCOS,['naproxen'],False,2024-09-15,2024-10-16
+32,"['headache', 'nausea']",35,on time,True,1,PCOD,"['birth control pills', 'acetaminophen']",False,2024-09-08,2024-10-13
+21,"['bloating', 'nausea', 'headache']",29,late,True,3,PCOD,['ibuprofen'],False,2024-09-05,2024-10-04
+40,['bloating'],26,early,True,3,PCOD,['acetaminophen'],False,2024-09-05,2024-10-01
+38,['headache'],29,late,False,2,None,None,True,2024-09-08,2024-10-07
+38,['headache'],29,early,True,4,PCOD,"['acetaminophen', 'birth control pills']",False,2024-09-10,2024-10-09
+20,"['mood swings', 'cramps', 'headache']",38,late,False,3,None,None,True,2024-09-15,2024-10-23
+32,"['cramps', 'mood swings', 'body pain']",38,on time,True,2,None,"['birth control pills', 'acetaminophen']",False,2024-08-28,2024-10-05
+30,"['fatigue', 'mood swings']",39,on time,False,2,None,None,False,2024-09-01,2024-10-10
+38,['body pain'],40,late,True,1,PCOS,"['naproxen', 'birth control pills']",False,2024-08-31,2024-10-10
+34,"['body pain', 'nausea', 'bloating']",32,on time,False,5,None,None,True,2024-09-16,2024-10-18
+40,"['fatigue', 'headache']",30,on time,True,4,PCOS,['ibuprofen'],False,2024-09-14,2024-10-14
+35,['bloating'],23,late,True,5,PCOD,['acetaminophen'],True,2024-08-29,2024-09-21
+35,['nausea'],21,on time,True,2,PCOD,['ibuprofen'],True,2024-09-06,2024-09-27
+29,"['body pain', 'bloating', 'cramps']",27,early,True,3,PCOD,"['acetaminophen', 'ibuprofen']",True,2024-09-04,2024-10-01
+21,"['bloating', 'fatigue']",37,early,True,5,None,['ibuprofen'],True,2024-09-05,2024-10-12
+19,"['fatigue', 'bloating', 'cramps']",23,late,True,4,None,['naproxen'],True,2024-09-16,2024-10-09
+19,"['cramps', 'body pain']",34,on time,True,5,None,"['ibuprofen', 'acetaminophen']",False,2024-09-12,2024-10-16
+30,"['headache', 'cramps', 'mood swings']",37,late,False,4,None,None,False,2024-08-31,2024-10-07
+23,"['cramps', 'headache', 'mood swings']",24,early,True,1,PCOS,['naproxen'],True,2024-09-06,2024-09-30
+36,"['bloating', 'body pain']",24,late,False,1,None,None,True,2024-09-06,2024-09-30
+27,['fatigue'],27,on time,True,4,PCOS,['birth control pills'],True,2024-08-29,2024-09-25
+37,"['fatigue', 'cramps']",39,on time,True,5,PCOD,['ibuprofen'],True,2024-08-28,2024-10-06
+36,"['bloating', 'cramps', 'mood swings']",39,early,False,3,None,None,False,2024-09-05,2024-10-14
+27,['fatigue'],36,early,False,4,None,None,False,2024-09-06,2024-10-12
+31,"['bloating', 'cramps']",24,early,False,1,None,None,False,2024-09-04,2024-09-28
+24,"['mood swings', 'nausea', 'bloating']",28,early,False,3,None,None,True,2024-09-04,2024-10-02
+39,['fatigue'],32,on time,True,1,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-04,2024-10-06
+31,['bloating'],26,on time,False,5,None,None,True,2024-09-04,2024-09-30
+29,"['bloating', 'nausea', 'cramps']",34,on time,False,1,None,None,True,2024-09-04,2024-10-08
+36,['fatigue'],26,on time,True,5,None,"['naproxen', 'acetaminophen']",True,2024-08-31,2024-09-26
+21,"['nausea', 'bloating']",21,early,False,1,None,None,False,2024-09-02,2024-09-23
+29,"['cramps', 'body pain', 'nausea']",37,early,False,2,None,None,True,2024-08-30,2024-10-06
+34,"['cramps', 'fatigue']",33,early,False,2,None,None,False,2024-09-04,2024-10-07
+32,"['nausea', 'fatigue', 'body pain']",38,on time,True,2,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-09-13,2024-10-21
+39,['mood swings'],39,on time,True,2,None,['ibuprofen'],False,2024-09-02,2024-10-11
+21,"['bloating', 'fatigue']",27,on time,True,4,PCOS,['ibuprofen'],True,2024-09-02,2024-09-29
+39,"['bloating', 'mood swings']",37,on time,False,5,None,None,False,2024-09-11,2024-10-18
+39,['nausea'],36,on time,True,1,PCOS,"['acetaminophen', 'ibuprofen']",False,2024-09-13,2024-10-19
+31,['headache'],37,early,True,4,None,['acetaminophen'],True,2024-09-03,2024-10-10
+24,"['mood swings', 'fatigue', 'bloating']",29,early,True,1,None,['acetaminophen'],True,2024-09-05,2024-10-04
+34,"['mood swings', 'body pain', 'headache']",34,on time,True,1,PCOS,"['birth control pills', 'naproxen']",False,2024-08-31,2024-10-04
+24,['nausea'],21,late,True,4,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-05,2024-09-26
+39,"['nausea', 'bloating']",21,early,False,3,None,None,True,2024-09-16,2024-10-07
+19,"['cramps', 'bloating']",32,early,False,1,None,None,False,2024-09-11,2024-10-13
+26,"['mood swings', 'fatigue']",31,late,False,4,None,None,False,2024-09-11,2024-10-12
+24,['fatigue'],36,early,False,4,None,None,False,2024-09-03,2024-10-09
+39,['nausea'],30,early,False,1,None,None,False,2024-09-10,2024-10-10
+30,['body pain'],21,late,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-09-15,2024-10-06
+23,"['headache', 'bloating', 'body pain']",36,late,False,4,None,None,True,2024-08-30,2024-10-05
+32,"['nausea', 'fatigue', 'mood swings']",27,on time,False,3,None,None,False,2024-09-04,2024-10-01
+29,['bloating'],30,early,True,4,None,"['birth control pills', 'ibuprofen']",False,2024-09-09,2024-10-09
+34,['cramps'],32,on time,True,2,PCOS,['acetaminophen'],False,2024-08-30,2024-10-01
+19,"['fatigue', 'bloating', 'mood swings']",29,late,True,2,None,['birth control pills'],True,2024-09-12,2024-10-11
+32,"['mood swings', 'body pain', 'bloating']",31,late,False,4,None,None,True,2024-09-14,2024-10-15
+20,"['mood swings', 'headache', 'nausea']",32,late,True,3,None,"['ibuprofen', 'birth control pills']",True,2024-09-12,2024-10-14
+35,['bloating'],33,early,True,2,PCOD,['ibuprofen'],True,2024-09-06,2024-10-09
+31,['mood swings'],31,late,False,4,None,None,False,2024-09-03,2024-10-04
+26,"['cramps', 'body pain', 'nausea']",34,early,False,2,None,None,True,2024-08-31,2024-10-04
+20,['bloating'],29,early,True,1,None,"['birth control pills', 'ibuprofen']",False,2024-09-10,2024-10-09
+31,"['body pain', 'nausea', 'cramps']",39,late,False,4,None,None,False,2024-09-12,2024-10-21
+39,['fatigue'],32,on time,True,1,PCOS,['acetaminophen'],True,2024-09-04,2024-10-06
+22,['nausea'],30,late,True,5,PCOS,"['acetaminophen', 'birth control pills']",True,2024-09-16,2024-10-16
+39,"['cramps', 'nausea', 'fatigue']",31,early,False,2,None,None,False,2024-08-30,2024-09-30
+33,['headache'],39,on time,False,4,None,None,True,2024-09-04,2024-10-13
+19,"['fatigue', 'body pain', 'bloating']",39,early,False,1,None,None,True,2024-09-06,2024-10-15
+25,"['mood swings', 'cramps', 'bloating']",24,on time,True,2,None,['naproxen'],True,2024-08-31,2024-09-24
+26,"['nausea', 'mood swings', 'cramps']",21,on time,False,1,None,None,False,2024-09-06,2024-09-27
+39,"['headache', 'fatigue']",29,late,False,5,None,None,False,2024-09-15,2024-10-14
+24,['nausea'],29,late,False,5,None,None,False,2024-09-09,2024-10-08
+36,"['body pain', 'cramps', 'mood swings']",32,on time,False,5,None,None,False,2024-09-13,2024-10-15
+37,['fatigue'],32,late,True,4,PCOD,['acetaminophen'],True,2024-09-05,2024-10-07
+37,['fatigue'],37,late,False,1,None,None,True,2024-09-07,2024-10-14
+30,['fatigue'],33,late,False,1,None,None,False,2024-08-31,2024-10-03
+24,"['bloating', 'headache', 'nausea']",30,early,False,1,None,None,False,2024-09-15,2024-10-15
+35,"['bloating', 'mood swings', 'nausea']",39,late,False,4,None,None,False,2024-09-10,2024-10-19
+35,"['body pain', 'cramps']",22,late,True,3,PCOD,['acetaminophen'],True,2024-09-03,2024-09-25
+21,['body pain'],29,early,False,4,None,None,False,2024-09-04,2024-10-03
+37,['nausea'],39,on time,False,3,None,None,True,2024-09-03,2024-10-12
+19,['fatigue'],22,late,True,2,PCOD,['acetaminophen'],True,2024-09-10,2024-10-02
+37,['body pain'],30,on time,True,3,PCOD,['acetaminophen'],False,2024-08-31,2024-09-30
+40,['fatigue'],40,early,True,5,PCOD,['ibuprofen'],False,2024-09-05,2024-10-15
+38,['body pain'],28,late,False,4,None,None,False,2024-09-08,2024-10-06
+23,"['bloating', 'headache', 'body pain']",27,late,True,5,PCOD,"['birth control pills', 'naproxen']",True,2024-09-12,2024-10-09
+28,"['headache', 'bloating']",23,on time,True,4,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-07,2024-09-30
+38,"['mood swings', 'nausea', 'fatigue']",31,early,False,2,None,None,True,2024-08-30,2024-09-30
+39,['headache'],27,early,True,4,None,"['naproxen', 'ibuprofen']",True,2024-09-01,2024-09-28
+21,"['nausea', 'mood swings', 'fatigue']",39,on time,False,2,None,None,True,2024-09-11,2024-10-20
+28,"['cramps', 'body pain', 'mood swings']",39,on time,False,2,None,None,True,2024-09-15,2024-10-24
+39,"['mood swings', 'body pain', 'headache']",21,late,False,2,None,None,True,2024-08-28,2024-09-18
+30,['body pain'],29,late,False,5,None,None,True,2024-09-07,2024-10-06
+38,"['nausea', 'cramps']",31,early,False,5,None,None,True,2024-09-09,2024-10-10
+21,"['headache', 'cramps', 'mood swings']",35,early,True,1,PCOS,['ibuprofen'],False,2024-09-15,2024-10-20
+29,"['fatigue', 'bloating', 'body pain']",21,on time,True,4,PCOS,['acetaminophen'],True,2024-09-13,2024-10-04
+21,"['mood swings', 'bloating']",35,early,False,5,None,None,True,2024-09-08,2024-10-13
+22,"['bloating', 'cramps', 'body pain']",26,on time,False,2,None,None,True,2024-09-14,2024-10-10
+24,"['body pain', 'headache', 'fatigue']",27,on time,True,4,None,"['naproxen', 'acetaminophen']",True,2024-08-29,2024-09-25
+19,"['fatigue', 'headache', 'cramps']",21,late,False,4,None,None,False,2024-09-15,2024-10-06
+31,"['mood swings', 'bloating']",24,early,True,3,None,['birth control pills'],False,2024-09-13,2024-10-07
+37,['headache'],26,late,True,4,PCOD,['ibuprofen'],True,2024-09-14,2024-10-10
+36,"['mood swings', 'cramps', 'fatigue']",26,on time,False,3,None,None,False,2024-09-11,2024-10-07
+38,"['fatigue', 'mood swings']",34,on time,True,5,None,['birth control pills'],True,2024-09-06,2024-10-10
+29,['cramps'],33,late,False,1,None,None,True,2024-09-06,2024-10-09
+32,"['mood swings', 'cramps', 'body pain']",25,late,True,2,PCOD,"['naproxen', 'ibuprofen']",True,2024-08-31,2024-09-25
+38,['nausea'],24,late,True,4,PCOS,['birth control pills'],True,2024-09-10,2024-10-04
+27,"['headache', 'body pain']",26,early,False,4,None,None,True,2024-09-13,2024-10-09
+36,"['fatigue', 'mood swings', 'nausea']",30,on time,True,3,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-05,2024-10-05
+24,"['mood swings', 'cramps', 'fatigue']",33,early,False,4,None,None,False,2024-09-13,2024-10-16
+25,"['body pain', 'cramps', 'fatigue']",39,late,False,1,None,None,True,2024-08-28,2024-10-06
+19,['bloating'],33,late,False,2,None,None,False,2024-09-12,2024-10-15
+23,"['bloating', 'body pain', 'mood swings']",38,late,False,2,None,None,True,2024-09-13,2024-10-21
+30,['cramps'],36,late,True,5,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-09-06,2024-10-12
+28,"['mood swings', 'cramps']",33,on time,False,1,None,None,False,2024-09-10,2024-10-13
+27,"['headache', 'mood swings']",21,early,False,3,None,None,True,2024-09-14,2024-10-05
+20,['fatigue'],35,early,True,4,None,['naproxen'],True,2024-09-15,2024-10-20
+23,['nausea'],31,early,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-12,2024-10-13
+24,"['headache', 'mood swings', 'nausea']",34,early,True,4,PCOS,['acetaminophen'],True,2024-09-09,2024-10-13
+27,['bloating'],32,late,True,4,PCOD,['ibuprofen'],True,2024-09-14,2024-10-16
+29,['body pain'],28,late,False,1,None,None,True,2024-08-29,2024-09-26
+19,"['headache', 'cramps', 'fatigue']",31,late,True,5,PCOD,"['ibuprofen', 'acetaminophen']",True,2024-09-11,2024-10-12
+34,['bloating'],27,late,True,5,PCOD,['naproxen'],True,2024-08-28,2024-09-24
+25,"['mood swings', 'body pain', 'cramps']",22,late,False,3,None,None,True,2024-09-05,2024-09-27
+36,['bloating'],22,on time,True,5,PCOS,"['naproxen', 'acetaminophen']",False,2024-09-01,2024-09-23
+21,['cramps'],37,late,False,5,None,None,False,2024-09-03,2024-10-10
+39,['body pain'],37,on time,True,5,None,['acetaminophen'],True,2024-09-09,2024-10-16
+19,['body pain'],35,late,True,2,PCOD,['acetaminophen'],True,2024-09-16,2024-10-21
+28,"['cramps', 'nausea', 'fatigue']",22,on time,False,2,None,None,True,2024-09-14,2024-10-06
+26,"['nausea', 'fatigue', 'headache']",40,early,True,3,PCOS,"['naproxen', 'ibuprofen']",True,2024-09-15,2024-10-25
+34,['headache'],26,early,True,4,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-11,2024-10-07
+30,"['bloating', 'nausea']",28,on time,True,1,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-13,2024-10-11
+33,"['bloating', 'body pain']",28,late,False,1,None,None,False,2024-09-07,2024-10-05
+27,"['body pain', 'nausea', 'bloating']",37,on time,False,2,None,None,True,2024-09-16,2024-10-23
+22,['fatigue'],21,early,False,4,None,None,True,2024-09-13,2024-10-04
+29,"['fatigue', 'mood swings']",29,early,False,4,None,None,True,2024-09-12,2024-10-11
+21,"['body pain', 'fatigue', 'cramps']",40,early,True,1,None,['ibuprofen'],False,2024-09-10,2024-10-20
+19,"['bloating', 'cramps', 'mood swings']",25,early,True,3,PCOD,['naproxen'],False,2024-09-10,2024-10-05
+22,"['mood swings', 'headache']",22,early,True,1,None,['ibuprofen'],True,2024-08-28,2024-09-19
+35,"['bloating', 'fatigue']",38,late,True,1,PCOS,"['acetaminophen', 'ibuprofen']",True,2024-09-12,2024-10-20
+28,"['mood swings', 'fatigue', 'bloating']",26,late,False,3,None,None,True,2024-09-05,2024-10-01
+22,"['body pain', 'bloating']",39,late,True,3,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-02,2024-10-11
+30,['fatigue'],27,late,True,5,PCOS,"['acetaminophen', 'naproxen']",True,2024-08-28,2024-09-24
+38,"['headache', 'fatigue', 'body pain']",34,late,True,4,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-09,2024-10-13
+28,"['bloating', 'nausea']",32,late,False,3,None,None,True,2024-09-06,2024-10-08
+21,"['nausea', 'fatigue']",35,late,True,1,None,"['ibuprofen', 'birth control pills']",True,2024-09-15,2024-10-20
+24,"['mood swings', 'cramps']",23,on time,True,3,PCOD,"['acetaminophen', 'birth control pills']",False,2024-08-31,2024-09-23
+25,"['bloating', 'body pain']",29,on time,False,2,None,None,True,2024-09-04,2024-10-03
+21,"['headache', 'mood swings']",40,early,True,1,PCOS,['birth control pills'],True,2024-09-15,2024-10-25
+26,"['headache', 'nausea', 'cramps']",23,early,False,2,None,None,True,2024-08-30,2024-09-22
+30,"['nausea', 'fatigue', 'body pain']",35,late,False,4,None,None,False,2024-09-16,2024-10-21
+19,['nausea'],32,late,False,1,None,None,True,2024-09-11,2024-10-13
+28,['headache'],32,late,False,4,None,None,False,2024-09-12,2024-10-14
+30,"['headache', 'cramps']",38,late,True,1,None,"['birth control pills', 'ibuprofen']",True,2024-08-29,2024-10-06
+26,['fatigue'],27,on time,False,5,None,None,True,2024-09-08,2024-10-05
+22,['nausea'],31,early,False,1,None,None,True,2024-08-30,2024-09-30
+39,"['headache', 'body pain', 'bloating']",30,on time,False,4,None,None,False,2024-08-30,2024-09-29
+37,"['bloating', 'mood swings']",27,late,False,5,None,None,True,2024-09-15,2024-10-12
+33,"['nausea', 'fatigue']",40,early,False,3,None,None,True,2024-09-06,2024-10-16
+40,['bloating'],25,late,False,5,None,None,True,2024-09-01,2024-09-26
+19,"['cramps', 'nausea']",40,early,False,5,None,None,False,2024-08-29,2024-10-08
+28,"['nausea', 'bloating']",25,on time,True,3,PCOS,['ibuprofen'],False,2024-09-03,2024-09-28
+26,"['body pain', 'cramps']",33,late,False,2,None,None,False,2024-09-15,2024-10-18
+38,['mood swings'],34,on time,True,3,None,['acetaminophen'],False,2024-09-01,2024-10-05
+21,['nausea'],33,late,False,5,None,None,False,2024-09-01,2024-10-04
+38,"['mood swings', 'headache', 'nausea']",22,early,False,3,None,None,True,2024-09-16,2024-10-08
+33,"['mood swings', 'body pain']",29,late,True,5,PCOD,['birth control pills'],True,2024-09-13,2024-10-12
+19,['cramps'],34,late,False,1,None,None,False,2024-08-31,2024-10-04
+20,"['nausea', 'fatigue', 'cramps']",40,late,True,1,None,['acetaminophen'],True,2024-09-11,2024-10-21
+27,"['headache', 'nausea']",23,late,True,2,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-10,2024-10-03
+31,"['cramps', 'fatigue', 'headache']",35,late,True,5,PCOS,"['birth control pills', 'ibuprofen']",True,2024-08-28,2024-10-02
+34,['cramps'],31,early,False,5,None,None,False,2024-09-10,2024-10-11
+21,"['cramps', 'bloating', 'fatigue']",24,on time,True,3,PCOS,"['ibuprofen', 'birth control pills']",True,2024-08-30,2024-09-23
+27,"['nausea', 'headache', 'fatigue']",34,late,False,1,None,None,False,2024-08-29,2024-10-02
+25,['body pain'],27,early,True,5,PCOD,['birth control pills'],False,2024-09-15,2024-10-12
+19,['headache'],35,on time,False,5,None,None,True,2024-09-03,2024-10-08
+19,['cramps'],36,on time,False,4,None,None,True,2024-09-03,2024-10-09
+34,"['body pain', 'cramps']",40,on time,False,1,None,None,True,2024-09-02,2024-10-12
+30,"['nausea', 'headache', 'bloating']",33,early,False,3,None,None,True,2024-09-07,2024-10-10
+37,"['headache', 'nausea', 'mood swings']",27,early,False,5,None,None,True,2024-09-12,2024-10-09
+22,"['headache', 'nausea']",21,on time,False,5,None,None,True,2024-09-07,2024-09-28
+30,"['fatigue', 'bloating']",25,late,False,3,None,None,False,2024-09-11,2024-10-06
+20,"['cramps', 'mood swings', 'nausea']",30,on time,False,4,None,None,True,2024-09-13,2024-10-13
+23,['mood swings'],39,early,True,2,PCOS,['naproxen'],False,2024-09-09,2024-10-18
+21,['nausea'],31,early,True,3,PCOD,['ibuprofen'],True,2024-08-28,2024-09-28
+34,"['bloating', 'mood swings']",38,late,True,3,None,"['acetaminophen', 'naproxen']",True,2024-08-28,2024-10-05
+19,"['cramps', 'headache', 'body pain']",30,on time,False,3,None,None,True,2024-09-01,2024-10-01
+20,"['bloating', 'mood swings', 'body pain']",26,on time,False,2,None,None,False,2024-09-14,2024-10-10
+30,['mood swings'],21,late,False,3,None,None,True,2024-09-12,2024-10-03
+40,"['body pain', 'bloating']",25,on time,False,2,None,None,True,2024-09-04,2024-09-29
+19,"['body pain', 'nausea']",37,late,True,4,PCOD,"['birth control pills', 'naproxen']",False,2024-09-12,2024-10-19
+34,"['body pain', 'fatigue']",22,early,True,1,PCOD,"['acetaminophen', 'ibuprofen']",False,2024-08-29,2024-09-20
+27,"['body pain', 'mood swings']",33,early,True,3,PCOS,"['ibuprofen', 'birth control pills']",False,2024-09-04,2024-10-07
+31,['body pain'],31,on time,True,5,None,['birth control pills'],True,2024-09-13,2024-10-14
+29,"['fatigue', 'mood swings']",36,on time,False,4,None,None,False,2024-08-28,2024-10-03
+29,"['fatigue', 'mood swings', 'nausea']",21,late,True,4,PCOS,['birth control pills'],True,2024-09-06,2024-09-27
+27,"['nausea', 'mood swings', 'fatigue']",22,on time,True,5,None,"['naproxen', 'ibuprofen']",False,2024-09-15,2024-10-07
+40,"['headache', 'body pain', 'nausea']",28,late,True,2,PCOD,"['naproxen', 'birth control pills']",False,2024-09-12,2024-10-10
+34,"['nausea', 'headache', 'fatigue']",34,on time,True,4,None,['acetaminophen'],True,2024-09-16,2024-10-20
+24,"['nausea', 'body pain', 'mood swings']",27,early,True,4,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-10,2024-10-07
+30,"['nausea', 'mood swings', 'body pain']",26,late,False,4,None,None,False,2024-09-04,2024-09-30
+24,['nausea'],28,early,True,2,None,"['birth control pills', 'acetaminophen']",True,2024-09-05,2024-10-03
+24,"['body pain', 'fatigue']",24,early,False,4,None,None,True,2024-09-13,2024-10-07
+23,['headache'],29,late,True,2,None,['birth control pills'],True,2024-09-02,2024-10-01
+23,['body pain'],25,late,True,2,PCOS,"['ibuprofen', 'birth control pills']",True,2024-09-04,2024-09-29
+34,['body pain'],27,early,False,2,None,None,True,2024-09-07,2024-10-04
+19,['cramps'],29,on time,False,5,None,None,False,2024-09-14,2024-10-13
+38,['cramps'],35,early,True,3,None,['acetaminophen'],False,2024-09-16,2024-10-21
+27,"['body pain', 'bloating']",38,early,True,3,None,"['birth control pills', 'ibuprofen']",False,2024-09-15,2024-10-23
+32,['headache'],35,on time,False,1,None,None,False,2024-09-11,2024-10-16
+20,"['fatigue', 'bloating', 'headache']",34,on time,True,4,None,"['naproxen', 'acetaminophen']",True,2024-09-09,2024-10-13
+30,"['mood swings', 'headache']",40,late,True,4,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-16,2024-10-26
+32,"['nausea', 'mood swings']",28,early,True,3,PCOS,"['birth control pills', 'ibuprofen']",False,2024-09-05,2024-10-03
+23,"['cramps', 'fatigue']",28,on time,True,1,PCOS,['ibuprofen'],True,2024-09-04,2024-10-02
+29,"['cramps', 'fatigue']",26,early,True,1,PCOD,"['naproxen', 'ibuprofen']",True,2024-08-30,2024-09-25
+40,"['bloating', 'body pain', 'fatigue']",24,late,True,1,None,"['ibuprofen', 'acetaminophen']",True,2024-09-09,2024-10-03
+40,"['cramps', 'body pain']",22,on time,True,1,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-15,2024-10-07
+28,['body pain'],37,on time,False,1,None,None,False,2024-09-06,2024-10-13
+40,['body pain'],27,on time,True,2,None,"['birth control pills', 'acetaminophen']",False,2024-09-11,2024-10-08
+38,"['bloating', 'body pain']",22,early,True,2,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-11,2024-10-03
+24,"['cramps', 'fatigue', 'bloating']",26,on time,False,3,None,None,False,2024-09-16,2024-10-12
+35,['cramps'],30,late,False,2,None,None,False,2024-09-07,2024-10-07
+23,"['bloating', 'mood swings', 'headache']",26,on time,True,2,None,['acetaminophen'],True,2024-09-02,2024-09-28
+29,"['nausea', 'headache']",28,early,True,5,None,"['ibuprofen', 'acetaminophen']",False,2024-09-08,2024-10-06
+32,"['body pain', 'headache', 'mood swings']",35,late,False,4,None,None,True,2024-08-28,2024-10-02
+30,['fatigue'],32,early,False,2,None,None,True,2024-09-02,2024-10-04
+35,"['bloating', 'cramps']",31,late,True,2,PCOS,['naproxen'],True,2024-09-16,2024-10-17
+25,"['cramps', 'body pain', 'bloating']",25,late,False,2,None,None,True,2024-09-08,2024-10-03
+36,"['body pain', 'bloating']",31,on time,False,1,None,None,False,2024-09-04,2024-10-05
+31,"['body pain', 'fatigue', 'headache']",24,early,True,2,PCOS,['ibuprofen'],True,2024-08-29,2024-09-22
+38,"['bloating', 'body pain']",33,late,False,4,None,None,True,2024-09-08,2024-10-11
+23,"['nausea', 'mood swings', 'body pain']",34,on time,False,5,None,None,True,2024-09-02,2024-10-06
+22,"['bloating', 'body pain', 'fatigue']",30,on time,True,4,PCOD,['birth control pills'],True,2024-09-09,2024-10-09
+40,"['nausea', 'bloating', 'headache']",33,late,True,5,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-15,2024-10-18
+19,"['fatigue', 'body pain', 'bloating']",36,late,False,3,None,None,False,2024-09-15,2024-10-21
+21,"['fatigue', 'nausea']",22,on time,False,3,None,None,True,2024-09-13,2024-10-05
+36,"['nausea', 'body pain']",34,early,True,5,PCOS,"['ibuprofen', 'acetaminophen']",True,2024-09-08,2024-10-12
+25,['mood swings'],38,early,False,1,None,None,False,2024-09-15,2024-10-23
+27,['fatigue'],39,late,True,3,PCOD,"['naproxen', 'birth control pills']",True,2024-08-31,2024-10-09
+29,"['nausea', 'fatigue', 'body pain']",26,early,True,4,None,['acetaminophen'],False,2024-09-04,2024-09-30
+20,"['body pain', 'bloating']",36,late,True,5,None,['birth control pills'],False,2024-09-01,2024-10-07
+34,"['body pain', 'mood swings', 'bloating']",21,late,True,2,None,"['acetaminophen', 'birth control pills']",False,2024-09-01,2024-09-22
+24,"['headache', 'bloating']",23,early,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-09-04,2024-09-27
+25,['body pain'],35,early,False,3,None,None,True,2024-09-01,2024-10-06
+26,['bloating'],38,late,False,3,None,None,True,2024-08-29,2024-10-06
+20,['body pain'],33,late,False,3,None,None,False,2024-09-13,2024-10-16
+22,"['mood swings', 'nausea']",37,early,True,5,None,"['birth control pills', 'naproxen']",False,2024-09-09,2024-10-16
+40,"['body pain', 'mood swings', 'bloating']",37,early,True,4,PCOS,['acetaminophen'],False,2024-09-09,2024-10-16
+24,['bloating'],39,on time,False,5,None,None,False,2024-09-12,2024-10-21
+36,['body pain'],22,on time,False,3,None,None,False,2024-08-31,2024-09-22
+32,['body pain'],33,early,True,2,PCOS,['acetaminophen'],True,2024-09-08,2024-10-11
+33,"['bloating', 'cramps', 'headache']",27,early,True,1,PCOD,['birth control pills'],False,2024-09-16,2024-10-13
+33,['bloating'],37,late,False,5,None,None,False,2024-09-16,2024-10-23
+28,"['fatigue', 'headache']",26,on time,True,3,None,"['birth control pills', 'ibuprofen']",False,2024-09-12,2024-10-08
+30,"['body pain', 'fatigue']",39,early,True,1,PCOD,"['ibuprofen', 'birth control pills']",False,2024-08-30,2024-10-08
+34,['bloating'],34,on time,True,5,PCOD,['ibuprofen'],False,2024-09-13,2024-10-17
+33,"['cramps', 'headache']",27,late,True,2,PCOS,['acetaminophen'],True,2024-08-29,2024-09-25
+29,"['mood swings', 'bloating']",31,on time,False,4,None,None,False,2024-09-15,2024-10-16
+22,['mood swings'],23,late,False,5,None,None,False,2024-09-13,2024-10-06
+38,"['bloating', 'cramps']",29,on time,False,5,None,None,False,2024-08-30,2024-09-28
+27,"['mood swings', 'bloating', 'fatigue']",31,on time,True,1,None,"['ibuprofen', 'naproxen']",True,2024-09-01,2024-10-02
+23,['mood swings'],30,on time,True,1,PCOD,"['ibuprofen', 'birth control pills']",True,2024-09-05,2024-10-05
+25,['mood swings'],36,on time,True,4,None,"['ibuprofen', 'naproxen']",True,2024-09-11,2024-10-17
+31,"['mood swings', 'body pain', 'cramps']",24,early,False,5,None,None,False,2024-09-05,2024-09-29
+25,['body pain'],38,late,True,4,PCOD,['birth control pills'],True,2024-08-28,2024-10-05
+24,['headache'],22,late,False,1,None,None,True,2024-09-12,2024-10-04
+29,"['mood swings', 'cramps', 'body pain']",32,early,False,1,None,None,False,2024-09-12,2024-10-14
+25,['body pain'],23,on time,True,2,PCOS,['ibuprofen'],True,2024-09-01,2024-09-24
+25,['headache'],22,early,False,3,None,None,False,2024-09-01,2024-09-23
+28,['nausea'],34,early,False,4,None,None,True,2024-08-31,2024-10-04
+35,"['fatigue', 'mood swings', 'headache']",33,late,False,3,None,None,True,2024-09-08,2024-10-11
+35,"['nausea', 'body pain']",36,on time,True,3,PCOD,['birth control pills'],True,2024-09-16,2024-10-22
+39,"['fatigue', 'headache']",27,late,True,3,PCOD,['ibuprofen'],True,2024-08-30,2024-09-26
+31,"['bloating', 'body pain', 'nausea']",38,late,True,3,None,['naproxen'],False,2024-08-30,2024-10-07
+24,['headache'],33,early,False,3,None,None,False,2024-08-29,2024-10-01
+26,"['body pain', 'headache', 'fatigue']",23,late,False,5,None,None,True,2024-09-10,2024-10-03
+19,"['mood swings', 'body pain', 'headache']",32,early,True,5,None,"['birth control pills', 'naproxen']",True,2024-09-07,2024-10-09
+31,"['nausea', 'headache']",33,on time,True,1,None,"['acetaminophen', 'naproxen']",False,2024-09-10,2024-10-13
+37,['cramps'],37,early,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-09-16,2024-10-23
+22,"['headache', 'bloating', 'cramps']",37,late,False,3,None,None,True,2024-09-16,2024-10-23
+39,"['nausea', 'headache']",34,on time,True,5,PCOD,['ibuprofen'],True,2024-09-05,2024-10-09
+23,"['cramps', 'headache', 'bloating']",22,early,True,3,PCOS,"['birth control pills', 'naproxen']",True,2024-09-05,2024-09-27
+34,"['headache', 'cramps', 'bloating']",29,on time,True,2,PCOD,"['acetaminophen', 'naproxen']",True,2024-09-12,2024-10-11
+19,"['body pain', 'cramps', 'fatigue']",36,early,False,1,None,None,True,2024-09-09,2024-10-15
+19,"['nausea', 'headache']",37,early,False,3,None,None,False,2024-08-30,2024-10-06
+25,"['cramps', 'headache', 'mood swings']",34,late,True,5,PCOD,"['acetaminophen', 'birth control pills']",True,2024-09-14,2024-10-18
+24,"['bloating', 'fatigue', 'body pain']",24,on time,False,4,None,None,False,2024-08-28,2024-09-21
+37,"['body pain', 'fatigue']",28,late,True,3,PCOS,['naproxen'],True,2024-09-12,2024-10-10
+29,"['fatigue', 'cramps', 'bloating']",38,early,True,5,PCOD,"['acetaminophen', 'birth control pills']",False,2024-08-30,2024-10-07
+35,['bloating'],28,late,True,2,PCOD,"['birth control pills', 'acetaminophen']",True,2024-09-15,2024-10-13
+34,"['fatigue', 'nausea']",32,late,False,1,None,None,True,2024-09-03,2024-10-05
+32,['fatigue'],21,on time,True,5,PCOS,"['birth control pills', 'acetaminophen']",True,2024-09-06,2024-09-27
+19,"['headache', 'fatigue', 'bloating']",31,late,False,3,None,None,True,2024-09-13,2024-10-14
+39,"['headache', 'bloating', 'mood swings']",37,early,False,1,None,None,True,2024-09-15,2024-10-22
+19,"['mood swings', 'nausea', 'fatigue']",25,late,True,1,None,['birth control pills'],True,2024-09-09,2024-10-04
+29,"['headache', 'bloating', 'nausea']",25,on time,True,5,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-15,2024-10-10
+37,"['mood swings', 'headache', 'cramps']",21,on time,True,2,PCOD,['birth control pills'],False,2024-08-30,2024-09-20
+38,"['body pain', 'cramps']",21,on time,True,2,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-06,2024-09-27
+32,['bloating'],26,on time,False,1,None,None,True,2024-09-13,2024-10-09
+20,"['mood swings', 'bloating']",22,on time,False,5,None,None,True,2024-09-15,2024-10-07
+36,"['cramps', 'mood swings']",31,early,True,2,None,"['birth control pills', 'naproxen']",False,2024-09-11,2024-10-12
+19,"['nausea', 'mood swings', 'body pain']",38,early,False,2,None,None,False,2024-09-02,2024-10-10
+28,"['fatigue', 'mood swings', 'cramps']",31,early,False,2,None,None,True,2024-09-10,2024-10-11
+29,"['cramps', 'headache']",24,late,True,4,PCOD,['acetaminophen'],True,2024-08-31,2024-09-24
+34,"['fatigue', 'headache', 'body pain']",36,on time,False,4,None,None,False,2024-08-31,2024-10-06
+26,"['nausea', 'mood swings']",22,on time,True,1,PCOD,['naproxen'],False,2024-09-09,2024-10-01
+32,"['cramps', 'bloating']",30,on time,False,3,None,None,True,2024-09-01,2024-10-01
+32,['headache'],40,on time,False,1,None,None,False,2024-09-14,2024-10-24
+28,['nausea'],25,on time,True,2,PCOS,['acetaminophen'],False,2024-08-30,2024-09-24
+37,"['body pain', 'mood swings']",23,on time,False,2,None,None,False,2024-09-08,2024-10-01
+36,"['body pain', 'bloating']",35,early,False,1,None,None,False,2024-09-09,2024-10-14
+20,"['mood swings', 'cramps']",31,on time,False,2,None,None,False,2024-09-16,2024-10-17
+24,['bloating'],34,on time,True,3,PCOS,['naproxen'],False,2024-09-15,2024-10-19
+34,"['cramps', 'bloating', 'mood swings']",37,late,False,5,None,None,True,2024-09-09,2024-10-16
+37,['cramps'],24,on time,True,4,PCOS,['acetaminophen'],True,2024-09-16,2024-10-10
+20,"['cramps', 'mood swings', 'nausea']",40,on time,False,5,None,None,False,2024-09-13,2024-10-23
+21,"['nausea', 'cramps']",28,early,False,5,None,None,False,2024-09-05,2024-10-03
+20,"['body pain', 'mood swings']",27,on time,False,3,None,None,False,2024-09-06,2024-10-03
+23,['nausea'],21,late,True,3,None,['acetaminophen'],False,2024-09-16,2024-10-07
+40,"['mood swings', 'fatigue', 'nausea']",26,late,False,5,None,None,False,2024-09-12,2024-10-08
+30,"['fatigue', 'nausea']",31,early,False,3,None,None,False,2024-09-14,2024-10-15
+33,"['body pain', 'nausea', 'cramps']",28,late,False,5,None,None,False,2024-09-06,2024-10-04
+23,"['nausea', 'headache', 'fatigue']",33,early,True,2,PCOS,['ibuprofen'],True,2024-09-04,2024-10-07
+28,['cramps'],40,on time,False,1,None,None,False,2024-09-07,2024-10-17
+39,"['headache', 'nausea']",28,on time,True,3,PCOS,['naproxen'],True,2024-08-31,2024-09-28
+19,"['headache', 'fatigue', 'bloating']",24,on time,False,3,None,None,True,2024-09-02,2024-09-26
+22,"['mood swings', 'nausea']",25,early,False,5,None,None,True,2024-09-13,2024-10-08
+20,['body pain'],22,late,True,4,PCOD,['acetaminophen'],True,2024-09-12,2024-10-04
+20,['body pain'],24,late,False,4,None,None,True,2024-08-29,2024-09-22
+39,"['cramps', 'mood swings', 'headache']",24,early,False,3,None,None,True,2024-09-08,2024-10-02
+36,"['fatigue', 'nausea']",30,early,False,5,None,None,False,2024-08-30,2024-09-29
+26,"['nausea', 'bloating', 'fatigue']",22,early,False,4,None,None,False,2024-08-28,2024-09-19
+26,['headache'],27,on time,True,3,PCOS,['naproxen'],False,2024-09-06,2024-10-03
+22,"['mood swings', 'fatigue']",38,on time,True,4,PCOS,['acetaminophen'],True,2024-08-29,2024-10-06
+39,"['cramps', 'nausea']",21,on time,True,1,PCOD,['birth control pills'],False,2024-09-09,2024-09-30
+20,['cramps'],33,late,True,1,PCOD,['naproxen'],True,2024-09-13,2024-10-16
+33,['nausea'],35,on time,False,3,None,None,False,2024-09-13,2024-10-18
+20,['nausea'],34,early,False,2,None,None,True,2024-09-13,2024-10-17
+21,['nausea'],36,late,False,5,None,None,False,2024-08-29,2024-10-04
+31,"['cramps', 'headache', 'nausea']",31,on time,True,5,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-12,2024-10-13
+36,['headache'],31,on time,False,3,None,None,True,2024-08-28,2024-09-28
+34,['headache'],27,late,True,1,None,['naproxen'],False,2024-09-12,2024-10-09
+33,"['nausea', 'bloating']",25,on time,True,5,PCOD,"['ibuprofen', 'acetaminophen']",False,2024-08-29,2024-09-23
+20,['cramps'],35,on time,False,1,None,None,False,2024-09-05,2024-10-10
+33,"['body pain', 'nausea', 'fatigue']",27,on time,True,2,PCOD,"['naproxen', 'ibuprofen']",False,2024-09-07,2024-10-04
+40,"['nausea', 'bloating', 'cramps']",26,on time,True,5,PCOS,"['acetaminophen', 'birth control pills']",False,2024-08-30,2024-09-25
+20,"['nausea', 'cramps']",22,on time,True,4,PCOS,['ibuprofen'],False,2024-08-30,2024-09-21
+38,"['mood swings', 'body pain']",36,on time,True,3,None,['acetaminophen'],False,2024-09-12,2024-10-18
+21,['mood swings'],24,on time,True,3,PCOS,"['birth control pills', 'ibuprofen']",True,2024-08-29,2024-09-22
+34,"['mood swings', 'bloating']",27,on time,False,3,None,None,True,2024-09-01,2024-09-28
+39,"['mood swings', 'fatigue']",31,on time,True,2,PCOD,['birth control pills'],True,2024-09-12,2024-10-13
+36,"['headache', 'bloating', 'cramps']",38,late,True,5,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-06,2024-10-14
+24,['fatigue'],27,early,True,1,None,"['acetaminophen', 'naproxen']",False,2024-09-16,2024-10-13
+40,"['cramps', 'mood swings']",23,late,False,4,None,None,True,2024-09-08,2024-10-01
+38,"['cramps', 'mood swings', 'body pain']",34,early,False,2,None,None,True,2024-08-31,2024-10-04
+31,"['headache', 'bloating']",28,on time,True,2,PCOD,"['ibuprofen', 'naproxen']",True,2024-08-28,2024-09-25
+20,['nausea'],32,on time,False,4,None,None,False,2024-09-14,2024-10-16
+35,"['bloating', 'headache']",39,early,True,2,PCOD,"['naproxen', 'ibuprofen']",True,2024-09-14,2024-10-23
+29,"['body pain', 'cramps']",34,early,True,2,PCOS,['birth control pills'],False,2024-09-15,2024-10-19
+31,['mood swings'],22,early,False,4,None,None,False,2024-09-03,2024-09-25
+23,"['fatigue', 'cramps', 'body pain']",25,late,True,3,None,"['acetaminophen', 'ibuprofen']",True,2024-08-31,2024-09-25
+28,"['nausea', 'cramps']",29,late,False,3,None,None,False,2024-09-07,2024-10-06
+22,"['nausea', 'fatigue', 'bloating']",35,early,True,1,None,"['ibuprofen', 'acetaminophen']",True,2024-09-15,2024-10-20
+34,"['fatigue', 'nausea', 'mood swings']",23,late,True,3,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-03,2024-09-26
+34,"['fatigue', 'bloating', 'mood swings']",21,late,True,4,PCOD,['birth control pills'],True,2024-09-09,2024-09-30
+34,"['headache', 'fatigue']",37,early,False,5,None,None,False,2024-09-13,2024-10-20
+30,"['body pain', 'bloating', 'nausea']",23,early,False,4,None,None,False,2024-09-10,2024-10-03
+40,"['bloating', 'mood swings']",26,early,True,5,PCOS,['naproxen'],True,2024-09-02,2024-09-28
+37,"['body pain', 'fatigue', 'headache']",28,late,True,5,PCOD,"['naproxen', 'birth control pills']",False,2024-09-13,2024-10-11
+33,['body pain'],29,early,True,2,PCOS,['acetaminophen'],False,2024-09-15,2024-10-14
+37,"['mood swings', 'bloating']",35,on time,False,5,None,None,False,2024-09-03,2024-10-08
+26,"['body pain', 'headache', 'mood swings']",32,on time,False,5,None,None,False,2024-09-01,2024-10-03
+38,"['nausea', 'mood swings']",24,late,True,3,PCOS,"['birth control pills', 'acetaminophen']",False,2024-09-08,2024-10-02
+35,['fatigue'],32,late,False,5,None,None,False,2024-09-10,2024-10-12
+21,"['bloating', 'mood swings', 'headache']",30,late,False,1,None,None,False,2024-09-03,2024-10-03
+21,"['nausea', 'cramps']",29,early,True,3,PCOD,['naproxen'],True,2024-09-14,2024-10-13
+33,"['body pain', 'nausea', 'fatigue']",37,late,True,5,PCOS,"['birth control pills', 'naproxen']",False,2024-09-15,2024-10-22
+19,"['headache', 'body pain']",23,late,True,4,None,"['naproxen', 'acetaminophen']",True,2024-08-28,2024-09-20
+25,"['body pain', 'nausea', 'mood swings']",24,on time,True,5,None,"['birth control pills', 'ibuprofen']",False,2024-09-06,2024-09-30
+27,['body pain'],36,early,True,4,PCOS,"['ibuprofen', 'naproxen']",False,2024-09-11,2024-10-17
+35,"['body pain', 'nausea']",21,early,True,5,PCOD,"['naproxen', 'acetaminophen']",True,2024-09-06,2024-09-27
+20,"['cramps', 'nausea']",40,late,False,4,None,None,True,2024-09-02,2024-10-12
+29,['headache'],35,early,True,2,None,"['acetaminophen', 'ibuprofen']",True,2024-09-16,2024-10-21
+30,['nausea'],25,late,False,1,None,None,True,2024-08-30,2024-09-24
+23,['fatigue'],37,late,False,3,None,None,True,2024-09-13,2024-10-20
+28,"['cramps', 'nausea']",25,early,True,1,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-01,2024-09-26
+23,"['bloating', 'body pain', 'mood swings']",31,on time,True,2,PCOS,['birth control pills'],False,2024-09-08,2024-10-09
+31,"['body pain', 'cramps']",38,late,True,4,PCOS,"['acetaminophen', 'naproxen']",True,2024-09-04,2024-10-12
+39,"['nausea', 'body pain']",26,on time,True,5,PCOD,['birth control pills'],True,2024-09-09,2024-10-05
+34,"['bloating', 'cramps']",36,early,False,4,None,None,False,2024-09-08,2024-10-14
+40,"['nausea', 'mood swings', 'body pain']",36,early,True,3,PCOD,"['ibuprofen', 'naproxen']",False,2024-09-16,2024-10-22
+32,"['nausea', 'bloating', 'fatigue']",37,on time,False,2,None,None,False,2024-09-03,2024-10-10
+25,"['fatigue', 'headache']",31,early,False,2,None,None,False,2024-09-05,2024-10-06
+32,"['cramps', 'bloating', 'mood swings']",31,late,True,3,None,"['birth control pills', 'acetaminophen']",True,2024-09-11,2024-10-12
+34,['nausea'],23,on time,False,3,None,None,True,2024-08-29,2024-09-21
+32,['nausea'],22,late,True,1,None,"['acetaminophen', 'naproxen']",True,2024-09-05,2024-09-27
+33,"['bloating', 'mood swings', 'body pain']",30,early,False,4,None,None,False,2024-09-04,2024-10-04
+37,['headache'],34,late,False,2,None,None,False,2024-08-28,2024-10-01
+25,['mood swings'],22,on time,True,2,None,"['birth control pills', 'ibuprofen']",False,2024-09-03,2024-09-25
+31,"['fatigue', 'mood swings']",33,on time,True,4,PCOS,"['ibuprofen', 'birth control pills']",False,2024-08-31,2024-10-03
+31,"['bloating', 'fatigue', 'mood swings']",25,late,True,2,PCOS,"['naproxen', 'birth control pills']",True,2024-08-29,2024-09-23
+31,"['cramps', 'mood swings', 'nausea']",28,early,True,4,PCOS,['ibuprofen'],True,2024-09-02,2024-09-30
+23,"['fatigue', 'cramps', 'body pain']",28,early,True,5,PCOD,"['birth control pills', 'ibuprofen']",True,2024-09-02,2024-09-30
+37,"['fatigue', 'mood swings']",28,on time,False,4,None,None,False,2024-09-16,2024-10-14
+31,"['bloating', 'fatigue', 'body pain']",21,early,True,1,None,['birth control pills'],False,2024-09-07,2024-09-28
+36,['nausea'],32,on time,False,4,None,None,False,2024-09-05,2024-10-07
+32,"['nausea', 'body pain']",25,early,True,1,PCOS,"['ibuprofen', 'birth control pills']",True,2024-09-13,2024-10-08
+38,"['bloating', 'body pain', 'mood swings']",40,late,True,1,PCOD,"['naproxen', 'birth control pills']",False,2024-09-15,2024-10-25
+34,"['cramps', 'headache', 'fatigue']",32,late,False,4,None,None,False,2024-09-04,2024-10-06
+38,"['nausea', 'body pain']",39,early,False,3,None,None,True,2024-09-03,2024-10-12
+21,['body pain'],28,early,False,2,None,None,True,2024-09-08,2024-10-06
+39,"['bloating', 'headache', 'nausea']",38,late,True,2,None,"['birth control pills', 'acetaminophen']",True,2024-08-29,2024-10-06
+20,"['cramps', 'nausea', 'headache']",22,on time,True,5,PCOS,['birth control pills'],False,2024-09-10,2024-10-02
+38,"['body pain', 'headache', 'bloating']",33,late,True,2,PCOD,['naproxen'],True,2024-09-04,2024-10-07
+36,"['cramps', 'bloating', 'headache']",40,early,False,1,None,None,True,2024-09-05,2024-10-15
+23,['nausea'],22,late,True,2,None,"['ibuprofen', 'naproxen']",True,2024-09-10,2024-10-02
+39,"['fatigue', 'cramps']",37,late,True,5,PCOS,"['birth control pills', 'ibuprofen']",True,2024-09-01,2024-10-08
+35,['mood swings'],23,on time,True,1,None,"['birth control pills', 'acetaminophen']",False,2024-09-14,2024-10-07
+30,"['bloating', 'headache', 'mood swings']",26,late,True,4,PCOD,"['ibuprofen', 'birth control pills']",False,2024-09-04,2024-09-30
+35,"['mood swings', 'headache', 'cramps']",26,early,False,1,None,None,False,2024-09-05,2024-10-01
+29,['bloating'],24,early,False,2,None,None,True,2024-09-11,2024-10-05
+38,"['body pain', 'fatigue']",34,early,False,3,None,None,True,2024-09-06,2024-10-10
+28,['bloating'],32,on time,True,4,PCOD,['acetaminophen'],False,2024-08-29,2024-09-30
+39,['bloating'],22,late,True,3,PCOS,"['acetaminophen', 'naproxen']",False,2024-09-04,2024-09-26
+31,"['cramps', 'nausea', 'mood swings']",26,late,True,1,PCOD,['acetaminophen'],False,2024-09-13,2024-10-09
+24,"['nausea', 'fatigue']",30,late,True,1,None,['ibuprofen'],True,2024-09-03,2024-10-03
+37,"['fatigue', 'body pain']",35,late,False,2,None,None,False,2024-09-08,2024-10-13
+27,"['headache', 'cramps', 'mood swings']",22,on time,False,3,None,None,True,2024-09-16,2024-10-08
+40,"['fatigue', 'mood swings']",40,early,False,2,None,None,True,2024-09-12,2024-10-22
