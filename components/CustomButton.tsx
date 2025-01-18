@@ -1,23 +1,27 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleProp, StyleSheet, Text, TextStyle, TouchableOpacity, View, ViewStyle } from 'react-native'
 import React from 'react';
 import { Colors } from '@/constants/Colors';
 import { Fonts } from '@/constants/fonts';
 interface CustomButtonProps{
     title: string;
     handlePress: () => void;
+    style?: StyleProp<ViewStyle>;
+    textStyle?: StyleProp<TextStyle>;
 }
 
 const CustomButton: React.FC<CustomButtonProps> = ({
     title,
     handlePress,
+    style,
+    textStyle,
 }) => {
   return (
     <View>
         <TouchableOpacity 
         onPress={handlePress}
-        style={styles.custombutton}
+        style={[styles.custombutton, style]}
         >
-            <Text style={styles.custombtntext}>{title}</Text>
+        <Text style={[styles.custombtntext, textStyle]}>{title}</Text>
         </TouchableOpacity>
     </View>
   )

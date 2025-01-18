@@ -5,20 +5,20 @@
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: '#0a7ea4', // Example for light mode tint
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: '#0a7ea4', // Example for light mode tab icon
+    text: "#11181C",
+    background: "#fff",
+    tint: "#0a7ea4", // Example for light mode tint
+    icon: "#687076",
+    tabIconDefault: "#687076",
+    tabIconSelected: "#0a7ea4", // Example for light mode tab icon
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: '#fff', // Example for dark mode tint
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: '#fff', // Example for dark mode tab icon
+    text: "#ECEDEE",
+    background: "#151718",
+    tint: "#fff", // Example for dark mode tint
+    icon: "#9BA1A6",
+    tabIconDefault: "#9BA1A6",
+    tabIconSelected: "#fff", // Example for dark mode tab icon
   },
   primary: "#EFDFFF",
   primary_pink800: "#830047",
@@ -34,7 +34,7 @@ export const Colors = {
   black: {
     DEFAULT: "#000",
     100: "#1E1E2D",
-    200: "#232533",   
+    200: "#232533",
   },
   gray: {
     100: "#CDCDE0",
@@ -47,6 +47,10 @@ export const Colors = {
     brown: "#300000",
   },
   secondary_text: {
-    brownLight: "#977F7E"
+    brownLight: "#977F7E",
   },
+  follicularColor: "#72a591",
+  lutealColor: "#ed8959",
+  ovulationColor: "#2c4d77",
+  menstrualColor: "#de5952",
 };

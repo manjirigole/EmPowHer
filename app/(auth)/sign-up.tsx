@@ -10,7 +10,7 @@ import { useRouter } from 'expo-router'
 import { Ionicons } from '@expo/vector-icons'
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { firebaseauth, db } from '@/api/firebase';
-import {doc, setDoc} from 'firebase/firestore';
+import {doc, setDoc, getDoc} from 'firebase/firestore';
 const signup = () => {
    const router = useRouter();
     const [text, setText] = useState('');
@@ -18,7 +18,6 @@ const signup = () => {
     const [isPasswordVisible, setIsPasswordVisible] = useState(false);
     const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
-
   
     const togglePasswordVisibility = () => {
       setIsPasswordVisible(prevState => !prevState);
@@ -31,13 +30,23 @@ const signup = () => {
 
         //add user to firestore
         const userDocRef = doc(db, 'users', user.uid);
+        const docSnap = await getDoc(userDocRef);
+        if (docSnap.exists()){
+          alert('user already exists.');
+          return;
+        }
         await setDoc(userDocRef,{
           email: user.email,
           uid: user.uid,
+          username: username,
           //add other user information here
         });
         console.log('user successfully added to firestore!');
-        router.push('/onboarding/NameStep');
+        const usernameInitial = username[0].toUpperCase();
+        router.push({
+          pathname: '/onboarding/NameStep',
+          params: {username: username, initial: usernameInitial}
+        });
       } catch (error) {
         console.log( 'Error adding user to firestore: ',error);
         //handle sign up errors here

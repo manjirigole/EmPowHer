@@ -20,6 +20,7 @@ const SignIn = () => {
   const [isPasswordVisible, setIsPasswordVisible] = useState<boolean>(false);
   const [initializing, setInitializing] = useState<boolean>(true);
   const [user, setUser] = useState<User | null>(null);
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false); // Add state for login status
 
   // Handle user state changes
   function handleAuthStateChanged(user: User | null) {
@@ -39,27 +40,43 @@ const SignIn = () => {
   };
 
   const handleLogin = async () => {
-    try{
+    try {
       const userCredential = await signInWithEmailAndPassword(firebaseauth, email, password);
       const user = userCredential.user;
 
-      //check if the user exists in firestore
+      // Check if the user exists in firestore
       const userDoc = await getDoc(doc(db, 'users', user.uid));
-      if (!userDoc.exists()){
-        console.error('No such user found in firestore!');
-        //handle case where user does not exists in firestore
-        //you can choose to redirect to registration or show an error message
+      if (!userDoc.exists()) {
+        console.error('User not found in our records.');
+        // Handle case where user does not exist in firestore
         return;
       }
 
-      router.push('/periodTracker/home');
+      // Extract the username from the firestore document
+      const userData = userDoc.data();
+      const username = userData.username || 'Guest'; 
+
+      // Extract initial from email or username
+      const initial = username[0]?.toUpperCase() || email[0]?.toUpperCase();
+
+      console.log(`Username: ${username}, Initial: ${initial}`);
+
+      // Set logged-in state to true
+      setIsLoggedIn(true);
+
+      // Navigate to the home screen with user info
+      router.push({
+        pathname: '/periodTracker/home',
+        params: { initial, username },
+      });
     } catch (error) {
       console.error(error);
-      //handle login errors here
+      alert('Failed to log in. Please try again.');
+      // Handle login errors here
     }
   };
 
-  if (!user) {
+  if (!isLoggedIn) {
     return (
       <GestureHandlerRootView style={{ flex: 1 }}>
         <SafeAreaProvider>
@@ -110,6 +127,7 @@ const SignIn = () => {
       </GestureHandlerRootView>
     );
   }
+
   return (
     <View style={styles.containersignin}>
       <Text style={styles.welcometext}>Welcome back!!</Text>
@@ -171,15 +189,15 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     marginLeft: 5,
   },
-  containersignin:{
+  containersignin: {
     backgroundColor: Colors.primary,
     flex: 1,
     padding: 15,
     justifyContent: "center",
     alignItems: "center",
-    textAlign: "center"  ,
+    textAlign: "center",
   },
-  welcometext:{
+  welcometext: {
     color: Colors.primary_pink800,
     fontFamily: Fonts.cbold,
     fontSize: 25,

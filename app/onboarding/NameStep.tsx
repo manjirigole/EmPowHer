@@ -1,5 +1,5 @@
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ProgressSteps, ProgressStep } from 'react-native-progress-steps';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import CustomTextInput from '@/components/CustomTextInput';
@@ -7,12 +7,22 @@ import { Colors } from '@/constants/Colors';
 import { Fonts } from '@/constants/fonts';
 import { RadioButton } from 'react-native-paper';
 import { Calendar } from 'react-native-calendars';
-import { withDecay } from 'react-native-reanimated';
-import { router } from 'expo-router';
-const NameStep = () => {
-  const [text, setText] = useState('');
+import { useRouter } from 'expo-router';
+
+
+const NameStep = ({username}: {username: string}) => {
+  const [text, setText] = useState(username);
   const [selectedValue, setSelectedValue] = useState('option1');
-  const [selectedDate, setSelectedDate] = useState('');
+  const [selectedDate, setSelectedDate] = useState(''); 
+  const router = useRouter();
+
+
+  useEffect(() => {
+    if (username) {
+      setText(username);
+    }
+  }, [username]);
+
   return (
     <GestureHandlerRootView style={styles.gestureHandler}>
       <SafeAreaView style={styles.container}>

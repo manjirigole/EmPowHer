@@ -1,48 +1,20 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { Tabs } from 'expo-router'
-
+import { StyleSheet } from "react-native";
+import React from "react";
+import Home from "../periodTracker/home";
+import Profile from "../(auth)/profile";
+import Diary from "../diary/diary";
+import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+const Tab = createBottomTabNavigator();
 const _layout = () => {
   return (
-    <>
-    <Tabs
-    screenOptions={{
-      tabBarActiveTintColor: "white",
-      tabBarInactiveBackgroundColor: "blue",
-      tabBarShowLabel: false,
-      tabBarStyle: {
-        backgroundColor: "pink",
-        borderTopWidth: 1,
-        borderTopColor: "green",
-        height: 84,
-      },
-    }}
-    />
-    <Tabs.Screen
-    name="index"
-    options={{
-      title: "Home",
-      headerShown: false,
-    }}
-    ></Tabs.Screen>
-    <Tabs.Screen
-    name="bookmark"
-    options={{
-      title: "Bookmark",
-      headerShown: false,
-    }}
-    ></Tabs.Screen>
-    <Tabs.Screen
-    name="profile"
-    options={{
-      title: "profile",
-      headerShown: false,
-    }}
-    ></Tabs.Screen>
-    </>
-  )
-}
+    <Tab.Navigator>
+      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Profile" component={Profile} />
+      <Tab.Screen name="Diary" component={Diary} />
+    </Tab.Navigator>
+  );
+};
 
-export default _layout
+export default _layout;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
