@@ -6,7 +6,7 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "@/constants/Colors";
 import { Fonts } from "@/constants/fonts";
@@ -19,7 +19,8 @@ import { Ionicons } from "@expo/vector-icons";
 import CircularTracker from "@/components/CircularTracker";
 import Blogs from "../blogs/blogs";
 import CustomButton from "@/components/CustomButton";
-
+import { firebaseauth, doc, getDoc, db, setDoc } from "../../api/firebase";
+import { Timestamp, collection, addDoc } from "firebase/firestore";
 type RootTabParamList = {
   Home: undefined;
   Profile: undefined;
@@ -33,6 +34,96 @@ type HomeScreenProps = {
 const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [startDate, setStartDate] = useState(new Date());
+  const [cycleLength, setCyclelength] = useState(28);
+  const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
+
+  const handleLogPeriod = async () => {
+    console.log("logging period...");
+
+    // Validate cycle length
+    if (!Number.isInteger(cycleLength) || cycleLength <= 0) {
+      console.error("invalid cycle length:", cycleLength);
+      return;
+    }
+
+    // Ensure startDate is a Date object
+    let validStartDate;
+    if (startDate instanceof Timestamp) {
+      validStartDate = startDate.toDate();
+    } else if (startDate instanceof Date && !isNaN(startDate.getTime())) {
+      validStartDate = startDate;
+    } else {
+      console.error(
+        "Invalid start date format. Please provide a valid JavaScript Date object or a Firebase Timestamp"
+      );
+      return;
+    }
+
+    // Validate that validStartDate is a proper Date object
+    if (isNaN(validStartDate.getTime())) {
+      console.error("Invalid start date", validStartDate);
+      return;
+    }
+
+    const user = firebaseauth.currentUser;
+    if (user) {
+      console.log("user is authenticated", user.uid);
+      try {
+        console.log("Start date:", validStartDate);
+
+        const uid = user.uid;
+        const userProfileRef = doc(db, "userProfiles", uid);
+        const userProfileSnap = await getDoc(userProfileRef);
+
+        if (userProfileSnap.exists()) {
+          const userProfile = userProfileSnap.data();
+          const cycleLength = userProfile.cycleLength;
+
+          // Calculate ovulation date and next period date
+          const ovulationDate = new Date(validStartDate);
+          ovulationDate.setDate(
+            ovulationDate.getDate() + Math.floor(cycleLength / 2)
+          );
+
+          const nextPeriodDate = new Date(validStartDate);
+          nextPeriodDate.setDate(nextPeriodDate.getDate() + cycleLength);
+
+          // Create period data for 5 days starting from Day 1
+          const periodDays = [];
+          for (let i = 0; i < 5; i++) {
+            const periodDate = new Date(validStartDate);
+            periodDate.setDate(validStartDate.getDate() + i); // Calculate each day
+            periodDays.push({
+              day: i + 1, // Day 1, Day 2, etc.
+              date: Timestamp.fromDate(periodDate),
+            });
+          }
+          // Create the periodData object with calculated dates
+          const periodData = {
+            userId: uid,
+            start_date: Timestamp.fromDate(validStartDate),
+            cycle_length: cycleLength,
+            ovulation_date: Timestamp.fromDate(ovulationDate),
+            next_period_date: Timestamp.fromDate(nextPeriodDate),
+            period_days: periodDays, //save 5 days of period
+          };
+
+          // Save the data in the periodData collection with the userId in the path
+          await setDoc(doc(db, "periodData", uid), periodData);
+
+          console.log("Period data saved successfully!");
+        } else {
+          console.log("User profile does not exist.");
+        }
+      } catch (error) {
+        console.error("Failed to save period data:", error);
+      }
+    } else {
+      console.log("User is not authenticated.");
+    }
+  };
+
   const initial = searchParams.get("initial") || "";
 
   const handleSymptoms = () => {
@@ -72,7 +163,10 @@ const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
 
         {/* Log Period Button */}
         <View style={styles.logPeriodContainer}>
-          <TouchableOpacity style={styles.logPeriodBtn}>
+          <TouchableOpacity
+            style={styles.logPeriodBtn}
+            onPress={handleLogPeriod}
+          >
             <Ionicons
               name="add-circle-outline"
               color={Colors.primary_pink800}

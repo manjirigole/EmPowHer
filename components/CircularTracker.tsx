@@ -1,7 +1,8 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import Svg, { Circle } from "react-native-svg";
+import React, { useState, useEffect } from "react";
+import Svg, { Circle, Text as SvgText } from "react-native-svg";
 import { Colors } from "@/constants/Colors";
+
 const CircularTracker = () => {
   return (
     <View style={styles.container}>

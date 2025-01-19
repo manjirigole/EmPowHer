@@ -1,21 +1,22 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
-import React, { useEffect, useState } from 'react';
-import { ProgressSteps, ProgressStep } from 'react-native-progress-steps';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import CustomTextInput from '@/components/CustomTextInput';
-import { Colors } from '@/constants/Colors';
-import { Fonts } from '@/constants/fonts';
-import { RadioButton } from 'react-native-paper';
-import { Calendar } from 'react-native-calendars';
-import { useRouter } from 'expo-router';
+import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import React, { useEffect, useState } from "react";
+import { ProgressSteps, ProgressStep } from "react-native-progress-steps";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import CustomTextInput from "@/components/CustomTextInput";
+import { Colors } from "@/constants/Colors";
+import { Fonts } from "@/constants/fonts";
+import { RadioButton } from "react-native-paper";
+import { useRouter } from "expo-router";
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "@/api/firebase";
+import { getAuth } from "firebase/auth";
 
-
-const NameStep = ({username}: {username: string}) => {
-  const [text, setText] = useState(username);
-  const [selectedValue, setSelectedValue] = useState('option1');
-  const [selectedDate, setSelectedDate] = useState(''); 
+const NameStep = ({ username }: { username: string }) => {
+  const [text, setText] = useState(username); // For username
+  const [age, setAge] = useState(""); // For age
+  const [cycleLength, setCycleLength] = useState(""); // For cycle length
+  const [selectedValue, setSelectedValue] = useState("option1"); // For tracker type
   const router = useRouter();
-
 
   useEffect(() => {
     if (username) {
@@ -23,50 +24,106 @@ const NameStep = ({username}: {username: string}) => {
     }
   }, [username]);
 
+  // Handle the user profile data submission
+  const handleSubmit = async () => {
+    const auth = getAuth();
+    const user = auth.currentUser;
+
+    if (user) {
+      try {
+        console.log("Authenticated user: ", user);
+
+        // Validate age and cycleLength before saving
+        const parsedAge = parseInt(age, 10);
+        const parsedCycleLength = parseInt(cycleLength, 10);
+
+        // Ensure parsed values are valid numbers
+        if (isNaN(parsedAge) || isNaN(parsedCycleLength)) {
+          console.log("Invalid input for age or cycle length");
+          return;
+        }
+
+        const userProfileData = {
+          username: text,
+          age: parsedAge,
+          trackerType:
+            selectedValue === "option1"
+              ? "Period Tracker"
+              : "Pregnancy Tracker",
+          cycleLength: parsedCycleLength,
+          userId: user.uid,
+        };
+
+        console.log("Data to save", userProfileData);
+
+        // Save to Firestore
+        await setDoc(doc(db, "userProfiles", user.uid), userProfileData);
+        console.log("User profile created successfully!");
+      } catch (error) {
+        console.log("Error saving user profile: ", error);
+      }
+    } else {
+      console.log("No authenticated user found!");
+    }
+  };
+
   return (
     <GestureHandlerRootView style={styles.gestureHandler}>
       <SafeAreaView style={styles.container}>
-        <ProgressSteps progressBarColor={Colors.secondary[700]} 
-        activeStepIconColor={Colors.secondary[700]}
-        activeStepIconBorderColor={Colors.secondary[700]}
-        activeStepNumColor={Colors.primary}
-        completedStepIconColor={Colors.secondary[700]}
-        completedProgressBarColor={Colors.secondary[700]}
+        <ProgressSteps
+          progressBarColor={Colors.secondary[700]}
+          activeStepIconColor={Colors.secondary[700]}
+          activeStepIconBorderColor={Colors.secondary[700]}
+          activeStepNumColor={Colors.primary}
+          completedStepIconColor={Colors.secondary[700]}
+          completedProgressBarColor={Colors.secondary[700]}
         >
           {/* Progress Step 1 */}
-          <ProgressStep nextBtnTextStyle={styles.nextBtnText} >
+          <ProgressStep nextBtnTextStyle={styles.nextBtnText}>
             <View style={styles.stepContent}>
-              <Text style={styles.header}>What would you like us to call you?</Text>
+              <Text style={styles.header}>
+                What would you like us to call you?
+              </Text>
               <Text style={styles.name}>Enter your Name</Text>
               <CustomTextInput
                 value={text}
-                placeholder='Name'
+                placeholder="Name"
                 handleChangeText={setText}
               />
             </View>
           </ProgressStep>
+
           {/* Progress Step 2 */}
-          <ProgressStep nextBtnTextStyle={styles.nextBtnText} previousBtnTextStyle={styles.prevBtnText}>
+          <ProgressStep
+            nextBtnTextStyle={styles.nextBtnText}
+            previousBtnTextStyle={styles.prevBtnText}
+          >
             <View style={styles.stepContent}>
               <Text style={styles.header}>What is your age?</Text>
               <Text style={styles.name}>Enter your Age</Text>
               <CustomTextInput
-                value={text}
-                placeholder='Age'
-                handleChangeText={setText}
+                value={age}
+                placeholder="Age"
+                handleChangeText={setAge} // Use setAge to update the age state
               />
             </View>
           </ProgressStep>
+
           {/* Progress Step 3 */}
-          <ProgressStep nextBtnTextStyle={styles.nextBtnText} previousBtnTextStyle={styles.prevBtnText}>
+          <ProgressStep
+            nextBtnTextStyle={styles.nextBtnText}
+            previousBtnTextStyle={styles.prevBtnText}
+          >
             <View style={styles.stepContent}>
               <Text style={styles.header}>What is your goal?</Text>
               <View style={styles.radioGroup}>
                 <View style={styles.radioBtn}>
                   <RadioButton
                     value="option1"
-                    status={selectedValue === 'option1' ? 'checked' : 'unchecked'}
-                    onPress={() => setSelectedValue('option1')}
+                    status={
+                      selectedValue === "option1" ? "checked" : "unchecked"
+                    }
+                    onPress={() => setSelectedValue("option1")}
                     color="#A7044F"
                   />
                   <Text style={styles.radioLabel}>Period Tracker</Text>
@@ -74,8 +131,10 @@ const NameStep = ({username}: {username: string}) => {
                 <View style={styles.radioBtn}>
                   <RadioButton
                     value="option2"
-                    status={selectedValue === 'option2' ? 'checked' : 'unchecked'}
-                    onPress={() => setSelectedValue('option2')}
+                    status={
+                      selectedValue === "option2" ? "checked" : "unchecked"
+                    }
+                    onPress={() => setSelectedValue("option2")}
                     color="#A7044F"
                   />
                   <Text style={styles.radioLabel}>Pregnancy Tracker</Text>
@@ -83,31 +142,25 @@ const NameStep = ({username}: {username: string}) => {
               </View>
             </View>
           </ProgressStep>
+
           {/* Progress Step 4 */}
-          <ProgressStep nextBtnTextStyle={styles.nextBtnText} previousBtnTextStyle={styles.prevBtnText} onSubmit={() => router.push('./NotificationStep')}>
-            <View>
-              <Text style={styles.headerCalendar}>Your last menstrual date</Text>
+          <ProgressStep
+            nextBtnTextStyle={styles.nextBtnText}
+            previousBtnTextStyle={styles.prevBtnText}
+            onSubmit={() => {
+              handleSubmit();
+              router.push("./NotificationStep");
+            }}
+          >
+            <View style={styles.stepContent}>
+              <Text style={styles.header}>What is your cycle length</Text>
+              <Text style={styles.name}>Enter your cycle length in days</Text>
+              <CustomTextInput
+                value={cycleLength}
+                placeholder="Cycle Length"
+                handleChangeText={setCycleLength} // Use setCycleLength to update the cycleLength state
+              />
             </View>
-          <Calendar style={styles.calendar}
-          cuurent={'2024-10.01'}
-          onDayPress={day => {
-            console.log('selected day', day);
-            setSelectedDate(day.dateString)
-          }}
-          markedDates={{
-            [selectedDate]: { selected: true, marked: true, selectedColor: Colors.primary_pink800 }
-          }}
-          theme={{
-            calendarBackground: Colors.secondary[500],
-            backgroundColor: Colors.secondary[500],
-            color: Colors.primary_text,
-            monthTextColor: Colors.primary_text.brown,
-            dayTextColor: Colors.primary_text.brown,
-            arrowColor: Colors.primary_text.brown,
-            todayTextColor: Colors.primary_text.brown,
-            selectedDayTextColor: Colors.primary,
-          }}
-          />
           </ProgressStep>
         </ProgressSteps>
       </SafeAreaView>
@@ -124,12 +177,12 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.primary,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   stepContent: {
-    justifyContent: 'center',
-    alignContent: 'center',
+    justifyContent: "center",
+    alignContent: "center",
     borderRadius: 10,
     width: 300,
     backgroundColor: Colors.secondary[500],
@@ -140,7 +193,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
     height: 50,
-    textAlign: 'center',
+    textAlign: "center",
     backgroundColor: Colors.secondary[700],
     color: Colors.primary,
     paddingTop: 15,
@@ -149,7 +202,7 @@ const styles = StyleSheet.create({
   },
   name: {
     color: Colors.primary_text.brown,
-    fontWeight: '600',
+    fontWeight: "600",
     fontSize: 15,
     paddingTop: 25,
     paddingLeft: 15,
@@ -163,13 +216,13 @@ const styles = StyleSheet.create({
     paddingBottom: 50,
   },
   radioGroup: {
-    flexDirection: 'column',
+    flexDirection: "column",
     paddingLeft: 10,
     marginTop: 20,
   },
   radioBtn: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     marginBottom: 10,
   },
   radioLabel: {
@@ -177,10 +230,10 @@ const styles = StyleSheet.create({
     marginLeft: 8,
     fontWeight: 600,
   },
-  progressbar:{
+  progressbar: {
     color: Colors.primary_pink800,
   },
-  calendar:{
+  calendar: {
     height: 380,
     width: 300,
     marginLeft: 50,
@@ -190,11 +243,11 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.secondary[500],
     color: Colors.primary_text.brown,
   },
-  headerCalendar:{
+  headerCalendar: {
     borderTopLeftRadius: 10,
     borderTopRightRadius: 10,
     height: 50,
-    textAlign: 'center',
+    textAlign: "center",
     backgroundColor: Colors.secondary[700],
     color: Colors.primary,
     paddingTop: 15,
