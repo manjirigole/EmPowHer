@@ -6,7 +6,9 @@ import {
   StyleSheet,
   TouchableOpacity,
 } from "react-native";
+import moment from "moment";
 import { Colors } from "@/constants/Colors";
+
 interface DateItem {
   id: number;
   date: string;
@@ -14,28 +16,24 @@ interface DateItem {
   dayOfWeek: string;
 }
 
-const HorizontalCalendar: React.FC = () => {
-  // Generate a sample array of dates for the calendar
-  const today = new Date();
-  const startOfWeek = new Date(today);
-  const dates: DateItem[] = Array.from({ length: 30 }, (_, i) => {
-    const date = new Date(startOfWeek);
-    date.setDate(today.getDate() + i);
-    return {
-      id: i,
-      date: date.toDateString(),
-      day: date.getDate(),
-      dayOfWeek: date.toLocaleString("default", { weekday: "short" }),
-    };
-  });
+interface HorizontalCalendarProps {
+  days?: number[];
+  highlightedDates: Date[]; // Pass highlighted dates directly here
+}
 
-  // State for selected date, allowing both null and string
-  const [selectedDate, setSelectedDate] = useState<string>(
-    today.toDateString()
+const HorizontalCalendar: React.FC<HorizontalCalendarProps> = ({
+  highlightedDates,
+}) => {
+  const today = moment();
+  const dates = Array.from({ length: 30 }, (_, i) =>
+    moment(today).add(i, "days")
   );
 
-  const handleDatePress = (date: string) => {
-    setSelectedDate(date);
+  const isHighlighted = (date: moment.Moment) => {
+    return highlightedDates.some((highlightedDate) => {
+      const highlightedMoment = moment(highlightedDate);
+      return highlightedMoment.isSame(date, "day");
+    });
   };
 
   return (
@@ -43,35 +41,31 @@ const HorizontalCalendar: React.FC = () => {
       <FlatList
         data={dates}
         horizontal
-        keyExtractor={(item) => item.id.toString()}
+        keyExtractor={(item) => item.format("YYYY-MM-DD")}
         contentContainerStyle={styles.calendar}
         showsHorizontalScrollIndicator={false}
-        renderItem={({ item }) => (
-          <TouchableOpacity
-            style={[
-              styles.dateContainer,
-              selectedDate === item.date && styles.selectedDateContainer,
-            ]}
-            onPress={() => handleDatePress(item.date)}
-          >
-            <Text
+        renderItem={({ item }) => {
+          const highlighted = isHighlighted(item);
+          return (
+            <View
               style={[
-                styles.dateText,
-                selectedDate === item.date && styles.selectedDateText,
+                styles.dateContainer,
+                highlighted && styles.highlightedDate,
               ]}
             >
-              {item.day}
-            </Text>
-            <Text
-              style={[
-                styles.dayOfWeekText,
-                selectedDate === item.date && styles.selectedDateText,
-              ]}
-            >
-              {item.dayOfWeek}
-            </Text>
-          </TouchableOpacity>
-        )}
+              <Text
+                style={[styles.dateText, highlighted && styles.highlightedText]}
+              >
+                {item.format("DD")}
+              </Text>
+              <Text
+                style={[styles.dayText, highlighted && styles.highlightedText]}
+              >
+                {item.format("ddd")}
+              </Text>
+            </View>
+          );
+        }}
       />
     </View>
   );
@@ -81,9 +75,9 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: Colors.primary,
     paddingTop: 20,
-    borderBottomWidth: 1,
+    borderBottomWidth: 0,
     borderBottomColor: "#ddd",
-    alignItems: "center", // Center horizontally
+    alignItems: "center",
   },
   calendar: {
     padding: 10,
@@ -97,20 +91,19 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     alignItems: "center",
   },
-  selectedDateContainer: {
-    backgroundColor: Colors.primary_pink800,
-  },
   dateText: {
     fontSize: 16,
     color: "#333",
   },
-  dayOfWeekText: {
+  dayText: {
     fontSize: 12,
-    color: "#666",
+    color: Colors.primary_text.brown,
   },
-  selectedDateText: {
+  highlightedDate: {
+    backgroundColor: Colors.primary_pink800, // Highlight color for period days
+  },
+  highlightedText: {
     color: Colors.primary,
-    fontWeight: "600", // Fixed fontWeight value
   },
 });
 

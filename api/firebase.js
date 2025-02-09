@@ -11,6 +11,10 @@ import {
   Timestamp as FirestoreTimestamp,
   collection,
   addDoc,
+  getDocs,
+  query,
+  where,
+  Timestamp,
 } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -66,8 +70,20 @@ const addPeriodData = async (start_date) => {
           cycle_length: cycleLength,
           ovulation_date: Timestamp.fromDate(ovulationDate),
           next_period_date: Timestamp.fromDate(nextPeriodDate),
+          period_days: [], //initialize period_days asab empty array
         };
-
+        //create period days array
+        const periodDaysArray = [];
+        for (let i = 0; i < 7; i++) {
+          //assuming a 7 day period. adjust as needed
+          const periodDayDate = new Date(start_date);
+          periodDayDate.setDate(periodDayDate.getDate() + i);
+          periodDaysArray.push({
+            date: Timestamp.fromDate(periodDayDate),
+            day: i + 1, //day number with the period
+          });
+        }
+        periodData.period_days = periodDaysArray;
         // Save the data in the periodData collection with a unique ID
         await addDoc(collection(db, "periodData"), periodData);
 
@@ -82,6 +98,29 @@ const addPeriodData = async (start_date) => {
     console.log("User is not authenticated.");
   }
 };
+const fetchPeriodData = async (userId) => {
+  try {
+    const periodDataRef = collection(db, "periodData");
+    //create a query to fetch only the current user's data
+    const q = query(periodDataRef, where("userId", "==", userId));
+    const querySnapshot = await getDocs(q);
+
+    const userPeriodData = [];
+    querySnapshot.forEach((doc) => {
+      userPeriodData.push({ id: doc.id, ...doc.data() });
+    });
+
+    if (userPeriodData.length > 0) {
+      return userPeriodData[0]; // Return the latest period data
+    } else {
+      console.log("No period data found for the user.");
+      return null;
+    }
+  } catch (error) {
+    console.error("Error fetching period data:", error);
+    throw error;
+  }
+};
 export {
   firebaseauth,
   db,
@@ -90,5 +129,6 @@ export {
   setDoc,
   getDoc,
   addPeriodData,
+  fetchPeriodData,
   FirestoreTimestamp,
 };

@@ -2,11 +2,10 @@ import {
   StyleSheet,
   Text,
   View,
-  Image,
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Colors } from "@/constants/Colors";
 import { Fonts } from "@/constants/fonts";
@@ -20,7 +19,9 @@ import CircularTracker from "@/components/CircularTracker";
 import Blogs from "../blogs/blogs";
 import CustomButton from "@/components/CustomButton";
 import { firebaseauth, doc, getDoc, db, setDoc } from "../../api/firebase";
-import { Timestamp, collection, addDoc } from "firebase/firestore";
+import { Timestamp, collection } from "firebase/firestore";
+4;
+import moment from "moment";
 type RootTabParamList = {
   Home: undefined;
   Profile: undefined;
@@ -36,7 +37,44 @@ const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
   const searchParams = useSearchParams();
   const [startDate, setStartDate] = useState(new Date());
   const [cycleLength, setCyclelength] = useState(28);
+  const [highlightedDays, setHighlightedDays] = useState<Date[]>([]);
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
+  const [userId, setUserId] = useState<string | null>(null);
+  const periodDays = [1, 2, 3, 4, 5];
+  const daysInMonth = [
+    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+    22, 23, 24, 25, 26, 27, 28, 29, 30,
+  ];
+  useEffect(() => {
+    const calculateHighlightedDates = () => {
+      const periodStartDate = moment(startDate);
+      const highlightedDatesArray = [];
+
+      //add the 5 period days to the highlighteddates array
+      for (let i = 0; i < 5; i++) {
+        highlightedDatesArray.push(
+          moment(periodStartDate).add(i, "days").toDate()
+        );
+      }
+      setHighlightedDays(highlightedDatesArray);
+    };
+    const fetchUserId = async () => {
+      const user = firebaseauth.currentUser;
+      if (user) {
+        setUserId(user.uid);
+      }
+    };
+    fetchUserId();
+    calculateHighlightedDates();
+  }, [startDate]);
+  //fix this logic
+  if (!userId) {
+    return (
+      <View style={styles.container}>
+        <Text>Loading...</Text>
+      </View>
+    );
+  }
 
   const handleLogPeriod = async () => {
     console.log("logging period...");
@@ -153,12 +191,21 @@ const Home: React.FC<HomeScreenProps> = ({ navigation }) => {
 
         {/* Horizontal Calendar */}
         <View>
-          <HorizontalCalendar />
+          <HorizontalCalendar
+            days={[1, 2, 3, 4, 5]}
+            //highlightedDays={periodDays}
+            highlightedDates={highlightedDays}
+          />
         </View>
 
         {/* Circular Tracker */}
         <View style={styles.card}>
-          <CircularTracker />
+          {userId && (
+            <CircularTracker
+              userId={userId}
+              onHighlightDays={setHighlightedDays}
+            />
+          )}
         </View>
 
         {/* Log Period Button */}
