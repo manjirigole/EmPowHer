@@ -1,20 +1,20 @@
-import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
-import React, { useEffect } from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { StyleSheet, Text, View, ScrollView, Image } from "react-native";
+import React, { useEffect } from "react";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "../constants";
-import CustomButton from '@/components/CustomButton';
-import { useNavigation } from '@react-navigation/native'; // Import useNavigation
-import { Colors } from '@/constants/Colors';
-import { Fonts } from '@/constants/fonts';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { useRouter } from 'expo-router';
+import CustomButton from "@/components/CustomButton";
+import { useNavigation } from "@react-navigation/native"; // Import useNavigation
+import { Colors } from "@/constants/Colors";
+import { Fonts } from "@/constants/fonts";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { useRouter } from "expo-router";
 const Welcome = () => {
   const router = useRouter();
   const navigation = useNavigation(); // Use navigation hook
 
   useEffect(() => {
     navigation.setOptions({
-      headerShown: false, // Hide the 
+      headerShown: false, // Hide the
       footerShown: false,
     });
   }, [navigation]);
@@ -22,24 +22,26 @@ const Welcome = () => {
   return (
     <GestureHandlerRootView>
       <SafeAreaView style={styles.container}>
-      <ScrollView contentContainerStyle={styles.scrollContainer}>
-        <View style={styles.card}>
-          <Image
-            style={styles.homescreen_image}
-            source={images.homescreen_lady}
-            resizeMode='contain'
-          />
-          <Text style={styles.line1}>Empowering women with</Text>
-          <Text style={styles.line2}>EmPowHer</Text>
-          <Text style={styles.desc}>Easily track your menstrual cycles, predict your next period, and stay informed about your body's natural rhythms.</Text>
-          <CustomButton
-            title="Continue with Email" 
-            handlePress={() => router.push('/(auth)/sign-in')}
-            
-          />
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+        <ScrollView contentContainerStyle={styles.scrollContainer}>
+          <View style={styles.card}>
+            <Image
+              style={styles.homescreen_image}
+              source={images.homescreen_lady}
+              resizeMode="contain"
+            />
+            <Text style={styles.line1}>Empowering women with</Text>
+            <Text style={styles.line2}>EmPowHer</Text>
+            <Text style={styles.desc}>
+              Easily track your menstrual cycles, predict your next period, and
+              stay informed about your body's natural rhythms.
+            </Text>
+            <CustomButton
+              title="Continue with Email"
+              handlePress={() => router.push("/(auth)/sign-in")}
+            />
+          </View>
+        </ScrollView>
+      </SafeAreaView>
     </GestureHandlerRootView>
   );
 };

@@ -1,8 +1,8 @@
-import { StyleSheet } from 'react-native'
-import React, {useState} from 'react'
-import { useFonts } from 'expo-font'
-import { Stack} from 'expo-router'
-
+import { StyleSheet } from "react-native";
+import React, { useState } from "react";
+import { useFonts } from "expo-font";
+import { Stack } from "expo-router";
+import { HeaderShownContext } from "@react-navigation/elements";
 
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
@@ -54,21 +54,21 @@ const RootLayout = () => {
     "Inter_28pt-Regular": require("../assets/fonts/Inter/static/Inter_28pt-Regular.ttf"),
     "Inter_28pt-SemiBold": require("../assets/fonts/Inter/static/Inter_28pt-SemiBold.ttf"),
     "Inter_28pt-Thin": require("../assets/fonts/Inter/static/Inter_28pt-Thin.ttf"),
-    
-  })
+  });
   return (
     <>
-    <Stack>
-      <Stack.Screen name="(tabs)" options={{headerShown: false}}/>
-      <Stack.Screen name="(auth)" options={{headerShown: false}}/>
-      <Stack.Screen name="index" options={{headerShown: false}}/>
-      <Stack.Screen name="onboarding" options={{headerShown: false}}/>
-      <Stack.Screen name="periodTracker" options={{headerShown: false}}/>
-    </Stack>
+      <Stack>
+        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="(auth)" options={{ headerShown: false }} />
+        <Stack.Screen name="index" options={{ headerShown: false }} />
+        <Stack.Screen name="onboarding" options={{ headerShown: false }} />
+        <Stack.Screen name="periodTracker" options={{ headerShown: false }} />
+        <Stack.Screen name="symptomsTracker" options={{ headerShown: false }} />
+      </Stack>
     </>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});

@@ -1,22 +1,26 @@
 // sign-in.tsx
 
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import React, { useEffect, useState } from 'react';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
-import { Colors } from '@/constants/Colors';
-import { Fonts } from '@/constants/fonts';
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
-import CustomTextInput from '@/components/CustomTextInput';
-import CustomButton from '@/components/CustomButton';
-import { useRouter } from 'expo-router';
-import { Ionicons } from '@expo/vector-icons';
-import { signInWithEmailAndPassword, onAuthStateChanged, User } from 'firebase/auth';
-import { firebaseauth, doc, getDoc, db } from '@/api/firebase'; // Adjust the import path as needed
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import React, { useEffect, useState } from "react";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import { Colors } from "@/constants/Colors";
+import { Fonts } from "@/constants/fonts";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
+import CustomTextInput from "@/components/CustomTextInput";
+import CustomButton from "@/components/CustomButton";
+import { useRouter } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
+import {
+  signInWithEmailAndPassword,
+  onAuthStateChanged,
+  User,
+} from "firebase/auth";
+import { firebaseauth, doc, getDoc, db } from "@/api/firebase"; // Adjust the import path as needed
 
 const SignIn = () => {
   const router = useRouter();
-  const [email, setEmail] = useState<string>('');
-  const [password, setPassword] = useState<string>('');
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
   const [isPasswordVisible, setIsPasswordVisible] = useState<boolean>(false);
   const [initializing, setInitializing] = useState<boolean>(true);
   const [user, setUser] = useState<User | null>(null);
@@ -41,20 +45,24 @@ const SignIn = () => {
 
   const handleLogin = async () => {
     try {
-      const userCredential = await signInWithEmailAndPassword(firebaseauth, email, password);
+      const userCredential = await signInWithEmailAndPassword(
+        firebaseauth,
+        email,
+        password
+      );
       const user = userCredential.user;
 
       // Check if the user exists in firestore
-      const userDoc = await getDoc(doc(db, 'users', user.uid));
+      const userDoc = await getDoc(doc(db, "users", user.uid));
       if (!userDoc.exists()) {
-        console.error('User not found in our records.');
+        console.error("User not found in our records.");
         // Handle case where user does not exist in firestore
         return;
       }
 
       // Extract the username from the firestore document
       const userData = userDoc.data();
-      const username = userData.username || 'Guest'; 
+      const username = userData.username || "Guest";
 
       // Extract initial from email or username
       const initial = username[0]?.toUpperCase() || email[0]?.toUpperCase();
@@ -66,12 +74,12 @@ const SignIn = () => {
 
       // Navigate to the home screen with user info
       router.push({
-        pathname: '/periodTracker/home',
+        pathname: "/periodTracker/home",
         params: { initial, username },
       });
     } catch (error) {
       console.error(error);
-      alert('Failed to log in. Please try again.');
+      alert("Failed to log in. Please try again.");
       // Handle login errors here
     }
   };
@@ -101,9 +109,12 @@ const SignIn = () => {
                 handleChangeText={setPassword}
                 secureTextEntry={!isPasswordVisible}
               />
-              <TouchableOpacity onPress={togglePasswordVisibility} style={styles.icon}>
+              <TouchableOpacity
+                onPress={togglePasswordVisibility}
+                style={styles.icon}
+              >
                 <Ionicons
-                  name={isPasswordVisible ? 'eye-off' : 'eye'}
+                  name={isPasswordVisible ? "eye-off" : "eye"}
                   size={23}
                   color={Colors.primary_pink800}
                 />
@@ -113,14 +124,18 @@ const SignIn = () => {
               <Text style={{ textAlign: "right" }}>Forgot Password</Text>
             </View>
             <View style={styles.loginbtn}>
-              <CustomButton
-                title="Log In"
-                handlePress={handleLogin}
-              />
+              <CustomButton title="Log In" handlePress={handleLogin} />
             </View>
             <View style={styles.signupview}>
-              <Text style={{ textAlign: "center" }}>Don't have an Account?</Text>
-              <Text style={styles.signuplink} onPress={() => router.push('/sign-up')}>Sign Up</Text>
+              <Text style={{ textAlign: "center" }}>
+                Don't have an Account?
+              </Text>
+              <Text
+                style={styles.signuplink}
+                onPress={() => router.push("/sign-up")}
+              >
+                Sign Up
+              </Text>
             </View>
           </SafeAreaView>
         </SafeAreaProvider>
@@ -142,10 +157,10 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.primary,
     flex: 1,
     padding: 15,
-    justifyContent: "center"
+    justifyContent: "center",
   },
   label: {
-    fontWeight: '600',
+    fontWeight: "600",
     color: Colors.primary_text.brown,
     fontSize: 17,
     marginLeft: 15,
@@ -161,20 +176,20 @@ const styles = StyleSheet.create({
     fontSize: 25,
     padding: 15,
     paddingBottom: 25,
-    fontWeight: '600',
-    color: Colors.primary_text.brown
+    fontWeight: "600",
+    color: Colors.primary_text.brown,
   },
   forgotP: {
     color: Colors.primary_text.brown,
     marginRight: 20,
   },
   passwordContainer: {
-    position: 'relative'
+    position: "relative",
   },
   icon: {
-    position: 'absolute',
+    position: "absolute",
     right: 10,
-    top: '50%',
+    top: "50%",
     marginRight: 20,
   },
   loginbtn: {
@@ -186,7 +201,7 @@ const styles = StyleSheet.create({
   },
   signuplink: {
     color: Colors.primary_pink800,
-    fontWeight: '600',
+    fontWeight: "600",
     marginLeft: 5,
   },
   containersignin: {
