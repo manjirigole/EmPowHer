@@ -5,6 +5,18 @@ const SymptomsLaout = () => {
   return (
     <Stack>
       <Stack.Screen name="symptoms" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="BehavioralSymptomSelector"
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="EmotionalSymptomSelector"
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="PhysicalSymptomSelector"
+        options={{ headerShown: false }}
+      />
     </Stack>
   );
 };

@@ -21,6 +21,8 @@ import {
 } from "react-native-gesture-handler";
 import _layout from "../(tabs)/_layout";
 import CustomBottomBar from "@/components/CustomBottomBar";
+import { signOut } from "firebase/auth";
+import { firebaseauth } from "@/api/firebase";
 
 const Profile = () => {
   const router = useRouter();
@@ -58,6 +60,17 @@ const Profile = () => {
   };
   const backButton = () => {
     router.push("/periodTracker/home");
+  };
+  const handleLogout = async () => {
+    try {
+      await signOut(firebaseauth);
+      router.replace("/(auth)/sign-in"); //redirect to
+      //the sign in page
+      console.log("Log out successfull");
+    } catch (error) {
+      console.log("Logout failed", error);
+      alert("Failed to log out. Please try again.");
+    }
   };
   return (
     <GestureHandlerRootView>
@@ -196,6 +209,7 @@ const Profile = () => {
                     fontSize: 20,
                     fontFamily: Fonts.pmedium,
                   }}
+                  onPress={handleLogout}
                 >
                   Log Out
                 </Text>

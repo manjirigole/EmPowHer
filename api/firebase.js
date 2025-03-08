@@ -36,7 +36,7 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
-const analytics = getAnalytics(app);
+//const analytics = getAnalytics(app);
 const firebaseauth = getAuth(app);
 const db = getFirestore(app);
 /**Firebase Symptom Logging Update */
@@ -68,6 +68,11 @@ const logSymptoms = async (selectedSymptoms) => {
     console.error("Error logging symptoms:", error);
   }
 };
+
+let analytics;
+if (typeof window !== "undefined") {
+  analytics = getAnalytics(app);
+}
 
 const addPeriodData = async (start_date) => {
   if (!(start_date instanceof Date) || isNaN(start_date.getTime())) {
