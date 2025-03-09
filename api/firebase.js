@@ -7,10 +7,9 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import {
-  auth,
   getFirestore,
   doc,
-  setDoc, // ✅ Ensure this is imported!
+  setDoc,
   getDoc,
   collection,
   addDoc,
@@ -18,10 +17,9 @@ import {
   query,
   where,
   Timestamp,
-  Firestore,
+  updateDoc,
+  arrayUnion,
 } from "firebase/firestore";
-
-import symptoms from "@/app/symptomsTracker/symptoms";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -36,43 +34,66 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
-//const analytics = getAnalytics(app);
 const firebaseauth = getAuth(app);
 const db = getFirestore(app);
-/**Firebase Symptom Logging Update */
-const logSymptoms = async (selectedSymptoms) => {
-  const user = firebaseauth.currentUser;
-  if (!user) {
-    console.log("User is not authenticated");
-    return;
-  }
-
-  try {
-    const date = new Date().toISOString().split("T")[0]; // YYYY-MM-DD format
-    const userSymptomsRef = collection(
-      db,
-      "users",
-      user.uid,
-      "symptoms",
-      date,
-      "entries"
-    );
-
-    await addDoc(userSymptomsRef, {
-      symptoms: selectedSymptoms,
-      timestamp: Timestamp.now(),
-    });
-
-    console.log("Symptoms logged successfully");
-  } catch (error) {
-    console.error("Error logging symptoms:", error);
-  }
-};
 
 let analytics;
 if (typeof window !== "undefined") {
   analytics = getAnalytics(app);
 }
+
+/** Firebase Symptom Logging Update */
+const logSymptoms = async (category, symptoms) => {
+  if (!["physical", "emotional", "behavioral"].includes(category)) {
+    console.log("Invalid category");
+    return;
+  }
+
+  const user = firebaseauth.currentUser;
+  if (!user) {
+    console.log("User is not authenticated");
+    return;
+  }
+  const userId = user.uid;
+  const userDocRef = doc(db, "symptoms", userId);
+  const categoryCollectionRef = collection(userDocRef, category);
+
+  try {
+    const userDoc = await getDoc(userDocRef);
+    if (!userDoc.exists()) {
+      await setDoc(userDocRef, {});
+    }
+
+    for (const symptom of symptoms) {
+      await addDoc(categoryCollectionRef, {
+        symptom: symptom,
+        timestamp: Timestamp.now(),
+      });
+    }
+    console.log("Symptoms logged successfully!");
+  } catch (error) {
+    console.log("Error logging symptoms: ", error);
+  }
+};
+
+// Function to fetch symptoms
+const fetchSymptoms = async () => {
+  const user = firebaseauth.currentUser;
+  if (!user) return;
+
+  const userDocRef = doc(db, "symptoms", user.uid);
+
+  try {
+    const userDoc = await getDoc(userDocRef);
+    if (userDoc.exists()) {
+      console.log("User Symptoms:", userDoc.data());
+    } else {
+      console.log("No symptoms found for this user.");
+    }
+  } catch (error) {
+    console.error("Error fetching symptoms:", error);
+  }
+};
 
 const addPeriodData = async (start_date) => {
   if (!(start_date instanceof Date) || isNaN(start_date.getTime())) {
@@ -99,12 +120,12 @@ const addPeriodData = async (start_date) => {
         const nextPeriodDate = new Date(start_date);
         nextPeriodDate.setDate(nextPeriodDate.getDate() + cycleLength);
 
-        const periodDaysArray = []; // Initialize outside the loop!
-        const startDateCopy = new Date(start_date); // Create a copy!
+        const periodDaysArray = [];
+        const startDateCopy = new Date(start_date);
 
         for (let i = 0; i < 7; i++) {
-          const periodDayDate = new Date(startDateCopy); // Use the copy
-          periodDayDate.setDate(startDateCopy.getDate() + i); // Increment the copy
+          const periodDayDate = new Date(startDateCopy);
+          periodDayDate.setDate(startDateCopy.getDate() + i);
           periodDaysArray.push({
             date: Timestamp.fromDate(periodDayDate),
             day: i + 1,
@@ -120,8 +141,7 @@ const addPeriodData = async (start_date) => {
           period_days: periodDaysArray,
         };
 
-        // Use addDoc to let Firestore generate the ID:
-        await addDoc(collection(db, "periodData"), periodData); // Correct usage
+        await addDoc(collection(db, "periodData"), periodData);
 
         console.log("Period data saved successfully!");
       } else {
@@ -152,26 +172,6 @@ const fetchPeriodData = async (userId) => {
   }
 };
 
-/** Symptom Logging Functions 
-const logSymptoms = async (selectedSymptoms) => {
-  const user = firebaseauth.currentUser;
-  if (!user) {
-    console.log("User not authenticated.");
-    return;
-  }
-
-  try {
-    const userSymptomsRef = collection(db, "users", user.uid, "symptoms");
-    await addDoc(userSymptomsRef, {
-      symptoms: selectedSymptoms,
-      timestamp: Timestamp.now(),
-    });
-    console.log("Symptoms logged successfully!");
-  } catch (error) {
-    console.error("Error logging symptoms:", error);
-  }
-};**/
-
 // Exporting Firebase functionalities
 export {
   firebaseauth,
@@ -180,10 +180,11 @@ export {
   addPeriodData,
   fetchPeriodData,
   logSymptoms,
+  fetchSymptoms,
   Timestamp,
   doc,
   getDoc,
-  auth,
-  Firestore,
   setDoc,
+  updateDoc,
+  arrayUnion,
 };

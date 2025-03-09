@@ -1,14 +1,14 @@
+// customSymptomSelector.tsx
 import React, { useState } from "react";
 import { View, StyleSheet, Alert } from "react-native";
 import { Chip, Text } from "react-native-paper";
-import { auth, db } from "../api/firebase";
-import { collection, addDoc } from "firebase/firestore";
+import { firebaseauth as auth, db, logSymptoms } from "../api/firebase";
 import CustomButton from "./CustomButton";
 import { Colors } from "@/constants/Colors";
 
 interface CustomSymptomSelectorProps {
   title: string;
-  symptomType: string; // e.g., 'behavioral', 'emotional', 'physical'
+  symptomType: "physical" | "emotional" | "behavioral";
   symptomsList: string[];
   onSelect?: (selectedSymptoms: string[]) => void;
 }
@@ -17,15 +17,23 @@ const CustomSymptomSelector: React.FC<CustomSymptomSelectorProps> = ({
   title,
   symptomType,
   symptomsList,
+  onSelect,
 }) => {
   const [selectedSymptoms, setSelectedSymptoms] = useState<string[]>([]);
 
   const toggleSymptom = (symptom: string) => {
-    setSelectedSymptoms((prev: string[]) =>
-      prev.includes(symptom)
+    setSelectedSymptoms((prev) => {
+      const updatedSymptoms = prev.includes(symptom)
         ? prev.filter((item) => item !== symptom)
-        : [...prev, symptom]
-    );
+        : [...prev, symptom];
+
+      if (onSelect) {
+        onSelect(updatedSymptoms);
+      }
+      console.log(`${title} Symptoms Selected:`, updatedSymptoms);
+
+      return updatedSymptoms;
+    });
   };
 
   const handleSubmit = async () => {
@@ -33,22 +41,20 @@ const CustomSymptomSelector: React.FC<CustomSymptomSelectorProps> = ({
       Alert.alert("Error", "User not authenticated");
       return;
     }
+
+    if (selectedSymptoms.length === 0) {
+      Alert.alert("No Symptoms", "Please select at least one symptom.");
+      return;
+    }
+
     console.log(`${title} Symptoms being logged:`, selectedSymptoms);
+
     try {
-      const userId = auth.currentUser.uid;
-      // Reference to the user's symptoms subcollection under periodData
-      const symptomsRef = collection(db, "periodData", userId, "symptoms");
-
-      // Add a new symptom entry under the symptoms subcollection
-      await addDoc(symptomsRef, {
-        symptoms: selectedSymptoms,
-        timestamp: new Date(),
-      });
-
+      await logSymptoms(symptomType, selectedSymptoms);
       Alert.alert("Success", `${title} symptoms logged successfully!`);
       setSelectedSymptoms([]);
     } catch (error) {
-      console.error(`Error logging ${symptomType} symptoms: `, error);
+      console.error(`Error logging ${symptomType} symptoms:`, error);
       Alert.alert("Error", `Failed to log ${title.toLowerCase()} symptoms`);
     }
   };
