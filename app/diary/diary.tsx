@@ -21,9 +21,6 @@ const Diary = () => {
               <Text style={styles.headerDiary}> My Diary</Text>
             </View>
           </View>
-          <View style={styles.bottomNav}>
-            <CustomBottomBar />
-          </View>
         </SafeAreaView>
       </SafeAreaProvider>
     </GestureHandlerRootView>
@@ -55,8 +52,5 @@ const styles = StyleSheet.create({
   backIcon: {
     color: Colors.primary_pink800,
     fontSize: 30,
-  },
-  bottomNav: {
-    top: 100,
   },
 });
