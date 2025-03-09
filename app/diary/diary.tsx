@@ -17,7 +17,7 @@ import {
 import { useAuth } from "@/hooks/useAuth";
 const Diary = () => {
   const [entries, setEntries] = useState<
-    { id: string; date: Timestamp; text: string; userId: string }[]
+    { id: string; date: Timestamp | null; text: string; userId: string }[]
   >([]);
   const [loading, setLoading] = useState(true);
   const { user } = useAuth(); // Get the logged-in user
@@ -150,12 +150,14 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   date: {
-    fontWeight: "bold",
+    fontFamily: Fonts.cbold,
+    fontSize: 15,
+    color: Colors.secondary[900],
   },
   text: {
     marginTop: 5,
     color: Colors.primary_text.brown,
     fontFamily: Fonts.cmedium,
-    fontSize: 15,
+    fontSize: 17,
   },
 });
