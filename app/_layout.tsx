@@ -2,7 +2,6 @@ import { StyleSheet } from "react-native";
 import React, { useState } from "react";
 import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
-import { HeaderShownContext } from "@react-navigation/elements";
 
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
@@ -64,6 +63,7 @@ const RootLayout = () => {
         <Stack.Screen name="onboarding" options={{ headerShown: false }} />
         <Stack.Screen name="periodTracker" options={{ headerShown: false }} />
         <Stack.Screen name="symptomsTracker" options={{ headerShown: false }} />
+        <Stack.Screen name="diary" options={{ headerShown: false }} />
       </Stack>
     </>
   );
