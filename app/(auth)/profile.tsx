@@ -23,6 +23,7 @@ import _layout from "../(tabs)/_layout";
 import CustomBottomBar from "@/components/CustomBottomBar";
 import { signOut } from "firebase/auth";
 import { firebaseauth } from "@/api/firebase";
+import { useTranslation } from "react-i18next";
 
 const Profile = () => {
   const router = useRouter();
@@ -38,6 +39,13 @@ const Profile = () => {
     setCurrentField(field);
     setInputValue(field === "weight" ? weight || "" : height || "");
     setModalVisible(true);
+  };
+  const { t, i18n } = useTranslation();
+  const [modalVisibleLang, setModalVisibleLang] = useState(false);
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+    setModalVisibleLang(false);
   };
 
   const saveValue = () => {
@@ -132,6 +140,89 @@ const Profile = () => {
                 >
                   Height: {height ? height : "Not Set"}
                 </Text>
+              </TouchableOpacity>
+            </View>
+            <View style={styles.langBtns}>
+              <TouchableOpacity
+                onPress={() => setModalVisibleLang(true)}
+                style={{
+                  padding: 10,
+                  backgroundColor: Colors.primary_pink800,
+                  borderRadius: 10,
+                }}
+              >
+                <Text
+                  style={{
+                    color: Colors.primary,
+                    fontSize: 20,
+                    fontFamily: Fonts.cbold,
+                  }}
+                >
+                  {t("Change Langauge")}
+                </Text>
+
+                <Modal
+                  animationType="slide"
+                  transparent={true}
+                  visible={modalVisibleLang}
+                  onRequestClose={() => setModalVisible(false)}
+                >
+                  <View
+                    style={{
+                      flex: 1,
+                      justifyContent: "center",
+                      alignItems: "center",
+                      backgroundColor: "rgba(0,0,0,0.5)",
+                    }}
+                  >
+                    <View
+                      style={{
+                        backgroundColor: Colors.primary_pink800,
+                        padding: 20,
+                        borderRadius: 10,
+                      }}
+                    >
+                      <Text
+                        style={{
+                          marginBottom: 10,
+                          fontSize: 18,
+                          color: Colors.primary,
+                          fontFamily: Fonts.cmedium,
+                        }}
+                      >
+                        {t("Select Language")}
+                      </Text>
+
+                      <TouchableOpacity
+                        onPress={() => changeLanguage("en")}
+                        style={styles.langOption}
+                      >
+                        <Text style={styles.langOptionText}>🇬🇧 English</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        onPress={() => changeLanguage("hi")}
+                        style={styles.langOption}
+                      >
+                        <Text style={styles.langOptionText}>🇮🇳 हिन्दी</Text>
+                      </TouchableOpacity>
+                      <TouchableOpacity
+                        onPress={() => changeLanguage("mr")}
+                        style={styles.langOption}
+                      >
+                        <Text style={styles.langOptionText}>🇮🇳 मराठी</Text>
+                      </TouchableOpacity>
+
+                      <TouchableOpacity
+                        onPress={() => setModalVisible(false)}
+                        style={{ marginTop: 10, alignItems: "center" }}
+                      >
+                        <Text style={{ color: "red", fontWeight: "bold" }}>
+                          {t("close")}
+                        </Text>
+                      </TouchableOpacity>
+                    </View>
+                  </View>
+                </Modal>
               </TouchableOpacity>
             </View>
 
@@ -458,5 +549,14 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     fontSize: 12,
+  },
+  langBtns: {
+    padding: 25,
+  },
+  langOption: {
+    paddingVertical: 5,
+  },
+  langOptionText: {
+    color: Colors.primary, // Apply the desired color here
   },
 });

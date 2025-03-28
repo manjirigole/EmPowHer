@@ -10,6 +10,7 @@ import { useRouter } from "expo-router";
 import { doc, setDoc } from "firebase/firestore";
 import { db } from "@/api/firebase";
 import { getAuth } from "firebase/auth";
+import { useTranslation } from "react-i18next";
 
 const NameStep = ({ username }: { username: string }) => {
   const [text, setText] = useState(username); // For username
@@ -17,6 +18,7 @@ const NameStep = ({ username }: { username: string }) => {
   const [cycleLength, setCycleLength] = useState(""); // For cycle length
   const [selectedValue, setSelectedValue] = useState("option1"); // For tracker type
   const router = useRouter();
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (username) {
@@ -81,13 +83,11 @@ const NameStep = ({ username }: { username: string }) => {
           {/* Progress Step 1 */}
           <ProgressStep nextBtnTextStyle={styles.nextBtnText}>
             <View style={styles.stepContent}>
-              <Text style={styles.header}>
-                What would you like us to call you?
-              </Text>
-              <Text style={styles.name}>Enter your Name</Text>
+              <Text style={styles.header}>{t("onboardingName")}</Text>
+              <Text style={styles.name}>{t("enterName")}</Text>
               <CustomTextInput
                 value={text}
-                placeholder="Name"
+                placeholder={t("namePlaceholder")}
                 handleChangeText={setText}
               />
             </View>
@@ -99,11 +99,11 @@ const NameStep = ({ username }: { username: string }) => {
             previousBtnTextStyle={styles.prevBtnText}
           >
             <View style={styles.stepContent}>
-              <Text style={styles.header}>What is your age?</Text>
-              <Text style={styles.name}>Enter your Age</Text>
+              <Text style={styles.header}>{t("onboardingAge")}</Text>
+              <Text style={styles.name}>{t("enterAge")}</Text>
               <CustomTextInput
                 value={age}
-                placeholder="Age"
+                placeholder={t("age")}
                 handleChangeText={setAge} // Use setAge to update the age state
               />
             </View>
@@ -115,7 +115,7 @@ const NameStep = ({ username }: { username: string }) => {
             previousBtnTextStyle={styles.prevBtnText}
           >
             <View style={styles.stepContent}>
-              <Text style={styles.header}>What is your goal?</Text>
+              <Text style={styles.header}>{t("onboardingGoal")}</Text>
               <View style={styles.radioGroup}>
                 <View style={styles.radioBtn}>
                   <RadioButton
@@ -126,7 +126,7 @@ const NameStep = ({ username }: { username: string }) => {
                     onPress={() => setSelectedValue("option1")}
                     color="#A7044F"
                   />
-                  <Text style={styles.radioLabel}>Period Tracker</Text>
+                  <Text style={styles.radioLabel}>{t("periodTracking")}</Text>
                 </View>
                 <View style={styles.radioBtn}>
                   <RadioButton
@@ -137,7 +137,9 @@ const NameStep = ({ username }: { username: string }) => {
                     onPress={() => setSelectedValue("option2")}
                     color="#A7044F"
                   />
-                  <Text style={styles.radioLabel}>Pregnancy Tracker</Text>
+                  <Text style={styles.radioLabel}>
+                    {t("pregnancyTracking")}
+                  </Text>
                 </View>
               </View>
             </View>
@@ -153,11 +155,11 @@ const NameStep = ({ username }: { username: string }) => {
             }}
           >
             <View style={styles.stepContent}>
-              <Text style={styles.header}>What is your cycle length</Text>
-              <Text style={styles.name}>Enter your cycle length in days</Text>
+              <Text style={styles.header}>{t("lastCycle")}</Text>
+              <Text style={styles.name}>{t("enterCycle")}</Text>
               <CustomTextInput
                 value={cycleLength}
-                placeholder="Cycle Length"
+                placeholder={t("cyclePlaceholder")}
                 handleChangeText={setCycleLength} // Use setCycleLength to update the cycleLength state
               />
             </View>

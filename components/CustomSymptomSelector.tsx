@@ -63,7 +63,7 @@ const CustomSymptomSelector: React.FC<CustomSymptomSelectorProps> = ({
     <View style={styles.card}>
       <View style={styles.titleContainer}>
         <Text variant="headlineMedium" style={styles.title}>
-          {title} Symptoms
+          {title}
         </Text>
       </View>
       <View style={styles.chipContainer}>

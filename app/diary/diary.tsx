@@ -15,12 +15,15 @@ import {
   where,
 } from "firebase/firestore";
 import { useAuth } from "@/hooks/useAuth";
+import { useRouter } from "expo-router";
+
 const Diary = () => {
   const [entries, setEntries] = useState<
     { id: string; date: Timestamp | null; text: string; userId: string }[]
   >([]);
   const [loading, setLoading] = useState(true);
-  const { user } = useAuth(); // Get the logged-in user
+  const { user } = useAuth();
+  const router = useRouter();
 
   useEffect(() => {
     if (user) {
@@ -37,7 +40,7 @@ const Diary = () => {
       );
       const querySnapshot = await getDocs(q);
       const data = querySnapshot.docs.map((doc) => {
-        const date = doc.data().date; // Declare 'date' here
+        const date = doc.data().date;
         return {
           id: doc.id,
           date: date instanceof Timestamp ? date : null,
@@ -65,40 +68,47 @@ const Diary = () => {
   };
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
-      <SafeAreaProvider style={styles.container}>
-        <SafeAreaView>
-          <View style={styles.header}>
-            <Ionicons
-              name="chevron-back-outline"
-              style={styles.backIcon}
-            ></Ionicons>
-            <View>
-              <Text style={styles.headerDiary}> My Diary</Text>
+      <SafeAreaProvider style={{ flex: 1 }}>
+        <SafeAreaView style={{ flex: 1 }}>
+          <View style={styles.container}>
+            <View style={styles.header}>
+              <Ionicons
+                name="chevron-back-outline"
+                style={styles.backIcon}
+                onPress={() => router.back()}
+              ></Ionicons>
+              <View>
+                <Text style={styles.headerDiary}> My Diary</Text>
+              </View>
             </View>
+            <View style={styles.currentDate}>
+              <CurrentDate />
+            </View>
+            {loading ? (
+              <Text>Loading...</Text>
+            ) : entries.length === 0 ? (
+              <Text style={styles.noEntries}>No diary entries found.</Text>
+            ) : (
+              <FlatList
+                data={entries}
+                keyExtractor={(item) => item.id}
+                renderItem={({ item }) => (
+                  <View style={styles.entry}>
+                    <Text style={styles.date}>
+                      {item.date
+                        ? item.date.toDate().toLocaleDateString()
+                        : "No Date"}
+                    </Text>
+                    <Text style={styles.text}>{item.text}</Text>
+                  </View>
+                )}
+                contentContainerStyle={[
+                  styles.flatListContent, // Apply existing contentContainerStyle
+                  { backgroundColor: Colors.primary }, // Add the background color here
+                ]}
+              />
+            )}
           </View>
-          <View style={styles.currentDate}>
-            <CurrentDate />
-          </View>
-          {loading ? (
-            <Text>Loading...</Text>
-          ) : entries.length === 0 ? (
-            <Text style={styles.noEntries}>No diary entries found.</Text>
-          ) : (
-            <FlatList
-              data={entries}
-              keyExtractor={(item) => item.id}
-              renderItem={({ item }) => (
-                <View style={styles.entry}>
-                  <Text style={styles.date}>
-                    {item.date
-                      ? item.date.toDate().toLocaleDateString()
-                      : "No Date"}
-                  </Text>
-                  <Text style={styles.text}>{item.text}</Text>
-                </View>
-              )}
-            />
-          )}
         </SafeAreaView>
       </SafeAreaProvider>
     </GestureHandlerRootView>
@@ -121,6 +131,7 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     paddingTop: 20,
     paddingLeft: 20,
+    alignItems: "center",
   },
   headerDiary: {
     fontSize: 20,
@@ -134,6 +145,8 @@ const styles = StyleSheet.create({
   currentDate: {
     flexDirection: "row",
     justifyContent: "center",
+    marginTop: 10,
+    marginBottom: 10,
   },
   noEntries: {
     textAlign: "center",
@@ -159,5 +172,8 @@ const styles = StyleSheet.create({
     color: Colors.primary_text.brown,
     fontFamily: Fonts.cmedium,
     fontSize: 17,
+  },
+  flatListContent: {
+    paddingBottom: 20, // Keep any existing padding
   },
 });

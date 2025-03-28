@@ -14,6 +14,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { firebaseauth, db } from "@/api/firebase";
 import { doc, setDoc, getDoc } from "firebase/firestore";
+import { useTranslation } from "react-i18next";
+import { Localization } from "expo-localization";
 const signup = () => {
   const router = useRouter();
   const [text, setText] = useState("");
@@ -21,6 +23,7 @@ const signup = () => {
   const [isPasswordVisible, setIsPasswordVisible] = useState(false);
   const [username, setUsername] = useState("");
   const [email, setEmail] = useState("");
+  const { t } = useTranslation();
 
   const togglePasswordVisibility = () => {
     setIsPasswordVisible((prevState) => !prevState);
@@ -65,30 +68,30 @@ const signup = () => {
       <SafeAreaProvider>
         <SafeAreaView style={styles.container}>
           <View>
-            <Text style={styles.logo}>EmPowHer</Text>
-            <Text style={styles.signup}>Sign Up</Text>
+            <Text style={styles.logo}>{t("appName")}</Text>
+            <Text style={styles.signup}>{t("signUp")}</Text>
           </View>
           {/* Username */}
           <View>
-            <Text style={styles.label}>Username</Text>
+            <Text style={styles.label}>{t("username")}</Text>
             <CustomTextInput
               value={username}
-              placeholder="Your unique username"
+              placeholder={t("usernamePlaceholder")}
               handleChangeText={setUsername}
             />
           </View>
           {/* Email Input */}
           <View>
-            <Text style={styles.label}>Email</Text>
+            <Text style={styles.label}>{t("email")}</Text>
             <CustomTextInput
               value={email}
-              placeholder="XYZ@gmail.com"
+              placeholder={t("emailPlaceholder")}
               handleChangeText={setEmail}
             />
           </View>
           {/* Password with Show/Hide Icon */}
           <View style={styles.passwordContainer}>
-            <Text style={styles.label}>Password</Text>
+            <Text style={styles.label}>{t("password")}</Text>
             <CustomTextInput
               value={password}
               placeholder=""
@@ -109,7 +112,7 @@ const signup = () => {
           </View>
           <View style={styles.signupview}>
             <Text style={{ textAlign: "center" }}>
-              Already have an Account?
+              {t("alreadyHaveAccount")}
             </Text>
             <Text
               style={styles.signuplink}
@@ -119,7 +122,7 @@ const signup = () => {
             </Text>
           </View>
           <View style={styles.loginbtn}>
-            <CustomButton title="Sign Up" handlePress={handleSignUp} />
+            <CustomButton title={t("signUp")} handlePress={handleSignUp} />
           </View>
         </SafeAreaView>
       </SafeAreaProvider>

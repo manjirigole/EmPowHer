@@ -8,9 +8,13 @@ import { Colors } from "@/constants/Colors";
 import { Fonts } from "@/constants/fonts";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import { useRouter } from "expo-router";
+import { useTranslation } from "react-i18next";
+import "./localization";
+
 const Welcome = () => {
   const router = useRouter();
   const navigation = useNavigation(); // Use navigation hook
+  const { t } = useTranslation();
 
   useEffect(() => {
     navigation.setOptions({
@@ -29,14 +33,11 @@ const Welcome = () => {
               source={images.homescreen_lady}
               resizeMode="contain"
             />
-            <Text style={styles.line1}>Empowering women with</Text>
-            <Text style={styles.line2}>EmPowHer</Text>
-            <Text style={styles.desc}>
-              Easily track your menstrual cycles, predict your next period, and
-              stay informed about your body's natural rhythms.
-            </Text>
+            <Text style={styles.line1}>{t("tagline")}</Text>
+            <Text style={styles.line2}>{t("appName")}</Text>
+            <Text style={styles.desc}>{t("description")}</Text>
             <CustomButton
-              title="Continue with Email"
+              title={t("continueWithEmail")}
               handlePress={() => router.push("/(auth)/sign-in")}
             />
           </View>

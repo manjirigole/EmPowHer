@@ -15,7 +15,10 @@ import {
   onAuthStateChanged,
   User,
 } from "firebase/auth";
+
 import { firebaseauth, doc, getDoc, db } from "@/api/firebase"; // Adjust the import path as needed
+import { useTranslation } from "react-i18next";
+import { Localization } from "expo-localization";
 
 const SignIn = () => {
   const router = useRouter();
@@ -25,6 +28,7 @@ const SignIn = () => {
   const [initializing, setInitializing] = useState<boolean>(true);
   const [user, setUser] = useState<User | null>(null);
   const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false); // Add state for login status
+  const { t } = useTranslation();
 
   // Handle user state changes
   function handleAuthStateChanged(user: User | null) {
@@ -90,19 +94,19 @@ const SignIn = () => {
         <SafeAreaProvider>
           <SafeAreaView style={styles.container}>
             <View>
-              <Text style={styles.logo}>EmPowHer</Text>
-              <Text style={styles.login}>Log In</Text>
+              <Text style={styles.logo}>{t("appName")}</Text>
+              <Text style={styles.login}>{t("login")}</Text>
             </View>
             <View>
-              <Text style={styles.label}>Email</Text>
+              <Text style={styles.label}>{t("email")}</Text>
               <CustomTextInput
                 value={email}
-                placeholder="XYZ@gmail.com"
+                placeholder={t("emailPlaceholder")}
                 handleChangeText={setEmail}
               />
             </View>
             <View style={styles.passwordContainer}>
-              <Text style={styles.label}>Password</Text>
+              <Text style={styles.label}>{t("password")}</Text>
               <CustomTextInput
                 value={password}
                 placeholder=""
@@ -121,14 +125,14 @@ const SignIn = () => {
               </TouchableOpacity>
             </View>
             <View style={styles.forgotP}>
-              <Text style={{ textAlign: "right" }}>Forgot Password</Text>
+              <Text style={{ textAlign: "right" }}>{t("forgotPassword")}</Text>
             </View>
             <View style={styles.loginbtn}>
-              <CustomButton title="Log In" handlePress={handleLogin} />
+              <CustomButton title={t("login")} handlePress={handleLogin} />
             </View>
             <View style={styles.signupview}>
               <Text style={{ textAlign: "center" }}>
-                Don't have an Account?
+                {t("dontHaveAccount")}
               </Text>
               <Text
                 style={styles.signuplink}

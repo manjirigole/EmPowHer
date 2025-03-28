@@ -11,7 +11,7 @@ import { Fonts } from "@/constants/fonts";
 import { useRouter } from "expo-router";
 import CustomSymptomSelector from "@/components/CustomSymptomSelector";
 import { firebaseauth, logSymptoms } from "@/api/firebase";
-
+import { useTranslation } from "react-i18next";
 const Symptoms = () => {
   const router = useRouter();
   const [selectedSymptoms, setSelectedSymptoms] = useState({
@@ -21,6 +21,7 @@ const Symptoms = () => {
   });
   const user = firebaseauth.currentUser;
   const userId = user?.uid;
+  const { t } = useTranslation();
 
   const handleSymptomSelect = (
     type: "physical" | "behavioral" | "emotional",
@@ -65,48 +66,48 @@ const Symptoms = () => {
                 style={styles.backIcon}
                 onPress={() => router.push("/periodTracker/home")}
               />
-              <Text style={styles.symptoms}>Symptoms Tracker</Text>
+              <Text style={styles.symptoms}>{t("symptomTracker")}</Text>
             </View>
             <CustomSymptomSelector
-              title="Physical"
+              title={t("physicalSymptoms")}
               symptomType="physical"
               symptomsList={[
-                "Fatigue",
-                "Headaches",
-                "Bloating",
-                "Cramps",
-                "Acne",
-                "Back Pain",
-                "Nausea",
-                "Breast Tenderness",
+                t("fatigue"),
+                t("headaches"),
+                t("bloating"),
+                t("cramps"),
+                t("acne"),
+                t("backPain"),
+                t("nausea"),
+                t("breastTenderness"),
               ]}
               onSelect={(symptoms) => handleSymptomSelect("physical", symptoms)}
             />
             <CustomSymptomSelector
-              title="Behavioral"
+              title={t("behavioralSymptoms")}
               symptomType="behavioral"
               symptomsList={[
-                "Energetic",
-                "Low Energy",
-                "Self Critical",
-                "Productivity",
-                "Exercise",
+                t("energetic"),
+                t("lowEnergy"),
+                t("selfCritical"),
+                t("productivity"),
+                t("excercise"),
               ]}
               onSelect={(symptoms) =>
                 handleSymptomSelect("behavioral", symptoms)
               }
             />
             <CustomSymptomSelector
-              title="Emotional"
+              title={t("emotionalSymptoms")}
               symptomType="emotional"
               symptomsList={[
-                "Mood Swings",
-                "Irritability",
-                "Anxiety",
-                "Sadness",
-                "Depression",
-                "Restlessness",
-                "Overwhelmed",
+                t("moodSwings"),
+                t("irritability"),
+                t("anxiety"),
+                t("sadness"),
+                t("depression"),
+                t("restlessness"),
+                t("overwhelmed"),
               ]}
               onSelect={(symptoms) =>
                 handleSymptomSelect("emotional", symptoms)
