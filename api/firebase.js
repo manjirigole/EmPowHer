@@ -187,4 +187,5 @@ export {
   setDoc,
   updateDoc,
   arrayUnion,
+  getAuth,
 };

@@ -19,7 +19,10 @@ import {
   Timestamp,
   updateDoc,
   doc,
+  getFirestore,
+  setDoc,
 } from "firebase/firestore";
+import { getAuth } from "@/api/firebase";
 import { useAuth } from "@/hooks/useAuth";
 import { useRouter } from "expo-router";
 import { Fonts } from "@/constants/fonts";
@@ -30,6 +33,8 @@ const AddEntry = () => {
   const [entryText, setEntryText] = useState("");
   const { user } = useAuth();
   const router = useRouter();
+  const auth = getAuth();
+  const db = getFirestore();
 
   const handleSaveEntry = async () => {
     if (!user) {
@@ -48,24 +53,51 @@ const AddEntry = () => {
         date: Timestamp.now(),
       });
 
-      // Analyze sentiment
-      const sentimentResponse = await axios.post(
-        "http://192.168.29.237:5000/analyze",
-        { text: entryText }
-      );
-      const sentiment = sentimentResponse.data;
-
-      // Update Firestore with sentiment
-      await updateDoc(doc(db, "diaryEntries", docRef.id), {
-        sentiment: sentiment,
-      });
-
       Alert.alert("Success", "Entry saved successfully!");
       setEntryText(""); //clear the input after saving
       router.back(); //navigate back to the diary page
     } catch (error) {
       console.log("Error adding entry:", error);
       Alert.alert("Error", "Failed to save entry. Please try again");
+    }
+  };
+
+  //new function for duplicateDiaryEntries with sentiment analysis
+  const handleSaveDuplicateEntry = async () => {
+    try {
+      const user = auth.currentUser;
+      if (!user) {
+        Alert.alert("Error", "User not authenticaated");
+        return;
+      }
+      const entryId = new Date().toISOString();
+
+      //call flask api for sentiment analysis
+      const response = await fetch("http://127.0.0.1:5000/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: entryText }),
+      });
+
+      const sentimentResult = await response.json();
+      const { sentiment, confidence } = sentimentResult;
+
+      //store the result in firestore under duplicateDiaryEntries
+      await setDoc(
+        doc(db, `duplicateDiaryEntries/${user.uid}/entries`, entryId),
+        {
+          text: entryText,
+          sentiment: sentiment || "neutral",
+          confidence: confidence || 0,
+          Timestamp: Timestamp.fromDate(new Date()),
+        }
+      );
+
+      Alert.alert("Success", "entry saved with sentiment analysis");
+      setEntryText("");
+    } catch (error) {
+      console.log("Error saving duplicate entry:", error);
+      Alert.alert("Error", "Failed to save entry with sentiment analysis");
     }
   };
 
@@ -87,6 +119,12 @@ const AddEntry = () => {
                 title="Save Entry"
                 handlePress={handleSaveEntry}
                 style={styles.buttonStyle}
+                textStyle={styles.btnTextStyles}
+              />
+              <CustomButton
+                title="Save Entry with Sentiment Analysis"
+                handlePress={handleSaveDuplicateEntry}
+                style={styles.sentimentButtonStyle}
                 textStyle={styles.btnTextStyles}
               />
             </View>
@@ -124,6 +162,7 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "row",
     justifyContent: "center",
+    gap: 10,
   },
   buttonStyle: {},
   btnTextStyles: {},
@@ -131,6 +170,9 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     padding: 10,
+  },
+  sentimentButtonStyle: {
+    width: 400,
   },
   errorText: {
     color: "red",

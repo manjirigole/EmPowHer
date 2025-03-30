@@ -9,6 +9,7 @@ import {
   where,
   getDocs,
   Timestamp,
+  collectionGroup,
 } from "firebase/firestore";
 import { useAuth } from "@/hooks/useAuth";
 import { Colors } from "@/constants/Colors";
@@ -78,21 +79,39 @@ const Jump = () => {
   const fetchDiaryDates = async () => {
     if (!user) return;
 
-    const q = query(
+    const dates: MarkedDates = {};
+
+    // Fetch dates from diaryEntries (no change needed here if it's working)
+    const q1 = query(
       collection(db, "diaryEntries"),
       where("userId", "==", user.uid)
     );
-    const querySnapshot = await getDocs(q);
-    const dates: MarkedDates = {};
-
-    querySnapshot.forEach((doc) => {
+    const querySnapshot1 = await getDocs(q1);
+    querySnapshot1.forEach((doc) => {
       const date = doc.data().date;
       if (date && date instanceof Timestamp) {
         const dateString = date.toDate().toISOString().split("T")[0];
-        console.log("Marking Date:", dateString);
         dates[dateString] = { marked: true, dotColor: Colors.primary };
       }
     });
+
+    // Fetch dates from duplicateDiaryEntries
+    const entriesRef = collection(
+      db,
+      "duplicateDiaryEntries",
+      user.uid,
+      "entries"
+    );
+    const q2 = query(entriesRef);
+    const querySnapshot2 = await getDocs(q2);
+    querySnapshot2.forEach((doc) => {
+      const date = doc.data().Timestamp; // Assuming 'Timestamp' field
+      if (date && date instanceof Timestamp) {
+        const dateString = date.toDate().toISOString().split("T")[0];
+        dates[dateString] = { marked: true, dotColor: Colors.secondary[500] };
+      }
+    });
+
     console.log("Marked Dates:", dates);
     setMarkedDates(dates);
   };
@@ -106,19 +125,39 @@ const Jump = () => {
     const endOfDay = new Date(selectedDate);
     endOfDay.setHours(23, 59, 59, 999);
 
-    const q = query(
+    let allEntries: Entry[] = [];
+
+    // Fetch entries from diaryEntries for the selected date
+    const q1 = query(
       collection(db, "diaryEntries"),
       where("userId", "==", user.uid),
       where("date", ">=", Timestamp.fromDate(startOfDay)),
       where("date", "<=", Timestamp.fromDate(endOfDay))
     );
-    const querySnapshot = await getDocs(q);
-    const entries: Entry[] = querySnapshot.docs.map((doc) => ({
+    const querySnapshot1 = await getDocs(q1);
+    const entries1: Entry[] = querySnapshot1.docs.map((doc) => ({
       id: doc.id,
       text: doc.data().text,
       date: doc.data().date.toDate().toLocaleDateString(),
     }));
-    setSelectedDateEntries(entries);
+    allEntries = [...allEntries, ...entries1];
+
+    // Fetch entries from duplicateDiaryEntries for the selected date
+    const q2 = query(
+      collectionGroup(db, "entries"),
+      where("userId", "==", user.uid),
+      where("Timestamp", ">=", Timestamp.fromDate(startOfDay)), // Assuming 'Timestamp' field
+      where("Timestamp", "<=", Timestamp.fromDate(endOfDay))
+    );
+    const querySnapshot2 = await getDocs(q2);
+    const entries2: Entry[] = querySnapshot2.docs.map((doc) => ({
+      id: doc.id,
+      text: doc.data().text,
+      date: doc.data().Timestamp.toDate().toLocaleDateString(), // Assuming 'Timestamp' field
+    }));
+    allEntries = [...allEntries, ...entries2];
+
+    setSelectedDateEntries(allEntries);
   };
 
   return (
@@ -160,10 +199,14 @@ const styles = StyleSheet.create({
   },
   entry: {
     backgroundColor: Colors.pink[300],
+    padding: 15,
+    marginVertical: 8,
+    borderRadius: 5,
   },
   text: {
-    color: Colors.primary_pink800,
-    fontFamily: Fonts.cbold,
+    color: Colors.primary_text.brown,
+    fontFamily: Fonts.cmedium,
+    fontSize: 16,
   },
 });
 

@@ -6,7 +6,7 @@ import { Colors } from "@/constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
 import { Fonts } from "@/constants/fonts";
 import CurrentDate from "@/components/CurrentDate";
-import { db } from "@/api/firebase";
+import { db, getAuth } from "@/api/firebase";
 import {
   collection,
   getDocs,
@@ -19,8 +19,15 @@ import { useRouter } from "expo-router";
 
 const Diary = () => {
   const [entries, setEntries] = useState<
-    { id: string; date: Timestamp | null; text: string; userId: string }[]
+    {
+      id: string;
+      date: Date | null;
+      text: string;
+      userId: string;
+      sentiment?: string;
+    }[]
   >([]);
+
   const [loading, setLoading] = useState(true);
   const { user } = useAuth();
   const router = useRouter();
@@ -34,24 +41,52 @@ const Diary = () => {
   const fetchEntries = async () => {
     setLoading(true);
     try {
-      const q = query(
-        collection(db, "diaryEntries"),
-        where("userId", "==", user?.uid)
-      );
-      const querySnapshot = await getDocs(q);
-      const data = querySnapshot.docs.map((doc) => {
-        const date = doc.data().date;
-        return {
-          id: doc.id,
-          date: date instanceof Timestamp ? date : null,
-          text: doc.data().text,
-          userId: doc.data().userId,
-        };
-      });
+      const entriesData: any[] = [];
 
-      data.sort((a, b) => {
+      if (user) {
+        // Fetch from diaryEntries
+        const q1 = query(
+          collection(db, "diaryEntries"),
+          where("userId", "==", user.uid)
+        );
+        const querySnapshot1 = await getDocs(q1);
+        const data1 = querySnapshot1.docs.map((doc) => {
+          const docData = doc.data();
+          return {
+            id: doc.id,
+            date: docData.Timestamp ? docData.Timestamp.toDate() : null, // Use 'Timestamp' to match the saved field,
+            text: docData.text || "No Text",
+            userId: user.uid || "Unknown",
+          };
+        });
+        entriesData.push(...data1);
+
+        // Fetch from duplicateDiaryEntries
+        const entriesRef = collection(
+          db,
+          "duplicateDiaryEntries",
+          user.uid,
+          "entries"
+        );
+        const q2 = query(entriesRef);
+        const querySnapshot2 = await getDocs(q2);
+        const data2 = querySnapshot2.docs.map((doc) => {
+          const docData = doc.data();
+          return {
+            id: doc.id,
+            date: docData.Timestamp ? docData.Timestamp.toDate() : null,
+            text: docData.text || "No Text",
+            userId: user.uid,
+            sentiment: docData.sentiment || "Unknown",
+          };
+        });
+        entriesData.push(...data2);
+      }
+
+      // Sort entries after fetching
+      entriesData.sort((a, b) => {
         if (a.date && b.date) {
-          return b.date.toMillis() - a.date.toMillis();
+          return b.date.getTime() - a.date.getTime();
         } else if (a.date) {
           return -1;
         } else if (b.date) {
@@ -60,12 +95,14 @@ const Diary = () => {
           return 0;
         }
       });
-      setEntries(data);
+
+      setEntries(entriesData);
     } catch (error) {
       console.log("Error fetching diary entries: ", error);
     }
     setLoading(false);
   };
+
   return (
     <GestureHandlerRootView style={{ flex: 1 }}>
       <SafeAreaProvider style={{ flex: 1 }}>
@@ -95,11 +132,17 @@ const Diary = () => {
                 renderItem={({ item }) => (
                   <View style={styles.entry}>
                     <Text style={styles.date}>
-                      {item.date
-                        ? item.date.toDate().toLocaleDateString()
-                        : "No Date"}
+                      {item.date ? item.date.toLocaleDateString() : "No Date"}
                     </Text>
                     <Text style={styles.text}>{item.text}</Text>
+                    {/**Display sentiment only if it exists */}
+                    {item.sentiment && (
+                      <View style={styles.sentimentContainer}>
+                        <Text style={styles.sentiment}>
+                          Sentiment: {item.sentiment}
+                        </Text>
+                      </View>
+                    )}
                   </View>
                 )}
                 contentContainerStyle={[
@@ -175,5 +218,18 @@ const styles = StyleSheet.create({
   },
   flatListContent: {
     paddingBottom: 20, // Keep any existing padding
+  },
+  sentimentContainer: {
+    marginTop: 5,
+    padding: 5,
+    backgroundColor: Colors.primary_pink800, // Light background
+    borderRadius: 5,
+    alignSelf: "flex-start",
+  },
+
+  sentiment: {
+    fontSize: 15,
+    fontFamily: Fonts.cmedium,
+    color: Colors.primary,
   },
 });
