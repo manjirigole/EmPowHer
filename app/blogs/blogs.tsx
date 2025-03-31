@@ -10,17 +10,16 @@ import {
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { firebaseauth } from "@/api/firebase";
 import { Colors } from "@/constants/Colors";
+import { Fonts } from "@/constants/fonts";
+import { useRouter } from "expo-router"; // Import useRouter
+import { Blog } from "./types"; // Import your Blog type
 
 const API_URL = "http://192.168.29.237:5000/recommend";
-
-interface Blog {
-  title: string;
-  // Add other properties of your blog object if available (e.g., content, author)
-}
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState<Blog[]>([]);
   const [loading, setLoading] = useState(true);
+  const router = useRouter(); // Use the useRouter hook
 
   useEffect(() => {
     const fetchBlogs = async () => {
@@ -65,8 +64,19 @@ const Blogs = () => {
     fetchBlogs();
   }, []);
 
+  const handleArticlePress = (blog: Blog) => {
+    router.push({
+      pathname: "/blogs/article",
+      params: { article: JSON.stringify(blog) },
+    });
+  };
+
   const renderBlogCard = ({ item }: { item: Blog }) => (
-    <TouchableOpacity style={styles.blogCard}>
+    <TouchableOpacity
+      style={styles.blogCard}
+      onPress={() => handleArticlePress(item)}
+      key={item.id}
+    >
       <Text style={styles.blogTitle}>{item.title}</Text>
       {/* You can add more details here if your blog object has them */}
       {/* <Text style={styles.blogContent}>[Brief content preview]</Text> */}
@@ -81,15 +91,17 @@ const Blogs = () => {
         ) : blogs.length === 0 ? (
           <Text style={styles.noBlogsText}>No Blogs Available</Text>
         ) : (
-          <FlatList
-            style={styles.blogList}
-            horizontal={true}
-            data={blogs}
-            keyExtractor={(item, index) => index.toString()}
-            renderItem={renderBlogCard}
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.blogListContent}
-          />
+          <View style={styles.flatListContainer}>
+            <FlatList
+              style={styles.blogList}
+              horizontal={true}
+              data={blogs}
+              keyExtractor={(item) => item.id}
+              renderItem={renderBlogCard}
+              showsHorizontalScrollIndicator={false}
+              contentContainerStyle={styles.blogListContent}
+            />
+          </View>
         )}
       </SafeAreaView>
     </SafeAreaProvider>
@@ -103,6 +115,8 @@ const styles = StyleSheet.create({
     flex: 1,
     marginTop: StatusBar.currentHeight || 0,
     paddingHorizontal: 10,
+    justifyContent: "center",
+    alignItems: "center",
   },
   loadingText: {
     textAlign: "center",
@@ -110,28 +124,35 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
+  flatListContainer: {
+    width: "100%",
+    alignItems: "center",
+  },
   blogList: {
-    flexGrow: 0, // Important for horizontal scrolling
-    height: 120, // Adjust height as needed
+    flexGrow: 0,
+    height: 120,
     marginTop: 20,
   },
   blogListContent: {
     gap: 15,
     paddingRight: 15,
+    justifyContent: "center",
   },
   blogCard: {
     backgroundColor: Colors.secondary[600],
     borderRadius: 10,
     padding: 25,
-    width: 250, // Adjust width as needed
+    width: 250,
     height: "100%",
     justifyContent: "center",
   },
   blogTitle: {
-    fontSize: 12,
+    fontSize: 13,
     fontWeight: "bold",
     color: Colors.primary,
     marginBottom: 5,
+    textAlign: "center",
+    fontFamily: Fonts.clight,
   },
   blogContent: {
     fontSize: 14,

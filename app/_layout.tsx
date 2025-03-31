@@ -64,6 +64,7 @@ const RootLayout = () => {
         <Stack.Screen name="periodTracker" options={{ headerShown: false }} />
         <Stack.Screen name="symptomsTracker" options={{ headerShown: false }} />
         <Stack.Screen name="diary" options={{ headerShown: false }} />
+        <Stack.Screen name="blogs" options={{ headerShown: false }} />
       </Stack>
     </>
   );

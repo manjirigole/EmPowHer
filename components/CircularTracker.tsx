@@ -49,7 +49,7 @@ const CircularTracker = ({ userId, onHighlightDays }: CircularTrackerProps) => {
 
           setTodayPeriodDay(todayPeriod || null);
           setOvulationDate(
-            moment(periodData.ovulation_date.toDate()).format("DD MMMM, YYYY")
+            moment(periodData.ovulation_date.toDate()).format("DD MMMM, YYYY") // Ensure year is included if needed
           );
 
           const highlightedDates = currentPeriodDays.map((day) =>
@@ -89,6 +89,13 @@ const CircularTracker = ({ userId, onHighlightDays }: CircularTrackerProps) => {
 
         {/* Center content in a column */}
         <View style={styles.centerTextWrapper}>
+          {todayPeriodDay && (
+            <View style={styles.todayPeriodContainer}>
+              <Text style={styles.todayPeriodText}>
+                Day {todayPeriodDay.day} of period
+              </Text>
+            </View>
+          )}
           {ovulationDate && (
             <View style={styles.ovulationDateContainer}>
               <Text style={styles.ovulationDateText}>
@@ -99,34 +106,8 @@ const CircularTracker = ({ userId, onHighlightDays }: CircularTrackerProps) => {
         </View>
       </View>
 
-      {periodDays.map((dayData, index) => {
-        //const periodDate = new Date(dayData.date.seconds * 1000);
-        const periodDate = dayData.date.toDate();
-        const isToday = moment(new Date()).isSame(moment(periodDate), "day");
-
-        const angle = (index / periodDays.length) * 360;
-        const x = 50 + 40 * Math.cos(((angle - 90) * Math.PI) / 180);
-        const y = 50 + 40 * Math.sin(((angle - 90) * Math.PI) / 180);
-
-        return (
-          isToday && (
-            <View key={index} style={[styles.dayWrapper, { left: x, top: y }]}>
-              <Text
-                style={[
-                  styles.dayText,
-                  {
-                    color: isToday ? Colors.primary_text.brown : "black",
-                  },
-                ]}
-              >
-                {isToday
-                  ? `Day ${todayPeriodDay?.day ?? ""} of period`
-                  : `Day ${dayData.day}`}
-              </Text>
-            </View>
-          )
-        );
-      })}
+      {/* Remove the individual day markers around the circle */}
+      {/* {periodDays.map((dayData, index) => { ... })} */}
     </View>
   );
 };
@@ -146,30 +127,32 @@ const styles = StyleSheet.create({
   },
   centerTextWrapper: {
     position: "absolute",
-    top: "70%",
-    left: "37%",
+    top: "50%",
+    left: "50%",
     transform: [{ translateX: -50 }, { translateY: -50 }], // Center text perfectly
     alignItems: "center",
     justifyContent: "center",
     flexDirection: "column", // Stack the text vertically
   },
-  dayText: {
+  todayPeriodContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 5, // Add some space between the two text elements
+  },
+  todayPeriodText: {
     fontSize: 20,
     fontFamily: Fonts.cbold,
     textAlign: "center",
     color: Colors.primary_text.brown,
-    alignContent: "center",
-    top: "400%",
-    left: "50%",
   },
   ovulationDateContainer: {
     marginTop: 5, // Add margin to separate it from the day text
     backgroundColor: Colors.primary,
-    padding: 5,
-    borderRadius: 5,
+    padding: 8, // Increased padding for better visual appearance
+    borderRadius: 8, // Increased border radius
   },
   ovulationDateText: {
-    fontSize: 14,
+    fontSize: 16, // Slightly increased font size
     fontFamily: Fonts.cmedium,
     color: Colors.primary_pink800,
   },
@@ -177,6 +160,12 @@ const styles = StyleSheet.create({
     position: "absolute",
     alignItems: "center",
     justifyContent: "center",
+  },
+  dayText: {
+    fontSize: 16, // Adjusted font size
+    fontFamily: Fonts.cbold,
+    textAlign: "center",
+    color: Colors.primary_text.brown,
   },
 });
 
