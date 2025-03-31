@@ -127,8 +127,8 @@ const styles = StyleSheet.create({
   },
   centerTextWrapper: {
     position: "absolute",
-    top: "50%",
-    left: "50%",
+    top: "55%",
+    left: "39%",
     transform: [{ translateX: -50 }, { translateY: -50 }], // Center text perfectly
     alignItems: "center",
     justifyContent: "center",

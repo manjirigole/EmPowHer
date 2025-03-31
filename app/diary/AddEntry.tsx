@@ -12,7 +12,7 @@ import { Colors } from "@/constants/Colors";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import CustomButton from "@/components/CustomButton";
-import { db } from "@/api/firebase";
+
 import {
   collection,
   addDoc,
@@ -73,7 +73,7 @@ const AddEntry = () => {
       const entryId = new Date().toISOString();
 
       //call flask api for sentiment analysis
-      const response = await fetch("http://127.0.0.1:5000/predict", {
+      const response = await fetch("http://192.168.29.237:5001/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text: entryText }),
@@ -158,10 +158,11 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   btnView: {
-    padding: 10,
+    padding: 30,
     display: "flex",
-    flexDirection: "row",
+    flexDirection: "column",
     justifyContent: "center",
+    alignItems: "center",
     gap: 10,
   },
   buttonStyle: {},
@@ -172,7 +173,7 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   sentimentButtonStyle: {
-    width: 400,
+    width: 350,
   },
   errorText: {
     color: "red",

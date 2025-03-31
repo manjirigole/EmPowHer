@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
     color: Colors.secondary[700],
     fontFamily: Fonts.cbold,
     fontSize: 32,
+    textAlign: "center",
   },
   line2: {
     color: Colors.secondary[900],

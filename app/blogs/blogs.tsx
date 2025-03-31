@@ -148,11 +148,11 @@ const styles = StyleSheet.create({
   },
   blogTitle: {
     fontSize: 13,
-    fontWeight: "bold",
+    fontWeight: 600,
     color: Colors.primary,
     marginBottom: 5,
     textAlign: "center",
-    fontFamily: Fonts.clight,
+    fontFamily: Fonts.cmedium,
   },
   blogContent: {
     fontSize: 14,

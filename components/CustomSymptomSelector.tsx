@@ -86,7 +86,7 @@ const CustomSymptomSelector: React.FC<CustomSymptomSelectorProps> = ({
       </View>
 
       <CustomButton
-        title={`Log ${title} Symptoms`}
+        title={`Log ${title}`}
         handlePress={handleSubmit}
         style={styles.submitButton}
       />
@@ -138,6 +138,7 @@ const styles = StyleSheet.create({
     paddingVertical: 12,
     alignItems: "center",
     borderRadius: 8,
+    textAlign: "center",
   },
 });
 
