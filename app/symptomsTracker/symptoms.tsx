@@ -12,6 +12,8 @@ import { useRouter } from "expo-router";
 import CustomSymptomSelector from "@/components/CustomSymptomSelector";
 import { firebaseauth, logSymptoms } from "@/api/firebase";
 import { useTranslation } from "react-i18next";
+import CustomButton from "@/components/CustomButton";
+
 const Symptoms = () => {
   const router = useRouter();
   const [selectedSymptoms, setSelectedSymptoms] = useState({
@@ -113,6 +115,12 @@ const Symptoms = () => {
                 handleSymptomSelect("emotional", symptoms)
               }
             />
+            <CustomButton
+              title="Symptom Analysis"
+              handlePress={() => router.push("/symptomsTracker/SymptomCharts")}
+              style={styles.btnView}
+              textStyle={styles.textBtnStyle}
+            />
           </ScrollView>
         </SafeAreaView>
       </SafeAreaProvider>
@@ -124,7 +132,7 @@ export default Symptoms;
 
 const styles = StyleSheet.create({
   scrollContainer: { padding: 15 },
-  container: { backgroundColor: Colors.primary },
+  container: { backgroundColor: Colors.primary, flex: 1 },
   header: { display: "flex", flexDirection: "row", paddingLeft: 10, gap: 10 },
   backIcon: { fontSize: 25, color: Colors.primary_pink800, padding: 10 },
   symptoms: {
@@ -134,4 +142,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontFamily: Fonts.cbold,
   },
+  btnView: {},
+  textBtnStyle: {},
 });

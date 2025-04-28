@@ -17,6 +17,7 @@ const SymptomsLaout = () => {
         name="PhysicalSymptomSelector"
         options={{ headerShown: false }}
       />
+      <Stack.Screen name="SymptomCharts" options={{ headerShown: false }} />
     </Stack>
   );
 };

@@ -14,7 +14,7 @@ import { Fonts } from "@/constants/fonts";
 import { useRouter } from "expo-router"; // Import useRouter
 import { Blog } from "./types"; // Import your Blog type
 
-const API_URL = "http://192.168.29.237:5000/recommend";
+const API_URL = "http://127.0.0.1:5000/recommend";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState<Blog[]>([]);
